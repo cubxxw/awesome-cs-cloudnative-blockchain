@@ -1,0 +1,17 @@
+https://studygolang.com/articles/4104
+
+
+C:\Users\Administrator>go get -v github.com/uudashr/gopkgs/cmd/gopkgs
+github.com/uudashr/gopkgs/cmd/gopkgs
+
+C:\Users\Administrator>go get -v github.com/mdempsky/gocode
+github.com/mdempsky/gocode (download)
+github.com/mdempsky/gocode/gbimporter
+github.com/mdempsky/gocode/lookdot
+github.com/mdempsky/gocode/suggest
+github.com/mdempsky/gocode
+
+等等其它插件
+
+
+go get -v github.com/sqs/goreturns [能自动引入包了]
