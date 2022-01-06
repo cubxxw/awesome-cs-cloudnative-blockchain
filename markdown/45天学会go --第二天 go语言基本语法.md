@@ -451,7 +451,7 @@ fmt.Printf("str type %T str = %q\n",str,str)
 **代码实现：**
 
 ```go
-  1 package main                                                                                                                                                                                                                                                                                                                                                  
+  1 package main                                                         
   2 import (
   3     "fmt"
   4     _"unsafe"  //包含头文件
