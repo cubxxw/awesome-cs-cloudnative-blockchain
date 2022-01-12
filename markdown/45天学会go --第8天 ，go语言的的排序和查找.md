@@ -16,7 +16,7 @@
 
 ---
 
-# 45天学会go --第七天 ，go语言的的排序和查找
+# 45天学会go --第八天 ，golang排序和查找
 
 >   ©️®️ 排序和查找是一个大的方向，我准备结合数据结构，以python，C/C++为辅助，Golang为主线进行
 
@@ -73,13 +73,15 @@ def bubbleSort(arr):
  
     # 遍历所有数组元素
     for i in range(n):
- 
+ 		exchange = 0 #看本次是否有交换
         # Last i elements are already in place
         for j in range(0, n-i-1):
  
             if arr[j] > arr[j+1] :
-                arr[j], arr[j+1] = arr[j+1], arr[j]
- 
+                arr[j], arr[j+1] = arr[j+1], arr[j]   //直接交换，无需中间变量
+            	exchange = 1
+ 		if exchange == 0:
+            return arr
 arr = [64, 34, 25, 12, 22, 11, 90]
  
 bubbleSort(arr)
@@ -89,7 +91,107 @@ for i in range(len(arr)):
     print ("%d" %arr[i]),
 ```
 
+**编译：**
 
+![image-20220112171742746](https://s2.loli.net/2022/01/12/ZfTi3Px9mgyWXnJ.png)
+
+
+
+```python
+def bubble_sort(array):                                       
+    for i in range(1, len(array)):
+        a=0
+        for j in range(0, len(array)-i):
+            if array[j] > array[j+1]:
+                array[j], array[j+1] = array[j+1], array[j]
+                a=1
+        if a==0:
+            return array
+    return array
+
+
+if __name__ == '__main__':
+    array = [10, 17, 50, 7, 30, 24, 27, 45, 15, 5, 36, 21]
+    print(bubble_sort(array))
+```
+
+**编译：**
+
+![image-20220112171805998](https://s2.loli.net/2022/01/12/5MBW648Xt1DFsdg.png)
+
+**思想：**
+
+**设定了一个辅助，一旦发现了某一趟没有要进行交换的操作，就立刻终止程序，此时可以减少时间复杂度**
+
+**下面是Golang的冒泡排序算法：**
+
+```go
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+func main() {
+    values := []int{4, 93, 84, 85, 80, 37, 81, 93, 27,12}
+    start := time.Now().UnixNano()
+    fmt.Println(values)     //打印输出当前的切片
+    BubbleAsort(values)     //交换函数，values[i]>values[j]  从小到大
+    BubbleZsort(values)     //交换函数，values[i]<values[j]  从大到小
+    end := time.Now().UnixNano()
+    fmt.Println("代码执行的时间为：",end-start)
+}
+
+func BubbleAsort(values []int) {
+    for i := 0; i < len(values)-1; i++ {
+        a := 0
+        for j := i+1; j < len(values); j++ {
+            if  values[i]>values[j]{
+                values[i],values[j] = values[j],values[i]    //和python一样直接交换
+				a = 1            
+            }
+        }
+        if a ==0{
+            return
+        }
+    }
+    fmt.Println(values)
+}
+
+func BubbleZsort(values []int) {
+    a := 0
+    for i := 0; i < len(values)-1; i++ {
+        for j := i+1; j < len(values); j++ {
+            if  values[i]<values[j]{
+                values[i],values[j] = values[j],values[i]
+                a = 1
+            }
+        }
+        if a ==0{
+            return
+        }
+    }
+    fmt.Println(values)
+}
+```
+
+![image-20220112172851621](https://s2.loli.net/2022/01/12/PnmtZAOsvpDfFNe.png)
+
+**我们可以用Golang来统计下使用`a`和不使用`a`代码执行时间**
+
+```go
+    start := time.Now().UnixNano()
+    fmt.Println(values) 
+    BubbleAsort(values)    
+    BubbleZsort(values)     
+    end := time.Now().UnixNano()
+    fmt.Println("代码执行的时间为：",end-start)
+```
+
+![image-20220112182612728](https://s2.loli.net/2022/01/12/LGes3IRYuVhX1Za.png)
+
+根据上下的大数据分析，可见代码的执行时间确实提升了😂😂😂
 
 #### 2.快速排序(quick sort)
 
@@ -282,3 +384,138 @@ for i in range(n):
 9
 10
 ```
+
+
+
+
+
+## 查找
+
+线性查找指按一定的顺序检查数组中每一个元素，直到找到所要寻找的特定值为止。
+
+![img](https://s2.loli.net/2022/01/12/if5Ux4rMszW9NRl.png)
+
+### python实例
+
+```go
+def search(arr, n, x): 
+  
+    for i in range (0, n): 
+        if (arr[i] == x): 
+            return i; 
+    return -1; 
+  
+# 在数组 arr 中查找字符 D
+arr = [ 'A', 'B', 'C', 'D', 'E' ]; 
+x = 'D'; 
+n = len(arr); 
+result = search(arr, n, x) 
+if(result == -1): 
+    print("元素不在数组中") 
+else: 
+    print("元素在数组中的索引为", result);
+```
+
+执行以上代码输出结果为：
+
+```
+元素在数组中的索引为 3
+```
+
+### Python 二分查找
+
+二分搜索是一种在有序数组中查找某一特定元素的搜索算法。搜索过程从数组的中间元素开始，如果中间元素正好是要查找的元素，则搜索过程结束；如果某一特定元素大于或者小于中间元素，则在数组大于或小于中间元素的那一半中查找，而且跟开始一样从中间元素开始比较。如果在某一步骤数组为空，则代表找不到。这种搜索算法每一次比较都使搜索范围缩小一半。
+
+![img](https://s2.loli.net/2022/01/12/owMPHCqAb8N2z7O.png)
+
+#### 实例 : 递归
+
+```python
+# 返回 x 在 arr 中的索引，如果不存在返回 -1
+def binarySearch (arr, l, r, x): 
+  
+    # 基本判断
+    if r >= l: 
+  
+        mid = int(l + (r - l)/2)
+  
+        # 元素整好的中间位置
+        if arr[mid] == x: 
+            return mid 
+          
+        # 元素小于中间位置的元素，只需要再比较左边的元素
+        elif arr[mid] > x: 
+            return binarySearch(arr, l, mid-1, x) 
+  
+        # 元素大于中间位置的元素，只需要再比较右边的元素
+        else: 
+            return binarySearch(arr, mid+1, r, x) 
+  
+    else: 
+        # 不存在
+        return -1
+  
+# 测试数组
+arr = [ 2, 3, 4, 10, 40 ] 
+x = 10
+  
+# 函数调用
+result = binarySearch(arr, 0, len(arr)-1, x) 
+  
+if result != -1: 
+    print ("元素在数组中的索引为 %d" % result )
+else: 
+    print ("元素不在数组中")
+```
+
+执行以上代码输出结果为：
+
+```
+元素在数组中的索引为 3
+```
+
+
+
+### Golang的二分查找
+
+**二分查找的前提是对一个==有序数组==**
+
+```go
+package main
+import (
+	"fmt"
+)
+func BinaryFind(arr *[6]int,lef int,rig int,find int){ 
+    //数组是值传递，需要使用指针可以改变
+    
+    //判断是否在数组的范围中
+    if lef > rig{
+        fmt.Println("找不到")   //注意递归调用符合进站顺序，所以
+        return
+    }
+    middle := (lef + rig) /2
+    if(*arr)[middle] > find{
+        //大于要查找的数，此时应该向左边找
+        BinaryFind(arr,lef,middle - 1)
+        //注意，此时arr本身就是指针，所以不需要地址符
+    }else if (*arr)[middle] < find{
+        BinaryFind(arr,middle+1,rig)     
+    }else{
+        //相等说明找到
+        fmt.Printf("找好了，下标为%v \n",middle)
+    }
+}
+func main(){
+    arr := [6]int{1,2,3,4,5,6,7,8,9}
+    BinaryFind(&arr,0,len(arr)-1,4) 
+}
+```
+
+编译：
+
+![image-20220112103850302](https://s2.loli.net/2022/01/12/xJQEm1oHYKC2uO5.png)
+
+**可以不传递地址，将数组转化为切片类型**
+
+
+
