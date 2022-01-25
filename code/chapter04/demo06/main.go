@@ -1,25 +1,18 @@
-package main
+ckage main
 import (
-	"fmt" 
-)
-func main() {
-	//演示一把 & 和 *的使用
+	"fmt"
+	)
 
-	a := 100
-	fmt.Println("a 的地址=", &a)
+	func sum(n1 int,args... int)int{
+	    sum := n1
+		    //����args
+			    for i:= 0;i<len(args);i++{
+				        sum += args[i]
+						    }
+							    return sum
+								}
 
-	var ptr *int = &a
-	fmt.Println("ptr 指向的值是=", *ptr)
-
-	var n int 
-	var i int = 10
-	var j int = 12
-	//传统的三元运算
-	//n = i > j ? i : j
-	if i > j {
-		n = i
-	} else {
-		n = j
-	}
-	fmt.Println("n=", n) // 12
-}
+								func main(){
+								    a := sum(10,234,3,4,34543,5,3,45,3,5,56)
+									    fmt.Println("a = ",a)
+										}
