@@ -370,9 +370,9 @@ GoogleRunoob
 var age int;
 ```
 
-语句中适当使用空格能让程序更易阅读。
+*语句中适当使用空格能让程序更易阅读。*
 
-无空格：
+**无空格：**
 
 ```
 fruit=apples+oranges;

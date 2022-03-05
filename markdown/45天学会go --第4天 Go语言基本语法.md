@@ -154,6 +154,7 @@ func main() {
 
 
 ### Type Switch
+
 switch 语句还可以被用于 type-switch **来判断某个 interface 变量中实际存储的变量类型。**
 
 **Type Switch 语法格式如下：**
