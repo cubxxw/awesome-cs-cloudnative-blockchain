@@ -4,7 +4,11 @@
 
 ## Go语言基础
 
+<<<<<<< HEAD
 1.  [45天学会go --第1天 Go语言的概叙](markdown/Go语言的概叙.md)
+=======
+[45天学会go --第1天 Go语言的概叙](markdown/45天学会go --第1天 Go语言的概叙.md)
+>>>>>>> 25bbd51d6d782dbb662d89b68e3f39cb95c825d8
 
 2.  [45天学会go --第2天 go语言基本语法](markdown/go语言基本语法.md)
 
