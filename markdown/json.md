@@ -60,7 +60,7 @@ window.location = "demo_json.php?x=" + myJSON;
 
 ```json
 var myJSON = '{ "name":"Bill Gates",  "age":62, "city":"Seattle" }';
-var myObj =  JSON.parse(myJSON);
+var myObj = JSON.parse(myJSON);
 document.getElementById("demo").innerHTML = myObj.name;
 ```
 
@@ -416,8 +416,6 @@ slice切片序列化后的结果:[[{"adress":"wuhan","age":3,"name":"张三"},{"
 
 
 
-
-
 ## json的反序列化
 
 ```go
@@ -534,8 +532,7 @@ func unmarshalSlice() {
 	fmt.Printf("反序列化后 slice=%v\n", slice)
 }
 
-func main() {
-
+func main() ·{
 	unmarshalStruct()
 	unmarshalMap()
 	unmarshalSlice()
