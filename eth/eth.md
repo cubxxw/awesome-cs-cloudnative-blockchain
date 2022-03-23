@@ -1,3 +1,29 @@
+[toc]
+
+[😶‍🌫️需要联系我联系我🖱️](xxw@nsddd.top)
+
+>   go语言的官方文档学习笔记很全，推荐去官网学习
+
+[😶‍🌫️我的学习笔记(Github)](https://github.com/3293172751/golang-rearn)
+
+---
+
+**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是去中心化，公开透明，让每一个人均可参与的数据库记录
+
+>   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。[个人博客http://nsddd.top](http://nsddd.top)
+
+---
+
+![image-20220320193113539](https://s2.loli.net/2022/03/20/gTiDdUAxtHGJ4f8.png)
+
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+<div class="badge-base LI-profile-badge" data-locale="zh_CN" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="xiongxinwei-xiong-7606a0227" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://cn.linkedin.com/in/xiongxinwei-xiong-7606a0227?trk=profile-badge">xiongxinwei xiong</a></div>
+
+
+
+# 以太坊
+
 # 0x03 geth源码结构
 
 **目录结构**
