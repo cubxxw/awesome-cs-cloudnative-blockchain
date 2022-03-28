@@ -2,7 +2,7 @@
 
 [😶‍🌫️需要联系我联系我🖱️](xxw@nsddd.top)
 
->   go语言的官方文档学习笔记很全，推荐去官网学习
+>   纵使荆棘布满,我何曾退却一步
 
 [😶‍🌫️我的学习笔记(Github)](https://github.com/3293172751/golang-rearn)
 
@@ -39,6 +39,7 @@ drwxr-xr-x  7 root root  4096 Mar  6 12:37 accounts
 drwxr-xr-x  3 root root  4096 Mar  6 12:37 build
 -rw-r--r--  1 root root  1576 Mar  6 12:37 circle.yml
 drwxr-xr-x 16 root root  4096 Mar  6 12:38 cmd
+#命令ethz
 drwxr-xr-x  9 root root  4096 Mar  6 12:38 common
 drwxr-xr-x  6 root root  4096 Mar  6 12:38 consensus
 drwxr-xr-x  4 root root  4096 Mar  6 12:38 console

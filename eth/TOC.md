@@ -4,7 +4,7 @@
 
 [😶‍🌫️需要联系我联系我🖱️](xxw@nsddd.top)
 
->   go语言的官方文档学习笔记很全，推荐去官网学习
+>   纵使荆棘布满,我何曾退却一步
 
 [😶‍🌫️我的学习笔记(Github)](https://github.com/3293172751/golang-rearn)
 
@@ -19,3 +19,24 @@
 <a href = "https://etherscan.io/ "><img src = "https://s2.loli.net/2022/03/20/gTiDdUAxtHGJ4f8.png"></a>
 
 # 以太坊
+
+### [以太坊开发](eth1.md)
+### [以太坊区块](eth2.md)
+### [以太坊幽灵协议（GHOST）](eth3.md)
+### [以太坊GIS](eth4.md)
+### [以太坊remix](eth5.md)
+### [以太坊开发](eth6.md)
+### [以太坊开发](eth7.md)
+### [以太坊开发](eth8.md)
+### [以太坊开发](eth9.md)
+### [以太坊开发](eth10.md)
+### [以太坊开发](eth11.md)
+### [以太坊开发](eth12.md)
+
+
+
+---
+
+## [USDT](USDT.md)
+## [区块链3.0](web3.0.md)
+
