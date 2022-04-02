@@ -20,13 +20,17 @@
 
 **redis是一个nosql数据库，不是传统的关系数据库**
 
-官网：https://redis.io和http://redis.cn
+[官网：https://redis.io](https://redis.io)和http://redis.cn
 
 [指令：https://redisdoc.com](https://redisdoc.com)
 
 > 特点是性能非常高，既可以把数据加载到内存也可以把数据持久化。
 >
 > 目前完全开源，高性能的分布式内存数据库，基于内存运行并支持持久化的nosql数据库，**是最热门的数据库之一，也被认为数据结构服务器**
+
+**特点：支持丰富的数据结构，可持续化，保证了数据的安全  ==内存高速缓存数据库==**
+
+> 使用C语言编写
 
 ### redis的安装和使用
 
@@ -36,7 +40,9 @@
 wget http://download.redis.io/releases/redis-6.0.8.tar.gz
 tar xzf redis-6.0.8.tar.gz
 cd redis-6.0.8
-make
+make 
+#/*或者*/
+make PREFIX=/usr/local/redis install
 ```
 
 执行完 **make** 命令后，redis-6.0.8 的 **src** 目录下会出现编译后的 redis 服务程序 redis-server，还有用于测试的客户端程序 redis-cli：
@@ -57,6 +63,12 @@ cd src
 
 **redis.conf** 是一个默认的配置文件。我们可以根据需要使用自己的配置文件。
 
+**默认是不支持后台启动，使用不方便，需要通过配置文件进行配置**
+
+```
+vim redis.conf
+```
+
 启动 redis 服务进程后，就可以使用测试客户端程序 redis-cli 和 redis 服务交互了。 比如：
 
 ```
@@ -67,6 +79,15 @@ OK
 redis> get foo
 "bar"
 ```
+
+**我们使用的sh命令**
+
+```
+redis-cli:命令行客户端
+redis-server:服务端
+```
+
+
 
 ------
 
@@ -450,4 +471,4 @@ PONG
 
 
 
-![image-20220401222142927](C:\Users\smile\AppData\Roaming\Typora\typora-user-images\image-20220401222142927.png)
+![image-20220401222142927](https://s2.loli.net/2022/04/01/t8lB15EQwTkcIYK.png)
