@@ -11,7 +11,7 @@
 
 4.  [45天学会go --第4天 Go语言基本语法](markdown/Go语言基本语法.md)
 
-5.  [45天学会go --第5天 Go语言 函数](markdown/Go语言函数.md) 
+5.  [45天学会go --第5天 Go语言 函数和包](markdown/Go语言函数.md) 
 
 6.  [45天学会Go --第6天 Go语言的函数与数组](markdown/Go语言的函数与数组.md)
 
@@ -38,6 +38,9 @@
 18.  [45天学会go --第18天 goroutine(协程)和channel(管道)](markdown/goroutine(协程)和channel(管道).md)
 19.  [45天学会go --第19天 Go语言channel(管道)](markdown/管道.md) 
 19.  [45天学会go --第20天  Go语言TCP编程](markdown/TCP编程.md)   
+19.  [45天学会go --第21天  Redis基础](markdown/Redis.md)   
+19.  [45天学会go --第22天  Redis进阶](markdown/Redis进阶.md)
+19.  [45天学会go --第23天 Go语言操作REDIS](markdown/Go语言操作redis.md)   
 
 
 
@@ -52,3 +55,5 @@
 #### [chan底层分析](markdown/chan底层分析.md)
 
 #### [并发](markdown/并发.md)
+
+#### [九型人格- -学会和人打交道](markdown/九型人格.md)
