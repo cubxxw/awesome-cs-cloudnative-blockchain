@@ -1,7 +1,7 @@
 package main
 import (
 	"fmt"
-	"C:/Users/smile/Desktop/区块链/code/chapter06/fundemo01/utils"
+	"../utils"
 )
 
 
