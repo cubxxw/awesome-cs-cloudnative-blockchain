@@ -18,7 +18,7 @@
 
 [toc]
 
-## 稀疏数组sparsearray
+# 稀疏数组sparsearray
 
 实际需求
 ---------------
@@ -319,31 +319,4 @@ public class SparseArray {
 
 
 
-
-## 队列
-
-```go
-package main
-import(
-	"fmt"
-)
-
-//使用一个结构体管理数据
-type Queue struct{
-    maxSize 4
-    array [10]int //数组
-	front int //表示指向队列最前面
-    rear int //表示指向队列最后面
-}
-
-//方法一： 添加数据到队列
-func (this *Queue) AddQueue(val int) (err error) {  //可能有错误
-    
-    //先判断队满
-    
-}
-func main(){
-    
-}
-```
 
