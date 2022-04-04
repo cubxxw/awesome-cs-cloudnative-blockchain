@@ -1,5 +1,6 @@
 {
   "recommendations": [
-    "leetcode.vscode-leetcode"
+    "leetcode.vscode-leetcode",
+    "WakaTime.vscode-wakatime"
   ]
 }

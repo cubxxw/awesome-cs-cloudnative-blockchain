@@ -1,105 +1,155 @@
-/*************************************************************************
-    > File Name: queue.go
-    > Author: smile
-    > Mail: 3293172751nss@gmail.com 
-    > Created Time: Sun 03 Apr 2022 04:40:39 PM CST
- ************************************************************************/
-
- package main
-import(
+package main
+import (
 	"fmt"
-    "os"
-    "errors"
+	"errors"
+	"os"
 )
 
-//使用一个结构体管理数据
-type Queue struct{
-    maxSize int 
-    array [10]int //数组
-	front int //表示指向队列最前面
-    rear int //表示指向队列最后面
+type CircleQueue struct {
+	maxSize int //4
+	array [4]int 
+	head int //指向队列首部
+	tail int //指向队列尾部
 }
 
-//方法一： 添加数据到队列
-func (this *Queue) AddQueue(val int) (err error) {  //可能有错误
+//入队列 AddQueue       出队列 GetQueue(popQueue)
+func (this *CircleQueue) Push(val int) (err error){
+	 fmt.Println("bool = ",this.IsFull())
+	//入队列
+	if this.IsFull(){
+		return errors.New("queue full")
+		//队列满了
+	}
 
-    //先判断队满
-    if this.rear == this.maxSize -1{
-        //提醒！！！rear是队列的尾部（含队列尾部元素--最后一个元素）
-        return errors.New("queue full")
-    }
+	this.array[this.tail] = val  //把值给尾部
+	//此时this.tall往后移位
+	this.tail = (this.tail+1)%this.maxSize
+	return 
 
-    this.rear++      //rear后移
-    this.array[this.rear] = val
-    return
-    
+}
+
+
+func (this *CircleQueue) Pop() (val int, err error){
+	//出队列，队列空没办法出
+	 fmt.Println("bool = ",this.IsEmpty())
+	if this.IsEmpty(){
+		return 0,errors.New("queue empty")
+	}
+	//取出
+	val = this.array[this.head]
+	this.head = (this.head + 1)%this.maxSize
+	return
+}
+
+//判断环形队列为满了的方法
+func (this *CircleQueue) IsFull() bool {
+	return (this.tail +1) %this.maxSize == this.head
+}
+
+//判断环形队列是否空的
+func (this *CircleQueue) IsEmpty() bool {
+	return this.tail == this.head
+}
+
+//取出环形队列有多少个元素
+func (this *CircleQueue) Size() int {
+	return (this.tail + this.maxSize - this.head) % this.maxSize
+	//由于是环形队列，所以我们在使用的时候要先加上队列的容量，减去头部，最后要%%%%%
 }
 
 //显示队列
-func (this *Queue) ShowQueue() {
-    //找到队首，遍历到队尾
-    fmt.Println("队列当前的的情况是：")
-    for i := this.front + 1;i<= this.rear;i++{
-        //frout是不包含队首的元素的
-        fmt.Printf("arrary[%d]=d\t",i,this.array[1])
-    }
+func (this *CircleQueue) ListQueue() {
+	//判断为空，空的话就直接跳出
+	//取出当前有多少元素
+	fmt.Println("环形队列情况如下：")
+	size := this.Size()
+	if size == 0{
+		fmt.Println("队列为空")
+	}
+
+	temp := this.head
+	for i := this.head;i<size; i++{
+		fmt.Println("aee[%d = %d\t",temp,this.array[this.head])
+		temp = (temp +1)%this.maxSize
+	}
+	fmt.Println()
 }
 
-//取出元素
-func (this *Queue) GetQueue() (val int,err error){
-    //先判断队列是否为空
-    if this.rear == this.front{
-        //对空
-        return -1,errors.New("Queue empty")
-    }
-    this.front++      //头后移一位
-    val = this.array[this.front]
-    return               //或者return val,err
+//获取队头元素
+func  (this *CircleQueue) GetFront() (val1 int ,val2 int , err error) {
+	//判断队空
+	if(this.head == this.tail){
+		//表示队空
+		fmt.Println("取出队列失败，队列为空的 err  ")
+		return 0,0,errors.New("queue empty")
+	}
+		//队列非空
+		val1 = this.array[this.head] 
+		val2 = this.array[this.tail]
+		//获取元素不移位
+		return
 }
-
-
-
 func main(){
-    
+	  
     //先创建一个队列
-    queue := &Queue{
+    queue := &CircleQueue{
         maxSize : 5,
-        front : -1,
-        rear : -1,
+		head : 0,
+        tail : 0,
     }
 
     var key string 
     var val int
+	var input byte
     for{
         fmt.Println("1/ 输入add表示添加数据到队列")
         fmt.Println("2/ 输入get表示出队列")
         fmt.Println("3/ 输入show表示显示队列")
         fmt.Println("4/ 输入exit表示退出队列")
+		fmt.Println("5/ 输入select显示头尾元素")
         
     
         fmt.Scanln(&key)
         switch key{
-        case "add":
+        case "add","1":
             fmt.Println("请输入你要入队列的数")
             fmt.Scanln(&val)
-            err := queue.AddQueue(val)
+            err := queue.Push(val)
             if err != nil{
                   fmt.Println("err = ",err.Error())
             }else{
              fmt.Println("加入队列成功")
             }
-       case "get":         //取出元素
-            fmt.Println("get")
-            val,err := queue.GetQueue()
+       case "get","2":         //取出元素
+           fmt.Println("get")
+            val,err := queue.Pop()
             if err != nil{
                 fmt.Println("err = ",err.Error())
             }else{
              fmt.Println("取出队列成功val = ",val)
             }
-       case "show":
-              queue.ShowQueue()
-       case "exit":
+       case "show","3":
+              queue.ListQueue()
+       case "exit","4":
             os.Exit(0)   //也可以直接使用return
+	   case "select","5":
+			//显示首位元素
+			a,b,err := queue.GetFront()
+			if err != nil{
+				fmt.Println("显示失败，err = ",err.Error())
+			}else{
+				re:    //标记
+				fmt.Println("请选择取出的元素 A/a:队首 --- B/b:队尾")
+				fmt.Scanln(&input)
+				if input == 1 {
+					fmt.Println("队首元素为：",a)
+				}else if input == 2 {
+					fmt.Println("队尾元素为：",b)
+				}else{
+					fmt.Println("你的输入有误，请重新输入")
+					goto re
+				}
+			}
         }
     }
 }
