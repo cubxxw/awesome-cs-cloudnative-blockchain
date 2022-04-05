@@ -55,8 +55,10 @@
 21.  [45天学会go --第21天  Redis基础](markdown/Redis.md)   
 22.  [45天学会go --第22天  Redis进阶](markdown/Redis进阶.md)
 23.  [45天学会go --第23天 Go语言操作REDIS](markdown/Go语言操作redis.md)  
-23.  [45天学会go --第24天 Go数据结构–稀疏数组](markdown/Go数据结构.md)   
-23.  [45天学会go --第25天 Go数据结构–队列](markdown/Go语言数据结构队列.md)   
+24.  [45天学会go --第24天 Go数据结构–稀疏数组](markdown/Go数据结构.md)   
+25.  [45天学会go --第25天 Go数据结构–队列](markdown/Go语言数据结构队列.md)   
+26.  [45天学会go --第25天 Go数据结构链表](markdown/Go数据结构链表.md)
+27.  [45天学会go --第25天 Go数据结构双向链表和循环链表](markdown/Go数据结构双向链表和循环链表.md)      
 
 
 
