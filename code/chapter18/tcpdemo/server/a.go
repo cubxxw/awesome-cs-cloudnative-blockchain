@@ -143,7 +143,7 @@ func main(){
 				fmt.Scanln(&input)
 				if input == 1 {
 					fmt.Println("队首元素为：",a)
-				}else if input == 2 {
+				}else if input == 2{
 					fmt.Println("队尾元素为：",b)
 				}else{
 					fmt.Println("你的输入有误，请重新输入")
