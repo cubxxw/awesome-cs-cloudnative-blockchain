@@ -2,7 +2,7 @@
 
 - [回到前言](README.md)
 
-
+<img align =left src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg">
 
 ## Go语言基础
 
