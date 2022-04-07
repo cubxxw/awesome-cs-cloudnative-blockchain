@@ -29,7 +29,7 @@
 
 ##  Go语言面对对象
 
-10.  [45天学会go --第10天 Go的面对对象](markdown/Go的面对对象.md)
+10.  [45天学会go --第10天 Go的面对对象 – 结构体](markdown/Go的面对对象.md)
 11.  [45天学会go --第11天 深入理解Go面对对象思想](markdown/深入理解Go面对对象思想.md)
 12.  [45天学会go --第12天 Go语言面对接口](markdown/Go语言面对接口.md)
 13.  [45天学会go --第13天 Go语言的进阶篇](markdown/Go语言的进阶篇.md)
@@ -57,8 +57,9 @@
 23.  [45天学会go --第23天 Go语言操作REDIS](markdown/Go语言操作redis.md)  
 24.  [45天学会go --第24天 Go数据结构–稀疏数组](markdown/Go数据结构.md)   
 25.  [45天学会go --第25天 Go数据结构–队列](markdown/Go语言数据结构队列.md)   
-26.  [45天学会go --第25天 Go数据结构链表](markdown/Go数据结构链表.md)
-27.  [45天学会go --第25天 Go数据结构双向链表和循环链表](markdown/Go数据结构双向链表和循环链表.md)      
+26.  [45天学会go --第26天 Go数据结构链表](markdown/Go数据结构链表.md)
+27.  [45天学会go --第27天 Go数据结构双向链表和循环链表](markdown/Go数据结构双向链表和循环链表.md)      
+27.  [45天学会go --第28天 Go语言约瑟夫](markdown/Go语言约瑟夫.md)      
 
 
 
