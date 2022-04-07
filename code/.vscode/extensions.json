@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "leetcode.vscode-leetcode",
-    "WakaTime.vscode-wakatime"
-  ]
+    "wakatime.vscode-wakatime",
+    "vscodevim.vim"
+]
 }
