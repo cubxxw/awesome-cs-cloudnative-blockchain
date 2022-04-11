@@ -1,0 +1,159 @@
+## 8.2. 示例: 并发的Clock服务
+
+网络编程是并发大显身手的一个领域，由于服务器是最典型的需要同时处理很多连接的程序，这些连接一般来自于彼此独立的客户端。在本小节中，我们会讲解go语言的net包，这个包提供编写一个网络客户端或者服务器程序的基本组件，无论两者间通信是使用TCP、UDP或者Unix domain sockets。在第一章中我们使用过的net/http包里的方法，也算是net包的一部分。
+
+我们的第一个例子是一个顺序执行的时钟服务器，它会每隔一秒钟将当前时间写到客户端：
+
+<u><i>gopl.io/ch8/clock1</i></u>
+```go
+// Clock1 is a TCP server that periodically writes the time.
+package main
+
+import (
+	"io"
+	"log"
+	"net"
+	"time"
+)
+
+func main() {
+	listener, err := net.Listen("tcp", "localhost:8000")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	for {
+		conn, err := listener.Accept()
+		if err != nil {
+			log.Print(err) // e.g., connection aborted
+			continue
+		}
+		handleConn(conn) // handle one connection at a time
+	}
+}
+
+func handleConn(c net.Conn) {
+	defer c.Close()
+	for {
+		_, err := io.WriteString(c, time.Now().Format("15:04:05\n"))
+		if err != nil {
+			return // e.g., client disconnected
+		}
+		time.Sleep(1 * time.Second)
+	}
+}
+
+```
+
+Listen函数创建了一个net.Listener的对象，这个对象会监听一个网络端口上到来的连接，在这个例子里我们用的是TCP的localhost:8000端口。listener对象的Accept方法会直接阻塞，直到一个新的连接被创建，然后会返回一个net.Conn对象来表示这个连接。
+
+handleConn函数会处理一个完整的客户端连接。在一个for死循环中，用time.Now()获取当前时刻，然后写到客户端。由于net.Conn实现了io.Writer接口，我们可以直接向其写入内容。这个死循环会一直执行，直到写入失败。最可能的原因是客户端主动断开连接。这种情况下handleConn函数会用defer调用关闭服务器侧的连接，然后返回到主函数，继续等待下一个连接请求。
+
+time.Time.Format方法提供了一种格式化日期和时间信息的方式。它的参数是一个格式化模板，标识如何来格式化时间，而这个格式化模板限定为Mon Jan 2 03:04:05PM 2006 UTC-0700。有8个部分（周几、月份、一个月的第几天……）。可以以任意的形式来组合前面这个模板；出现在模板中的部分会作为参考来对时间格式进行输出。在上面的例子中我们只用到了小时、分钟和秒。time包里定义了很多标准时间格式，比如time.RFC1123。在进行格式化的逆向操作time.Parse时，也会用到同样的策略。（译注：这是go语言和其它语言相比比较奇葩的一个地方。你需要记住格式化字符串是1月2日下午3点4分5秒零六年UTC-0700，而不像其它语言那样Y-m-d H:i:s一样，当然了这里可以用1234567的方式来记忆，倒是也不麻烦。）
+
+为了连接例子里的服务器，我们需要一个客户端程序，比如netcat这个工具（nc命令），这个工具可以用来执行网络连接操作。
+
+```
+$ go build gopl.io/ch8/clock1
+$ ./clock1 &
+$ nc localhost 8000
+13:58:54
+13:58:55
+13:58:56
+13:58:57
+^C
+```
+
+客户端将服务器发来的时间显示了出来，我们用Control+C来中断客户端的执行，在Unix系统上，你会看到^C这样的响应。如果你的系统没有装nc这个工具，你可以用telnet来实现同样的效果，或者也可以用我们下面的这个用go写的简单的telnet程序，用net.Dial就可以简单地创建一个TCP连接：
+
+<u><i>gopl.io/ch8/netcat1</i></u>
+```go
+// Netcat1 is a read-only TCP client.
+package main
+
+import (
+	"io"
+	"log"
+	"net"
+	"os"
+)
+
+func main() {
+	conn, err := net.Dial("tcp", "localhost:8000")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer conn.Close()
+	mustCopy(os.Stdout, conn)
+}
+
+func mustCopy(dst io.Writer, src io.Reader) {
+	if _, err := io.Copy(dst, src); err != nil {
+		log.Fatal(err)
+	}
+}
+```
+
+这个程序会从连接中读取数据，并将读到的内容写到标准输出中，直到遇到end of file的条件或者发生错误。mustCopy这个函数我们在本节的几个例子中都会用到。让我们同时运行两个客户端来进行一个测试，这里可以开两个终端窗口，下面左边的是其中的一个的输出，右边的是另一个的输出：
+
+```
+$ go build gopl.io/ch8/netcat1
+$ ./netcat1
+13:58:54                               $ ./netcat1
+13:58:55
+13:58:56
+^C
+                                       13:58:57
+                                       13:58:58
+                                       13:58:59
+                                       ^C
+$ killall clock1
+```
+
+killall命令是一个Unix命令行工具，可以用给定的进程名来杀掉所有名字匹配的进程。
+
+第二个客户端必须等待第一个客户端完成工作，这样服务端才能继续向后执行；因为我们这里的服务器程序同一时间只能处理一个客户端连接。我们这里对服务端程序做一点小改动，使其支持并发：在handleConn函数调用的地方增加go关键字，让每一次handleConn的调用都进入一个独立的goroutine。
+
+<u><i>gopl.io/ch8/clock2</i></u>
+```go
+for {
+	conn, err := listener.Accept()
+	if err != nil {
+		log.Print(err) // e.g., connection aborted
+		continue
+	}
+	go handleConn(conn) // handle connections concurrently
+}
+
+```
+
+现在多个客户端可以同时接收到时间了：
+
+```
+$ go build gopl.io/ch8/clock2
+$ ./clock2 &
+$ go build gopl.io/ch8/netcat1
+$ ./netcat1
+14:02:54                               $ ./netcat1
+14:02:55                               14:02:55
+14:02:56                               14:02:56
+14:02:57                               ^C
+14:02:58
+14:02:59                               $ ./netcat1
+14:03:00                               14:03:00
+14:03:01                               14:03:01
+^C                                     14:03:02
+                                       ^C
+$ killall clock2
+```
+
+**练习 8.1：** 修改clock2来支持传入参数作为端口号，然后写一个clockwall的程序，这个程序可以同时与多个clock服务器通信，从多个服务器中读取时间，并且在一个表格中一次显示所有服务器传回的结果，类似于你在某些办公室里看到的时钟墙。如果你有地理学上分布式的服务器可以用的话，让这些服务器跑在不同的机器上面；或者在同一台机器上跑多个不同的实例，这些实例监听不同的端口，假装自己在不同的时区。像下面这样：
+
+```
+$ TZ=US/Eastern    ./clock2 -port 8010 &
+$ TZ=Asia/Tokyo    ./clock2 -port 8020 &
+$ TZ=Europe/London ./clock2 -port 8030 &
+$ clockwall NewYork=localhost:8010 Tokyo=localhost:8020 London=localhost:8030
+```
+
+**练习 8.2：** 实现一个并发FTP服务器。服务器应该解析客户端发来的一些命令，比如cd命令来切换目录，ls来列出目录内文件，get和send来传输文件，close来关闭连接。你可以用标准的ftp命令来作为客户端，或者也可以自己实现一个。

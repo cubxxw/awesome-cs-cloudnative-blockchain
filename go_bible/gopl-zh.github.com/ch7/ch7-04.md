@@ -1,0 +1,125 @@
+## 7.4. flag.Value接口
+
+在本章，我们会学到另一个标准的接口类型flag.Value是怎么帮助命令行标记定义新的符号的。思考下面这个会休眠特定时间的程序：
+
+<u><i>gopl.io/ch7/sleep</i></u>
+```go
+var period = flag.Duration("period", 1*time.Second, "sleep period")
+
+func main() {
+	flag.Parse()
+	fmt.Printf("Sleeping for %v...", *period)
+	time.Sleep(*period)
+	fmt.Println()
+}
+```
+
+在它休眠前它会打印出休眠的时间周期。fmt包调用time.Duration的String方法打印这个时间周期是以用户友好的注解方式，而不是一个纳秒数字：
+
+```
+$ go build gopl.io/ch7/sleep
+$ ./sleep
+Sleeping for 1s...
+```
+
+默认情况下，休眠周期是一秒，但是可以通过 -period 这个命令行标记来控制。flag.Duration函数创建一个time.Duration类型的标记变量并且允许用户通过多种用户友好的方式来设置这个变量的大小，这种方式还包括和String方法相同的符号排版形式。这种对称设计使得用户交互良好。
+
+```
+$ ./sleep -period 50ms
+Sleeping for 50ms...
+$ ./sleep -period 2m30s
+Sleeping for 2m30s...
+$ ./sleep -period 1.5h
+Sleeping for 1h30m0s...
+$ ./sleep -period "1 day"
+invalid value "1 day" for flag -period: time: invalid duration 1 day
+```
+
+因为时间周期标记值非常的有用，所以这个特性被构建到了flag包中；但是我们为我们自己的数据类型定义新的标记符号是简单容易的。我们只需要定义一个实现flag.Value接口的类型，如下：
+
+```go
+package flag
+
+// Value is the interface to the value stored in a flag.
+type Value interface {
+	String() string
+	Set(string) error
+}
+```
+
+String方法格式化标记的值用在命令行帮助消息中；这样每一个flag.Value也是一个fmt.Stringer。Set方法解析它的字符串参数并且更新标记变量的值。实际上，Set方法和String是两个相反的操作，所以最好的办法就是对他们使用相同的注解方式。
+
+让我们定义一个允许通过摄氏度或者华氏温度变换的形式指定温度的celsiusFlag类型。注意celsiusFlag内嵌了一个Celsius类型（§2.5），因此不用实现本身就已经有String方法了。为了实现flag.Value，我们只需要定义Set方法：
+
+<u><i>gopl.io/ch7/tempconv</i></u>
+```go
+// *celsiusFlag satisfies the flag.Value interface.
+type celsiusFlag struct{ Celsius }
+
+func (f *celsiusFlag) Set(s string) error {
+	var unit string
+	var value float64
+	fmt.Sscanf(s, "%f%s", &value, &unit) // no error check needed
+	switch unit {
+	case "C", "°C":
+		f.Celsius = Celsius(value)
+		return nil
+	case "F", "°F":
+		f.Celsius = FToC(Fahrenheit(value))
+		return nil
+	}
+	return fmt.Errorf("invalid temperature %q", s)
+}
+```
+
+调用fmt.Sscanf函数从输入s中解析一个浮点数（value）和一个字符串（unit）。虽然通常必须检查Sscanf的错误返回，但是在这个例子中我们不需要因为如果有错误发生，就没有switch case会匹配到。
+
+下面的CelsiusFlag函数将所有逻辑都封装在一起。它返回一个内嵌在celsiusFlag变量f中的Celsius指针给调用者。Celsius字段是一个会通过Set方法在标记处理的过程中更新的变量。调用Var方法将标记加入应用的命令行标记集合中，有异常复杂命令行接口的全局变量flag.CommandLine.Programs可能有几个这个类型的变量。调用Var方法将一个`*celsiusFlag`参数赋值给一个flag.Value参数，导致编译器去检查`*celsiusFlag`是否有必须的方法。
+
+```go
+// CelsiusFlag defines a Celsius flag with the specified name,
+// default value, and usage, and returns the address of the flag variable.
+// The flag argument must have a quantity and a unit, e.g., "100C".
+func CelsiusFlag(name string, value Celsius, usage string) *Celsius {
+	f := celsiusFlag{value}
+	flag.CommandLine.Var(&f, name, usage)
+	return &f.Celsius
+}
+```
+
+现在我们可以开始在我们的程序中使用新的标记：
+
+<u><i>gopl.io/ch7/tempflag</i></u>
+```go
+var temp = tempconv.CelsiusFlag("temp", 20.0, "the temperature")
+
+func main() {
+	flag.Parse()
+	fmt.Println(*temp)
+}
+```
+
+下面是典型的场景：
+
+```
+$ go build gopl.io/ch7/tempflag
+$ ./tempflag
+20°C
+$ ./tempflag -temp -18C
+-18°C
+$ ./tempflag -temp 212°F
+100°C
+$ ./tempflag -temp 273.15K
+invalid value "273.15K" for flag -temp: invalid temperature "273.15K"
+Usage of ./tempflag:
+  -temp value
+        the temperature (default 20°C)
+$ ./tempflag -help
+Usage of ./tempflag:
+  -temp value
+        the temperature (default 20°C)
+```
+
+**练习 7.6：** 对tempFlag加入支持开尔文温度。
+
+**练习 7.7：** 解释为什么帮助信息在它的默认值是20.0没有包含°C的情况下输出了°C。

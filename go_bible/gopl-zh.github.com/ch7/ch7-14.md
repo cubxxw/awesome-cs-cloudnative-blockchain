@@ -1,0 +1,135 @@
+## 7.14. 示例: 基于标记的XML解码
+
+第4.5章节展示了如何使用encoding/json包中的Marshal和Unmarshal函数来将JSON文档转换成Go语言的数据结构。encoding/xml包提供了一个相似的API。当我们想构造一个文档树的表示时使用encoding/xml包会很方便，但是对于很多程序并不是必须的。encoding/xml包也提供了一个更低层的基于标记的API用于XML解码。在基于标记的样式中，解析器消费输入并产生一个标记流；四个主要的标记类型－StartElement，EndElement，CharData，和Comment－每一个都是encoding/xml包中的具体类型。每一个对(\*xml.Decoder).Token的调用都返回一个标记。
+
+这里显示的是和这个API相关的部分：
+
+<u><i>encoding/xml</i></u>
+```go
+package xml
+
+type Name struct {
+	Local string // e.g., "Title" or "id"
+}
+
+type Attr struct { // e.g., name="value"
+	Name  Name
+	Value string
+}
+
+// A Token includes StartElement, EndElement, CharData,
+// and Comment, plus a few esoteric types (not shown).
+type Token interface{}
+type StartElement struct { // e.g., <name>
+    Name Name
+    Attr []Attr
+}
+type EndElement struct { Name Name } // e.g., </name>
+type CharData []byte                 // e.g., <p>CharData</p>
+type Comment []byte                  // e.g., <!-- Comment -->
+
+type Decoder struct{ /* ... */ }
+func NewDecoder(io.Reader) *Decoder
+func (*Decoder) Token() (Token, error) // returns next Token in sequence
+```
+
+这个没有方法的Token接口也是一个可识别联合的例子。传统的接口如io.Reader的目的是隐藏满足它的具体类型的细节，这样就可以创造出新的实现：在这个实现中每个具体类型都被统一地对待。相反，满足可识别联合的具体类型的集合被设计为确定和暴露，而不是隐藏。可识别联合的类型几乎没有方法，操作它们的函数使用一个类型分支的case集合来进行表述，这个case集合中每一个case都有不同的逻辑。
+
+下面的xmlselect程序获取和打印在一个XML文档树中确定的元素下找到的文本。使用上面的API，它可以在输入上一次完成它的工作而从来不要实例化这个文档树。
+
+<u><i>gopl.io/ch7/xmlselect</i></u>
+```go
+// Xmlselect prints the text of selected elements of an XML document.
+package main
+
+import (
+	"encoding/xml"
+	"fmt"
+	"io"
+	"os"
+	"strings"
+)
+
+func main() {
+	dec := xml.NewDecoder(os.Stdin)
+	var stack []string // stack of element names
+	for {
+		tok, err := dec.Token()
+		if err == io.EOF {
+			break
+		} else if err != nil {
+			fmt.Fprintf(os.Stderr, "xmlselect: %v\n", err)
+			os.Exit(1)
+		}
+		switch tok := tok.(type) {
+		case xml.StartElement:
+			stack = append(stack, tok.Name.Local) // push
+		case xml.EndElement:
+			stack = stack[:len(stack)-1] // pop
+		case xml.CharData:
+			if containsAll(stack, os.Args[1:]) {
+				fmt.Printf("%s: %s\n", strings.Join(stack, " "), tok)
+			}
+		}
+	}
+}
+
+// containsAll reports whether x contains the elements of y, in order.
+func containsAll(x, y []string) bool {
+	for len(y) <= len(x) {
+		if len(y) == 0 {
+			return true
+		}
+		if x[0] == y[0] {
+			y = y[1:]
+		}
+		x = x[1:]
+	}
+	return false
+}
+```
+
+main函数中的循环每遇到一个StartElement时，它把这个元素的名称压到一个栈里，并且每次遇到EndElement时，它将名称从这个栈中推出。这个API保证了StartElement和EndElement的序列可以被完全的匹配，甚至在一个糟糕的文档格式中。注释会被忽略。当xmlselect遇到一个CharData时，只有当栈中有序地包含所有通过命令行参数传入的元素名称时，它才会输出相应的文本。
+
+下面的命令打印出任意出现在两层div元素下的h2元素的文本。它的输入是XML的说明文档，并且它自己就是XML文档格式的。
+
+```
+$ go build gopl.io/ch1/fetch
+$ ./fetch http://www.w3.org/TR/2006/REC-xml11-20060816 |
+    ./xmlselect div div h2
+html body div div h2: 1 Introduction
+html body div div h2: 2 Documents
+html body div div h2: 3 Logical Structures
+html body div div h2: 4 Physical Structures
+html body div div h2: 5 Conformance
+html body div div h2: 6 Notation
+html body div div h2: A References
+html body div div h2: B Definitions for Character Normalization
+...
+```
+
+**练习 7.17：** 扩展xmlselect程序以便让元素不仅可以通过名称选择，也可以通过它们CSS风格的属性进行选择。例如一个像这样
+
+``` html
+<div id="page" class="wide">
+```
+
+的元素可以通过匹配id或者class，同时还有它的名称来进行选择。
+
+**练习 7.18：** 使用基于标记的解码API，编写一个可以读取任意XML文档并构造这个文档所代表的通用节点树的程序。节点有两种类型：CharData节点表示文本字符串，和 Element节点表示被命名的元素和它们的属性。每一个元素节点有一个子节点的切片。
+
+你可能发现下面的定义会对你有帮助。
+
+```go
+import "encoding/xml"
+
+type Node interface{} // CharData or *Element
+
+type CharData string
+
+type Element struct {
+	Type     xml.Name
+	Attr     []xml.Attr
+	Children []Node
+}
+```
