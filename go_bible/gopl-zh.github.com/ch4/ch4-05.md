@@ -1,0 +1,260 @@
+## 4.5. JSON
+
+JavaScript对象表示法（JSON）是一种用于发送和接收结构化信息的标准协议。在类似的协议中，JSON并不是唯一的一个标准协议。 XML（§7.14）、ASN.1和Google的Protocol Buffers都是类似的协议，并且有各自的特色，但是由于简洁性、可读性和流行程度等原因，JSON是应用最广泛的一个。
+
+Go语言对于这些标准格式的编码和解码都有良好的支持，由标准库中的encoding/json、encoding/xml、encoding/asn1等包提供支持（译注：Protocol Buffers的支持由 github.com/golang/protobuf 包提供），并且这类包都有着相似的API接口。本节，我们将对重要的encoding/json包的用法做个概述。
+
+JSON是对JavaScript中各种类型的值——字符串、数字、布尔值和对象——Unicode本文编码。它可以用有效可读的方式表示第三章的基础数据类型和本章的数组、slice、结构体和map等聚合数据类型。
+
+基本的JSON类型有数字（十进制或科学记数法）、布尔值（true或false）、字符串，其中字符串是以双引号包含的Unicode字符序列，支持和Go语言类似的反斜杠转义特性，不过JSON使用的是`\Uhhhh`转义数字来表示一个UTF-16编码（译注：UTF-16和UTF-8一样是一种变长的编码，有些Unicode码点较大的字符需要用4个字节表示；而且UTF-16还有大端和小端的问题），而不是Go语言的rune类型。
+
+这些基础类型可以通过JSON的数组和对象类型进行递归组合。一个JSON数组是一个有序的值序列，写在一个方括号中并以逗号分隔；一个JSON数组可以用于编码Go语言的数组和slice。一个JSON对象是一个字符串到值的映射，写成一系列的name:value对形式，用花括号包含并以逗号分隔；JSON的对象类型可以用于编码Go语言的map类型（key类型是字符串）和结构体。例如：
+
+```
+boolean         true
+number          -273.15
+string          "She said \"Hello, BF\""
+array           ["gold", "silver", "bronze"]
+object          {"year": 1980,
+                 "event": "archery",
+                 "medals": ["gold", "silver", "bronze"]}
+```
+
+考虑一个应用程序，该程序负责收集各种电影评论并提供反馈功能。它的Movie数据类型和一个典型的表示电影的值列表如下所示。（在结构体声明中，Year和Color成员后面的字符串面值是结构体成员Tag；我们稍后会解释它的作用。）
+
+<u><i>gopl.io/ch4/movie</i></u>
+```Go
+type Movie struct {
+	Title  string
+	Year   int  `json:"released"`
+	Color  bool `json:"color,omitempty"`
+	Actors []string
+}
+
+var movies = []Movie{
+	{Title: "Casablanca", Year: 1942, Color: false,
+		Actors: []string{"Humphrey Bogart", "Ingrid Bergman"}},
+	{Title: "Cool Hand Luke", Year: 1967, Color: true,
+		Actors: []string{"Paul Newman"}},
+	{Title: "Bullitt", Year: 1968, Color: true,
+		Actors: []string{"Steve McQueen", "Jacqueline Bisset"}},
+	// ...
+}
+```
+
+这样的数据结构特别适合JSON格式，并且在两者之间相互转换也很容易。将一个Go语言中类似movies的结构体slice转为JSON的过程叫编组（marshaling）。编组通过调用json.Marshal函数完成：
+
+```Go
+data, err := json.Marshal(movies)
+if err != nil {
+	log.Fatalf("JSON marshaling failed: %s", err)
+}
+fmt.Printf("%s\n", data)
+```
+
+Marshal函数返回一个编码后的字节slice，包含很长的字符串，并且没有空白缩进；我们将它折行以便于显示：
+
+```
+[{"Title":"Casablanca","released":1942,"Actors":["Humphrey Bogart","Ingr
+id Bergman"]},{"Title":"Cool Hand Luke","released":1967,"color":true,"Ac
+tors":["Paul Newman"]},{"Title":"Bullitt","released":1968,"color":true,"
+Actors":["Steve McQueen","Jacqueline Bisset"]}]
+```
+
+这种紧凑的表示形式虽然包含了全部的信息，但是很难阅读。为了生成便于阅读的格式，另一个json.MarshalIndent函数将产生整齐缩进的输出。该函数有两个额外的字符串参数用于表示每一行输出的前缀和每一个层级的缩进：
+
+```Go
+data, err := json.MarshalIndent(movies, "", "    ")
+if err != nil {
+	log.Fatalf("JSON marshaling failed: %s", err)
+}
+fmt.Printf("%s\n", data)
+```
+
+上面的代码将产生这样的输出（译注：在最后一个成员或元素后面并没有逗号分隔符）：
+
+```Json
+[
+	{
+		"Title": "Casablanca",
+		"released": 1942,
+		"Actors": [
+			"Humphrey Bogart",
+			"Ingrid Bergman"
+		]
+	},
+	{
+		"Title": "Cool Hand Luke",
+		"released": 1967,
+		"color": true,
+		"Actors": [
+			"Paul Newman"
+		]
+	},
+	{
+		"Title": "Bullitt",
+		"released": 1968,
+		"color": true,
+		"Actors": [
+			"Steve McQueen",
+			"Jacqueline Bisset"
+		]
+	}
+]
+```
+
+在编码时，默认使用Go语言结构体的成员名字作为JSON的对象（通过reflect反射技术，我们将在12.6节讨论）。只有导出的结构体成员才会被编码，这也就是我们为什么选择用大写字母开头的成员名称。
+
+细心的读者可能已经注意到，其中Year名字的成员在编码后变成了released，还有Color成员编码后变成了小写字母开头的color。这是因为结构体成员Tag所导致的。一个结构体成员Tag是和在编译阶段关联到该成员的元信息字符串：
+
+```
+Year  int  `json:"released"`
+Color bool `json:"color,omitempty"`
+```
+
+结构体的成员Tag可以是任意的字符串面值，但是通常是一系列用空格分隔的key:"value"键值对序列；因为值中含有双引号字符，因此成员Tag一般用原生字符串面值的形式书写。json开头键名对应的值用于控制encoding/json包的编码和解码的行为，并且encoding/...下面其它的包也遵循这个约定。成员Tag中json对应值的第一部分用于指定JSON对象的名字，比如将Go语言中的TotalCount成员对应到JSON中的total_count对象。Color成员的Tag还带了一个额外的omitempty选项，表示当Go语言结构体成员为空或零值时不生成该JSON对象（这里false为零值）。果然，Casablanca是一个黑白电影，并没有输出Color成员。
+
+编码的逆操作是解码，对应将JSON数据解码为Go语言的数据结构，Go语言中一般叫unmarshaling，通过json.Unmarshal函数完成。下面的代码将JSON格式的电影数据解码为一个结构体slice，结构体中只有Title成员。通过定义合适的Go语言数据结构，我们可以选择性地解码JSON中感兴趣的成员。当Unmarshal函数调用返回，slice将被只含有Title信息的值填充，其它JSON成员将被忽略。
+
+```Go
+var titles []struct{ Title string }
+if err := json.Unmarshal(data, &titles); err != nil {
+	log.Fatalf("JSON unmarshaling failed: %s", err)
+}
+fmt.Println(titles) // "[{Casablanca} {Cool Hand Luke} {Bullitt}]"
+```
+
+许多web服务都提供JSON接口，通过HTTP接口发送JSON格式请求并返回JSON格式的信息。为了说明这一点，我们通过Github的issue查询服务来演示类似的用法。首先，我们要定义合适的类型和常量：
+
+<u><i>gopl.io/ch4/github</i></u>
+```Go
+// Package github provides a Go API for the GitHub issue tracker.
+// See https://developer.github.com/v3/search/#search-issues.
+package github
+
+import "time"
+
+const IssuesURL = "https://api.github.com/search/issues"
+
+type IssuesSearchResult struct {
+	TotalCount int `json:"total_count"`
+	Items          []*Issue
+}
+
+type Issue struct {
+	Number    int
+	HTMLURL   string `json:"html_url"`
+	Title     string
+	State     string
+	User      *User
+	CreatedAt time.Time `json:"created_at"`
+	Body      string    // in Markdown format
+}
+
+type User struct {
+	Login   string
+	HTMLURL string `json:"html_url"`
+}
+```
+
+和前面一样，即使对应的JSON对象名是小写字母，每个结构体的成员名也是声明为大写字母开头的。因为有些JSON成员名字和Go结构体成员名字并不相同，因此需要Go语言结构体成员Tag来指定对应的JSON名字。同样，在解码的时候也需要做同样的处理，GitHub服务返回的信息比我们定义的要多很多。
+
+SearchIssues函数发出一个HTTP请求，然后解码返回的JSON格式的结果。因为用户提供的查询条件可能包含类似`?`和`&`之类的特殊字符，为了避免对URL造成冲突，我们用url.QueryEscape来对查询中的特殊字符进行转义操作。
+
+<u><i>gopl.io/ch4/github</i></u>
+```Go
+package github
+
+import (
+	"encoding/json"
+	"fmt"
+	"net/http"
+	"net/url"
+	"strings"
+)
+
+// SearchIssues queries the GitHub issue tracker.
+func SearchIssues(terms []string) (*IssuesSearchResult, error) {
+	q := url.QueryEscape(strings.Join(terms, " "))
+	resp, err := http.Get(IssuesURL + "?q=" + q)
+	if err != nil {
+		return nil, err
+	}
+
+	// We must close resp.Body on all execution paths.
+	// (Chapter 5 presents 'defer', which makes this simpler.)
+	if resp.StatusCode != http.StatusOK {
+		resp.Body.Close()
+		return nil, fmt.Errorf("search query failed: %s", resp.Status)
+	}
+
+	var result IssuesSearchResult
+	if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
+		resp.Body.Close()
+		return nil, err
+	}
+	resp.Body.Close()
+	return &result, nil
+}
+```
+
+在早些的例子中，我们使用了json.Unmarshal函数来将JSON格式的字符串解码为字节slice。但是这个例子中，我们使用了基于流式的解码器json.Decoder，它可以从一个输入流解码JSON数据，尽管这不是必须的。如您所料，还有一个针对输出流的json.Encoder编码对象。
+
+我们调用Decode方法来填充变量。这里有多种方法可以格式化结构。下面是最简单的一种，以一个固定宽度打印每个issue，但是在下一节我们将看到如何利用模板来输出复杂的格式。
+
+<u><i>gopl.io/ch4/issues</i></u>
+```Go
+// Issues prints a table of GitHub issues matching the search terms.
+package main
+
+import (
+	"fmt"
+	"log"
+	"os"
+
+	"gopl.io/ch4/github"
+)
+
+func main() {
+	result, err := github.SearchIssues(os.Args[1:])
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("%d issues:\n", result.TotalCount)
+	for _, item := range result.Items {
+		fmt.Printf("#%-5d %9.9s %.55s\n",
+			item.Number, item.User.Login, item.Title)
+	}
+}
+```
+
+通过命令行参数指定检索条件。下面的命令是查询Go语言项目中和JSON解码相关的问题，还有查询返回的结果：
+
+```
+$ go build gopl.io/ch4/issues
+$ ./issues repo:golang/go is:open json decoder
+13 issues:
+#5680    eaigner encoding/json: set key converter on en/decoder
+#6050  gopherbot encoding/json: provide tokenizer
+#8658  gopherbot encoding/json: use bufio
+#8462  kortschak encoding/json: UnmarshalText confuses json.Unmarshal
+#5901        rsc encoding/json: allow override type marshaling
+#9812  klauspost encoding/json: string tag not symmetric
+#7872  extempora encoding/json: Encoder internally buffers full output
+#9650    cespare encoding/json: Decoding gives errPhase when unmarshalin
+#6716  gopherbot encoding/json: include field name in unmarshal error me
+#6901  lukescott encoding/json, encoding/xml: option to treat unknown fi
+#6384    joeshaw encoding/json: encode precise floating point integers u
+#6647    btracey x/tools/cmd/godoc: display type kind of each named type
+#4237  gjemiller encoding/base64: URLEncoding padding is optional
+```
+
+GitHub的Web服务接口 https://developer.github.com/v3/ 包含了更多的特性。
+
+**练习 4.10：** 修改issues程序，根据问题的时间进行分类，比如不到一个月的、不到一年的、超过一年。
+
+**练习 4.11：** 编写一个工具，允许用户在命令行创建、读取、更新和关闭GitHub上的issue，当必要的时候自动打开用户默认的编辑器用于输入文本信息。
+
+**练习 4.12：** 流行的web漫画服务xkcd也提供了JSON接口。例如，一个 https://xkcd.com/571/info.0.json 请求将返回一个很多人喜爱的571编号的详细描述。下载每个链接（只下载一次）然后创建一个离线索引。编写一个xkcd工具，使用这些离线索引，打印和命令行输入的检索词相匹配的漫画的URL。
+
+**练习 4.13：** 使用开放电影数据库的JSON服务接口，允许你检索和下载 https://omdbapi.com/ 上电影的名字和对应的海报图像。编写一个poster工具，通过命令行输入的电影名字，下载对应的海报。

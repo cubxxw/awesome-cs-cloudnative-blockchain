@@ -1,0 +1,211 @@
+## 13.4. 通过cgo调用C代码
+
+Go程序可能会遇到要访问C语言的某些硬件驱动函数的场景，或者是从一个C++语言实现的嵌入式数据库查询记录的场景，或者是使用Fortran语言实现的一些线性代数库的场景。C语言作为一个通用语言，很多库会选择提供一个C兼容的API，然后用其他不同的编程语言实现（译者：Go语言需要也应该拥抱这些巨大的代码遗产）。
+
+在本节中，我们将构建一个简易的数据压缩程序，使用了一个Go语言自带的叫cgo的用于支援C语言函数调用的工具。这类工具一般被称为 *foreign-function interfaces* （简称ffi），并且在类似工具中cgo也不是唯一的。SWIG（<http://swig.org>）是另一个类似的且被广泛使用的工具，SWIG提供了很多复杂特性以支援C++的特性，但SWIG并不是我们要讨论的主题。
+
+在标准库的`compress/...`子包有很多流行的压缩算法的编码和解码实现，包括流行的LZW压缩算法（Unix的compress命令用的算法）和DEFLATE压缩算法（GNU gzip命令用的算法）。这些包的API的细节虽然有些差异，但是它们都提供了针对 io.Writer类型输出的压缩接口和提供了针对io.Reader类型输入的解压缩接口。例如：
+
+```Go
+package gzip // compress/gzip
+func NewWriter(w io.Writer) io.WriteCloser
+func NewReader(r io.Reader) (io.ReadCloser, error)
+```
+
+bzip2压缩算法，是基于优雅的Burrows-Wheeler变换算法，运行速度比gzip要慢，但是可以提供更高的压缩比。标准库的compress/bzip2包目前还没有提供bzip2压缩算法的实现。完全从头开始实现一个压缩算法是一件繁琐的工作，而且 http://bzip.org 已经有现成的libbzip2的开源实现，不仅文档齐全而且性能又好。
+
+如果是比较小的C语言库，我们完全可以用纯Go语言重新实现一遍。如果我们对性能也没有特殊要求的话，我们还可以用os/exec包的方法将C编写的应用程序作为一个子进程运行。只有当你需要使用复杂而且性能更高的底层C接口时，就是使用cgo的场景了（译注：用os/exec包调用子进程的方法会导致程序运行时依赖那个应用程序）。下面我们将通过一个例子讲述cgo的具体用法。
+
+译注：本章采用的代码都是最新的。因为之前已经出版的书中包含的代码只能在Go1.5之前使用。从Go1.6开始，Go语言已经明确规定了哪些Go语言指针可以直接传入C语言函数。新代码重点是增加了bz2alloc和bz2free的两个函数，用于bz_stream对象空间的申请和释放操作。下面是新代码中增加的注释，说明这个问题：
+
+```Go
+// The version of this program that appeared in the first and second
+// printings did not comply with the proposed rules for passing
+// pointers between Go and C, described here:
+// https://github.com/golang/proposal/blob/master/design/12416-cgo-pointers.md
+//
+// The rules forbid a C function like bz2compress from storing 'in'
+// and 'out' (pointers to variables allocated by Go) into the Go
+// variable 's', even temporarily.
+//
+// The version below, which appears in the third printing, has been
+// corrected.  To comply with the rules, the bz_stream variable must
+// be allocated by C code.  We have introduced two C functions,
+// bz2alloc and bz2free, to allocate and free instances of the
+// bz_stream type.  Also, we have changed bz2compress so that before
+// it returns, it clears the fields of the bz_stream that contain
+// pointers to Go variables.
+```
+
+要使用libbzip2，我们需要先构建一个bz_stream结构体，用于保持输入和输出缓存。然后有三个函数：BZ2_bzCompressInit用于初始化缓存，BZ2_bzCompress用于将输入缓存的数据压缩到输出缓存，BZ2_bzCompressEnd用于释放不需要的缓存。（目前不要担心包的具体结构，这个例子的目的就是演示各个部分如何组合在一起的。）
+
+我们可以在Go代码中直接调用BZ2_bzCompressInit和BZ2_bzCompressEnd，但是对于BZ2_bzCompress，我们将定义一个C语言的包装函数，用它完成真正的工作。下面是C代码，对应一个独立的文件。
+
+<u><i>gopl.io/ch13/bzip</i></u>
+```C
+/* This file is gopl.io/ch13/bzip/bzip2.c,         */
+/* a simple wrapper for libbzip2 suitable for cgo. */
+#include <bzlib.h>
+
+int bz2compress(bz_stream *s, int action,
+                char *in, unsigned *inlen, char *out, unsigned *outlen) {
+	s->next_in = in;
+	s->avail_in = *inlen;
+	s->next_out = out;
+	s->avail_out = *outlen;
+	int r = BZ2_bzCompress(s, action);
+	*inlen -= s->avail_in;
+	*outlen -= s->avail_out;
+	s->next_in = s->next_out = NULL;
+	return r;
+}
+```
+
+现在让我们转到Go语言部分，第一部分如下所示。其中`import "C"`的语句是比较特别的。其实并没有一个叫C的包，但是这行语句会让Go编译程序在编译之前先运行cgo工具。
+
+```Go
+// Package bzip provides a writer that uses bzip2 compression (bzip.org).
+package bzip
+
+/*
+#cgo CFLAGS: -I/usr/include
+#cgo LDFLAGS: -L/usr/lib -lbz2
+#include <bzlib.h>
+#include <stdlib.h>
+bz_stream* bz2alloc() { return calloc(1, sizeof(bz_stream)); }
+int bz2compress(bz_stream *s, int action,
+                char *in, unsigned *inlen, char *out, unsigned *outlen);
+void bz2free(bz_stream* s) { free(s); }
+*/
+import "C"
+
+import (
+	"io"
+	"unsafe"
+)
+
+type writer struct {
+	w      io.Writer // underlying output stream
+	stream *C.bz_stream
+	outbuf [64 * 1024]byte
+}
+
+// NewWriter returns a writer for bzip2-compressed streams.
+func NewWriter(out io.Writer) io.WriteCloser {
+	const blockSize = 9
+	const verbosity = 0
+	const workFactor = 30
+	w := &writer{w: out, stream: C.bz2alloc()}
+	C.BZ2_bzCompressInit(w.stream, blockSize, verbosity, workFactor)
+	return w
+}
+```
+
+在预处理过程中，cgo工具生成一个临时包用于包含所有在Go语言中访问的C语言的函数或类型。例如C.bz_stream和C.BZ2_bzCompressInit。cgo工具通过以某种特殊的方式调用本地的C编译器来发现在Go源文件导入声明前的注释中包含的C头文件中的内容（译注：`import "C"`语句前紧挨着的注释是对应cgo的特殊语法，对应必要的构建参数选项和C语言代码）。
+
+在cgo注释中还可以包含#cgo指令，用于给C语言工具链指定特殊的参数。例如CFLAGS和LDFLAGS分别对应传给C语言编译器的编译参数和链接器参数，使它们可以从特定目录找到bzlib.h头文件和libbz2.a库文件。这个例子假设你已经在/usr目录成功安装了bzip2库。如果bzip2库是安装在不同的位置，你需要更新这些参数（译注：这里有一个从纯C代码生成的cgo绑定，不依赖bzip2静态库和操作系统的具体环境，具体请访问 https://github.com/chai2010/bzip2 ）。
+
+NewWriter函数通过调用C语言的BZ2_bzCompressInit函数来初始化stream中的缓存。在writer结构中还包括了另一个buffer，用于输出缓存。
+
+下面是Write方法的实现，返回成功压缩数据的大小，主体是一个循环中调用C语言的bz2compress函数实现的。从代码可以看到，Go程序可以访问C语言的bz_stream、char和uint类型，还可以访问bz2compress等函数，甚至可以访问C语言中像BZ_RUN那样的宏定义，全部都是以C.x语法访问。其中C.uint类型和Go语言的uint类型并不相同，即使它们具有相同的大小也是不同的类型。
+
+```Go
+func (w *writer) Write(data []byte) (int, error) {
+	if w.stream == nil {
+		panic("closed")
+	}
+	var total int // uncompressed bytes written
+
+	for len(data) > 0 {
+		inlen, outlen := C.uint(len(data)), C.uint(cap(w.outbuf))
+		C.bz2compress(w.stream, C.BZ_RUN,
+			(*C.char)(unsafe.Pointer(&data[0])), &inlen,
+			(*C.char)(unsafe.Pointer(&w.outbuf)), &outlen)
+		total += int(inlen)
+		data = data[inlen:]
+		if _, err := w.w.Write(w.outbuf[:outlen]); err != nil {
+			return total, err
+		}
+	}
+	return total, nil
+}
+```
+
+在循环的每次迭代中，向bz2compress传入数据的地址和剩余部分的长度，还有输出缓存w.outbuf的地址和容量。这两个长度信息通过它们的地址传入而不是值传入，因为bz2compress函数可能会根据已经压缩的数据和压缩后数据的大小来更新这两个值。每个块压缩后的数据被写入到底层的io.Writer。
+
+Close方法和Write方法有着类似的结构，通过一个循环将剩余的压缩数据刷新到输出缓存。
+
+```Go
+// Close flushes the compressed data and closes the stream.
+// It does not close the underlying io.Writer.
+func (w *writer) Close() error {
+	if w.stream == nil {
+		panic("closed")
+	}
+	defer func() {
+		C.BZ2_bzCompressEnd(w.stream)
+		C.bz2free(w.stream)
+		w.stream = nil
+	}()
+	for {
+		inlen, outlen := C.uint(0), C.uint(cap(w.outbuf))
+		r := C.bz2compress(w.stream, C.BZ_FINISH, nil, &inlen,
+			(*C.char)(unsafe.Pointer(&w.outbuf)), &outlen)
+		if _, err := w.w.Write(w.outbuf[:outlen]); err != nil {
+			return err
+		}
+		if r == C.BZ_STREAM_END {
+			return nil
+		}
+	}
+}
+```
+
+压缩完成后，Close方法用了defer函数确保函数退出前调用C.BZ2_bzCompressEnd和C.bz2free释放相关的C语言运行时资源。此刻w.stream指针将不再有效，我们将它设置为nil以保证安全，然后在每个方法中增加了nil检测，以防止用户在关闭后依然错误使用相关方法。
+
+上面的实现中，不仅仅写是非并发安全的，甚至并发调用Close和Write方法也可能导致程序的的崩溃。修复这个问题是练习13.3的内容。
+
+下面的bzipper程序，使用我们自己包实现的bzip2压缩命令。它的行为和许多Unix系统的bzip2命令类似。
+
+<u><i>gopl.io/ch13/bzipper</i></u>
+```Go
+// Bzipper reads input, bzip2-compresses it, and writes it out.
+package main
+
+import (
+	"io"
+	"log"
+	"os"
+	"gopl.io/ch13/bzip"
+)
+
+func main() {
+	w := bzip.NewWriter(os.Stdout)
+	if _, err := io.Copy(w, os.Stdin); err != nil {
+		log.Fatalf("bzipper: %v\n", err)
+	}
+	if err := w.Close(); err != nil {
+		log.Fatalf("bzipper: close: %v\n", err)
+	}
+}
+```
+
+在上面的场景中，我们使用bzipper压缩了/usr/share/dict/words系统自带的词典，从938,848字节压缩到335,405字节。大约是原始数据大小的三分之一。然后使用系统自带的bunzip2命令进行解压。压缩前后文件的SHA256哈希码是相同了，这也说明了我们的压缩工具是正确的。（如果你的系统没有sha256sum命令，那么请先按照练习4.2实现一个类似的工具）
+
+```
+$ go build gopl.io/ch13/bzipper
+$ wc -c < /usr/share/dict/words
+938848
+$ sha256sum < /usr/share/dict/words
+126a4ef38493313edc50b86f90dfdaf7c59ec6c948451eac228f2f3a8ab1a6ed -
+$ ./bzipper < /usr/share/dict/words | wc -c
+335405
+$ ./bzipper < /usr/share/dict/words | bunzip2 | sha256sum
+126a4ef38493313edc50b86f90dfdaf7c59ec6c948451eac228f2f3a8ab1a6ed -
+```
+
+我们演示了如何将一个C语言库链接到Go语言程序。相反，将Go编译为静态库然后链接到C程序，或者将Go程序编译为动态库然后在C程序中动态加载也都是可行的（译注：在Go1.5中，Windows系统的Go语言实现并不支持生成C语言动态库或静态库的特性。不过好消息是，目前已经有人在尝试解决这个问题，具体请访问 [Issue11058](https://github.com/golang/go/issues/11058) ）。这里我们只展示的cgo很小的一些方面，更多的关于内存管理、指针、回调函数、中断信号处理、字符串、errno处理、终结器，以及goroutines和系统线程的关系等，有很多细节可以讨论。特别是如何将Go语言的指针传入C函数的规则也是异常复杂的（译注：简单来说，要传入C函数的Go指针指向的数据本身不能包含指针或其他引用类型；并且C函数在返回后不能继续持有Go指针；并且在C函数返回之前，Go指针是被锁定的，不能导致对应指针数据被移动或栈的调整），部分的原因在13.2节有讨论到，但是在Go1.5中还没有被明确（译注：Go1.6将会明确cgo中的指针使用规则）。如果要进一步阅读，可以从 https://golang.org/cmd/cgo 开始。
+
+**练习 13.3：** 使用sync.Mutex以保证bzip2.writer在多个goroutines中被并发调用是安全的。
+
+**练习 13.4：** 因为C库依赖的限制。 使用os/exec包启动/bin/bzip2命令作为一个子进程，提供一个纯Go的bzip.NewWriter的替代实现（译注：虽然是纯Go实现，但是运行时将依赖/bin/bzip2命令，其他操作系统可能无法运行）。
