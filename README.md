@@ -61,6 +61,8 @@
 
 ### [🖱️ Docker入门到进阶](docker/README.md)
 
+### [Git—必备神器](Git)
+
 
 
 ---
@@ -94,3 +96,14 @@
 
 ---
 
+
+
+## 如何贡献
+
+如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到 /images，然后更新 README，分别在参与人员和整理科目下更新信息。
+
+commit 时建议以 "contributor-name : subject"，比如 小明 : 数学分析。然后 push 上来，最后提交一个 pull request。即：
+
+git clone https://github.com/Yorkking/SYSU-CS-Postgraduate-Entrance-Examination git checkout dev 或者 git branch your-branch && git checkout your-branch ... 在 resource 目录下上传文件并更新 README git add . git commit -m "your-name:subjects" git push
+
+**注意！！！强烈不建议直接在 main 分支下修改！**
