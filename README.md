@@ -104,7 +104,7 @@
 
 ### 项目开发
 
-#### [🖱️C-Universal Brockchain开发笔记](C-Universal Brockchain)
+#### [🖱️ C-Universal Brockchain开发笔记](C-Universal Brockchain)
 
 #### [🖱️C-Universal Brockchain（链学）组织地址](https://github.com/C-UB)
 
