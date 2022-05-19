@@ -53,6 +53,8 @@
 
 ## [🖱️Go语言100篇高级教程](Gomd_super/README.md)
 
+## [🖱️Go语言包管理工具mod](Gomd_super/mod.md)
+
 ---
 
 
@@ -95,6 +97,20 @@
 + [共识算法](blockchain/README.md)
 
 ---
+
+
+
+---
+
+### 项目开发
+
+#### [🖱️C-Universal Brockchain开发笔记](C-Universal Brockchain)
+
+#### [🖱️C-Universal Brockchain（链学）组织地址](https://github.com/C-UB)
+
+---
+
+
 
 
 
