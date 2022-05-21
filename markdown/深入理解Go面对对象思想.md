@@ -275,7 +275,7 @@ func NewStudent(n string,s float64) *student{
 
 
 
-在main包中使用
+**在main包中使用**
 
 ```go
 func main(){
@@ -287,9 +287,9 @@ func main(){
 }
 ```
 
+
+
 **这种方法就被称为工厂模式**
-
-
 
 >   如果score 是一个小写的,在其他包不可以直接访问,怎么样访问它呢?
 >
@@ -298,8 +298,7 @@ func main(){
 ```go
 func (s *student) GetScore() float64{
     return (*s.score)   //ok,*可以省略
-}
-
+}66
 /*main访问*/
 fmt.Println(stu.GetScore())
 ```
@@ -327,7 +326,6 @@ type Account struct {
 
 //1. 方法 == 存款
 func (account *Account) Deposite(money float64, pwd string)  {
-
 	//看下输入的密码是否正确
 	if pwd != account.Pwd {
 		fmt.Println("你输入的密码不正确")
@@ -335,19 +333,16 @@ func (account *Account) Deposite(money float64, pwd string)  {
 	}
 
 	//看看存款金额是否正确
-	if money <= 0 {
+    if money <= 0 {
 		fmt.Println("你输入的金额不正确")
 		return 
 	}
-
 	account.Balance += money
 	fmt.Println("存款成功~~")
-
 }
 
 //取款
 func (account *Account) WithDraw(money float64, pwd string)  {
-
 	//看下输入的密码是否正确
 	if pwd != account.Pwd {
 		fmt.Println("你输入的密码不正确")
@@ -448,7 +443,7 @@ func main() {
 	p.SetAge(18)    //年龄方法
 	p.SetSal(5000)  //薪水
 	fmt.Println(p)   
-	fmt.Println(p.Name, " age =", p.GetAge(), " sal = ", p.GetSal())	//年龄需要用到方法
+	fmt.Println(p.Name, " age =", p.GetAge(), " sal = ", p.GetSal()) //年龄需要用到方法
 }
 ```
 
@@ -559,11 +554,11 @@ func main(){
 学生名 = tom, 年龄 = 10 成绩 = 0小学生正在考试
 ```
 
-**此时如果还有大学生的话,我们需要再创建一个结构体Graduate,复制一份方法出来,就会出现大量的代码冗余,此时需要用到继承**
+**此时如果还有大学生的话,我们需要再创建一个结构体Graduate,复制一份方法出来,就会出现大量的代码冗余,此时需要用到继承。**
 
->   继承可以解决代码复用问题,使编程更加靠近人类的思考思维
+>   继承可以解决代码复用问题,使编程更加靠近人类的思考思维。
 
->   在Golang中通过了**匿名结构体来实现了继承特性**
+>   在Golang中通过了**匿名结构体来实现了继承特性。**
 
 ![image-20220114145510709](https://s2.loli.net/2022/01/14/qiFHySImWTN1c7M.png)
 
@@ -736,7 +731,7 @@ func main(){
 }
 ```
 
->   这种情况也被称为**多重继承**,为了保证代码简洁性,建议尽量不使用多重继承
+>   这种情况也被称为**多重继承**,为了保证代码简洁性,建议尽量不使用多重继承。
 
 
 
