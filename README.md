@@ -53,7 +53,13 @@
 
 ## [🖱️Go语言100篇高级教程](Gomd_super/README.md)
 
-## [🖱️Go语言包管理工具mod](Gomd_super/mod.md)
+
+
+### 程序员基本素养
+
++ [🖱️Go语言包管理工具mod](Gomd_super/mod.md)
++ [🖱️命名规范](Gomd_super/name.md)
++ 🖱️[Go语言目录结构](Gomd_super/catalogue.md)
 
 ---
 
@@ -102,9 +108,9 @@
 
 ---
 
-### 项目开发
+### 项目
 
-#### [🖱️C-Universal Brockchain](C-Universal Brockchain)
+#### [🖱️C-Universal Brockchain](C_Universal_Brockchain)
 
 #### [🖱️C-Universal Brockchain（链学）组织地址](https://github.com/C-UB)
 
