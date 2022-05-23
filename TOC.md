@@ -7,7 +7,7 @@
 ## Go语言基础
 
 1.  [45天学会go --第1天 Go语言的概叙](markdown/Go语言的概叙.md)
-2.  [45天学会go --第2天 go语言基本语法](markdown/go语言基本语法.md)
+2.  [45天学会go --第2天 Go语言常量](markdown/Go语言常量.md)
 
 3. [ 45天学会go --第3天 Go基础](markdown/Go基础.md)
 

@@ -34,6 +34,8 @@
 
 + [区块链公益项目（NFT+私链/联盟链/私链）](区块链公益项目)
 + [共识算法以及代码实现(Go)](blockchain/README.md)
++ [区块链技术指南](https://yeasy.gitbook.io/blockchain_guide/01_history)
++ [区块链实战教程](https://learnblockchain.cn/books/enterprise/)
 
 ----
 
@@ -101,6 +103,8 @@
 
 ## [🖱️区块链工程师路线](route.md)
 
++ [区块链开发需要什么](btc/chain.md)
+
 + [区块链公益项目（NFT+私链/联盟链/私链）](区块链公益项目)
 + [共识算法](blockchain/README.md)
 
@@ -126,11 +130,9 @@
 
 ## 如何贡献
 
-如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`，分别在参与人员和整理科目下更新信息。
+如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。
 
-**commit 时建议以 "contributor-name : subject"，比如 小明 : 数学分析。然后 push 上来，最后提交一个 pull request。**
-
-即：
+**commit 时建议以 "contributor-name : subject"，比如 小明 : linux学习笔记。然后 push 上来，最后提交一个 pull request。**
 
 ```
 git clone https://github.com/3293172751/Block_Chain.git
