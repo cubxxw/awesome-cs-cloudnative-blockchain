@@ -62,6 +62,9 @@
 + [🖱️Go语言包管理工具mod](Gomd_super/mod.md)
 + [🖱️命名规范](Gomd_super/name.md)
 + 🖱️[Go语言目录结构](Gomd_super/catalogue.md)
++ 🖱️[Go文件以及编码处理](Gomd_super/go_file.md)
+
+  🖱️[Go-mod包](Gomd_super/go_mod.md)
 
 ---
 
@@ -71,7 +74,7 @@
 
 ### [🖱️ Docker入门到进阶](docker/README.md)
 
-### [🖱️ Git—必备神器](Git/README.md)
+###  [🖱️ Git—必备神器](Git/README.md)
 
 ### [🖱️linux从入门到精通](linux/README.md)
 
@@ -79,13 +82,15 @@
 
 ---
 
-## 以太坊ETH学习
+## 区块链学习
 
 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**以太坊白皮书（需要有golang编程基础）**
 
 <a href = "https://etherscan.io/ "><img src = "https://s2.loli.net/2022/03/20/gTiDdUAxtHGJ4f8.png"></a>
 
 ## [🖱️点击进入ETH学习](eth/TOC.md)
+
+## [区块链技术指南](chainbrock-learning/SUMMARY.md)
 
 ---
 
@@ -118,7 +123,7 @@
 
 #### [ 🖱️go语言Linux内核(未开始)]()
 
-#### [🖱️C-Universal Brockchain](C_Universal_Brockchain)
+#### [🖱️C-Universal Brockchain](C_Universal_Brockchain/README.md)
 
 #### [🖱️C-Universal Brockchain（链学）组织地址](https://github.com/C-UB)
 
