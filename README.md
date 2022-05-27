@@ -63,8 +63,7 @@
 + [🖱️命名规范](Gomd_super/name.md)
 + 🖱️[Go语言目录结构](Gomd_super/catalogue.md)
 + 🖱️[Go文件以及编码处理](Gomd_super/go_file.md)
-
-  🖱️[Go-mod包](Gomd_super/go_mod.md)
++ 🖱️[Go-mod包](Gomd_super/go_mod.md)
 
 ---
 
@@ -76,7 +75,7 @@
 
 ###  [🖱️ Git—必备神器](Git/README.md)
 
-### [🖱️linux从入门到精通](linux/README.md)
+### [🖱️ linux从入门到精通](linux/README.md)
 
 
 
