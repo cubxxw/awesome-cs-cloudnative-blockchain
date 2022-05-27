@@ -90,7 +90,7 @@
 
 ## [🖱️点击进入ETH学习](eth/TOC.md)
 
-## [区块链技术指南](chainbrock-learning/SUMMARY.md)
+## [🖱️ 区块链技术指南](chainbrock-learning/SUMMARY.md)
 
 ---
 
