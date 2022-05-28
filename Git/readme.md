@@ -27,3 +27,7 @@
 ###  [9. git比较两个分支差异](git比较两个分支差异.md)
 
 ### [10. Git忽略和 .gitignore](Git忽略和gitignore.md)
+
+### [11. 提交到多个远程仓库](git-adds.md)
+
+### [12. 贡献代码](git-contributor.md)
