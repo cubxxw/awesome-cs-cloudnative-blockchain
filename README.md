@@ -1,7 +1,5 @@
 # 区块链学习指南+笔记（最全）
 
-[TOC]
-
 ----
 
 ##### [Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://nsddd.top) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
@@ -22,19 +20,21 @@
 
 ### 导航
 
- [1. Go语言学习](##Golang学习 )
+#####  [🖱️参与CUB开发指南](C_Universal_Brockchain/README.md)
+
+ [1. Go语言学习](TOC.md)
 
 + [Go语言面试题](https://www.topgoer.cn/docs/gomianshiti/mianshiti)
 + [Go语言中文官方文档](http://word.topgoer.com/)
 + [Go语言专家编程地址](http://wen.topgoer.com/docs/gozhuanjia/gogfjhk)
 
- [2. 以太坊学习](##以太坊ETH学习)
+ [2. 以太坊学习](eth/TOC.md)
 
- [3. 区块链路线](##区块链路线)
+ [3. 区块链路线](route.md)
 
-+ [区块链公益项目（NFT+私链/联盟链/私链）](区块链公益项目)
++ [区块链公益项目（NFT+私链/联盟链/私链）](区块链公益项目/README.md)
 + [共识算法以及代码实现(Go)](blockchain/README.md)
-+ [区块链技术指南](https://yeasy.gitbook.io/blockchain_guide/01_history)
++ [区块链技术指南](chainbrock-learning/SUMMARY.md)
 + [区块链实战教程](https://learnblockchain.cn/books/enterprise/)
 
 ----
@@ -46,6 +46,8 @@
 😶‍🌫️[go语言官方编程指南](https://golang.org/#)  
 
 >   go语言的官方文档学习笔记很全，推荐可以去官网学习–了解
+>
+>   下面介绍的有Go语言路线，Go语言学习笔记，Go语言高级进阶教程，还在更新……
 
 ⏬⏬⏬**理解一个事物最好的方式就是把问题当作机器来层层解析**⏬⏬⏬
 
@@ -59,11 +61,13 @@
 
 ### 程序员基本素养
 
-+ [🖱️Go语言包管理工具mod](Gomd_super/mod.md)
-+ [🖱️命名规范](Gomd_super/name.md)
-+ 🖱️[Go语言目录结构](Gomd_super/catalogue.md)
-+ 🖱️[Go文件以及编码处理](Gomd_super/go_file.md)
-+ 🖱️[Go-mod包](Gomd_super/go_mod.md)
+> 作为一名合格的开发者，必须要会的基本素养
+
++ **[🖱️Go语言包管理工具mod](Gomd_super/mod.md)**
++ **[🖱️命名规范](Gomd_super/name.md)**
++ **🖱️[Go语言目录结构](Gomd_super/catalogue.md)**
++ **🖱️[Go文件以及编码处理](Gomd_super/go_file.md)**
++ **🖱️[Go-mod包](Gomd_super/go_mod.md)**
 
 ---
 
@@ -71,19 +75,19 @@
 
 ## 开发必备技术
 
-### [🖱️ Docker入门到进阶](docker/README.md)
-
-###  [🖱️ Git—必备神器](Git/README.md)
+> 参与区块链CUB项目开发必须熟悉Linux指令，熟悉git团队开发，还有是基于docker的容器，更好的迁移开发环境和迁移链码（blockcode)
 
 ### [🖱️ linux从入门到精通](linux/README.md)
 
+### [🖱️ Git—必备神器](Git/README.md)
 
+### [🖱️ Docker入门到进阶](docker/README.md)
 
 ---
 
 ## 区块链学习
 
-以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**以太坊白皮书（需要有golang编程基础）**
+> 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**以太坊白皮书（需要有golang编程基础）**
 
 <a href = "https://etherscan.io/ "><img src = "https://s2.loli.net/2022/03/20/gTiDdUAxtHGJ4f8.png"></a>
 
@@ -109,8 +113,8 @@
 
 + [区块链开发需要什么](btc/chain.md)
 
-+ [区块链公益项目（NFT+私链/联盟链/私链）](区块链公益项目)
-+ [共识算法](blockchain/README.md)
++ [区块链公益项目（NFT+私链/联盟链/私链）](区块链公益项目/README.md)
++ [共识算法——Go语言实现](blockchain/README.md)
 
 ---
 
@@ -130,7 +134,7 @@
 
 
 
-
+---
 
 ## 如何贡献
 
