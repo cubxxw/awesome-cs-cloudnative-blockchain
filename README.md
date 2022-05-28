@@ -134,6 +134,8 @@
 
 ## 如何贡献
 
+#### [参与贡献❤️❤️💕💕](Git/git-contributor.md)
+
 如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。
 
 **commit 时建议以 "contributor-name : subject"，比如 小明 : linux学习笔记。然后 push 上来，最后提交一个 pull request。**
