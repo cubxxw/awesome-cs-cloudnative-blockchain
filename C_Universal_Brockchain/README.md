@@ -47,27 +47,31 @@
 
 #### 12. [区块链的定义与原理](markdown/12.md)
 
-#### 13. [](markdown/13.md)
+#### 13. [目前的关键技术和挑战](markdown/13.md)
 
-#### 14. [](markdown/14.md)
+#### 14. [认识上的误区](markdown/14.md)
 
-#### 15. [](markdown/15.md)
+### 分布式问题
 
-#### 16. [](markdown/16.md)
+#### 15. [一致性问题](markdown/15.md)
 
-#### 17. [](markdown/17.md)
+#### 16. [共识算法](markdown/16.md)
 
-#### 18. [](markdown/18.md)
+#### 17. [FLP 不可能原理](markdown/17.md)
 
-#### 19. [](markdown/19.md)
+#### 18. [CAP 原理](markdown/18.md)
 
-#### 20. [](markdown/20.md)
+#### 19. [ACID 原则与多阶段提交](markdown/19.md)
 
-#### 21. [](markdown/21.md)
+#### 20. [Paxos 算法与 Raft 算法](markdown/20.md)
 
-#### 22. [](markdown/22.md)
+#### 21. [拜占庭问题与算法](markdown/21.md)
 
-#### 23. [](markdown/23.md)
+#### 22. [可靠性指标](markdown/22.md)
+
+#### 23. [fabric-sdk 作用](markdown/23.md)
+
+###
 
 #### 24. [](markdown/24.md)
 
