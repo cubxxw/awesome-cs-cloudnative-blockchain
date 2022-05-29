@@ -100,7 +100,16 @@ git push origin test:test
 git branch -d <branchName>
 
 查看所有的分支：
-git branch -a 
+git branch -a
+
+重命名分支
+git branch -m main master
+```
+
+**上面的操作都是本地的，需要同步到远程**
+
+```
+git push -u origin master
 ```
 
 

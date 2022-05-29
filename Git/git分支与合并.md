@@ -159,7 +159,7 @@ Unmerged paths:
 git remote -v
 ```
 
-![这里写图片描述](https://s2.loli.net/2022/04/05/UR2N7ZqHgFBa9yk.png)
+
 
 2.比如，在步骤一中，我们查看到远程有一个叫origin的仓库，我们可以使用如下命令从origin远程仓库获取最新版本的代码。
 
@@ -196,30 +196,30 @@ git branch -d temp
 **全步骤： 首先通过从远程的origin的master主分支下载最新的版本号到本地origin/master分支上，然后比較差别，最后合并到当前分支；**
 
 ```shell
-[root@~/wade/nodejs/express-routing]# git fetch git@github.com:billfeller/express-routing.git master
-From github.com:billfeller/express-routing
+[root@~/wade/nodejs/express-routing]# git fetch git@github.com:xiongxinwei/express-routing.git master
+From github.com:xiongxinwei/express-routing
  * branch            master     -> FETCH_HEAD
 [root@~/wade/nodejs/express-routing]# git log 
 commit c7f2ae18cd3648d32fa3dcd50060fa7f13a093b1
-Author: billfeller <billfeller@gmail.com>
+Author: xiongxinwei <xiongxinwei@gmail.com>
 Date:   Fri Nov 21 01:41:40 2014 +0800
  
     express-routing test
  
 commit dd5923229abe4e1da706ce53ad4b41154cb89ea7
-Author: billfeller <billfeller@gmail.com>
+Author: xiongxinwei <xiongxinwei@gmail.com>
 Date:   Fri Nov 21 01:07:03 2014 +0800
  
     Merge branch 'master', remote branch 'origin'
  
 commit d1aee713ca98e5cdead1978dcfcf7a55974a2851
-Author: billfeller <billfeller@users.noreply.github.com>
+Author: xiongxinwei <3293172751nss@gmail.com>
 Date:   Fri Nov 21 01:05:12 2014 +0800
  
     Create README.md
  
 commit 5aa66ffc06b95aeb8ef42627fe4b97c95cb660b9
-Author: billfeller <billfeller@users.noreply.github.com>
+Author: xiongxinwei <3293172751nss@gmail.com>
 Date:   Fri Nov 21 01:03:05 2014 +0800
  
     Initial commit
