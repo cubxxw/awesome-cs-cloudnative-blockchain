@@ -54,11 +54,9 @@ $ ssh-keygen -t rsa -C "[429240967@qq.com](mailto:429240967@qq.com)"
 
 回到 github 上，进入 Account => Settings（账户配置）。
 
-![img](file:///C:/Users/smile/AppData/Local/Temp/msohtmlclip1/01/clip_image003.jpg)
-
 左边选择 **SSH and GPG keys**，然后点击 **New SSH key** 按钮,title 设置标题，可以随便填，粘贴在你电脑上生成的 key。
 
-![img](https://s2.loli.net/2022/03/24/pgP4b9aRz8LJS1h.jpg)
+![img](菜鸟git.assets/pgP4b9aRz8LJS1h.jpg)
 
 添加成功后界面如下所示 
 
@@ -79,11 +77,11 @@ $ ssh -T [git@github.com](mailto:git@github.com)
 
 之后登录后点击" New repository " 如下图所示：
 
-![img](https://s2.loli.net/2022/03/24/7UAG5kxObznr6gc.jpg)
+![img](菜鸟git.assets/7UAG5kxObznr6gc.jpg)
 
 之后在在Repository name 填入 runoob-git-test(远程仓库名) ，其他保持默认设置，点击"Create repository"按钮，就成功地创建了一个新的Git仓库：
 
-![img](https://s2.loli.net/2022/03/24/yl7Iw2rxTneR6Km.jpg)
+![img](菜鸟git.assets/yl7Iw2rxTneR6Km.jpg)
 
 创建成功后，显示如下信息：
 
@@ -115,7 +113,7 @@ $ mkdir runoob-git-test           # 创建测试目录
 
 接下来我们返回 Github 创建的仓库，就可以看到文件已上传到 Github上：
 
-![img](https://s2.loli.net/2022/03/24/glE3I2eGJHniDCZ.jpg)
+![img](菜鸟git.assets/glE3I2eGJHniDCZ.jpg)
 
 **查看当前的远程库**
 
@@ -143,13 +141,17 @@ Git 有两个命令用来提取远程仓库的更新。
 
 1、从远程仓库下载新分支与数据：
 
+```
 git fetch 
+```
 
 该命令执行完后需要执行 git merge 远程分支到你所在的分支。
 
 2、从远端仓库提取数据并尝试合并到当前分支：
 
+```
 git merge 
+```
 
 该命令就是在执行 **git fetch** 之后紧接着执行 **git merge** 远程分支到你所在的任意分支。
 
