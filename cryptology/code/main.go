@@ -1,6 +1,7 @@
 package main
 
 import (
+	"code/hash"
 	"code/rsa"
 	"fmt"
 )
@@ -19,4 +20,15 @@ func main() {
 	//解密
 	plainText := rsa.RSA_Decrypt(cipherText, "private.pem")
 	fmt.Println("解密后为：", string(plainText))
+
+	HashTest()
+}
+
+func HashTest() {
+	//-------------------------------hash值的测试
+	data := []byte("welcome to wuhan")
+	fmt.Println("data: ", data)
+	fmt.Println("Generator: ", hash.GetMd5Str(data))
+	fmt.Println("Generator: ", hash.GetMd5Str_2(data))
+	// rsa.GenerateRSAKey()
 }
