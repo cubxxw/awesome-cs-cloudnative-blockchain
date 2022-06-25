@@ -90,25 +90,9 @@
 
 ## 区块链学习
 
-> 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**以太坊白皮书（需要有golang编程基础）**
-
-<a href = "https://etherscan.io/ "><img src = "https://s2.loli.net/2022/03/20/gTiDdUAxtHGJ4f8.png"></a>
-
-## [🖱️点击进入ETH学习](eth/TOC.md)
-
-## [🖱️ 区块链技术指南](chainbrock-learning/SUMMARY.md)
-
----
-
-
-
-
-
----
-
-## 区块链
-
-> 我认为世界历史可以用两句话来描述：分久必合，合久必分。区块链将是催化下一个‘合久必分’时代的新技术。区块链的产生铸就了一个新的时代，我们的信念是建筑在一个数学的算法上面，In math we trust。
+> 我认为世界历史可以用两句话来描述：分久必合，合久必分。区块链将是催化下一个‘合久必分’时代的新技术。区块链的产生铸就了一个新的时代，我们的信念是建筑在一个数学的算法上面，
+>
+> In math we trust。
 >
 > ​																						——张首晟
 
@@ -118,6 +102,22 @@
 
 + [区块链公益项目（NFT+私链/联盟链/私链）](区块链公益项目/README.md)
 + [共识算法——Go语言实现](blockchain/README.md)
+
+---
+
+### ETH和BTC
+
+> 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**以太坊白皮书（需要有golang编程基础）**
+
+<a href = "https://etherscan.io/ "><img src = "assets/gTiDdUAxtHGJ4f8.png"></a>
+
+## [🖱️点击进入ETH学习](eth/TOC.md)
+
+## [🖱️点击进入BTC学习](btc/TOC.md)
+
+## [🖱️点击进入Hyperledger Fabric学习](C_Universal_Brockchain/README.md)
+
+## [🖱️ 区块链技术指南](chainbrock-learning/SUMMARY.md)
 
 ---
 
