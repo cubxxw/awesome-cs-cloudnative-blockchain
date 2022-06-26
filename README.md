@@ -109,7 +109,7 @@
 
 > 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**以太坊白皮书（需要有golang编程基础）**
 
-<a href = "https://etherscan.io/ "><img src = "assets/gTiDdUAxtHGJ4f8.png"></a>
+<a href = "https://etherscan.io/ "><img src = "assets/gTiDdUAxtHGJ4f8-16561620094301.png"></a>
 
 ## [🖱️点击进入ETH学习](eth/TOC.md)
 
