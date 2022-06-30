@@ -8,17 +8,19 @@
 
 ---
 
-**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是去中心化，公开透明，让每一个人均可参与的数据库记录
+**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是**<font color =“green">去中心化，公开透明，信息不可篡改性，隐私匿名性</font>**
 
 >   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。博客[http://nsddd.top](http://nsddd.top)
 >
->   <a href="https://wakatime.com/@3293172751/projects/hngzsvjxqc?start=2022-03-30&end=2022-04-05" title="我的区块链代码时长"> <img src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg"></a>
+>   <a href="https://wakatime.com/@3293172751/projects/hngzsvjxqc?start=2022-03-30&end=2022-04-05" title="我的区块链代码时长" > <img src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg"></a>
 
 ---
 
 # ⏬⏬⏬⏬**往下看**⏬⏬⏬⏬
 
 ### 导航
+
+
 
 #####  [🖱️参与CUB开发指南](C_Universal_Brockchain/README.md)
 
@@ -58,7 +60,7 @@ graph LR
 
 ### 程序员基本素养
 
-> 作为一名合格的开发者，必须要会的基本素养
+> 作为一名合格的开发者，必须要会的基本素养。
 
 + **[🖱️Go语言包管理工具mod](Gomd_super/mod.md)**
 + **[🖱️命名规范](Gomd_super/name.md)**
@@ -69,7 +71,7 @@ graph LR
 
 ---
 
-⏬⏬⏬**理解一个事物最好的方式就是把问题当作机器来层层解析**⏬⏬⏬
+*⏬⏬⏬理解一个事物最好的方式就是把问题当作机器来层层解析⏬⏬⏬*
 
 ##  [🖱️GO 基础部分](TOC.md)
 
@@ -95,13 +97,11 @@ graph LR
 
 ---
 
+
+
 ## 区块链学习
 
-> 我认为世界历史可以用两句话来描述：分久必合，合久必分。区块链将是催化下一个‘合久必分’时代的新技术。区块链的产生铸就了一个新的时代，我们的信念是建筑在一个数学的算法上面，
->
-> In math we trust。
->
-> ​																						——张首晟
+> <font size = 2>我认为世界历史可以用两句话来描述：分久必合，合久必分。区块链将是催化下一个‘合久必分’时代的新技术。区块链的产生铸就了一个新的时代，我们的信念是建筑在一个数学的算法上面，In math we trust。	——张首晟</font>
 
 ## [🖱️区块链工程师路线](route.md)
 
@@ -152,12 +152,4 @@ graph LR
 
 #### [参与贡献❤️❤️💕💕](Git/git-contributor.md)
 
-如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。
-
-**commit 时建议以 "contributor-name : subject"，比如 小明 : linux学习笔记。然后 push 上来，最后提交一个 pull request。**
-
-```
-git clone https://github.com/3293172751/Block_Chain.git
-```
-
-**注意！！！强烈不建议直接在 main 分支下修改！**
+<font size = 2>如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>

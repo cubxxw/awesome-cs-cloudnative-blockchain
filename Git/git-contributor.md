@@ -37,4 +37,13 @@ git add之前，要git diff 查看一下，本次提交所修改的代码是不�
 提交代码，不要使用git push -f 这种命令，要足够了解 -f 意味着什么。
 
 不用非要写出牛逼的代码才能提交PR，只要发现文章中有任何问题，或者错别字，都欢迎提交PR，成为contributor。
- 
+
+
+
+**commit 时建议以 "contributor-name : subject"，比如 小明 : linux学习笔记。然后 push 上来，最后提交一个 pull request。**
+
+```
+git clone https://github.com/3293172751/Block_Chain.git
+```
+
+**注意！！！强烈不建议直接在 main 分支下修改！**
