@@ -45,19 +45,16 @@
 
 😶‍🌫️[go语言官方编程指南](https://golang.org/#)  
 
+#### [🖱️Go语言路线](go_route.md)
+
 >   go语言的官方文档学习笔记很全，推荐可以去官网学习–了解
 >
 >   下面介绍的有Go语言路线，Go语言学习笔记，Go语言高级进阶教程，还在更新……
 
-⏬⏬⏬**理解一个事物最好的方式就是把问题当作机器来层层解析**⏬⏬⏬
-
-## [🖱️点击进入Go语言学习](TOC.md)
-
-## [🖱️Go语言路线](go_route.md)
-
-## [🖱️Go语言100篇高级教程](Gomd_super/README.md)
-
-
+```mermaid
+graph LR
+程序员基本素养 ==> Go基础篇 ==> Go进阶100篇 ==> Go高级篇章 
+```
 
 ### 程序员基本素养
 
@@ -72,7 +69,17 @@
 
 ---
 
+⏬⏬⏬**理解一个事物最好的方式就是把问题当作机器来层层解析**⏬⏬⏬
 
+##  [🖱️GO 基础部分](TOC.md)
+
+## [🖱️Go语言100篇进阶](Gomd_super/README.md)
+
+## [🖱️Go 高级篇](Gomd_super/README.md)
+
+
+
+---
 
 ## 开发必备技术
 
@@ -140,6 +147,8 @@
 ---
 
 ## 如何贡献
+
+[**要求：你需要学会使用markdown🖱️**](https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md)
 
 #### [参与贡献❤️❤️💕💕](Git/git-contributor.md)
 
