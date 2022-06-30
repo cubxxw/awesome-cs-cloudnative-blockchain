@@ -12,9 +12,14 @@
 
 ### 看书路线
 
-+ ##### [Go语言中文文档](https://www.topgoer.com/)
+```mermaid
+graph TD
+	Go语言中文文档 ==> Go语言圣经 ==> Go语言高级教程 ==> Go语言编译器实现
+```
 
-​				⏬ 
+
+
++ ##### [Go语言中文文档](https://www.topgoer.com/)
 
 + ##### [Go语言圣经](https://github.com/gopl-zh/gopl-zh.github.com)
 
