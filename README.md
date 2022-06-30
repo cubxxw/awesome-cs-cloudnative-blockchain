@@ -8,7 +8,7 @@
 
 ---
 
-**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是**<font color =“green">去中心化，公开透明，信息不可篡改性，隐私匿名性</font>**
+**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是<font color =“green">去中心化，公开透明，信息不可篡改性，隐私匿名性</font>
 
 >   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。博客[http://nsddd.top](http://nsddd.top)
 >
@@ -19,8 +19,6 @@
 # ⏬⏬⏬⏬**往下看**⏬⏬⏬⏬
 
 ### 导航
-
-
 
 #####  [🖱️参与CUB开发指南](C_Universal_Brockchain/README.md)
 
@@ -87,9 +85,9 @@ graph LR
 
 > 参与区块链CUB项目开发必须熟悉Linux指令，熟悉git团队开发，还有是基于docker的容器，更好的迁移开发环境和迁移链码（blockcode)
 
-### [🖱️ linux从入门到精通](linux/README.md)
+### 🖱️ linux[从入门到精通](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
 
-### [🖱️ Git—必备神器](Git/README.md)
+### 🖱️ Git—[必备神器](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
 
 ### [🖱️ Docker入门到进阶](docker/README.md)
 
@@ -105,7 +103,7 @@ graph LR
 
 ## [🖱️区块链工程师路线](route.md)
 
-+ [区块链开发需要什么](btc/chain.md)
++ [区块链开发需要什么](C_Universal_Brockchain\chain.md)
 
 + [区块链公益项目（NFT+私链/联盟链/私链）](区块链公益项目/README.md)
 + [共识算法——Go语言实现](blockchain/README.md)
