@@ -85,9 +85,9 @@ graph LR
 
 > 参与区块链CUB项目开发必须熟悉Linux指令，熟悉git团队开发，还有是基于docker的容器，更好的迁移开发环境和迁移链码（blockcode)
 
-### 🖱️ linux[从入门到精通](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
+### 🖱️ [linux从入门到精通](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
 
-### 🖱️ Git—[必备神器](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
+### 🖱️ [Git—必备神器](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
 
 ### [🖱️ Docker入门到进阶](docker/README.md)
 
@@ -114,7 +114,7 @@ graph LR
 
 > 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**以太坊白皮书（需要有golang编程基础）**
 
-<a href = "https://etherscan.io/ "><img src = "assets/gTiDdUAxtHGJ4f8-16561620094301.png"></a>
+![image-20220630192622583](assets/image-20220630192622583.png)
 
 ## [🖱️点击进入ETH学习](eth/TOC.md)
 
@@ -151,3 +151,4 @@ graph LR
 #### [参与贡献❤️❤️💕💕](Git/git-contributor.md)
 
 <font size = 2>如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
+
