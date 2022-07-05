@@ -8,6 +8,12 @@ import (
 )
 
 func main() {
+	str := "markdown" //目录
+	err := os.Mkdir(str, 0666)
+	// MkdirAll 递归创建目录
+	if err != nil {
+		fmt.Println("err=", err)
+	}
 
 	var a int = 1
 	for i := 1; i < 51; i++ {
