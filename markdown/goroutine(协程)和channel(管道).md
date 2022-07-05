@@ -159,10 +159,6 @@ main hello word10
 
 
 
-**图解**
-
-![image-20220319142541361](https://s2.loli.net/2022/03/19/aQ3ulXPfOtzg4vA.png)
-
 **由此可见，线程为我们开启了一个新的分支**
 
 **1. 主线程是一个物理线程，是直接作用在cup上的，非常消耗cpu资源**
@@ -285,7 +281,7 @@ go build -race test test.go
 
 
 
-```
+```go
 time.Sleep(10*time.Second)
 lock.Lock()
 for k,v := range m{
