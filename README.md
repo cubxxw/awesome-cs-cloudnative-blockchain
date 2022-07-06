@@ -163,3 +163,16 @@ graph LR
 
 <font size = 2>如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
 
+
+
+## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_badge.svg)](https://repography.com)
+[![Timeline graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_timeline.svg)](https://github.com/3293172751/Block_Chain/commits)
+[![Issue status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_issues.svg)](https://github.com/3293172751/Block_Chain/issues)
+[![Pull request status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_prs.svg)](https://github.com/3293172751/Block_Chain/pulls)
+[![Trending topics](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_words.svg)](https://github.com/3293172751/Block_Chain/commits)
+
+ 
+
+## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Structure
+[![Structure](https://images.repography.com/26892425/3293172751/Block_Chain/structure/3dc19618ec44cb7b49b3fc79acd3652d_table.svg)](https://github.com/3293172751/Block_Chain)
+
