@@ -1,12 +1,22 @@
-[😶‍🌫️XML学习指南（需外网）](https://www.w3schools.com/xml/default.asp)
+😶‍🌫️[Go语言学习指南](https://golang.org/#)（需外网）
 
 >   学习资料很全，推荐！！！！
 
 [😶‍🌫️我的学习笔记（Github）](https://github.com/3293172751/Block_Chain)
 
----
+<p align='center'>
+<a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin"></a>
+<a href="https://twitter.com/xxw3293172751" target="_blank"><img src="https://img.shields.io/badge/twitter-%40xxw3293172751-informational?logo=twitter"></a>
+<a href="https://www.zhihu.com/people/3293172751" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E9%93%BE%E5%AD%A6%E8%80%85%E7%A4%BE%E5%8C%BA-blue?logo=zhihu"></a>
+<a href="https://s2.loli.net/2022/07/05/sQHuozItvWg1heA.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?logo=wechat"></a>
+<a href="https://space.bilibili.com/14089380" target="_blank"><img src="https://img.shields.io/badge/b%E7%AB%99-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-red?logo=bilibili"></a>
+</p>
+<p align='center'>
+<a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
+<a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
+</p>
 
-**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是去中心化，公开透明，让每一个人均可参与的数据库记录
++ [author](https://github.com/3293172751)
 
 >   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。博客[http://nsddd.top](http://nsddd.top)
 >
@@ -14,113 +24,126 @@
 
 ---
 
-# XML
+# Golang高级编程
 
-## 为什么要学习 XML？
+## 为什么要学习 Golang高级编程？
 
-> 
+> + 面试需要
+> + 深入理解原理
+> + 核心竞争力
+
+## 前期知识
+
+> + [Go语言基础篇](https://github.com/3293172751/Block_Chain/blob/master/TOC.md)
+> + [Go语言100篇进阶](https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md)（可选）
+> + [操作系统学习](https://github.com/3293172751/os)
+> + [Linux的基础知识](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
 
 ## 目录
 
-#### 1. [](markdown/1.md)
+1. [第1节 Gcc and Cgo](markdown/1.md)
 
-#### 2. [](markdown/2.md)
+----
 
-#### 3. [](markdown/3.md)
+#### Go语言并发编程和实战篇
 
-#### 4. [](markdown/4.md)
+2. [第2节 Go并发编程–日志分析系统介绍](markdown/2.md)
 
-#### 5. [](markdown/5.md)
+3. [第3节 并发与并行](markdown/3.md)
 
-#### 6. [](markdown/6.md)
+4. [第4节 流程构建和分析](markdown/4.md)
 
-#### 7. [](markdown/7.md)
+5. [第5节 读取模块的构建](markdown/5.md)
 
-#### 8. [](markdown/8.md)
+6. [](markdown/6.md)
 
-#### 9. [](markdown/9.md)
+7. [](markdown/7.md)
 
-#### 10. [](markdown/10.md)
+8. [](markdown/8.md)
 
-#### 11. [](markdown/11.md)
+9. [](markdown/9.md)
 
-#### 12. [](markdown/12.md)
+10. [](markdown/10.md)
 
-#### 13. [](markdown/13.md)
+11. [](markdown/11.md)
 
-#### 14. [](markdown/14.md)
+12. [](markdown/12.md)
 
-#### 15. [](markdown/15.md)
+13. [](markdown/13.md)
 
-#### 16. [](markdown/16.md)
+14. [](markdown/14.md)
 
-#### 17. [](markdown/17.md)
+15. [](markdown/15.md)
 
-#### 18. [](markdown/18.md)
+16. [](markdown/16.md)
 
-#### 19. [](markdown/19.md)
+17. [](markdown/17.md)
 
-#### 20. [](markdown/20.md)
+18. [](markdown/18.md)
 
-#### 21. [](markdown/21.md)
+19. [](markdown/19.md)
 
-#### 22. [](markdown/22.md)
+20. [](markdown/20.md)
 
-#### 23. [](markdown/23.md)
+21. [](markdown/21.md)
 
-#### 24. [](markdown/24.md)
+22. [](markdown/22.md)
 
-#### 25. [](markdown/25.md)
+23. [](markdown/23.md)
 
-#### 26. [](markdown/26.md)
+24. [](markdown/24.md)
 
-#### 27. [](markdown/27.md)
+25. [](markdown/25.md)
 
-#### 28. [](markdown/28.md)
+26. [](markdown/26.md)
 
-#### 29. [](markdown/29.md)
+27. [](markdown/27.md)
 
-#### 30. [](markdown/30.md)
+28. [](markdown/28.md)
 
-#### 31. [](markdown/31.md)
+29. [](markdown/29.md)
 
-#### 32. [](markdown/32.md)
+30. [](markdown/30.md)
 
-#### 33. [](markdown/33.md)
+31. [](markdown/31.md)
 
-#### 34. [](markdown/34.md)
+32. [](markdown/32.md)
 
-#### 35. [](markdown/35.md)
+33. [](markdown/33.md)
 
-#### 36. [](markdown/36.md)
+34. [](markdown/34.md)
 
-#### 37. [](markdown/37.md)
+35. [](markdown/35.md)
 
-#### 38. [](markdown/38.md)
+36. [](markdown/36.md)
 
-#### 39. [](markdown/39.md)
+37. [](markdown/37.md)
 
-#### 40. [](markdown/40.md)
+38. [](markdown/38.md)
 
-#### 41. [](markdown/41.md)
+39. [](markdown/39.md)
 
-#### 42. [](markdown/42.md)
+40. [](markdown/40.md)
 
-#### 43. [](markdown/43.md)
+41. [](markdown/41.md)
 
-#### 44. [](markdown/44.md)
+42. [](markdown/42.md)
 
-#### 45. [](markdown/45.md)
+43. [](markdown/43.md)
 
-#### 46. [](markdown/46.md)
+44. [](markdown/44.md)
 
-#### 47. [](markdown/47.md)
+45. [](markdown/45.md)
 
-#### 48. [](markdown/48.md)
+46. [](markdown/46.md)
 
-#### 49. [](markdown/49.md)
+47. [](markdown/47.md)
 
-#### 50. [](markdown/50.md)
+48. [](markdown/48.md)
+
+49. [](markdown/49.md)
+
+50. [](markdown/50.md)
 
 
 
