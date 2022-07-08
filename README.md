@@ -18,6 +18,7 @@
 <a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
 </p>
 
+
 ---
 
 **区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是<font color =“green">去中心化，公开透明，信息不可篡改性，隐私匿名性</font>
@@ -166,6 +167,7 @@ graph LR
 
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_badge.svg)](https://repography.com)
+
 [![Timeline graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_timeline.svg)](https://github.com/3293172751/Block_Chain/commits)
 [![Issue status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_issues.svg)](https://github.com/3293172751/Block_Chain/issues)
 [![Pull request status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_prs.svg)](https://github.com/3293172751/Block_Chain/pulls)
@@ -174,6 +176,7 @@ graph LR
  
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Structure
+
 [![Structure](https://images.repography.com/26892425/3293172751/Block_Chain/structure/3dc19618ec44cb7b49b3fc79acd3652d_table.svg)](https://github.com/3293172751/Block_Chain)
 
 ## 版权声明
