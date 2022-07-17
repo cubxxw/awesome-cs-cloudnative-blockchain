@@ -18,6 +18,13 @@
 <a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
 </p>
 
+---
+
++ [**中国大陆加速地址（Gitee平台）**](https://gitee.com/xxw3293172751/Block_Chain)
+
+  <p align='center'>
+  <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee"></a>
+  </p>
 
 ---
 
@@ -50,7 +57,18 @@
 + [区块链技术指南](chainbrock-learning/SUMMARY.md)
 + [区块链实战教程](https://learnblockchain.cn/books/enterprise/)
 
+
+
 ----
+
+## CS系列课程
+
+> ## About
+>
+> 包含Linux，计算机操作系统，组成原理，算法，计算机网络，数据结合，python，C/C++，Go,区块链，git,markdown,html等笔记
+>
+
++ [CS教程仓库地址](https://github.com/3293172751/CS_COURSE)
 
 
 
