@@ -1,27 +1,60 @@
- # 目录
+# 目录
 
-* [git版本控制](#git版本控制)
-* [Golang学习](#golang学习)
-* [Go语言基础篇](#go语言基础篇)
-* [Go语言进阶](#go语言进阶)
-* [go高级](#go高级)
-* [Decker](#decker)
-* [linux笔记](#linux笔记)
-* [密码学](#密码学)
-* [markdown](#markdown)
-* [操作系统](#操作系统)
-* [HTML学习](#html学习)
-* [Markdown学习](#markdown学习)
-* [Git学习](#git学习)
-* [Gitbook学习](#gitbook学习)
-* [创新创业](#创新创业)
-* [nginx](#nginx)
-* [Mysql](#mysql)
-* [Nodejs](#nodejs)
-* [xml学习](#xml学习)
-* [C\+\+修炼手册](#c修炼手册)
+- [git版本控制](https://github.com/3293172751/Block_Chain/wiki#git版本控制)
+- [Golang学习](https://github.com/3293172751/Block_Chain/wiki#golang学习)
+- [Go语言基础篇](https://github.com/3293172751/Block_Chain/wiki#go语言基础篇)
+- [Go语言进阶](https://github.com/3293172751/Block_Chain/wiki#go语言进阶)
+- [go高级](https://github.com/3293172751/Block_Chain/wiki#go高级)
+- [Decker](https://github.com/3293172751/Block_Chain/wiki#decker)
+- [linux笔记](https://github.com/3293172751/Block_Chain/wiki#linux笔记)
+- [密码学](https://github.com/3293172751/Block_Chain/wiki#密码学)
+- [markdown](https://github.com/3293172751/Block_Chain/wiki#markdown)
+- [操作系统](https://github.com/3293172751/Block_Chain/wiki#操作系统)
+- [HTML学习](https://github.com/3293172751/Block_Chain/wiki#html学习)
+- [Markdown学习](https://github.com/3293172751/Block_Chain/wiki#markdown学习)
+- [Git学习](https://github.com/3293172751/Block_Chain/wiki#git学习)
+- [Gitbook学习](https://github.com/3293172751/Block_Chain/wiki#gitbook学习)
+- [创新创业](https://github.com/3293172751/Block_Chain/wiki#创新创业)
+- [nginx](https://github.com/3293172751/Block_Chain/wiki#nginx)
+- [Mysql](https://github.com/3293172751/Block_Chain/wiki#mysql)
+- [Nodejs](https://github.com/3293172751/Block_Chain/wiki#nodejs)
+- [xml学习](https://github.com/3293172751/Block_Chain/wiki#xml学习)
+- [C++修炼手册](https://github.com/3293172751/Block_Chain/wiki#c修炼手册)
+
+#### [Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://nsddd.top) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
+
+**[English](readme_english.md) | [中文](README.md)**
+
+<p align='center'>
+<a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin"></a>
+<a href="https://twitter.com/xxw3293172751" target="_blank"><img src="https://img.shields.io/badge/twitter-%40xxw3293172751-informational?logo=twitter"></a>
+<a href="https://www.zhihu.com/people/3293172751" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E9%93%BE%E5%AD%A6%E8%80%85%E7%A4%BE%E5%8C%BA-blue?logo=zhihu"></a>
+<a href="https://s2.loli.net/2022/07/05/sQHuozItvWg1heA.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?logo=wechat"></a>
+<a href="https://space.bilibili.com/14089380" target="_blank"><img src="https://img.shields.io/badge/b%E7%AB%99-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-red?logo=bilibili"></a>
+</p>
+<p align='center'>
+<a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
+<a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
+</p>
+
+---
+
++ [**中国大陆加速地址（Gitee平台）**](https://gitee.com/xxw3293172751/Block_Chain)
+
+  <p align='center'>
+  <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee"></a>
+  </p>
+
+---
 
 
++ [**[中国大陆加速地址（Gitee平台）](https://gitee.com/xxw3293172751/Block_Chain)**](https://gitee.com/xxw3293172751/Block_Chain)
+
+  <p align='center'>
+  <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee"></a>
+  </p>
+
+---
 
 # git版本控制
 
@@ -61,6 +94,12 @@
 
 # Golang学习
 
+[1. Go语言学习](https://github.com/3293172751/Block_Chain/blob/master/TOC.md)
+
+[Go语言面试题](https://www.topgoer.cn/docs/gomianshiti/mianshiti)
+[Go语言中文官方文档](http://word.topgoer.com/)
+[Go语言专家编程地址](http://wen.topgoer.com/docs/gozhuanjia/gogfjhk)
+
 😶‍🌫️[go语言官方编程指南](https://golang.org/#)
 
  [🖱️Go语言路线](https://github.com/3293172751/Block_Chain/blob/master/go_route.md)
@@ -69,11 +108,6 @@
 >
 > 下面介绍的有Go语言路线，Go语言学习笔记，Go语言高级进阶教程，还在更新……
 
-<details class="details-reset details-overlay details-overlay-dark" style="box-sizing: border-box; display: block; margin-top: 0px; margin-bottom: 16px;"><summary class="btn-sm btn position-absolute js-full-screen-render render-expand" aria-haspopup="dialog" role="button" style="box-sizing: border-box; display: inline-block; cursor: pointer; position: absolute !important; padding: 3px 12px; font-size: 12px; font-weight: 500; line-height: 20px; white-space: nowrap; vertical-align: middle; user-select: none; border-width: 1px; border-style: solid; border-color: var(--color-btn-border); border-image: initial; border-radius: 6px; appearance: none; color: var(--color-btn-text); background-color: var(--color-btn-bg); box-shadow: var(--color-btn-shadow),var(--color-btn-inset-shadow); transition: color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color, box-shadow, border-color; list-style: none; top: 2px; right: 2px;"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" class="octicon" style="display:inline-block;vertical-align:text-bottom"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 1.06L2.56 7h10.88l-2.22-2.22a.75.75 0 011.06-1.06l3.5 3.5a.75.75 0 010 1.06l-3.5 3.5a.75.75 0 11-1.06-1.06l2.22-2.22H2.56l2.22 2.22a.75.75 0 11-1.06 1.06l-3.5-3.5a.75.75 0 010-1.06l3.5-3.5z"></path></svg></summary></details>
-
-<iframe class="render-viewer" sandbox="allow-scripts allow-same-origin allow-top-navigation" src="https://viewscreen.githubusercontent.com/markdown/mermaid?color_mode=light&amp;azure_maps_enabled=true#5a5749bb-00c4-4cc4-9a7b-ad427fa378cd" name="5a5749bb-00c4-4cc4-9a7b-ad427fa378cd" data-content="{&quot;data&quot;:&quot;graph LR\n程序员基本素养 ==&amp;gt; Go基础篇 ==&amp;gt;开发必备技术 ==&amp;gt; Go进阶100篇 ==&amp;gt; Go高级篇章 \n&quot;}" style="box-sizing: border-box; display: block; width: 830px; height: 57px; border: 0px;"></iframe>
-
- 程序员基本素养
 
 > 作为一名合格的开发者，必须要会的基本素养。
 
