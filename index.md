@@ -44,16 +44,6 @@
   <p align='center'>
   <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee"></a>
   </p>
-
----
-
-
-+ [**[中国大陆加速地址（Gitee平台）](https://gitee.com/xxw3293172751/Block_Chain)**](https://gitee.com/xxw3293172751/Block_Chain)
-
-  <p align='center'>
-  <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee"></a>
-  </p>
-
 ---
 
 # git版本控制
