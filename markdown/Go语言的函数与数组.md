@@ -97,6 +97,52 @@ a=1000
 
 ---
 
+### 匿名总结实战
+```
+package main
+
+import (
+	"fmt"
+)
+//全局匿名函数
+var(
+  t = func(a int, b int) int {
+    return a + b 
+  }
+)
+var t3 = func(a int, b int) int {
+    return a * b 
+  }(123,123)
+
+func main() {
+	fmt.Println("Hello, World!")
+  a := 1
+  b := (^a+1)  //取反
+  fmt.Println(b)
+  fmt.Println("*t = ",t) //这个地方是它的地址
+  fmt.Println("func t = ",t(10,26))
+  fmt.Println("func t3= ",t3)
+  
+  //其他匿名函数
+    //一次性匿名
+  t2 := func(a int, b int) int {
+    return a + b 
+  }(12,312)
+  fmt.Println("func t2 = ",t2)
+
+  func(a int, b int) int {
+    return a * b 
+  }(12,312)
+  
+  //多次使用的匿名
+  t5:= func(a int, b int) int {
+  return a + b 
+  }
+  fmt.Println("func t5 = ",t5(234,123421))
+}
+
+```
+![image](https://user-images.githubusercontent.com/86140903/180969213-9114bcec-2786-4481-a5ad-82ec73436f2c.png)
 
 
 ## 闭包
