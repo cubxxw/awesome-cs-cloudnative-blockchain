@@ -1,9 +1,10 @@
 # 区块链学习指南+笔记（最全）
+
 ----
 
 ##### [Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://nsddd.top) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
 
-**[English](readme_english.md) | [中文](README.md)**
+**[English](else/readme_english.md) | [中文](README.md)**
 
 <p align='center'>
 <a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin"></a>
@@ -69,6 +70,7 @@
 >
 
 + [CS教程仓库地址](https://github.com/3293172751/CS_COURSE)
++ [汇编学习](汇编/README.md)
 
 
 
@@ -76,7 +78,7 @@
 
 😶‍🌫️[go语言官方编程指南](https://golang.org/#)  
 
-#### [🖱️Go语言路线](go_route.md)
+#### [🖱️Go语言路线](go-advancend/go_route.md)
 
 >   go语言的官方文档学习笔记很全，推荐可以去官网学习–了解
 >
