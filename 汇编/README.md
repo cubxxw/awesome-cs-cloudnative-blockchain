@@ -30,11 +30,11 @@
 
   7. [第7节 Debug使用](markdown/7.md)
 
-  8. [](markdown/8.md)
+  8. [第8节 CS、IP和代码段](markdown/8.md)
 
-  9. [](markdown/9.md)
+  9. [第9节 内存中的字](markdown/9.md)
 
-  10. [](markdown/10.md)
+  10. [第10节 栈以及栈操作的实现](markdown/10.md)
 
   11. [](markdown/11.md)
 
