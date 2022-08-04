@@ -2,7 +2,7 @@
 
 ----
 
-##### [Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://nsddd.top) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
+[Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://nsddd.top) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
 
 **[English](else/readme_english.md) | [中文](README.md)**
 
@@ -39,9 +39,9 @@
 
 # ⏬⏬⏬⏬**往下看**⏬⏬⏬⏬
 
-### 导航
+## 导航
 
-#####  [🖱️参与CUB开发指南](C_Universal_Brockchain/README.md)
++ [x] [🖱️参与CUB开发指南](C_Universal_Brockchain/README.md)
 
  [1. Go语言学习](TOC.md)
 
@@ -102,13 +102,13 @@ graph LR
 
 ---
 
-*⏬⏬⏬理解一个事物最好的方式就是把问题当作机器来层层解析⏬⏬⏬*
+> *⏬⏬⏬理解一个事物最好的方式就是把问题当作机器来层层解析⏬⏬⏬*
 
-##  [🖱️GO 基础部分](TOC.md)
++ [x]  [🖱️GO 基础部分](TOC.md)
 
-## [🖱️Go语言100篇进阶](Gomd_super/README.md)
++ [x] [🖱️Go语言100篇进阶](Gomd_super/README.md)
 
-##  [🖱️Go 高级篇](go-advancend/README.md)
++ [ ] [🖱️Go 高级篇](go-advancend/README.md)
 
 
 
@@ -118,13 +118,13 @@ graph LR
 
 > 参与区块链CUB项目开发必须熟悉Linux指令，熟悉git团队开发，还有是基于docker的容器，更好的迁移开发环境和迁移链码（blockcode)
 
-### 🖱️ [linux从入门到精通](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
++ [x] 🖱️ [linux从入门到精通](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
 
-### 🖱️ [Git—必备神器](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
++ [x] 🖱️ [Git—必备神器](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
 
-### [🖱️ Docker入门到进阶](docker/README.md)
++ [x] [🖱️ Docker入门到进阶](docker/README.md)
 
-### [🖱️ 密码学](cryptology/README.md)
++ [x] [🖱️ 密码学](cryptology/README.md)
 
 ---
 
@@ -149,13 +149,13 @@ graph LR
 
 ![image-20220630192622583](assets/image-20220630192622583.png)
 
-## [🖱️点击进入ETH学习](eth/TOC.md)
++ [🖱️点击进入ETH学习](eth/TOC.md)
 
-## [🖱️点击进入BTC学习](btc/TOC.md)
++ [🖱️点击进入BTC学习](btc/TOC.md)
 
-## [🖱️点击进入Hyperledger Fabric学习](C_Universal_Brockchain/README.md)
++ [🖱️点击进入Hyperledger Fabric学习](C_Universal_Brockchain/README.md)
 
-## [🖱️ 区块链技术指南](chainbrock-learning/SUMMARY.md)
++ [🖱️区块链技术指南](chainbrock-learning/SUMMARY.md)
 
 
 
@@ -163,11 +163,11 @@ graph LR
 
 ### 项目
 
-#### [ 🖱️go语言Linux内核(未开始)]()
++ [ ] [ 🖱️go语言Linux内核(未开始)]()
 
-#### [🖱️C-Universal Brockchain](C_Universal_Brockchain/README.md)
++ [x] [ 🖱️C-Universal Brockchain](C_Universal_Brockchain/README.md)
 
-#### [🖱️C-Universal Brockchain（链学）组织地址](https://github.com/C-UB)
++ [x] [ 🖱️C-Universal Brockchain（链学）组织地址](https://github.com/C-UB)
 
 
 
