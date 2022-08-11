@@ -91,7 +91,9 @@ graph LR
 
 ### 程序员基本素养
 
-+ [x] 最全的程序员秘密知识仓库
++ [x] [CS必须要会的技术](cs/README.md)
+
++ [x] [最全的程序员秘密知识仓库](else/uuu.md)
 
 > 作为一名合格的开发者，必须要会的基本素养。
 
@@ -140,7 +142,7 @@ graph LR
 
 + [区块链开发需要什么](C_Universal_Brockchain\chain.md)
 
-+ [区块链公益项目（NFT+私链/联盟链/私链）](区块链公益项目/README.md)
++ [区块链公益项目（NFT+私链/联盟链/私链）](blockchain/区块链公益项目/README.md)
 + [共识算法——Go语言实现](blockchain/README.md)
 
 
