@@ -197,13 +197,13 @@ graph LR
 [![Timeline graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_timeline.svg)](https://github.com/3293172751/Block_Chain/commits)
 [![Issue status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_issues.svg)](https://github.com/3293172751/Block_Chain/issues)
 [![Pull request status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_prs.svg)](https://github.com/3293172751/Block_Chain/pulls)
-[![Trending topics](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_words.svg)](https://github.com/3293172751/Block_Chain/commits)
+![Trending topics](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_words.svg)
 
  
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Structure
 
-[![Structure](https://images.repography.com/26892425/3293172751/Block_Chain/structure/3dc19618ec44cb7b49b3fc79acd3652d_table.svg)](https://github.com/3293172751/Block_Chain)
+![Structure](https://images.repography.com/26892425/3293172751/Block_Chain/structure/3dc19618ec44cb7b49b3fc79acd3652d_table.svg)
 
 ## 版权声明
 
