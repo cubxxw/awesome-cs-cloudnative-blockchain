@@ -63,9 +63,9 @@
 
 9. [第9节 监控图的绘制](markdown/9.md)
 
-10. [](markdown/10.md)
+10. [第10节 go air实现项目热加载](markdown/10.md)
 
-11. [](markdown/11.md)
+11. [第11节 Go语言特性代码展示与新特性泛型](markdown/11.md)
 
 12. [](markdown/12.md)
 
