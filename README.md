@@ -69,10 +69,10 @@
 > ## About
 >
 > 包含Linux，计算机操作系统，组成原理，算法，计算机网络，数据结合，python，C/C++，Go,区块链，git,markdown,html等笔记
->
 
-+ [CS教程仓库地址](https://github.com/3293172751/CS_COURSE)
-+ [汇编学习](汇编/README.md)
++ [ ] [计算机科学速成课](./cs/cs.md)
++ [x] [CS教程仓库地址](https://github.com/3293172751/CS_COURSE)
++ [x] [汇编学习](汇编/README.md)
 
 
 
@@ -80,7 +80,7 @@
 
 😶‍🌫️[go语言官方编程指南](https://golang.org/#)  
 
-+ [ ] [🖱️Go语言路线](go-advancend/go_route.md)
++ [x] [🖱️Go语言路线](go-advancend/go_route.md)
 
 >   go语言的官方文档学习笔记很全，推荐可以去官网学习–了解
 >
@@ -140,7 +140,7 @@ graph LR
 
 > <font size = 2>我认为世界历史可以用两句话来描述：分久必合，合久必分。区块链将是催化下一个‘合久必分’时代的新技术。区块链的产生铸就了一个新的时代，我们的信念是建筑在一个数学的算法上面，In math we trust。	——张首晟</font>
 
-## [🖱️区块链工程师路线](route.md)
+### [🖱️区块链工程师路线](route.md)
 
 + [区块链开发需要什么](C_Universal_Brockchain\chain.md)
 
