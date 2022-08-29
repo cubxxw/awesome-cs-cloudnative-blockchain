@@ -17,31 +17,18 @@
 ### 目录
 
 1. [第1节 导学](markdown/1.md)
-
 2. [第2节 汇编语言实践环境搭建](markdown/2.md)
-
 3. [第3节 访问寄存器和内存](markdown/3.md)
-
 4. [第4节 MOV和ADD指令](markdown/4.md)
-
 5. [第5节 8086CPU 给出物理地址的方法](markdown/5.md)
-
 6. [第6节 内存的分段管理法](markdown/6.md)
-
 7. [第7节 Debug使用](markdown/7.md)
-
 8. [第8节 CS、IP和代码段](markdown/8.md)
-
 9. [第9节 内存中的字](markdown/9.md)
-
 10. [第10节 栈以及栈操作的实现](markdown/10.md)
-
 11. [第11节 汇编语言程序](markdown/11.md)
-
 12. [第12节 Loop指令](markdown/12.md)
-
 13. [第13节 内存寻址方式](markdown/13.md)
-
 14. [第14节 变址寄存器](markdown/14.md)
 15. [第15节 寻址方式](markdown/15.md)
 16. [第16节 用于内存寻址的寄存器BP](markdown/16.md)
@@ -67,18 +54,8 @@
 36. [第36节 端口的读写](markdown/36.md)
 37. [第37节 外设连接和中断](markdown/37.md)
 38. [第38节 PC键盘的处理过程](markdown/38.md)
-39. [](markdown/39.md)
-40. [](markdown/40.md)
-41. [](markdown/41.md)
-42. [](markdown/42.md)
-43. [](markdown/43.md)
-44. [](markdown/44.md)
-45. [](markdown/45.md)
-46. [](markdown/46.md)
-47. [](markdown/47.md)
-48. [](markdown/48.md)
-49. [](markdown/49.md)
-50. [](markdown/50.md)
+39. [第39节 磁盘读写](markdown/39.md)
+40. [第40节 汇编总结](markdown/40.md)
 
 
 
