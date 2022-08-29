@@ -153,7 +153,7 @@ graph LR
 
 > 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**以太坊白皮书（需要有golang编程基础）**
 
-![image-20220630192622583](assets/image-20220630192622583.png)
+<img src="https://sm.nsddd.top//typora/image-20220630192622583.png?mail:3293172751@qq.com" alt="image-20220630192622583" style="zoom:17%;" />
 
 + [🖱️点击进入ETH学习](eth/TOC.md)
 
