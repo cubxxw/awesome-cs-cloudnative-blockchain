@@ -34,10 +34,11 @@
 
 ## 前期知识
 
-> + [Go语言基础篇](https://github.com/3293172751/Block_Chain/blob/master/TOC.md)
-> + [Go语言100篇进阶](https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md)（可选）
-> + [操作系统学习](https://github.com/3293172751/os)
-> + [Linux的基础知识](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
+> + [x] [Go语言基础篇](https://github.com/3293172751/Block_Chain/blob/master/TOC.md)
+> + [x] [Go语言100篇进阶](https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md)（可选）
+> + [x] [操作系统学习](https://github.com/3293172751/os)
+> + [x] [Linux的基础知识](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
+> + [x] [汇编语言的学习](https://github.com/3293172751/Block_Chain/blob/master/%E6%B1%87%E7%BC%96/README.md)
 
 ## 目录
 
@@ -65,9 +66,14 @@
 
 10. [第10节 go air实现项目热加载](markdown/10.md)
 
+
+
+
+#### Go语言特性
+
 11. [第11节 Go语言特性代码展示与新特性泛型](markdown/11.md)
 
-12. [](markdown/12.md)
+12. [第12节 Go语言的并发特性](markdown/12.md)
 
 13. [](markdown/13.md)
 
