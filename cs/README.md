@@ -26,10 +26,13 @@
 
 6. [第6节 计算机专业书籍分享](markdown/6.md)
 
-    7. [第7节 万能的shell](markdown/7.md)
-    8. [第8节 数据整理](markdown/8.md)
-    9. [第9节 命令行环境](markdown/9.md)
-    10. [第10节 调试以及性能分析](markdown/10.md)
+7. [第7节 万能的shell](markdown/7.md)
+
+8. [第8节 数据整理](markdown/8.md)
+
+9. [第9节 命令行环境](markdown/9.md)
+
+10. [第10节 调试以及性能分析](markdown/10.md)
 
 11. [第11节 小技能大用处](markdown/11.md)
 
