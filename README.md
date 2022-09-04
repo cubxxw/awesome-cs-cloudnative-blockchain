@@ -31,11 +31,11 @@
 
 这是一个菜鸟的成长记录，如果你也想成为工程师，想从事后端的相关工作，或者想了解区块链的相关知识，那么它可以帮助到你。
 
-**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是<font color =“green">去中心化，公开透明，信息不可篡改性，隐私匿名性</font>
+**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是<font color ="green">去中心化，公开透明，信息不可篡改性，隐私匿名性</font>
 
 >   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。博客[http://nsddd.top](http://nsddd.top)
 >
->   <a href="https://wakatime.com/@3293172751/projects/hngzsvjxqc?start=2022-03-30&end=2022-04-05" title="我的区块链代码时长" > <img src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg"></a>
+>   <a href="https://wakatime.com/@3293172751/projects/hngzsvjxqc?start=2022-03-30&end=2022-04-05" title="我的区块链代码时长" > <img src="http://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg"></a>
 
 ---
 
@@ -73,6 +73,7 @@
 + [ ] [计算机科学速成课](./cs/cs.md)
 + [x] [CS教程仓库地址](https://github.com/3293172751/CS_COURSE)
 + [x] [汇编学习](汇编/README.md)
++ [ ] [软件工程](cs/software-engineering.md)
 
 
 
@@ -111,6 +112,8 @@ graph LR
 > *⏬⏬⏬理解一个事物最好的方式就是把问题当作机器来层层解析⏬⏬⏬*
 
 + [x]  [🖱️GO 基础部分](TOC.md)
+
++ [ ]  [🖱️GO web框架](go-web/)
 
 + [x] [🖱️Go语言100篇进阶](Gomd_super/README.md)
 
@@ -169,7 +172,7 @@ graph LR
 
 ### 项目
 
-+ [ ] [ 🖱️go语言Linux内核(未开始)]()
++ [ ] [ 🖱️GLinux内核(未开始)]()
 
 + [x] [ 🖱️C-Universal Brockchain](C_Universal_Brockchain/README.md)
 
@@ -181,12 +184,12 @@ graph LR
 
 ## 参与贡献
 
+ **[🫵参与贡献❤️❤️💕💕](https://nsddd.top/archives/contributors)** 
+
 **要求：**
 
 + [**你需要学会使用markdown🖱️**](https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md)
-+ [符合Google代码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
-
-#### 参与贡献❤️❤️[💕💕](https://github.com/3293172751/CS_COURSE/blob/master/Git/git-contributor.md/)
++ [**符合Google代码规范**](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
 
 <font size = 2>如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
 
@@ -205,6 +208,6 @@ graph LR
 
 ![Structure](https://images.repography.com/26892425/3293172751/Block_Chain/structure/3dc19618ec44cb7b49b3fc79acd3652d_table.svg)
 
-## 版权声明
+## 版权声明 &copy;
 
-本书所有内容遵循 [CC-BY-SA 3.0协议（署名-相同方式共享）](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本)
+本书所有内容遵循[CC-BY-SA 3.0协议（署名-相同方式共享）&copy;](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本) 
