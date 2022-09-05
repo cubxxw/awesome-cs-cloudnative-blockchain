@@ -25,6 +25,7 @@
 
   <p align='center'>
   <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee"></a>
+  <a href="https://wakatime.com/@3293172751/projects/hngzsvjxqc?start=2022-03-30&end=2022-04-05" title="我的区块链代码时长" > <img src="http://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg"></a>
   </p>
 
 ---
@@ -35,7 +36,6 @@
 
 >   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。博客[http://nsddd.top](http://nsddd.top)
 >
->   <a href="https://wakatime.com/@3293172751/projects/hngzsvjxqc?start=2022-03-30&end=2022-04-05" title="我的区块链代码时长" > <img src="http://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg"></a>
 
 ---
 
@@ -62,23 +62,7 @@
 
 
 
-----
-
-## CS系列课程
-
-> ## About
->
-> 包含Linux，计算机操作系统，组成原理，算法，计算机网络，数据结合，python，C/C++，Go,区块链，git,markdown,html等笔记
-
-+ [ ] [计算机科学速成课](./cs/cs.md)
-+ [x] [CS教程仓库地址](https://github.com/3293172751/CS_COURSE)
-+ [x] [汇编学习](汇编/README.md)
-+ [ ] [软件工程](cs/software-engineering.md)
-+ [x] [网络](./web/README.md)
-
-
-
-## Golang学习
+## Go语言
 
 😶‍🌫️[go语言官方编程指南](https://golang.org/#)  
 
@@ -93,11 +77,21 @@ graph LR
 程序员基本素养 ==> Go基础篇 ==>开发必备技术 ==> Go进阶100篇 ==> Go高级篇章 
 ```
 
-### 程序员基本素养
+> *⏬⏬⏬理解一个事物最好的方式就是把问题当作机器来层层解析⏬⏬⏬*
 
-+ [x] [CS必须要会的技术](cs/README.md)
++ [x] [🖱️GO 基础部分🔥](TOC.md)
 
-+ [x] [最全的程序员秘密知识仓库](else/uuu.md)
++ [ ] [🖱️GO web框架](go-web/)
+
++ [x] [🖱️Go语言100篇进阶🔥](Gomd_super/README.md)
+
++ [ ] [🖱️Go 高级篇](go-advancend/README.md)
+
+
+
+---
+
+### Go程序员基本素养
 
 > 作为一名合格的开发者，必须要会的基本素养。
 
@@ -108,31 +102,40 @@ graph LR
 + **🖱️[正则表达式](Gomd_super/zhenze.md)**
 + **🖱️[Go-mod包](Gomd_super/go_mod.md)**
 
+----
+
+
+
+## CS系列课程
+
+> ## About
+>
+> 包含Linux，计算机操作系统，组成原理，算法，计算机网络，数据结合，python，C/C++，Go,区块链，git,markdown,html等笔记
+
++ [ ] [计算机科学速成课](./cs/cs.md)
++ [x] [CS教程仓库地址🔥](https://github.com/3293172751/CS_COURSE)
++ [x] [汇编学习](汇编/README.md)
++ [ ] [软件工程](cs/software-engineering.md)
++ [x] [网络](./web/README.md)
++ [x] [OS🔥](https://github.com/3293172751/os)
+
++ [x] [CS必须要会的技术🔥](cs/README.md)
+
++ [x] [最全的程序员秘密知识仓库🔥](else/uuu.md)
+
 ---
 
-> *⏬⏬⏬理解一个事物最好的方式就是把问题当作机器来层层解析⏬⏬⏬*
 
-+ [x]  [🖱️GO 基础部分](TOC.md)
-
-+ [ ]  [🖱️GO web框架](go-web/)
-
-+ [x] [🖱️Go语言100篇进阶](Gomd_super/README.md)
-
-+ [ ] [🖱️Go 高级篇](go-advancend/README.md)
-
-
-
----
 
 ## 开发必备技术
 
 > 参与区块链CUB项目开发必须熟悉Linux指令，熟悉git团队开发，还有是基于docker的容器，更好的迁移开发环境和迁移链码（blockcode)
 
-+ [x] 🖱️ [linux从入门到精通](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
++ [x] 🖱️ [linux从入门到精通🔥](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
 
 + [x] 🖱️ [Git—必备神器](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
 
-+ [x] [🖱️ Docker入门到进阶](docker/README.md)
++ [x] [🖱️ Docker入门到进阶🔥](docker/README.md)
 
 + [x] [🖱️ 密码学](cryptology/README.md)
 
