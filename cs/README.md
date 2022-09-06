@@ -46,15 +46,15 @@
 
 16. [第16节 CS自学计划](markdown/16.md)
 
-17. [](markdown/17.md)
+17. [第17节 命令行的艺术](markdown/17.md)
 
-18. [](markdown/18.md)
+18. [第18节 JavaScript 算法与数据结构](markdown/18.md)
 
-19. [](markdown/19.md)
+19. [第19节 系统设计入门](markdown/19.md)
 
-20. [](markdown/20.md)
+20. [第20节 计算机科学免费自学教育之路！](markdown/20.md)
 
-21. [](markdown/21.md)
+21. [第21节 编码面试大学](markdown/21.md)
 
 22. [](markdown/22.md)
 
