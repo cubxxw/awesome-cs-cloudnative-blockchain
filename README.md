@@ -1,10 +1,12 @@
-# 菜鸟的成长手册（最全）
+# 菜鸟的成长手册[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/3293172751/cs-awesome-Block_Chain)
 
 ----
 
 [Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://nsddd.top) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
 
 **[English](else/readme_english.md) | [中文](README.md)**
+
+---
 
 <p align='center'>
 <a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin"></a>
@@ -18,10 +20,13 @@
 <a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
 </p>
 
+
+
 ---
 
++ [**快速指南(wike) — 仓库总结**](https://github.com/3293172751/Block_Chain/wiki)
+
 + [**中国大陆加速地址（Gitee平台）**](https://gitee.com/xxw3293172751/Block_Chain)
-+ [**快速指南(wike)**](https://github.com/3293172751/Block_Chain/wiki)
 
   <p align='center'>
   <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee"></a>
@@ -33,9 +38,6 @@
 这是一个菜鸟的成长记录，如果你也想成为工程师，想从事后端的相关工作，或者想了解区块链的相关知识，那么它可以帮助到你。
 
 **区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是<font color ="green">去中心化，公开透明，信息不可篡改性，隐私匿名性</font>
-
->   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。博客[http://nsddd.top](http://nsddd.top)
->
 
 ---
 
@@ -113,10 +115,17 @@ graph LR
 > 包含Linux，计算机操作系统，组成原理，算法，计算机网络，数据结合，python，C/C++，Go,区块链，git,markdown,html等笔记
 
 + [ ] [计算机科学速成课](./cs/cs.md)
+
 + [x] [CS教程仓库地址🔥](https://github.com/3293172751/CS_COURSE)
+
+  > 介绍了cs学习路线，计算机技巧（bash/linux)，一些热门的开源仓库和学习指南。
+
 + [x] [汇编学习](汇编/README.md)
+
 + [ ] [软件工程](cs/software-engineering.md)
+
 + [x] [网络](./web/README.md)
+
 + [x] [OS🔥](https://github.com/3293172751/os)
 
 + [x] [CS必须要会的技术🔥](cs/README.md)
