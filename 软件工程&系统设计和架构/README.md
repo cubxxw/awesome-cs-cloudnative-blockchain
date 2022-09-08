@@ -15,17 +15,28 @@
 </p>
 ## 课程资源
 
-+ [x] | [🔥2021spring](http://web.mit.edu/6.031/www/sp21/) | [2016spring](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-software-construction-spring-2016/) |
++ [x]  
+| [🔥2021spring](http://web.mit.edu/6.031/www/sp21/) | [2016spring](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-software-construction-spring-2016/) |
   | ------------------------------------------------- | ------------------------------------------------------------ |
 
-+ [x] | [PKUFlyingPig/MIT6.031-software-construction - GitHub](https://github.com/PKUFlyingPig/MIT6.031-software-construction) |
++ [x] 
+| [PKUFlyingPig/MIT6.031-software-construction - GitHub](https://github.com/PKUFlyingPig/MIT6.031-software-construction) |
   | ------------------------------------------------------------ |
 
 + [x] [团队协同git学习](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
++ [x] [该仓库里面所有的代码](./code/)
+
+> ```
+> java 17.0.4.1 2022-08-18 LTS
+> git version 2.35.1.windows.2
+> IDE：idea
+> ```
 
 ----
 
 **前面先实践一下，后面学理论**
+
+
 
 ## 目录
 

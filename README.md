@@ -18,9 +18,11 @@
 <a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
 <a href="http://nsddd.top" target="_blank"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-%40xiongxinwei-blue?style=social&logo=Octopus%20Deploy"></a>
 </p>
-+ [**快速指南(wike) — 仓库总结**](https://github.com/3293172751/Block_Chain/wiki)
+<br>
 
-+ [**中国大陆加速地址（Gitee平台）**](https://gitee.com/xxw3293172751/Block_Chain)
++ 🔍[**快速指南(wike) — 仓库总结**](https://github.com/3293172751/Block_Chain/wiki)
+
++ 🔗[**中国大陆加速地址（Gitee平台）**](https://gitee.com/xxw3293172751/Block_Chain)
 
   <p align='center'>
   <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee"></a>
@@ -30,7 +32,7 @@
 
 ---
 
-这是一个菜鸟的成长记录，如果你也想成为工程师，想从事后端的相关工作，或者想了解区块链的相关知识，那么它可以帮助到你。
+⚠️这是一个菜鸟的成长记录，如果你也想成为工程师，想从事后端的相关工作，或者想了解区块链的相关知识，那么它可以帮助到你。
 
 **区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是<font color ="green">去中心化，公开透明，信息不可篡改性，隐私匿名性</font>
 
@@ -88,7 +90,7 @@ graph LR
 
 ### Go程序员基本素养
 
-> 作为一名合格的开发者，必须要会的基本素养。
+> 作为一名合格的开发者🤵，必须要会的基本素养。
 
 + **[🖱️Go语言包管理工具mod](Gomd_super/mod.md)**
 + **[🖱️命名规范](Gomd_super/name.md)**
@@ -117,9 +119,11 @@ graph LR
 
 + [ ] [软件工程](./软件工程&系统设计和架构/README.md)
 
++ [x] [算法与数据结构（LeetCode刷题记录）](https://github.com/3293172751/LeetCode/)
+
 + [x] [计算机网络🔥](./web/README.md)
 
-+ [x] [OS🔥](https://github.com/3293172751/os)
++ [x] [操作系统 — OS🔥](https://github.com/3293172751/os)
 
 + [x] [CS必须要会的技术🔥](cs/README.md)
 
