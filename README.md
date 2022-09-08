@@ -123,11 +123,11 @@ graph LR
 
   > 介绍了cs学习路线，计算机技巧（bash/linux)，一些热门的开源仓库和学习指南。
 
-+ [x] [汇编学习](汇编/README.md)
++ [x] [汇编学习🔥](汇编/README.md)
 
-+ [ ] [软件工程](cs/software-engineering.md)
++ [ ] [软件工程](./软件工程&系统设计和架构/README.md)
 
-+ [x] [网络](./web/README.md)
++ [x] [计算机网络🔥](./web/README.md)
 
 + [x] [OS🔥](https://github.com/3293172751/os)
 

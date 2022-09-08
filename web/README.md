@@ -13,6 +13,21 @@
 </p>
 ---
 
+## 课程推荐
+
+计网著名教材《自顶向下方法》的配套学习资源 [Computer Networking: A Top-Down Approach](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/topdown/)。
+
++ [x] https://gaia.cs.umass.edu/kurose_ross/videos/1/
+
+没有什么能比自己写个 TCP/IP 协议栈更能加深对计算机网络的理解了，所以不妨试试 [Stanford CS144: Computer Network](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/CS144/)，8 个 Project 带你实现整个协议栈。
+
+> https://cs144.github.io/系列课程偏向实战，在这门课的 Project 中，你将用 C++ 循序渐进地搭建出整个 TCP/IP 协议栈，实现 IP 路由以及 ARP 协议，最后利用你自己的协议栈代替 Linux Kernel 的网络协议栈和其他学生的计算机进行通信，非常 amazing！
+
+---
+
+**这个板块包括计算机网络、TCP/IP、网络抓包的实现、Linux网络编程**
+
+
 ## 目录
 
 ### 应用层和传输层基础
