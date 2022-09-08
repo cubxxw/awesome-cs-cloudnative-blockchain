@@ -1,3 +1,5 @@
+# 软件工程
+
 
 
 <p align='center'>
@@ -11,18 +13,37 @@
 <a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
 <a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
 </p>
+## 课程资源
 
-### 目录
++ [x] | [🔥2021spring](http://web.mit.edu/6.031/www/sp21/) | [2016spring](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-software-construction-spring-2016/) |
+  | ------------------------------------------------- | ------------------------------------------------------------ |
+
++ [x] | [PKUFlyingPig/MIT6.031-software-construction - GitHub](https://github.com/PKUFlyingPig/MIT6.031-software-construction) |
+  | ------------------------------------------------------------ |
+
++ [x] [团队协同git学习](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
+
+----
+
+**前面先实践一下，后面学理论**
+
+## 目录
+
+**概论篇**
 
   - [第1节 软件工程概述](markdown/1.md)
 
   - [第2节 从编码到软件系统](markdown/2.md)
 
-  - [](markdown/3.md)
+  - [第3节 软件的十种架构](markdown/3.md)
 
-  - [](markdown/4.md)
+  - [第4节 软件开发开发](markdown/4.md)
 
   - [](markdown/5.md)
+
+---
+
+**实战篇**
 
   - [](markdown/6.md)
 

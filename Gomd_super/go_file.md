@@ -2,7 +2,7 @@
 
 [toc]
 
-#### 判断是否字符串是否包含字符串
+## 判断是否字符串是否包含字符串
 
 介绍strings使用方法
 
@@ -40,7 +40,7 @@ func Contains(s, substr string) bool {
 
 
 
-### 字符串拆分
+## 字符串拆分
 
 ```go
 package main
@@ -91,7 +91,7 @@ func SplitAfter(s, sep string) []string {
 
 
 
-### 可以使用join将其合并起来
+## 可以使用join将其合并起来
 
 ```
 fmt.Println("string.Join(splitedStr,"#"))
@@ -434,14 +434,6 @@ func Command(name string, arg ...string) *Cmd {
 	return cmd
 }
 ```
-
-
-
-## 获取所有结点名
-
-
-
-
 
 
 
