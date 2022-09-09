@@ -4,6 +4,20 @@
 
 <img align =left src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg">
 
+
+
+## 前言
+
+使用到的工具有`golang`,`vim`,`vscode`
+
++ [x] [Go语言代码个人网盘地址(不限速下载)](https://xxw.nsddd.top/s/vmIj)
+
+**如果你有良好的网络环境(科学上网),可以直接访问replit在线仓库地址**
+
++ [x] [replit](https://replit.com/@3293172751/goYu-Yan-Ji-Chu-Pian?v=1)
+
+
+
 ## Go语言基础
 
 1.  [45天学会go --第1天 Go语言的概叙](markdown/Go语言的概叙.md)
@@ -326,11 +340,3 @@
 🐾👓100. [测试技巧：基准测试（Benchmark）](https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/100.md)
 
 
-
-
-
-
-
-## 附：Go语言路线
-
-![image-20220403153920012](https://s2.loli.net/2022/04/03/uoQYVbONUfcAX1T.png)
