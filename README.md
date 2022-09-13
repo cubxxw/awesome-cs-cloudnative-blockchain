@@ -1,7 +1,5 @@
 # 菜鸟的成长手册[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/3293172751/cs-awesome-Block_Chain)
 
-----
-
 [Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://nsddd.top) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
 
 **[English](else/readme_english.md) | [中文](README.md)**
@@ -18,7 +16,6 @@
 <a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
 <a href="http://nsddd.top" target="_blank"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-%40xiongxinwei-blue?style=social&logo=Octopus%20Deploy"></a>
 </p>
-
 <br>
 
 + 🔍[**快速指南(wike) — 仓库总结**](https://github.com/3293172751/Block_Chain/wiki)
@@ -36,11 +33,9 @@
 
 ---
 
-⚠️这是一个菜鸟的成长记录，如果你也想成为工程师，想从事后端的相关工作，或者想了解区块链的相关知识，那么它可以帮助到你😎喜欢可以给个⭐
+⚠️这是一个菜鸟的成长记录，如果你也想成为工程师，想从事后端的相关工作，或者想了解区块链的相关知识，那么它可以帮助到你😎 —>  **喜欢请给个⭐收藏~**
 
-**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是<font color ="green">去中心化，公开透明，信息不可篡改性，隐私匿名性🤑</font>
-
-
+⛓️**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是<font color ="gree">去中心化，公开透明，信息不可篡改性，隐私匿名性🤑</font>
 
 ## Go语言
 
@@ -77,11 +72,11 @@ graph LR
 
 `mod`包是`Go`语言2018年推出的包管理工具，并会一直延续下去。命名规范以及项目目录结构📇的设定对于一名合格的工程师来说也是非常重要的。下面是作为一名合格的开发者🤵，必须要会的基本素养。
 
-+ **[🖱️Go语言包管理工具 — mod包](Gomd_super/mod.md)**
-+ **[🖱️命名规范](Gomd_super/name.md)**
-+ **🖱️[Go语言目录结构](Gomd_super/catalogue.md)**
-+ **🖱️[Go文件以及编码处理](Gomd_super/go_file.md)**
-+ **🖱️[正则表达式](Gomd_super/zhenze.md)**
++ [🖱️Go语言包管理工具 — mod包](Gomd_super/mod.md)
++ [🖱️命名规范](Gomd_super/name.md)
++ 🖱️[Go语言目录结构](Gomd_super/catalogue.md)
++ 🖱️[Go文件以及编码处理](Gomd_super/go_file.md)
++ 🖱️[正则表达式](Gomd_super/zhenze.md)
 
 > Go语言一些其他的网站和博客，值得一看
 >
@@ -93,11 +88,7 @@ graph LR
 
 ## CS系列
 
-包含`Linux`，计算机操作系统，csapp系列，算法和数据结构，计算机网络，python，C/C++，git，markdown，web前端等笔记，更多移步到[CS教程仓库地址](https://github.com/3293172751/CS_COURSE)
-
-+ [ ] <del>[计算机科学速成课](./cs/cs.md)</del>
-
-  > 介绍了cs学习路线，计算机技巧（bash/linux)，一些热门的开源仓库和学习指南。
+CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-course)，内容涵盖 计算机操作系统、csapp系列、算法和数据结构、计算机网络、`linux`、`java`、`python`、`C/C++`、`vuepress`、`gitbook`、`nodejs`、`vuejs`、`halo`、`redis``hugo`、`nginx`、`nosql`、`mysql`、`JavaScript`、`git`、`markdown`、`web`前端等笔记，更多移步到[AWESOME系列CS仓库地址](https://github.com/3293172751/CS_COURSE)
 
 + [x] [汇编学习🔥](汇编/README.md)
 
@@ -121,11 +112,11 @@ graph LR
 
 + [x] 🖱️ [linux从入门到精通🔥](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
 
-+ [x] 🖱️ [Git—必备神器](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
++ [x] 🖱️ [Git—必备神器🔥](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
 
 + [x] [🖱️ Docker入门到进阶🔥](docker/README.md)
 
-+ [x] [🖱️ 密码学和信息安全](cryptology/README.md)
++ [x] [🖱️ 密码学和信息安全🔥](cryptology/README.md)
 
 
 
