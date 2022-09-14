@@ -155,6 +155,12 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 ### 项目
 
+> c-universal blockchain（CUB-链学）
+>
+> <img src="https://sm.nsddd.top//typora/twitter_header_photo_1.png?mail:3293172751@qq.com" alt="twitter_header_photo_1" style="zoom: 47%;" />
+>
+> 基于区块链的全民学习平台C-Universal Blockchain在保障用户安全，信息的完整性同时为大众带来更多的选择，笔记分享，视频分享，版权保护，以及其他的关于学信数据、电子证书、荣誉证明、成绩证明、信息授权的相关工具。
+
 + [ ] <del>[ 🖱️GLinux内核(未开始)]()</del>
 + [x] [ 🖱️C-Universal Brockchain](C_Universal_Brockchain/README.md)
 + [x] [ 🖱️C-Universal Brockchain（链学）组织地址](https://github.com/C-UB)
