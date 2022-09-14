@@ -2,8 +2,6 @@
 
 [Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://nsddd.top) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
 
-**[English](else/readme_english.md) | [中文](README.md)**
-
 <p align='center'>
 <a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin&style=flat-square"></a>
 <a href="https://twitter.com/xxw3293172751" target="_blank"><img src="https://img.shields.io/badge/twitter-%40xxw3293172751-informational?logo=twitter&style=flat-square"></a>
@@ -36,6 +34,11 @@
 ⚠️这是一个菜鸟的成长记录，如果你也想成为工程师，想从事后端的相关工作，或者想了解区块链的相关知识，那么它可以帮助到你😎 —>  **喜欢请给个⭐收藏~**
 
 ⛓️**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是<font color ="gree">去中心化，公开透明，信息不可篡改性，隐私匿名性🤑</font>
+
+<div align="center">
+	<a href ”else/readme_english.md“>🔤English</a>
+	<a href ”else/readme_english.md“>🆑中文</a>
+</div>
 
 ## Go语言
 
@@ -138,10 +141,13 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 ### ETH–BTC
 
 > 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**以太坊白皮书（需要有golang编程基础）**
+>
+> <div align="center">
+> <a href="eth/TOC.md">
+> 	<img src="https://sm.nsddd.top//typora/image-20220630192622583.png?mail:3293172751@qq.com" alt="区块链的学习" style="zoom: 20%;" />
+> </a></div>
 
-<img src="https://sm.nsddd.top//typora/image-20220630192622583.png?mail:3293172751@qq.com" alt="image-20220630192622583" style="zoom:17%;" />
-
-+ [🖱️点击进入ETH学习](eth/TOC.md)
++ <del>[🖱️点击进入ETH学习](eth/TOC.md)</del>
 
 + [🖱️点击进入BTC学习](btc/TOC.md)
 
@@ -155,9 +161,14 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 ### 项目
 
-> c-universal blockchain（CUB-链学）
+> <p align = "center" color="red">
+>   <b>c-universal blockchain（CUB-链学）</b>    
+> </p>
 >
-> <img src="https://sm.nsddd.top//typora/twitter_header_photo_1.png?mail:3293172751@qq.com" alt="twitter_header_photo_1" style="zoom: 47%;" />
+> <div align="center">
+> <a href="https://github.com/C-UB">
+> 	<img src="https://sm.nsddd.top//typora/twitter_header_photo_1.png?mail:3293172751@qq.com" alt="twitter_header_photo_1" style="zoom: 20%;" />
+> </a></div>
 >
 > 基于区块链的全民学习平台C-Universal Blockchain在保障用户安全，信息的完整性同时为大众带来更多的选择，笔记分享，视频分享，版权保护，以及其他的关于学信数据、电子证书、荣誉证明、成绩证明、信息授权的相关工具。
 
