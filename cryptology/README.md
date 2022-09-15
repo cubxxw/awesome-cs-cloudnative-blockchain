@@ -1,20 +1,19 @@
-[😶‍🌫️XML学习指南（需外网）](https://www.w3schools.com/xml/default.asp)
+# 密码学和信息安全
 
->   学习资料很全，推荐！！！！
-
-[😶‍🌫️我的学习笔记（Github）](https://github.com/3293172751/Block_Chain)
+<p align='center'>
+<a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin&style=flat-square"></a>
+<a href="https://twitter.com/xxw3293172751" target="_blank"><img src="https://img.shields.io/badge/twitter-%40xxw3293172751-informational?logo=twitter&style=flat-square"></a>
+<a href="https://www.zhihu.com/people/3293172751" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E9%93%BE%E5%AD%A6%E8%80%85%E7%A4%BE%E5%8C%BA-blue?logo=zhihu&style=flat-square"></a>
+<a href="https://s2.loli.net/2022/07/05/sQHuozItvWg1heA.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?logo=wechat&style=flat-square"></a>
+<a href="https://space.bilibili.com/14089380" target="_blank"><img src="https://img.shields.io/badge/b%E7%AB%99-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-red?logo=bilibili&style=flat-square"></a>
+</p>
+<p align='center'>
+<a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
+<a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
+<a href="http://nsddd.top" target="_blank"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-%40xiongxinwei-blue?style=social&logo=Octopus%20Deploy"></a>
+</p>
 
 ---
-
-**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是去中心化，公开透明，让每一个人均可参与的数据库记录
-
->   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。博客[http://nsddd.top](http://nsddd.top)
->
->   <a href="https://wakatime.com/@3293172751/projects/hngzsvjxqc?start=2022-03-30&end=2022-04-05" title="我的区块链代码时长"> <img src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg"> </a>
-
----
-
-## 密码学和信息安全
 
 对于我们在网上所做的一切，有大量敏感信息处于危险之中：电子邮件地址、密码、电话号码等等。
 
@@ -24,7 +23,7 @@
 
 
 
-### 需要的知识
+## 需要的知识
 
 + [x] Golang基础
 + [x] python基础
@@ -32,11 +31,13 @@
 
 
 
-### 为什么要学习 密码学？
+## 为什么要学习 密码学？
 
 > 涉及到密码的相关概念、对称加密、非对称加密、单向散列函数、消息认证码、数字签名、数字证书等内容，同时涉及到代码部分也会使用 Golang 进行展示，感兴趣的可以关注更新哦。
 
-### 密码学目录
+
+
+## 密码学目录
 
 - [x] [🔑密码学概念](markdown/1.md)
 
@@ -82,5 +83,64 @@
 
 
 
-### 信息安全
+## 信息安全
 
+> 里面课程来自于 [😎free信息安全认证](https://chinese.freecodecamp.org/learn/information-security/)
+
+- [x] [😎🔑](markdown/22.md)
+
+- [x] [😎🔑](markdown/23.md)
+
+- [x] [😎🔑](markdown/24.md)
+
+- [x] [😎🔑](markdown/25.md)
+
+- [x] [😎🔑](markdown/26.md)
+
+- [x] [😎🔑](markdown/27.md)
+
+- [x] [😎🔑](markdown/28.md)
+
+- [x] [😎🔑](markdown/29.md)
+
+- [x] [😎🔑](markdown/30.md)
+
+- [x] [😎🔑](markdown/31.md)
+
+- [x] [😎🔑](markdown/32.md)
+
+- [x] [😎🔑](markdown/33.md)
+
+- [x] [😎🔑](markdown/34.md)
+
+- [x] [😎🔑](markdown/35.md)
+
+- [x] [😎🔑](markdown/36.md)
+
+- [x] [😎🔑](markdown/37.md)
+
+- [x] [😎🔑](markdown/38.md)
+
+- [x] [😎🔑](markdown/39.md)
+
+- [x] [😎🔑](markdown/40.md)
+
+- [x] [😎🔑](markdown/41.md)
+
+- [x] [😎🔑](markdown/42.md)
+
+- [x] [😎🔑](markdown/43.md)
+
+- [x] [😎🔑](markdown/44.md)
+
+- [x] [😎🔑](markdown/45.md)
+
+- [x] [😎🔑](markdown/46.md)
+
+- [x] [😎🔑](markdown/47.md)
+
+- [x] [😎🔑](markdown/48.md)
+
+- [x] [😎🔑](markdown/49.md)
+
+- [x] [😎🔑](markdown/50.md)
