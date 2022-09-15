@@ -28,6 +28,8 @@
   <a href="https://github.com/3293172751/cs-awesome-Block_Chain/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/3293172751/cs-awesome-Block_Chain?style=plastic"></a>
   <a href="https://xxw.nsddd.top/s/wRSz"><img alt="个人网盘不限速" src="https://img.shields.io/badge/cloud-xiongxinwei-red?logo=iCloud" title="个人网盘不限速下载浏览"></a>
   </p>
+  
+  
 
 ---
 
@@ -36,9 +38,10 @@
 ⛓️**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是<font color ="gree">去中心化，公开透明，信息不可篡改性，隐私匿名性🤑</font>
 
 <div align="center">
-	<a href ”else/readme_english.md“>🔤English</a>
-	<a href ”else/readme_english.md“>🆑中文</a>
+	<a href = "else/readme_english.md">🔤English</a>
+	<a href = "else/readme_english.md">🆑中文</a>
 </div>
+
 
 ## Go语言
 
@@ -180,7 +183,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 ## 参与贡献💕
 
- **[🫵参与贡献❤️❤️💕💕](https://nsddd.top/archives/contributors)** 
+ **[🫵参与贡献💖❤️‍🩹💓💞](https://nsddd.top/archives/contributors)** 
 
 **要求：**
 
