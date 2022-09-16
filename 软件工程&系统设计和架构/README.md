@@ -14,10 +14,10 @@
 + [x] [团队协同git学习](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
 + [x] [该仓库里面所有的代码](./code/)
 
-> ```
-> java 17.0.4.1 2022-08-18 LTS
-> git version 2.35.1.windows.2
-> IDE：idea
+> ```bash
+> # java 17.0.4.1 2022-08-18 LTS
+> # git version 2.35.1.windows.2
+> # IDE：idea
 > ```
 
 ----
@@ -44,11 +44,11 @@
 
 **实战篇**
 
-  - [](markdown/6.md)
+  - [第6节 静态检查(java静态 vs python动态)](markdown/6.md)
 
-  - [](markdown/7.md)
+  - [第7节 Java基础](markdown/7.md)
 
-  - [](markdown/8.md)
+  - [第8节 测试](markdown/8.md)
 
   - [](markdown/9.md)
 
