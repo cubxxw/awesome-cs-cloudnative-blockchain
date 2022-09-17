@@ -1,19 +1,3 @@
-😶‍🌫️Docker[官方文档](https://dockerdocs.cn/)
-
->   学习资料很全，推荐！！！！
-
-[😶‍🌫️我的学习笔记（github）:](https://github.com/3293172751/golang-rearn)
-
----
-
-**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是去中心化，公开透明，让每一个人均可参与的数据库记录
-
->   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。博客[http://nsddd.top](http://nsddd.top)
->
->   <a href="https://wakatime.com/@3293172751/projects/hngzsvjxqc?start=2022-03-30&end=2022-04-05" title="我的区块链代码时长"> <img src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg"> </a>
-
----
-
 # Decker
 
 ## 为什么要学习 Decker？
@@ -25,7 +9,7 @@
 
 
 
-## 怎么学习docker
+## ⭕怎么学习docker
 
 > 学习docker之前最好有下面基础
 >
@@ -41,12 +25,10 @@
 >
 > ---
 
-## 最新补充
+## 🅱️最新补充
 
 + [x] [💢🚝浅谈 linux 中的根文件系统（rootfs 的原理和介绍）](./41.md)
 + [x] [💢🚝补充：Docker nginx篇](42.md)
-
-
 
 
 
@@ -138,7 +120,7 @@
 
 ---
 
-## 参与贡献
+## ✨参与贡献
 
 **[🫵参与贡献❤️❤️💕💕](https://nsddd.top/archives/contributors)**
 
