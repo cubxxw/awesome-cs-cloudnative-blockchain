@@ -15,6 +15,7 @@
 >
 > + [x] [计算机网络 – TCP/IP – 抓包 – Linux网络编程](https://github.com/3293172751/Block_Chain/blob/master/web/README.md) （有一点网络基础就好）
 > + [x] [有Linux的基础](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
+> + [x] [有Git的基础](https://github.com/3293172751/awesome-cs-course/blob/master/Git/README.md)
 >
 > **编程语言不限**
 >
@@ -25,6 +26,25 @@
 >
 > ---
 
+## 🔮学完docker或许你可以试试这些
+
+### 建立你自己的`Docker`
+
+-  [🔱🔧🧰**C** ：500 行代码中的 Linux 容器](https://blog.lizzie.io/linux-containers-in-500-loc.html)
+-  [🔱🔧🧰**Go** ：自己的构建包100 去构建自己的构建包](https://www.infoq.com/articles/build-a-container-golang)
+-  [🔱🔧🧰**Go**：在 Go 中从头开始制造容器](https://www.youtube.com/watch?v=8fi7uSYlOdc)[视频]
+-  [🔱🔧🧰**Python**：Linux 容器研讨会：从头开始重构 Docker](https://github.com/Fewbytes/rubber-docker)
+-  [🔱🔧🧰**Python**：一个概念模仿Docker，用10% Python编写](https://github.com/tonybaloney/mocker)
+-  [🔱🔧🧰**Shell** ：Docker 在大约 100 行 bash 中实现](https://github.com/p8952/bocker)
+
+
+
+### 从docker进阶到k8s
+
+
+
+
+
 ## 🅱️最新补充
 
 + [x] [💢🚝浅谈 linux 中的根文件系统（rootfs 的原理和介绍）](./41.md)
@@ -32,7 +52,7 @@
 
 
 
-## 🗒️目录
+## 🗒️Docker基础篇目录
 
 🐋 1. [Docker概述](1.md)
 
