@@ -18,9 +18,7 @@
 
 # 45天学会go --第一天 ，go语言的概叙
 
-
-
-## 1. 应用场景
+## 1. 🐧应用场景
 
 1.  区块链
 
@@ -38,38 +36,37 @@
 
 内容分发网络 
 
-## 2.特点
+## 2.🗃️特点
 
-​	go语言保证了既能达到静态编译语言的安全与性能，又达到了动态语言开发维护的高效率，使用一个表达式来形容go语言：```go = C +python```
+go语言保证了既能达到静态编译语言的安全与性能，又达到了动态语言开发维护的高效率，使用一个表达式来形容go语言：`go = C +python`
 
 ​	由此说明go语言既有C静态语言程序运行速度，有能达到python动态语言的快速开发。
 
--   ​	 go语言包概念：**go 语言的每一个文件都是属于一个包，不可以独立存在。**
+-    go语言包概念：**go 语言的每一个文件都是属于一个包，不可以独立存在。**
 
--   ​     go语言的垃圾回收机制：**内存自动回收，不需要开发人员管理（避免出现内存泄漏）**
-
----
-
--   ​	**go语言的天然并发：** （重要❤️）
-      		1. 从语言层面支持并发，实现简单。
-      		2. goroutine,轻量级线程，**可以实现==大并发处理，高效利用多核==。**
-      		3. **基于CPS并发模型实现**
+-    go语言的垃圾回收机制：**内存自动回收，不需要开发人员管理（避免出现内存泄漏）**
 
 ---
 
--   ​	go语言管道通信机制
--   ​    函数可以返回多个值
+**go语言的天然并发：** （重要❤️）
+
+   1. 从语言层面支持并发，实现简单。
+   2. Goroutine,轻量级线程，**可以实现大并发处理，高效利用多核。**
+   3. 基于CPS并发模型实现。
+
+---
+
+-    Go语言管道通信机制
+-    函数可以返回多个值
 
 
 
-## 3.使用工具
+## 3.⚒️使用工具
 
 ​	我使用的工具有两种,分别对应的是window系统和Linux系统
 
 	+ vscode
 	+ vim(用于linux服务器开发)
-
-​	
 
 其他工具:
 
@@ -83,7 +80,7 @@
 
 
 
-## 4. 环境搭建
+## 4.🔦环境搭建
 
 ### 4.1 Windows下搭建go 开发环境 - 暗转和配置SDK
 
@@ -119,7 +116,7 @@ Linux下go 的配置:
 
 
 
-## 5. Go 语言的快速入门
+## 5. 📘Go 语言的快速入门
 
 ### Go 语言结构
 
@@ -127,7 +124,7 @@ Linux下go 的配置:
 
 ------
 
-#### 5.1Go Hello World 实例
+### 5.1Go Hello World 实例
 
 Go 语言的基础组成有以下几个部分：
 
@@ -143,11 +140,11 @@ package main
 
 import "fmt"  //表示引入了一个包，类似于python 引入改包后就可以使用包内函数
 
-func main() {        /* {不能单独放在一行，func是一个关键词，
-					后面是一个函数，main主函数，即是程序的入口 */
-  /* 这是我的第一个简单的程序,这是注释 */
+func main() {        
+			/* {不能单独放在一行，func是一个关键词，后面是一个函数，main主函数，即是程序的入口 */
+  			/* 这是我的第一个简单的程序,这是注释 */
   fmt.Println("Hello, World!")
-}    //fmt 表示调用Printlt输出hello word.
+}    		//fmt 表示调用Printlt输出hello word.
 ```
 
 
@@ -158,14 +155,14 @@ func main() {        /* {不能单独放在一行，func是一个关键词，
 >   2.  下一行 *import "fmt"* 告诉 Go 编译器这个程序需要使用 fmt 包（的函数，或其他元素），fmt 包实现了格式化 IO（输入/输出）的函数。
 >   3.  下一行 *func main()* 是程序开始执行的函数。main 函数是每一个可执行程序所必须包含的，一般来说都是在启动后第一个执行的函数（如果有 init() 函数则会先执行该函数）。
 >   4.  下一行 /*...*/ 是注释，在程序执行时将被忽略。单行注释是最常见的注释形式，你可以在任何地方使用以 // 开头的单行注释。多行注释也叫块注释，均已以 /* 开头，并以 */ 结尾，且不可以嵌套使用，多行注释一般用于包的文档描述或注释成块的代码片段。
->   5.  下一行 *fmt.Println(...)* 可以将字符串输出到控制台，并在最后自动增加换行字符 \n。
+>   5.  下一行 fmt.Println(...) 可以将字符串输出到控制台，并在最后自动增加换行字符 \n。
 >       使用 fmt.Print("hello, world\n") 可以得到相同的结果。
 >       Print 和 Println 这两个函数也支持使用变量，如：fmt.Println(arr)。如果没有特别指定，它们会以默认的打印格式将变量 arr 输出到控制台。
 >   6.  当标识符（包括常量、变量、类型、函数名、结构字段等等）以一个大写字母开头，如：Group1，那么使用这种形式的标识符的对象就可以被外部包的代码所使用（客户端程序需要先导入这个包），这被称为导出（像面向对象语言中的 public）；标识符如果以小写字母开头，则对包外是不可见的，但是他们在整个包的内部是可见并且可用的（像面向对象语言中的 protected ）。
 
 ---
 
-#### 5.3 执行代码
+### 5.3 执行代码
 
 1.  我们还可以使用 **go build** 命令来生成二进制文件：
 
@@ -197,8 +194,7 @@ func main() {        /* {不能单独放在一行，func是一个关键词，
 package main
 import "fmt"
 
-func main() 
-{ *// 错误，{ 不能在单独的行上*
+func main() { 		// 错误，{ 不能在单独的行上
   fmt.Println("Hello, World!")
 }
 ```
@@ -213,15 +209,13 @@ func main()
 
 ### go语言转义字符（escape char)
 
-| 字符 | 含义       |
-| ---- | ---------- |
-| \t   | 一个制表符 |
-| \n   | 换行符     |
-| \ \  | \          |
-| \r   | 回车       |
-| \"   | 一个“      |
-
-
+| 字符 |    含义    |
+| :--: | :--------: |
+| `\t` | 一个制表符 |
+| `\n` |   换行符   |
+| `\\` |     \      |
+| `\r` |    回车    |
+| `"`  |   一个“    |
 
 ### go语言常见错误和解决方法
 
@@ -230,23 +224,15 @@ func main()
 
 **一般这种错误都是因为源文件名不存在或者当前路径错误**
 
-
-
 ## Go语言目录结构
 
-> 很重要的，在根目录下面创建goproject，在这里面新建一个src目录，在src里面写入go_code目录，用来写代码，在这个目录里面写入项目，项目名称可以叫project01,project02，每个项目里面都有一个main目录这是主目录，里面包含main.go文件
+> 很重要的，在根目录下面创建`goproject`，在这里面新建一个`src`目录，在`src`里面写入`go_code`目录，用来写代码，在这个目录里面写入项目，项目名称可以叫`project01`，`project02`，每个项目里面都有一个`main`目录这是主目录，里面包含`main.go`文件
 
 **我们在开发程序的时候或者是开发项目的时候，一定要按照Go语言的规定目录进行**
 
 
 
-
-
-
-
 ## Go语言基本语法
-
-------
 
 ### Go 标记
 
@@ -267,7 +253,7 @@ fmt.Println("Hello, World!")
 6. )
 ```
 
-------
+
 
 ### 行分隔符
 
@@ -277,15 +263,11 @@ fmt.Println("Hello, World!")
 
 ```golang
 //以下为两个语句：
-
 fmt.Println("Hello, World!")
-
 fmt.Println("hello golang!")
 ```
 
 
-
-------
 
 ### 注释(comment)
 
@@ -301,7 +283,7 @@ fmt.Println("hello golang!")
  */
 ```
 
-------
+
 
 ### 标识符
 
@@ -320,13 +302,11 @@ myname50   _temp   j   a23b9   retVal
 -   case（Go 语言的关键字）
 -   a+b（运算符是不允许的）
 
-------
+
 
 ### 字符串连接
 
 Go 语言的字符串可以通过 **+** 实现
-
-#### 实例
 
 ```go
 package main
@@ -345,11 +325,11 @@ fmt.Println("hello,word",
 GoogleRunoob
 ```
 
-------
+
 
 ### 关键字
 
-下面列举了 Go 代码中会使用到的 25 个关键字或保留字：
+下面列举了 Go 代码中会使用到的`25` 个关键字或保留字：
 
 | break    | default     | func   | interface | select |
 | -------- | ----------- | ------ | --------- | ------ |
@@ -358,7 +338,7 @@ GoogleRunoob
 | const    | fallthrough | if     | range     | type   |
 | continue | for         | import | return    | var    |
 
-除了以上介绍的这些关键字，Go 语言还有 36 个预定义标识符：
+除了以上介绍的这些关键字，Go 语言还有`36`个预定义标识符：
 
 | append | bool    | byte    | cap     | close  | complex | complex64 | complex128 | uint16  |
 | ------ | ------- | ------- | ------- | ------ | ------- | --------- | ---------- | ------- |
@@ -396,13 +376,11 @@ fruit=apples+oranges;
 fruit = apples + oranges; 
 ```
 
-------
 
-#### 格式化字符串
+
+### 格式化字符串
 
 Go 语言中使用 **fmt.Sprintf** 格式化字符串并赋值给新串：
-
-#### 实例
 
 ```go
 package main
@@ -413,10 +391,10 @@ import (
 
 func main() {
   // %d 表示整型数字，%s 表示字符串*
-  var stockcode=123
-  var enddate="2020-12-31"
-  var url="Code=%d&endDate=%s"
-  var target_url=fmt.Sprintf(url,stockcode,enddate)  //格式化字符串
+  var stockcode = 123
+  var enddate = "2020-12-31"
+  var url = "Code=%d&endDate=%s"
+  var target_url = fmt.Sprintf(url,stockcode,enddate)  //格式化字符串
   fmt.Println(target_url)
 }
 ```
@@ -426,8 +404,6 @@ func main() {
 ```
 Code=123&endDate=2020-12-31
 ```
-
----
 
 
 
@@ -439,11 +415,9 @@ Code=123&endDate=2020-12-31
 
 2.   **golang中文网** ：[https://studygolang.com/pkgdoc](https://studygolang.com/pkgdoc)
 
-
-
------
-
 为了方便在Windows下使用命令，熟悉一下dos:磁盘操作系统
+
+
 
 ### DOS命令
 
@@ -455,8 +429,6 @@ Code=123&endDate=2020-12-31
 
 `cls` 清屏  --程序中会使用到，在Linux中用clear
 
-
-
 ## 语言的数据类型
 
 在 Go 编程语言中，**数据类型用于声明函数和变量**。
@@ -467,8 +439,8 @@ Go 语言按类别有以下几种数据类型：
 
 | 序号 | 类型和描述                                                   |
 | :--- | :----------------------------------------------------------- |
-| 1    | **布尔型** 布尔型的值只可以是常量 true 或者 false。一个简单的例子：var b bool = true。 |
-| 2    | **数字类型** 整型 int 和浮点型 float32、float64，Go 语言支持整型和浮点型数字，并且支持复数，其中位的运算采用补码。 |
+| 1    | **布尔型**：布尔型的值只可以是常量 true 或者 false。一个简单的例子：var b bool = true。 |
+| 2    | **数字类型**： 整型 int 和浮点型 float32、float64，Go 语言支持整型和浮点型数字，并且支持复数，其中位的运算采用补码。 |
 | 3    | **字符串类型:** 字符串就是一串固定长度的字符连接起来的字符序列。Go 的字符串是由单个字节连接起来的。Go 语言的字符串的字节使用 UTF-8 编码标识 Unicode 文本。 |
 | 4    | **派生类型:** 包括：(a) 指针类型（Pointer）(b) 数组类型(c) 结构化类型(struct)(d) Channel 类型(e) 函数类型(f) 切片类型(g) 接口类型（interface）(h) Map 类型 |
 
@@ -530,8 +502,6 @@ var identifier type
 var identifier1, identifier2 type
 ```
 
-### 实例
-
 ```go
 package main
 import "fmt"
@@ -553,22 +523,20 @@ Runoob
 
 ### 变量声明
 
-**第一种，指定变量类型，如果没有初始化， ==则变量默认为零值==** 。
+**第一种，指定变量类型，如果没有初始化， 则变量默认为零值** 。
 
-```
+```go
 var v_name v_type
 v_name = value
 ```
 
 零值就是变量没有做初始化时系统默认设置的值。
 
-## 实例
-
 ```go
 package main
 import "fmt"
 func main() {
-
+   
   // 声明一个变量并初始化
   var a = "RUNOOB"
   fmt.Println(a)
@@ -608,7 +576,9 @@ false
     var a error // error 是接口
     ```
 
-### 实例
+
+
+**案例**
 
 ```go
 package main
@@ -620,7 +590,7 @@ func main() {
   var f float64
   var b bool
   var s string
-  fmt.Printf("%v %v %v %q\n", i, f, b, s)
+  fmt.Printf("%v %v %v %q\n", i, f, b, s) //打印默认值
 }
 ```
 
@@ -636,7 +606,7 @@ func main() {
 var v_name = value
 ```
 
-## 实例
+> 由于设置了`d`值，所以打印出来的d是`true`
 
 ```go
 package main
@@ -659,38 +629,37 @@ true
 v_name := value
 ```
 
-==**声明的同时可以直接赋值使用**== `:=`
+**声明的同时可以直接赋值使用`:=`** 
 
 例如：
 
-```
+```go
 var intVal int 
-intVal :=1 // 这时候会产生编译错误，因为 intVal 已经声明，不需要重新声明
+intVal :=1   // 这时候会产生编译错误，因为 intVal 已经声明，不需要重新声明
 ```
 
 直接使用下面的语句即可：
 
-```
-intVal := 1 // 此时不会产生编译错误，因为有声明新的变量，因为 := 是一个声明语句
+```go
+intVal := 1   // 此时不会产生编译错误，因为有声明新的变量，因为 := 是一个声明语句
 ```
 
 **intVal := 1** 相等于：
 
-```
+```go
 var intVal int 
 intVal =1 
 ```
 
 **可以将 var f string = "Runoob" 简写为 f := "Runoob"：**
 
-## 实例
+**实例**
 
 ```go
 package main
 import "fmt"
 func main() {
   f := "Runoob" // var f string = "Runoob"
-
   fmt.Println(f)
 }
 ```
@@ -701,14 +670,20 @@ func main() {
 Runoob
 ```
 
+
+
 ### 多变量声明
 
 ```go
 //类型相同多个变量, 非全局变量
 var vname1, vname2, vname3 type
+
 vname1, vname2, vname3 = v1, v2, v3
-var vname1, vname2, vname3 = v1, v2, v3 // 和 python 很像,不需要显示声明类型，自动推断
-vname1, vname2, vname3 := v1, v2, v3 // 出现在 := 左侧的变量不应该是已经被声明过的，否则会导致编译错误
+
+var vname1, vname2, vname3 = v1, v2, v3    // 和 python 很像,不需要显示声明类型，自动推断
+
+vname1, vname2, vname3 := v1, v2, v3      
+// 出现在 := 左侧的变量不应该是已经被声明过的，否则会导致编译错误
 
 // 这种因式分解关键字的写法一般用于声明全局变量
 var (
@@ -754,7 +729,7 @@ func main(){
 
 所有像 int、float、bool 和 string 这些基本类型都属于值类型，使用这些类型的变量直接指向存在内存中的值：
 
-![4.4.2_fig4.1](https://www.runoob.com/wp-content/uploads/2015/06/4.4.2_fig4.1.jpgrawtrue)
+![image-20220918203310643](https://sm.nsddd.top//typora/image-20220918203310643.png?mail:3293172751@qq.com)
 
 当使用等号 `=` 将一个变量的值赋值给另一个变量时，如：`j = i`，实际上是**在内存中将 i 的值进行了拷贝**：
 
@@ -762,7 +737,7 @@ func main(){
 
 你可以通过 `&i` 来获取变量 i 的内存地址，例如：`0xf840000040`（每次的地址都可能不一样）。
 
-**值类型变量的值存储在堆中**。
+**❗值类型变量的值存储在堆中**。
 
 内存地址会根据机器的不同而有所不同，甚至相同的程序在不同的机器上执行后也会有不同的内存地址。因为每台机器可能有不同的存储器布局，并且位置分配也可能不同。
 
@@ -780,7 +755,7 @@ func main(){
 
 如果 r1 的值被改变了，那么这个值的所有引用都会指向被修改后的内容，在这个例子中，r2 也会受到影响。
 
-------
+
 
 ## 简短形式，使用 := 赋值操作符
 
@@ -792,13 +767,11 @@ a 和 b 的类型（int 和 bool）将由编译器自动推断。
 
 ### 注意事项
 
-如果在相同的代码块中，我们不可以再次对于相同名称的变量使用初始化声明，例如：a := 20 就是不被允许的，编译器会提示错误 no new variables on left side of :=，但是 a = 20 是可以的，因为这是给相同的变量赋予一个新的值。
+如果在相同的代码块中，我们不可以再次对于相同名称的变量使用初始化声明，例如：a := 20 就是不被允许的，编译器会提示错误 `no new variables on left side of :=`，但是 a = 20 是可以的，因为这是给相同的变量赋予一个新的值。
 
 如果你在定义变量 a 之前使用它，则会得到编译错误 undefined: a。
 
 **如果你声明了一个局部变量却没有在相同的代码块中使用它，同样会得到编译错误**，例如下面这个例子当中的变量 a：
-
-## 实例
 
 ```go
 package main
@@ -829,7 +802,7 @@ var a, b, c int
 
 多变量可以在同一行进行赋值，如：
 
-```
+```go
 var a, b int
 var c string
 a, b, c = 5, 7, "abc"
@@ -853,4 +826,14 @@ _ 实际上是一个只写变量，你不能得到它的值。这样做是因为
 
 并行赋值也被用于当一个函数返回多个返回值时，比如这里的 val 和错误 err 是通过调用 Func1 函数同时得到：
 
-`val, err = Func1(var1)`。
+`val, err = Func1(var1)`
+
+## END 链接
+
+<ul><li><div><a href = '../README.md' style='float:left'>⬆️上一节🔗</a><a href = '2.md' style='float: right'>⬇️下一节🔗</a></div></li></ul>
+
++ [Ⓜ️回到目录🏠](../README.md)
+
++ [**🫵参与贡献💞❤️‍🔥💖**](https://nsddd.top/archives/contributors))
+
++ ✴️版权声明 &copy; :本书所有内容遵循[CC-BY-SA 3.0协议（署名-相同方式共享）&copy;](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本) 
