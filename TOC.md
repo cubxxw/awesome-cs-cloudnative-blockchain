@@ -26,6 +26,8 @@
 
 🐾[Go并发](markdown/并发.md)
 
+🐾[Go实现批量处理文件](markdown/file.md)
+
 🐾<del>[九型人格- -学会和人打交道](markdown/九型人格.md)</del>不该出现在这❌
 
 
@@ -36,7 +38,7 @@
 
 - [x] [⭐30天学会go --第2天 Go语言常量](markdown/Go语言常量.md)
 
-- [x] [⭐30天学会go --第3天 Go基础](markdown/Go基础.md)
+- [x] [⭐30天学会go --第3天 Go基础 指针和引用](markdown/Go基础.md)
 
 - [x] [⭐30天学会go --第4天 Go语言基本语法](markdown/Go语言基本语法.md)
 

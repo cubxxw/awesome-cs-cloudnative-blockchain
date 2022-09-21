@@ -97,7 +97,7 @@ graph LR
 `mod`包是`Go`语言2018年推出的包管理工具，并会一直延续下去。命名规范以及项目目录结构📇的设定对于一名合格的工程师来说也是非常重要的。下面是作为一名合格的开发者🤵，必须要会的基本素养。
 
 + [🖱️Go语言包管理工具 — mod包](Gomd_super/mod.md)
-+ [🖱️命名规范](Gomd_super/name.md)
++ [🖱️命名规则和代码规范](Gomd_super/name.md)
 + 🖱️[Go语言目录结构](Gomd_super/catalogue.md)
 + 🖱️[Go文件以及编码处理](Gomd_super/go_file.md)
 + 🖱️[正则表达式](Gomd_super/zhenze.md)
