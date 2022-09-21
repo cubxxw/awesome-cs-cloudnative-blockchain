@@ -85,7 +85,7 @@
 
 ## 信息安全
 
-> 里面课程来自于 [😎free信息安全认证](https://chinese.freecodecamp.org/learn/information-security/)
+> 里面课程来自于 [😎free信息安全认证](https://chinese.freecodecamp.org/learn/information-security/)（如果你选择freecode，建议你按照顺序学习，不踩坑🔦）
 
 - [x] [😎🔑](markdown/22.md)
 
