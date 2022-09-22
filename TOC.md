@@ -38,7 +38,7 @@
 
 - [x] [⭐30天学会go --第2天 Go语言常量](markdown/Go语言常量.md)
 
-- [x] [⭐30天学会go --第3天 Go基础 指针和引用](markdown/Go基础.md)
+- [x] [⭐45天学会go --第3天 指针，运算符和基本数据类型](markdown/Go基础.md)
 
 - [x] [⭐30天学会go --第4天 Go语言基本语法](markdown/Go语言基本语法.md)
 
@@ -52,8 +52,6 @@
 
 - [x] [⭐30天学会go --第9天  Golang的多维数组](markdown/Golang的多维数组.md)
 
----
-
 
 
 ##  Go语言面对对象
@@ -64,7 +62,7 @@
 - [x] [⭐30天学会go --第13天 Go语言的进阶篇](markdown/Go语言的进阶篇.md)
 - [x] [⭐30天学会go --第14天 Go语言项目 – 家庭收账单](markdown/家庭收账.md)
 
----
+
 
 ##  Go语言高级
 
