@@ -156,8 +156,6 @@ redis-server.exe redis.windows.conf
 
 如果想方便的话，**可以把 redis 的路径加到系统的环境变量里**，这样就省得再输路径了，后面的那个 redis.windows.conf 可以省略，如果省略，会启用默认的。输入之后，会显示如下界面：
 
-![image-20220401221645065](https://s2.loli.net/2022/04/01/DSjscGJmWgfRO72.png)
-
 这时候另启一个 cmd 窗口，原来的不要关闭，不然就无法访问服务端了。
 
 切换到 redis 目录下运行:
