@@ -1,4 +1,4 @@
-
+# 没有办法定位的栏目汇总
 
 <p align='center'>
 <a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin"></a>
@@ -11,7 +11,19 @@
 <a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
 <a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
 </p>
-### 目录
+
+
+## 🚀前言
+
+ ❓这个仓库是做什么的
+
+ ⚠️ 这个仓库是作者我最喜欢最喜欢的仓库，但是也是最疑惑的仓库，是的，我没有办法把这些内容具体插入到某一个栏目，但是这些内容我很喜欢 💕（比如说很多Linux使用骚操作、CS一些学习资料和课程、树莓派……）或许就像你看到我的仓库忍不住给一颗⭐，我也忍不住兴奋。
+
+ ⚡里面的内容来自我收集闲逛知乎、GitHub、各个博客网站收集到的项目，对其汇总，或许有些内容我也没看完或者是看不明白，所以让我很疑惑，但是我很喜欢。
+
+ ⚡还有一部分内容是来自自己日常记录，比如说 [Copilot使用体验](markdown/23.md)，因为我很喜欢，所以我就会记录下来，还有[hugo](markdown/25.md)、[mongodb](markdown/26.md)、[cloudreve](markdown/24.md)
+
+## 📚目录
 
 - [x] 🎊 [第1节 如何提问](markdown/1.md)
 
@@ -55,18 +67,19 @@
 
 - [x] 🎊 [第21节 编码面试大学](markdown/21.md)
 
-- [ ] 🎊 [](markdown/22.md)
+- [x] 🎊 [第22节 通过从头开始重新创建最喜欢的技术来掌握您的编程](markdown/22.md)
 
-- [ ] 🎊 [](markdown/23.md)
+- [x] 🎊 [第23节 Copilot使用体验以及tabnine对比](markdown/23.md)
 
-- [ ] 🎊 [](markdown/24.md)
+- [x] 🎊 [第24节 docker搭建cloudreve](markdown/24.md)
 
-- [ ] 🎊 [](markdown/25.md)
+- [x] 🎊 [第25节 hugo搭建个人博客](markdown/25.md)
 
-- [ ] 🎊 [](markdown/26.md)
+- [x] 🎊 [第26节 mongodb快速入门和使用](markdown/26.md)
 
-- [ ] 🎊 [](markdown/27.md)
+- [x] 🎊 [第27节 Spring Boot参考指南](markdown/27.md)
 
+<!--
 - [ ] 🎊 [](markdown/28.md)
 
 - [ ] 🎊 [](markdown/29.md)
@@ -113,8 +126,7 @@
 
 - [ ] 🎊 [](markdown/50.md)
 
-
-
+-->
 
 
 
