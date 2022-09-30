@@ -1,3 +1,5 @@
+# Go语言高级篇
+
 😶‍🌫️[Go语言学习指南](https://golang.org/#)（需外网）
 
 >   学习资料很全，推荐！！！！
@@ -24,9 +26,9 @@
 
 ---
 
-# Golang高级编程
+## ⚡ 前言
 
-## 为什么要学习 Golang高级编程？
+🚀 高级篇包括Go语言编程的升级，Go语言的原码分析，Go语言的和C语言的结合，设计模式~
 
 > + 面试需要
 > + 深入理解原理
@@ -40,157 +42,240 @@
 > + [x] [Linux的基础知识](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
 > + [x] [汇编语言的学习](https://github.com/3293172751/Block_Chain/blob/master/%E6%B1%87%E7%BC%96/README.md)
 
-## 目录
+## 📜目录
 
-1. [第1节 Gcc and Cgo](markdown/1.md)
++ [x] [⚡第1节 Gcc and Cgo](markdown/1.md)
 
 ----
 
 #### Go语言并发编程和实战篇
 
-2. [第2节 Go并发编程–日志分析系统介绍](markdown/2.md)
++ [x] [⚡第2节 Go并发编程–日志分析系统介绍](markdown/2.md)
 
-3. [第3节 并发与并行](markdown/3.md)
++ [x] [⚡第3节 并发与并行](markdown/3.md)
 
-4. [第4节 流程构建和分析](markdown/4.md)
++ [x] [⚡第4节 流程构建和分析](markdown/4.md)
 
-5. [第5节 读取模块的构建](markdown/5.md)
++ [x] [⚡第5节 读取模块的构建](markdown/5.md)
 
-6. [第6节 解析模块的实现](markdown/6.md)
++ [x] [⚡第6节 解析模块的实现](markdown/6.md)
 
-7. [第7节 InfluxDB的概念和安装](markdown/7.md)
++ [x] [⚡第7节 InfluxDB的概念和安装](markdown/7.md)
 
-8. [第8节 写入模块的实现](markdown/8.md)
++ [x] [⚡第8节 写入模块的实现](markdown/8.md)
 
-9. [第9节 监控图的绘制](markdown/9.md)
++ [x] [⚡第9节 监控图的绘制](markdown/9.md)
 
-10. [第10节 go air实现项目热加载](markdown/10.md)
++ [x] [⚡第10节 go air实现项目热加载](markdown/10.md)
 
 
 
 #### Go语言特性
 
-11. [第11节 Go语言特性代码展示与新特性泛型](markdown/11.md)
++ [x] [⚡第11节 Go语言特性代码展示与新特性泛型](markdown/11.md)
 
-12. [第12节 Go语言的并发特性](markdown/12.md)
++ [x] [⚡第12节 Go语言的并发特性](markdown/12.md)
 
-13. [](markdown/13.md)
++ [](markdown/13.md)
 
-14. [](markdown/14.md)
++ [](markdown/14.md)
 
-15. [](markdown/15.md)
++ [](markdown/15.md)
 
-16. [](markdown/16.md)
++ [](markdown/16.md)
 
-17. [](markdown/17.md)
++ [](markdown/17.md)
 
-18. [](markdown/18.md)
++ [](markdown/18.md)
 
-19. [](markdown/19.md)
++ [](markdown/19.md)
 
-20. [](markdown/20.md)
++ [](markdown/20.md)
 
-21. [](markdown/21.md)
++ [](markdown/21.md)
 
-22. [](markdown/22.md)
++ [](markdown/22.md)
 
-23. [](markdown/23.md)
++ [](markdown/23.md)
 
-24. [](markdown/24.md)
++ [](markdown/24.md)
 
-25. [](markdown/25.md)
++ [](markdown/25.md)
 
-26. [](markdown/26.md)
++ [](markdown/26.md)
 
-27. [](markdown/27.md)
++ [](markdown/27.md)
 
-28. [](markdown/28.md)
++ [](markdown/28.md)
 
-29. [](markdown/29.md)
++ [](markdown/29.md)
 
-30. [](markdown/30.md)
++ [](markdown/30.md)
 
-31. [](markdown/31.md)
++ [](markdown/31.md)
 
-32. [](markdown/32.md)
++ [](markdown/32.md)
 
-33. [](markdown/33.md)
++ [](markdown/33.md)
 
-34. [](markdown/34.md)
++ [](markdown/34.md)
 
-35. [](markdown/35.md)
++ [](markdown/35.md)
 
-36. [](markdown/36.md)
++ [](markdown/36.md)
 
-37. [](markdown/37.md)
++ [](markdown/37.md)
 
-38. [](markdown/38.md)
++ [](markdown/38.md)
 
-39. [](markdown/39.md)
++ [](markdown/39.md)
 
-40. [](markdown/40.md)
++ [](markdown/40.md)
 
-41. [](markdown/41.md)
++ [](markdown/41.md)
 
-42. [](markdown/42.md)
++ [](markdown/42.md)
 
-43. [](markdown/43.md)
++ [](markdown/43.md)
 
-44. [](markdown/44.md)
++ [](markdown/44.md)
 
-45. [](markdown/45.md)
++ [](markdown/45.md)
 
-46. [](markdown/46.md)
++ [](markdown/46.md)
 
-47. [](markdown/47.md)
++ [](markdown/47.md)
 
-48. [](markdown/48.md)
++ [](markdown/48.md)
 
-49. [](markdown/49.md)
++ [](markdown/49.md)
 
-50. [](markdown/50.md)
++ [](markdown/50.md)
 
 
 
-# ⏬⏬⏬⏬⏬⏬**往下看**⏬⏬⏬⏬⏬⏬
+## 📚 设计模式
 
-----
+- [x] [😎🔑](./design/1.md)
 
-## Golang学习
+- [x] [😎🔑](./design/2.md)
 
-😶‍🌫️[go语言官方编程指南](https://golang.org/#)
+- [x] [😎🔑](./design/3.md)
 
-> go语言的官方文档学习笔记很全，推荐可以去官网学习–了解
+- [x] [😎🔑](./design/4.md)
 
-⏬⏬⏬⏬⏬**理解一个事物最好的方式就是把问题当作机器来层层解析**⏬⏬⏬⏬⏬
+- [x] [😎🔑](./design/5.md)
 
-## [🖱️点击进入Go语言学习](https://github.com/3293172751/Block_Chain/blob/master/TOC.md)
+- [x] [😎🔑](./design/6.md)
 
-## [🖱️Go语言路线](https://github.com/3293172751/Block_Chain/blob/master/go_route.md)
+- [x] [😎🔑](./design/7.md)
 
-------
+- [x] [😎🔑](./design/8.md)
 
-------
+- [x] [😎🔑](./design/9.md)
 
-## 以太坊ETH学习
+- [x] [😎🔑](./design/10.md)
 
-以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**以太坊白皮书（需要有golang编程基础）**
+- [x] [😎🔑](./design/11.md)
 
-[![img](https://camo.githubusercontent.com/a411fbf80ed8b270ce46ab6f188b1d8468bb67d9001e7bebbbedbe0ee36b585f/68747470733a2f2f73322e6c6f6c692e6e65742f323032322f30332f32302f67546944645541787448474a3466382e706e67)](https://etherscan.io/)
+- [x] [😎🔑](./design/12.md)
 
-## [🖱️点击进入ETH学习](https://github.com/3293172751/Block_Chain/blob/master/eth/TOC.md)
+- [x] [😎🔑](./design/13.md)
 
-------
+- [x] [😎🔑](./design/14.md)
 
-------
+- [x] [😎🔑](./design/15.md)
 
-## 区块链
+- [x] [😎🔑](./design/16.md)
 
-> 我认为世界历史可以用两句话来描述：分久必合，合久必分。区块链将是催化下一个‘合久必分’时代的新技术。区块链的产生铸就了一个新的时代，我们的信念是建筑在一个数学的算法上面，In math we trust。
->
->  ——张首晟
+- [x] [😎🔑](./design/17.md)
 
-## [🖱️区块链工程师路线](https://github.com/3293172751/Block_Chain/blob/master/route.md)
+- [x] [😎🔑](./design/18.md)
 
-- [区块链公益项目（NFT+私链/联盟链/私链）](https://github.com/3293172751/Block_Chain/blob/master/区块链公益项目)
-- [共识算法](https://github.com/3293172751/Block_Chain/blob/master/blockchain/README.md)
+- [x] [😎🔑](./design/19.md)
+
+- [x] [😎🔑](./design/20.md)
+
+- [x] [😎🔑](./design/21.md)
+
+- [x] [😎🔑](./design/22.md)
+
+- [x] [😎🔑](./design/23.md)
+
+- [x] [😎🔑](./design/24.md)
+
+- [x] [😎🔑](./design/25.md)
+
+- [x] [😎🔑](./design/26.md)
+
+- [x] [😎🔑](./design/27.md)
+
+- [x] [😎🔑](./design/28.md)
+
+- [x] [😎🔑](./design/29.md)
+
+- [x] [😎🔑](./design/30.md)
+
+- [x] [😎🔑](./design/31.md)
+
+- [x] [😎🔑](./design/32.md)
+
+- [x] [😎🔑](./design/33.md)
+
+- [x] [😎🔑](./design/34.md)
+
+- [x] [😎🔑](./design/35.md)
+
+- [x] [😎🔑](./design/36.md)
+
+- [x] [😎🔑](./design/37.md)
+
+- [x] [😎🔑](./design/38.md)
+
+- [x] [😎🔑](./design/39.md)
+
+- [x] [😎🔑](./design/40.md)
+
+- [x] [😎🔑](./design/41.md)
+
+- [x] [😎🔑](./design/42.md)
+
+- [x] [😎🔑](./design/43.md)
+
+- [x] [😎🔑](./design/44.md)
+
+- [x] [😎🔑](./design/45.md)
+
+- [x] [😎🔑](./design/46.md)
+
+- [x] [😎🔑](./design/47.md)
+
+- [x] [😎🔑](./design/48.md)
+
+- [x] [😎🔑](./design/49.md)
+
+- [x] [😎🔑](./design/50.md)
+
+
+
+
+
+
+
+## 参与贡献
+
+**要求：**
+
++ [**你需要学会使用markdown🖱️**](https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md)
++ [符合Google代码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
+
+#### 参与贡献❤️❤️[💕💕](https://github.com/3293172751/CS_COURSE/blob/master/Git/git-contributor.md/)
+
+<font size = 2>如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
+
+
+
+## 版权声明
+
+本书所有内容遵循 [CC-BY-SA 3.0协议（署名-相同方式共享）](
+
