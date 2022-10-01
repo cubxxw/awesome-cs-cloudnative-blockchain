@@ -140,7 +140,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 
 
-## 📔区块链学习
+## 📔区块链导航
 
 <font size = 2>我认为世界历史可以用两句话来描述：分久必合，合久必分。区块链将是催化下一个‘合久必分’时代的新技术。区块链的产生铸就了一个新的时代，我们的信念是建筑在一个数学的算法上面，In math we trust。	——张首晟</font>
 
@@ -155,7 +155,9 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 
 
-## :b:ETH–BTC
+## :b:区块链教程
+
+💱 区块链系列包含了区块链教程，主要是`eth`、`btc`还有联盟链`fabric`超级账本组织的教程，基于这些教程扩展新的技术：`git`、`ipfs`、密码学、共识算法。以及链学项目[C-Universal Blockchain](https://github.com/c-ub)
 
 > 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**以太坊白皮书（需要有golang编程基础）**
 >
@@ -164,13 +166,9 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 > 	<img src="https://sm.nsddd.top//typora/image-20220630192622583.png?mail:3293172751@qq.com" alt="区块链的学习" style="zoom: 20%;" />
 > </a></div>
 
-+ <del>[🖱️点击进入ETH学习](eth/TOC.md)</del>
-
-+ [🖱️点击进入BTC学习](btc/TOC.md)
-
-+ [🖱️点击进入Hyperledger Fabric学习](C_Universal_Brockchain/README.md)
-
-+ [🖱️区块链技术指南](chainbrock-learning/SUMMARY.md)
++ [x] [🖱️区块链教程🔥](C_Universal_Brockchain/README.md)
++ [x] [🖱️ETH and BTC](eth/TOC.md)
++ [x] [🖱️区块链技术指南](chainbrock-learning/SUMMARY.md)
 
 > 企业级[区块链实战教程](https://learnblockchain.cn/books/enterprise/)
 
@@ -187,13 +185,13 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 > 	<img src="https://sm.nsddd.top//typora/twitter_header_photo_1.png?mail:3293172751@qq.com" alt="twitter_header_photo_1" style="zoom: 20%;" />
 > </a></div>
 >
-> 基于区块链的全民学习平台C-Universal Blockchain在保障用户安全，信息的完整性同时为大众带来更多的选择，笔记分享，视频分享，版权保护，以及其他的关于学信数据、电子证书、荣誉证明、成绩证明、信息授权的相关工具。
+> 基于区块链的全民学习平台`C-Universal Blockchain`在保障用户安全，信息的完整性同时为大众带来更多的选择，笔记分享，视频分享，版权保护，以及其他的关于学信数据、电子证书、荣誉证明、成绩证明、信息授权的相关工具。
 
 + [ ] <del>[ 🖱️GLinux内核(未开始)]()</del>
 + [x] [ 🖱️C-Universal Brockchain](C_Universal_Brockchain/README.md)
 + [x] [ 🖱️C-Universal Brockchain（链学）组织地址](https://github.com/C-UB)
 
----
+
 
 ## ✨参与贡献💕
 

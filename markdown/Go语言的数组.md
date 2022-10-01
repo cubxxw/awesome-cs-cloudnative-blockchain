@@ -896,7 +896,7 @@ func main() {
 
 
 
-### string和slice
+## string和slice
 
 **==string 在底层是一种byte数组==，因此string可以进行切片处理操作**
 
@@ -913,7 +913,42 @@ fmt.Println(slice)       //gamil.com
 
 **因此：string是不可变的，如果需要改变，此时将其字符串转化为切片或者run切片，再转化为字符串**
 
-#### Go语言中字符串修改
+
+
+### 字符串修改的方法
+
+> 补充 – Go语言的字符有以下两种：
+>
+> 1. `uint8`类型，或者叫做`byte`类型，代表了`ASCII`码的一个字符
+> 2. `rune`类型，代表一个 `UTF-8`字符
+
+基于上面的类型，我们有针对出不同的修改方法：
+
+✏️ 当处理中文或者日文或者其他复合字符时，则需要用到`rune`类型，实际上`rune`类型非常强大，是一个`int32`
+
+> Go语言使用了特殊的`rune`类型来处理`Unicode`，让基于`Unicode`的文本处理更为方便，也可以使用`byte`类型精选默认字符处理，性能和扩展新都有照护。
+
+💡简单的一个案例如下：
+
+```go
+func changeString() {
+    s1 := "big"
+    //强制类型转化
+    byteS1 := []byte(s1)
+    byteS1[0] = 'p'
+    fmt.Println(string(byteS1))   //输出结果是 pig
+    
+    s2 := "熊哥"
+    //强制类型转化
+    byteS2 := []byte(s2)
+    byteS2[0] = '王'
+    fmt.Println(string(byteS2))   //输出结果是 王哥
+}
+```
+
+
+
+### Go语言中字符串修改
 
 ```go
 str = "hello@gmail.com"
@@ -925,13 +960,15 @@ str := str[:5]  //获取hello
 fmt.Println("str=",str)   //h币llo
 ```
 
-**注意：byte是由字节处理的，所以如果要修改汉字的话会出现乱码。**
+⚡ 注意：byte是由字节处理的，所以如果要修改汉字的话会出现乱码。
 
-**改变：将string转化为[]rune即可，[]rune 是按照字符处理，兼容汉字**
+⚠️ 改变：将string转化为[]rune即可，[]rune 是按照字符处理，兼容汉字
 
 >   ❤️❤️❤️ 和python中修改字符串的四种方法，Go大同小异
 
-#### python中字符串修改
+
+
+## python中字符串修改
 
 **方法1：将字符串转换成列表后修改值，然后用join组成新字符串**
 
