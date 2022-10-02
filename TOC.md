@@ -1,10 +1,6 @@
 # 目录🐾
 
-- [回到前言](README.md)
-
 <img align =left src="https://wakatime.com/badge/user/c430b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg">
-
-
 
 ## 前言
 
@@ -34,59 +30,76 @@
 
 ## Go语言基础
 
-- [x] [⭐30天学会go --第1天 Go语言的概叙](markdown/Go语言的概叙.md)
+- [x] [⭐30天学会go --第1天 Go语言的概叙](markdown/1.md)
 
-- [x] [⭐30天学会go --第2天 Go语言常量](markdown/Go语言常量.md)
+- [x] [⭐30天学会go --第2天 go语言常量、基本数据类型、字符串转化](markdown/2.md)
 
-- [x] [⭐45天学会go --第3天 指针，运算符和基本数据类型](markdown/Go基础.md)
+- [x] [⭐45天学会go --第3天 指针、运算符和位运算](markdown/3.md)
 
-- [x] [⭐30天学会go --第4天 Go语言基本语法](markdown/Go语言基本语法.md)
+- [x] [⭐30天学会go --第4天 Go语言基本语法](markdown/4.md)
 
-- [x] [⭐30天学会go --第5天 Go语言 函数和包](markdown/Go语言函数.md) 
+- [x] [⭐30天学会go --第5天 Go语言 函数和包](markdown/5.md) 
 
-- [x] [⭐30天学会Go --第6天 Go语言的函数与数组](markdown/Go语言的函数与数组.md)
+- [x] [⭐30天学会Go --第6天 Go语言的的函数、闭包，错误处理](markdown/6.md)
 
-- [x] [⭐30天学会Go --第7天 Go语言的数组](markdown/Go语言的数组.md)
+- [x] [⭐30天学会Go --第7天 Go语言的数组](markdown/8.md)
 
-- [x] [⭐30天学会go --第8天  go语言的的排序和查找](markdown/go语言的的排序和查找.md)
+- [x] [⭐30天学会go --第8天  go语言的的排序和查找](markdown/8.md)
 
-- [x] [⭐30天学会go --第9天  Golang的多维数组](markdown/Golang的多维数组.md)
+- [x] [⭐30天学会go --第9天  Golang的多维数组](markdown/9.md)
 
 
 
 ##  Go语言面对对象
 
-- [x] [⭐30天学会go --第10天 Go的面对对象 – 结构体](markdown/Go的面对对象.md)
-- [x] [⭐30天学会go --第11天 深入理解Go面对对象思想](markdown/深入理解Go面对对象思想.md)
-- [x] [⭐30天学会go --第12天 Go语言面对接口](markdown/Go语言面对接口.md)
-- [x] [⭐30天学会go --第13天 Go语言的进阶篇](markdown/Go语言的进阶篇.md)
-- [x] [⭐30天学会go --第14天 Go语言项目 – 家庭收账单](markdown/家庭收账.md)
+- [x] [⭐30天学会go --第10天 Go的面对对象 – 结构体](markdown/11.md)
+
+- [x] [⭐30天学会go --第11天 深入理解Go面对对象思想](markdown/11.md)
+
+- [x] [⭐30天学会go --第12天 Go语言面对接口](markdown/12.md)
+
+- [x] [⭐30天学会go --第13天 Go语言的进阶篇](markdown/13.md)
+
+- [x] [⭐30天学会go --第14天 Go语言项目 – 家庭收账单](markdown/14.md)
 
 
 
 ##  Go语言高级
 
-- [x] [⭐30天学会go --第15天 Go语言文件系统](markdown/文件.md)
-- [x] [⭐30天学会go --第16天 Go语言存储和交换](markdown/json.md)
-- [x] [⭐30天学会go --第17天 Go语言性能测试](markdown/单元测试和性能测试.md)
-- [x] [⭐30天学会go --第18天 goroutine(协程)和channel(管道)](markdown/goroutine(协程)和channel(管道).md)
-- [x] [⭐30天学会go --第19天 Go语言channel(管道)](markdown/管道.md) 
-- [x] [⭐30天学会go --第20天 Go语言TCP编程](markdown/TCP编程.md)   
+- [x] [⭐30天学会go --第15天 Go语言文件系统](markdown/15.md)
 
+- [x] [⭐30天学会go --第16天 Go语言存储和交换](markdown/16.md)
+
+- [x] [⭐30天学会go --第17天 Go语言性能测试](markdown/17.md)
+
+- [x] [⭐30天学会go --第18天 goroutine(协程)和channel(管道)](18.md)
+
+- [x] [⭐30天学会go --第19天 Go语言channel(管道)](markdown/19.md) 
+
+- [x] [⭐30天学会go --第20天 Go语言TCP编程](markdown/20.md)   
 
 
 
 ## Go语言进阶
-- [x] [⭐30天学会go --第21天  Redis基础](markdown/Redis.md)   
+
+- [x] [⭐30天学会go --第21天  Redis基础](markdown/Redis.md)  
+
 - [x] [⭐30天学会go --第22天  Redis进阶](markdown/Redis进阶.md)
-- [x] [⭐30天学会go --第23天 Go语言操作REDIS](markdown/Go语言操作redis.md)  
-- [x] [⭐30天学会go --第24天 Go数据结构–稀疏数组](markdown/Go数据结构.md)   
-- [x] [⭐30天学会go --第25天 Go数据结构–队列](markdown/Go语言数据结构队列.md)   
-- [x] [⭐30天学会go --第26天 Go数据结构链表](markdown/Go数据结构链表.md)
-- [x] [⭐30天学会go --第27天 Go数据结构双向链表和循环链表](markdown/Go数据结构双向链表和循环链表.md)      
-- [x] [⭐30天学会go --第28天 Go语言约瑟夫](markdown/Go语言约瑟夫.md)      
-- [x] [⭐30天学会go --第29天 Go语言查找算法](markdown/查找算法.md)      
-- [x] [⭐30天学会go --第30天 Go语言排序算法](markdown/排序算法.md)      
+
+- [x] [⭐30天学会go --第23天 Go语言操作 Redis](markdown/Go语言操作redis.md) 
+
+- [x] [⭐30天学会go --第24天 Go数据结构–稀疏数组](markdown/Go数据结构.md) 
+  
+- [x] [⭐30天学会go --第25天 Go数据结构–队列](markdown/Go语言数据结构队列.md)
+- [x] [⭐30天学会go --第26天 Go数据结构链表](markdown/26.md)
+
+- [x] [⭐30天学会go --第27天 Go数据结构双向链表和循环链表](markdown/27.md)
+
+- [x] [⭐30天学会go --第28天 Go语言约瑟夫](markdown/28.md)
+  
+- [x] [⭐30天学会go --第29天 Go语言查找算法](markdown/29.md)
+  
+- [x] [⭐30天学会go --第30天 Go语言排序算法](markdown/30.md)      
 
 
 
