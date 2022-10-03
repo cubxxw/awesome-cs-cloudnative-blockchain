@@ -54,11 +54,23 @@
 
 💡 侧边目录支持方式：[📚 DocCub 文档](https://interview.huihut.com)、[Github + TOC 导航](https://github.com/jawil/GayHub)（[TOC预览.png](https://gitee.com/huihut/interview/raw/master/images/TOC预览.png)）
 
+👣 存在数学公式无法正常显示问题，强烈推荐[:triangular_ruler: MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 插件使用。
+
 📄 保存为 PDF 方式：使用 Chrome 浏览器打开 <a href="https://interview.huihut.com">📚 DocCub 文档</a> 页面，缩起左侧目录-右键 - 打印 - 选择目标打印机是另存为PDF - 保存（[打印预览.png](https://gitee.com/huihut/interview/raw/master/images/打印预览.png)）
 
 🙏 仓库内容如有错误或改进欢迎 [issue](https://github.com/3293172751/cs-awesome-Block_Chain/issues/new/choose) 或 pr，建议或讨论可在 [#12](https://github.com/huihut/interview/issues/12) 提出。由于本人水平有限，仓库中的知识点有来自本人原创、读书笔记、书籍、博文等，非原创均已标明出处，如有遗漏，请 [issue](https://github.com/3293172751/cs-awesome-Block_Chain/issues/new/choose) 提出。本仓库遵循 [CC BY-NC-SA 4.0（署名 - 非商业性使用 - 相同方式共享）](https://github.com/huihut/interview/blob/master/LICENSE) 协议，转载请注明出处，不得用于商业目的。
 
 </details>
+
+
+
+## 🔥CubDoc推出
+
+🈺 存在`GitHub`上浏览效果不佳，[Cub链学社](https://github.com/C-UB)推出`CubDoc`文档形式，使用`vuejs`渲染 。使用国内的服务器搭建（速度嘎快:bullettrain_front:) 。目前支持以下的项目🗃️：
+
++ [x] [:speedboat: Go语言基础-进阶](https://go.nsddd.top)
+
++ [x] [:speedboat: docker基础-进阶](https://docker.nsddd.top)
 
 
 
@@ -98,11 +110,17 @@ graph LR
 `mod`包是`Go`语言2018年推出的包管理工具，并会一直延续下去。命名规范以及项目目录结构📇的设定对于一名合格的工程师来说也是非常重要的。下面是作为一名合格的开发者🤵，必须要会的基本素养。
 
 + [🖱️Go语言包管理工具 — mod包](Gomd_super/mod.md)
+
 + [🖱️Go-air实现热加载编译](Gomd_super/go-air.md)
+
 + [🖱️命名规则和代码规范](Gomd_super/name.md)
+
 + 🖱️[Go语言目录结构](Gomd_super/catalogue.md)
+
 + 🖱️[Go文件以及编码处理](Gomd_super/go_file.md)
+
 + 🖱️[正则表达式](Gomd_super/zhenze.md)
+
 + 🖱️[位运算技巧](Gomd_super/bitwise.md)
 
 > Go语言一些其他的网站和博客，值得一看
@@ -118,11 +136,17 @@ graph LR
 CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-course)，内容涵盖 计算机操作系统、csapp系列、算法和数据结构、计算机网络、`linux`、`java`、`python`、`C/C++`、`vuepress`、`gitbook`、`nodejs`、`vuejs`、`halo`、`redis`、`hugo`、`nginx`、`nosql`、`mysql`、`JavaScript`、`git`、`markdown`、`web`前端等笔记，更多移步到[AWESOME系列CS仓库地址](https://github.com/3293172751/CS_COURSE)
 
 + [x] [Java全册☕](https://github.com/3293172751/awesome-cs-course/blob/master/java/README.md)
+
 + [x] [汇编学习🔥](汇编/README.md)
+
 + [x] [软件工程](./软件工程&系统设计和架构/README.md)
+
 + [x] [算法与数据结构（LeetCode刷题记录）🔥](https://github.com/3293172751/LeetCode/)
+
 + [x] [计算机网络🔥](./web/README.md)
+
 + [x] [操作系统 — OS🔥](https://github.com/3293172751/os)
+
 + [x] [CS必须要会的技术🔥](cs/README.md)
 
 
@@ -135,7 +159,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 + [x] 🖱️ [Git—必备神器🔥](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
 
-+ [x] [🖱️ Docker入门到进阶🔥](docker/README.md)  &emsp; ➡️➡️ &emsp;&emsp; [📘DocCub–docker book地址](https://3293172751.github.io/awesome-docker/markdown)
++ [x] [🖱️ Docker入门到进阶🔥](docker/README.md)  &emsp; ➡️➡️ &emsp;&emsp; 📘[DocCub–docker book地址](https://docker.nsddd.top/markdown/)
 
 + [x] [🖱️ 密码学和信息安全🔥](cryptology/README.md)
 
@@ -168,7 +192,9 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 > </a></div>
 
 + [x] [🖱️区块链教程🔥](C_Universal_Brockchain/README.md)
+
 + [x] [🖱️ETH and BTC](eth/TOC.md)
+
 + [x] [🖱️区块链技术指南](chainbrock-learning/SUMMARY.md)
 
 > 企业级[区块链实战教程](https://learnblockchain.cn/books/enterprise/)
@@ -189,7 +215,9 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 > 基于区块链的全民学习平台`C-Universal Blockchain`在保障用户安全，信息的完整性同时为大众带来更多的选择，笔记分享，视频分享，版权保护，以及其他的关于学信数据、电子证书、荣誉证明、成绩证明、信息授权的相关工具。
 
 + [ ] <del>[ 🖱️GLinux内核(未开始)]()</del>
+
 + [x] [ 🖱️C-Universal Brockchain](C_Universal_Brockchain/README.md)
+
 + [x] [ 🖱️C-Universal Brockchain（链学）组织地址](https://github.com/C-UB)
 
 

@@ -72,7 +72,7 @@ drwxr-xr-x  2 root root  4096 Mar  6 12:40 trie
 
 **代码结构**
 
-![geth源码结构.png](https://s2.loli.net/2022/03/16/YcFjvLK5oMbyTnf.png)
+![](https://s2.loli.net/2022/03/16/YcFjvLK5oMbyTnf.png)
 
 
 
