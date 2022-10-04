@@ -38,7 +38,119 @@ P.S. 非常感谢 mattn 的 [PR](https://github.com/cosmtrek/air/pull/1)，使�
 
 
 
-### ✨ beta 版本的特性
+### 使用 go install
+
+> 如果因为网络问题没办法下载，请看下面的配置镜像源的方法
+
+使用 Go 的版本为 1.16 或更高:
+
+```
+go install github.com/cosmtrek/air@latest
+```
+
+![air](https://github.com/cosmtrek/air/raw/master/docs/air.png)
+
+
+
+### 配置镜像源
+
+> 提醒 ⚠️
+>
+> + 官方提供的全球源速度也很快
+> + windown也可以使用Linux命令安装 — 就是`sh`，具体看我的Linux学习
+
+**在 Linux 或 macOS 上面，需要运行下面命令**（或者，可以把以下命令写到 `.bashrc` 或 `.bash_profile` 文件中）：
+
+```bash
+# 启用 Go Modules 功能
+go env -w GO111MODULE=on
+
+# 配置 GOPROXY 环境变量，以下三选一
+
+# 1. 七牛 CDN
+go env -w  GOPROXY=https://goproxy.cn,direct
+
+# 2. 阿里云
+go env -w GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
+
+# 3. 官方
+go env -w  GOPROXY=https://goproxy.io,direct
+```
+
+**最好确认以下**
+
+```bash
+$ go env | grep GOPROXY
+GOPROXY="https://goproxy.cn"
+```
+
+
+
+**在 Windows 上，需要运行下面命令：**
+
+```bash
+# 启用 Go Modules 功能
+$env:GO111MODULE="on"
+
+# 配置 GOPROXY 环境变量，以下三选一
+
+# 1. 七牛 CDN
+$env:GOPROXY="https://goproxy.cn,direct"
+
+# 2. 阿里云
+$env:GOPROXY="https://mirrors.aliyun.com/goproxy/,direct"
+
+# 3. 官方
+$env:GOPROXY="https://goproxy.io,direct"
+```
+
+**测试一下**
+
+```bash
+go install github.com/cosmtrek/air@latest
+```
+
+> 本地如果有模块缓存，可以使用命令清空 `go clean --modcache` 。
+>
+> ⚡ `go install`一般安装到环境变量的`bin`目录下面，可以用下面命令查看Go语言环境变量
+>
+> ```
+> go env
+> ```
+
+![image-20221004184910837](http://sm.nsddd.top/smimage-20221004184910837.png?xxw@nsddd.top)
+
+
+
+### 使用Docker
+
+请拉取这个 Docker 镜像 [cosmtrek/air](https://hub.docker.com/r/cosmtrek/air).
+
+```bash
+docker run -it --rm \
+    -w "<PROJECT>" \
+    -e "air_wd=<PROJECT>" \
+    -v $(pwd):<PROJECT> \
+    -p <PORT>:<APP SERVER PORT> \
+    cosmtrek/air
+    -c <CONF>
+```
+
+例如，我的项目之一是在 Docker 上运行的：
+
+```bash
+docker run -it --rm \
+    -w "/go/src/github.com/cosmtrek/hub" \
+    -v $(pwd):/go/src/github.com/cosmtrek/hub \
+    -p 9090:9090 \
+    cosmtrek/air
+```
+
+> Windows上面每次都需要启动docker，所以我不想选择这个
+
+
+
+## ✨ beta 版本的特性
 
 支持使用参数来配置 air 字段:
 
@@ -52,62 +164,6 @@ air --build.cmd "go build -o bin/api cmd/run.go" --build.bin "./bin/api"
 
 ```
 air --build.cmd "go build -o bin/api cmd/run.go" --build.bin "./bin/api" --build.exclude_dir "templates,build"
-```
-
-## 安装
-
-### 推荐使用 install.sh
-
-```
-# binary 文件会是在 $(go env GOPATH)/bin/air
-curl -sSfL https://raw.githubusercontent.com/cosmtrek/air/master/install.sh | sh -s -- -b $(go env GOPATH)/bin
-
-# 或者把它安装在 ./bin/ 路径下
-curl -sSfL https://raw.githubusercontent.com/cosmtrek/air/master/install.sh | sh -s
-
-air -v
-```
-
-P.S. 非常感谢 mattn 的 [PR](https://github.com/cosmtrek/air/pull/1)，使得 Air 支持 Windows 平台。
-
-
-
-### 使用 go install
-
-使用 Go 的版本为 1.16 或更高:
-
-```
-go install github.com/cosmtrek/air@latest
-```
-
-![air](https://github.com/cosmtrek/air/raw/master/docs/air.png)
-
-
-
-### 使用Docker
-
-请拉取这个 Docker 镜像 [cosmtrek/air](https://hub.docker.com/r/cosmtrek/air).
-
-```
-docker run -it --rm \
-    -w "<PROJECT>" \
-    -e "air_wd=<PROJECT>" \
-    -v $(pwd):<PROJECT> \
-    -p <PORT>:<APP SERVER PORT> \
-    cosmtrek/air
-    -c <CONF>
-```
-
-
-
-例如，我的项目之一是在 Docker 上运行的：
-
-```
-docker run -it --rm \
-    -w "/go/src/github.com/cosmtrek/hub" \
-    -v $(pwd):/go/src/github.com/cosmtrek/hub \
-    -p 9090:9090 \
-    cosmtrek/air
 ```
 
 
@@ -141,7 +197,9 @@ air init
 air
 ```
 
-如欲修改配置信息，请参考 [air_example.toml](https://github.com/cosmtrek/air/blob/master/air_example.toml) 文件.
+如欲修改配置信息，请参考 [air_example.toml](https://github.com/cosmtrek/air/blob/master/air_example.toml) 文件。
+
+
 
 ### 运行时参数
 
@@ -165,6 +223,8 @@ air -- -h
 air -c .air.toml -- -h
 ```
 
+
+
 ### Docker-compose
 
 ```
@@ -183,9 +243,13 @@ services:
       - ./project-relative-path/:/project-package/
 ```
 
+
+
 ### 调试
 
 运行 `air -d` 命令能打印所有日志。
+
+
 
 ## Q&A
 
@@ -196,6 +260,8 @@ export GOPATH=$HOME/xxxxx
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export PATH=$PATH:$(go env GOPATH)/bin <---- 请确认这行在您的配置信息中！！！
 ```
+
+
 
 ## 部署
 
@@ -218,6 +284,8 @@ make install
 ```
 
 顺便说一句: 欢迎 PR~
+
+
 
 ### 发布新版本
 
