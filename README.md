@@ -173,6 +173,10 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 <font size = 2>我认为世界历史可以用两句话来描述：分久必合，合久必分。区块链将是催化下一个‘合久必分’时代的新技术。区块链的产生铸就了一个新的时代，我们的信念是建筑在一个数学的算法上面，In math we trust。	——张首晟</font>
 
+:spider_web: 这是一个web2的世界，或者很快整个互联网行业都会改革，是的，都会迈入web3的世界
+
+> 🔥 我深以为然：区块链或许不能让这个世界分布化，但是它可以让世界不再有中介。不在会因为你所玩游戏崩溃你就失去了这个游戏~
+
 从事区块链，需要哪些基础知识，看下[区块链开发需要什么](C_Universal_Brockchain\chain.md) ，你需要一份[区块链工程师路线](./blockchain/route.md)，或许你可以在一些区块链项目中找到灵感[🔗区块链公益项目（NFT+私链/联盟链/私链）](blockchain/区块链公益项目/README.md)。区块链的[共识算法](blockchain/README.md)是怎么实现的呢?
 
 + [x] [🔗区块链工程师路线](./blockchain/route.md)
@@ -182,14 +186,17 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 + [x] [🔗区块链公益项目（NFT+私链/联盟链/私链）](blockchain/区块链公益项目/README.md)
 + [x] [🔗共识算法——Go语言实现](./blockchain/README.md)
 
-
 <br>
 
 ## :b:区块链教程
 
-💱 区块链系列包含了区块链教程，主要是`eth`、`btc`还有联盟链`fabric`超级账本组织的教程，基于这些教程扩展新的技术：`git`、`ipfs`、密码学、共识算法。以及链学项目[C-Universal Blockchain](https://github.com/c-ub)
+💱 区块链系列包含了区块链教程，主要是`eth`、`btc`还有联盟链`fabric`超级账本组织的教程，基于这些教程扩展新的技术：`git`、`ipfs`、密码学、共识算法。
 
-> 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**以太坊白皮书（需要有golang编程基础）**
+📮 这个也是我们`C-UB`社区的最终目的，我们要打造出一个不一样的全民学习平台，将会融合一切新型技术（`ipfs`、`git`、`k8s`、`Kafka`)，基于web3的c-ub社区，属于我们每一个人！或许这将会有能力成为下一个时代的先驱，完全改变人类的协同方式。当人与人之间更信任，效率就会更高。
+
+🚸 以及链学项目[C-Universal Blockchain](https://github.com/c-ub)
+
+> 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**[以太坊白皮书](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)（需要有golang编程基础）**
 >
 > <div align="center">
 > <a href="eth/TOC.md">
@@ -198,12 +205,11 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 + [x] [🖱️区块链教程🔥](C_Universal_Brockchain/README.md)
 
-+ [x] [🖱️ETH and BTC](eth/TOC.md)
++ [x] [🖱️web3，智能合约](eth/TOC.md)
 
 + [x] [🖱️区块链技术指南](chainbrock-learning/SUMMARY.md)
 
 > 企业级[区块链实战教程](https://learnblockchain.cn/books/enterprise/)
-
 
 <br>
 
