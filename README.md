@@ -205,7 +205,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 + [x] [🖱️区块链教程🔥](C_Universal_Brockchain/README.md)
 
-+ [x] [🖱️web3，智能合约](eth/TOC.md)
++ [x] [🖱️web3，智能合约](eth/README.md)
 
 + [x] [🖱️区块链技术指南](chainbrock-learning/SUMMARY.md)
 
