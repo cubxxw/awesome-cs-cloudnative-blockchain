@@ -62,11 +62,11 @@
 
 - [x] [😎 第12节 go用来做以太坊开发](./markdown/12.md)
 
-- [x] [😎🔑](./markdown/13.md)
+- [x] [😎 第13节 solidity用法总结](./markdown/13.md)
 
-- [x] [😎🔑](./markdown/14.md)
+- [x] [😎 第14节 web3.js](./markdown/14.md)
 
-- [x] [😎🔑](./markdown/15.md)
+- [x] [😎 第15节 solidity进阶](./markdown/15.md)
 
 - [x] [😎🔑](./markdown/16.md)
 
