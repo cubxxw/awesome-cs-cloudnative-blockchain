@@ -215,6 +215,8 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 ## 🗃️项目
 
+⚡[cubgo-os](https://github.com/3293172751/cubgo-os)（幼兽操作系统）由Go语言开发，可以运行基础应用 ~
+
 > <p align = "center" color="red">
 >   <b>c-universal blockchain（CUB-链学）</b>    
 > </p>
@@ -226,7 +228,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 >
 > 基于区块链的全民学习平台`C-Universal Blockchain`在保障用户安全，信息的完整性同时为大众带来更多的选择，笔记分享，视频分享，版权保护，以及其他的关于学信数据、电子证书、荣誉证明、成绩证明、信息授权的相关工具。
 
-+ [ ] <del>[ 🖱️GLinux内核(未开始)]()</del>
++ [ ] [ 🖱️cubgo-os(未开始)](https://github.com/3293172751/cubgo-os)
 
 + [x] [ 🖱️C-Universal Brockchain](C_Universal_Brockchain/README.md)
 
