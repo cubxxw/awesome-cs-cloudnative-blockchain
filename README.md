@@ -10,7 +10,7 @@
 
   <p align='center'>
   <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee" title="国内gitee镜像加速"></a>
-  <a href="https://wakatime.com/@3293172751/projects/hngzsvjxqc?start=2022-03-30&end=2022-04-05" title="项目的进展时长" > <img src="http://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg"></a>
+  <a href="https://wakatime.com/@c445b3c6-a2bc-43a2-a24a-0828a17244b4" title="项目的进展时长" > <img src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4.svg"></a>
   <a href="https://github.com/3293172751/cs-awesome-Block_Chain/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/3293172751/cs-awesome-Block_Chain?style=plastic"></a>
   <a href="https://xxw.nsddd.top/s/wRSz"><img alt="个人网盘不限速" src="https://img.shields.io/badge/cloud-xiongxinwei-red?logo=iCloud" title="个人网盘不限速下载浏览"></a>
   </p>
