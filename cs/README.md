@@ -80,8 +80,9 @@
 
 - [x] 🎊 [第27节 Spring Boot参考指南](markdown/27.md)
 
+- [x] 🎊 [第28节 Vercel替代Pages服务](markdown/28.md)
+
 <!--
-- [ ] 🎊 [](markdown/28.md)
 
 - [ ] 🎊 [](markdown/29.md)
 
