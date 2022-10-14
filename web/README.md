@@ -97,6 +97,16 @@
 > 板块是三个部分：分别是**路由器、交换机和防火墙**
 >
 > 对应的是`HCIA-Datacom`对应的等级网络工程师（最合适的是HCIP）。
+>
+> +  [云盘下载eNSP](https://pan.xunlei.com/s/VNELU_83g8WRn2X8Li6wwp1NA1?pwd=cgat#)
+>
+>   ```
+>   链接：https://pan.xunlei.com/s/VNELU_83g8WRn2X8Li6wwp1NA1?pwd=cgat#
+>   提取码：cgat
+>   复制这段内容后打开手机迅雷App，查看更方便
+>   ```
+>
+> + 个人网盘下载eNSP 
 
 - [x] [📶路由器和交换机区别](markdown/27.md)
 - [x] [📶](markdown/28.md)
