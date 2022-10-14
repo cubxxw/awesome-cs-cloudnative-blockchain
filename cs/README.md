@@ -82,9 +82,9 @@
 
 - [x] 🎊 [第28节 Vercel替代Pages服务](markdown/28.md)
 
-<!--
+- [ ] 🎊 [第29节 algolia爬取并优化网站搜索](markdown/29.md)
 
-- [ ] 🎊 [](markdown/29.md)
+<!--
 
 - [ ] 🎊 [](markdown/30.md)
 
