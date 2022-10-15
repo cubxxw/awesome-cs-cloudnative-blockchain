@@ -1,4 +1,4 @@
-# 没有办法定位的栏目汇总
+# welcome here
 
 <p align='center'>
 <a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin"></a>
@@ -11,7 +11,7 @@
 <a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
 <a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
 </p>
-
+---
 
 ## 🚀前言
 
@@ -21,6 +21,8 @@
 这些内容具体插入到某一个栏目，但是这些内容我很喜欢 💕（比如说很多Linux使用骚操作、CS一些学习资料和课程、树莓派……）或许就像你看到我的仓库忍不住给一颗⭐，我也忍不住兴奋。
 
  ⚡里面的内容收集于：闲逛知乎、GitHub、各个博客网站收集到的项目，然后将他们汇总到这个神秘的仓库（事实是它们无处可去，这里收留了它们:dog:） 或许有些内容我也没看完或者是看不明白，所以让我很疑惑的同时，好奇心驱动着无语伦比的喜欢。
+
+ 💡 很喜欢用谷歌的原因是谷歌对个人博客非常友好，尤其是一些优质的个人博客，所以个人很喜欢用谷歌，也很喜欢写[个人博客🧷](http://nsddd.top/)，如果你需要添加[友情链接🧷](https://nsddd.top/links) 
 
  ⚡还有一部分内容是来自自己日常记录，比如说 [Copilot使用体验](markdown/23.md)，我很喜欢，所以我就会记录下来分享出来，还有[hugo](markdown/25.md)、[mongodb](markdown/26.md)、[cloudreve](markdown/24.md)……
 
@@ -84,11 +86,11 @@
 
 - [x] 🎊 [第29节 algolia爬取并优化网站搜索](markdown/29.md)
 
+- [x] 🎊 [第30节 jq 轻量级的命令行json解释器](markdown/30.md)
+
+- [x] 🎊 [第31节 自动部署Actions CICD讲解](markdown/31.md)
+
 <!--
-
-- [ ] 🎊 [](markdown/30.md)
-
-- [ ] 🎊 [](markdown/31.md)
 
 - [ ] 🎊 [](markdown/32.md)
 
