@@ -92,11 +92,11 @@
 
 - [x] 🎊 [第32节 常用命令行替代](markdown/32.md)
 
+- [x] 🎊 [第33节 actions常用的配置](markdown/33.md)
+
+- [x] 🎊 [第34节 在线vscode完成贡献和阅读](markdown/34.md)
+
 <!--
-
-- [ ] 🎊 [](markdown/33.md)
-
-- [ ] 🎊 [](markdown/34.md)
 
 - [ ] 🎊 [](markdown/35.md)
 
