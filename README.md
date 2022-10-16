@@ -88,8 +88,8 @@
 <details><summary><b>📚 知乎专栏订阅（每周更新❗）</b></summary>
 
 </br>
-🔥 知乎专栏<b>每周自动更新一次</b> ，喜欢文章关注点赞👍噢~
-<br>
+🔥 知乎专栏<b>每周日晚11：59自动更新一次（28篇）</b> ，喜欢文章关注点赞👍噢~
+<br><br>
 
 <!-- BLOG-POST-LIST:START -->
 - [c-universal blockchain&lpar;链学社）白皮书](https://zhuanlan.zhihu.com/p/572220389)
