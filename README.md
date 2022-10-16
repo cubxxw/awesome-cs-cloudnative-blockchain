@@ -91,17 +91,12 @@
 <br>
 
 
-<!-- BLOG-POST-LIST:START -->
-
-<!-- BLOG-POST-LIST:END -->
-
-
 </details>
 
 </hr>
 <br>
 
-# Recent blog posts
+## Recent blog posts
 
 <!-- BLOG-POST-LIST:START -->
 
