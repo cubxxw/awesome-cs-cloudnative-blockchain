@@ -77,11 +77,19 @@
 
 ## 🗓️ Cub知乎精选
 
+[<img align="left" alt="shenxianpeng | ZhiHu" width="22px" src="https://www.svgrepo.com/show/305628/zhihu.svg" />][zhihu] 
+
+[zhihu]: https://www.zhihu.com/people/3293172751
+
+<a href="https://www.zhihu.com/people/3293172751" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E9%93%BE%E5%AD%A6%E8%80%85%E7%A4%BE%E5%8C%BA-blue?logo=zhihu&style=flat-square"></a>
+<a href="https://s2.loli.net/2022/07/05/sQHuozItvWg1heA.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?logo=wechat&style=flat-square"></a>
+
 <details><summary><b>📚 知乎专栏订阅（每周更新❗）</b></summary>
 
-🔥 知乎专栏***每周自动更新一次*** [<img align="left" alt="shenxianpeng | ZhiHu" width="22px" src="https://www.svgrepo.com/show/305628/zhihu.svg" />][zhihu]，喜欢文章关注点赞👍噢~
+</br>
+🔥 知乎专栏<b>每周自动更新一次</b> ，喜欢文章关注点赞👍噢~
+<br>
 
-[zhihu]: https://www.zhihu.com/people/shenxianpeng
 
 <!-- BLOG-POST-LIST:START -->
 
