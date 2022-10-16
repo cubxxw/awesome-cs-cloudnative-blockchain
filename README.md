@@ -1,6 +1,6 @@
 # 菜鸟的成长手册[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/3293172751/cs-awesome-Block_Chain)
 
-## 🧭导航
+## 🧭 导航
 
 + 🔍[**快速指南(wike) — 仓库总结**](https://github.com/3293172751/Block_Chain/wiki)
 
@@ -52,7 +52,7 @@
 
  ⛓️ <b>区块链技术（也称之为分布式账本技术）</b>，是一种互联网数据库技术，其特点是<font color ="gree">去中心化，公开透明，信息不可篡改性，隐私匿名性🤑</font><a href="https://github.com/C-UB">CUB链学社</a>致力打造<b>区块链自学教育平台。</b>
 
-💡 侧边目录支持方式：[📚 DocCub 文档](https://go.nsddd.top)、🗃️[Github + TOC 导航](http://sm.nsddd.top/sm20221004130721.png?xxw@nsddd.top)， **😍 甚至你可以在这个界面按下`.` ➡️ [进入vscode编译环境](https://nsddd.top/archives/githubdev) **
+💡 侧边目录支持方式：[📚 DocCub 文档](https://go.nsddd.top)、🗃️[Github + TOC 导航](http://sm.nsddd.top/sm20221004130721.png?xxw@nsddd.top)， 😍 甚至你可以在这个界面按下`.` ➡️ [进入vscode编译环境](https://nsddd.top/archives/githubdev) 
 
 👣 存在数学公式无法正常显示问题，强烈推荐[:triangular_ruler: MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 插件使用。
 
@@ -65,7 +65,7 @@
 </hr>
 <br>
 
-## 🔥CubDoc推出
+## 🔥 CubDoc推出
 
 🈺 存在`GitHub`上浏览效果不佳，[Cub链学社](https://github.com/C-UB)推出`CubDoc`文档形式，使用`vuejs`渲染 。使用国内的服务器搭建（速度嘎快:bullettrain_front:) 。目前支持以下的项目🗃️：
 
@@ -73,10 +73,25 @@
 
 + [x] [:speedboat: docker基础-进阶](https://docker.nsddd.top)
 
-
 <br>
 
-## 📖Go语言
+## 🗓️ Cub知乎精选
+
+<details><summary><b>📚 知乎专栏订阅（每周更新❗）</b></summary>
+
+🔥 知乎专栏***每周自动更新一次*** [<img align="left" alt="shenxianpeng | ZhiHu" width="22px" src="https://www.svgrepo.com/show/305628/zhihu.svg" />][zhihu]，喜欢文章关注点赞👍噢~
+
+[zhihu]: https://www.zhihu.com/people/shenxianpeng
+
+<!-- BLOG-POST-LIST:START -->
+
+<!-- BLOG-POST-LIST:END -->
+</details>
+
+</hr>
+<br>
+
+## 📖 Go语言
 
 #### 🏷️前言
 
@@ -134,7 +149,7 @@ graph LR
 
 <br>
 
-## 📚CS系列
+## 📚 CS系列
 
 CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-course)，内容涵盖 计算机操作系统、csapp系列、算法和数据结构、计算机网络、`linux`、`java`、`python`、`C/C++`、`vuepress`、`gitbook`、`nodejs`、`vuejs`、`halo`、`redis`、`hugo`、`nginx`、`nosql`、`mysql`、`JavaScript`、`git`、`markdown`、`web`前端等笔记，更多移步到[AWESOME系列CS仓库地址](https://github.com/3293172751/CS_COURSE)
 
@@ -155,7 +170,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 <br>
 
-## 📘开发必备技术
+## 📘 开发必备技术
 
 🧋参与普通程序的开发或者是区块链⛓️开发必须[熟悉Linux指令](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)，熟悉[git团队开发](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)，基于[docker容器](docker/README.md)会让我门快速的搭建工具和环境，更好的迁移开发环境和迁移链码（blockcode)，[密码学和信息安全](cryptology/README.md)不仅仅是区块链工程师必须要学习的技术，更是IT从业者未来不可或缺的技术。我们都渴望系统能更加的安全不是吗📵。
 
@@ -169,7 +184,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 <br>
 
-## 📔区块链导航
+## 📔 区块链导航
 
 <font size = 2>我认为世界历史可以用两句话来描述：分久必合，合久必分。区块链将是催化下一个‘合久必分’时代的新技术。区块链的产生铸就了一个新的时代，我们的信念是建筑在一个数学的算法上面，In math we trust。	——张首晟</font>
 
@@ -188,7 +203,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 <br>
 
-## :b:区块链教程
+## :b: 区块链教程
 
 💱 区块链系列包含了区块链教程，主要是`eth`、`btc`还有联盟链`fabric`超级账本组织的教程，基于这些教程扩展新的技术：`git`、`ipfs`、密码学、共识算法。
 
@@ -213,9 +228,9 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 <br>
 
-## 🗃️项目
+## 🗃️ 项目
 
-⚡[cubgo-os](https://github.com/3293172751/cubgo-os)（幼兽操作系统）由Go语言开发，可以运行基础应用 ~
+⚡[cubgo-os](https://github.com/3293172751/cubgo-os)（幼兽操作系统）由Go语言开发，可以运行基础应用，使用的是热门的命令工具 ~
 
 > <p align = "center" color="red">
 >   <b>c-universal blockchain（CUB-链学）</b>    
@@ -236,7 +251,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 <br>
 
-## ✨参与贡献💕
+## ✨ 参与贡献💕
 
  **[🫵 参与贡献💖❤️‍🩹💓💞](https://nsddd.top/archives/contributors)** 
 
@@ -260,8 +275,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 <br>
 
-
-## 版权声明 &copy;
+## 💡 版权声明 &copy;
 
 [![GitHub license](https://sm.nsddd.top//typora/cs-awesome-Block_Chain?mail:3293172751@qq.com)](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本)
 
