@@ -49,7 +49,7 @@
 
  ⚠️ 这是一个菜鸟的成长记录，如果你也想成为工程师，想从事后端的相关工作，或者想了解区块链的相关知识，那么它可以帮助到你😎 —>  <b>喜欢请给个⭐收藏~</b>
 
- 🐧 喜欢Go语言的朋友欢迎加入*Go*语言自学群（<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=ZZnzhuU8uGmIKT5btI9uiCRpasUeD8e2&jump_from=webapi&authKey=x1/NMrS1KpK7N8Rvj4IfLcKYSWnjtElgU6a3ubin1JmtReyuoIlyE/ZJ0VRlK25n"><img border="0" src="./images/group.png" alt="GoLang/Go语言/自学交流" title="GoLang/Go语言/自学交流"></a>*QQ*群号：[141984758](https://qm.qq.com/cgi-bin/qm/qr?k=ZZnzhuU8uGmIKT5btI9uiCRpasUeD8e2&jump_from=webapi&authKey=x1/NMrS1KpK7N8Rvj4IfLcKYSWnjtElgU6a3ubin1JmtReyuoIlyE/ZJ0VRlK25n)）
+ 🐧 喜欢*Go*语言的朋友欢迎加入*Go*语言自学群（<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=ZZnzhuU8uGmIKT5btI9uiCRpasUeD8e2&jump_from=webapi&authKey=x1/NMrS1KpK7N8Rvj4IfLcKYSWnjtElgU6a3ubin1JmtReyuoIlyE/ZJ0VRlK25n"><img border="0" src="./images/group.png" alt="GoLang/Go语言/自学交流" title="GoLang/Go语言/自学交流"></a>*QQ*群号：[141984758](https://qm.qq.com/cgi-bin/qm/qr?k=ZZnzhuU8uGmIKT5btI9uiCRpasUeD8e2&jump_from=webapi&authKey=x1/NMrS1KpK7N8Rvj4IfLcKYSWnjtElgU6a3ubin1JmtReyuoIlyE/ZJ0VRlK25n)）
 
  ⛓️ <b>区块链技术（也称之为分布式账本技术）</b>，是一种互联网数据库技术，其特点是<font color ="gree">去中心化，公开透明，信息不可篡改性，隐私匿名性🤑</font><a href="https://github.com/C-UB">CUB链学社</a>致力打造<b>区块链自学教育平台。</b>
 
@@ -86,7 +86,6 @@
 <a href="https://s2.loli.net/2022/07/05/sQHuozItvWg1heA.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?logo=wechat&style=flat-square"></a>
 
 <details><summary><b>📚 知乎专栏订阅（每周更新❗）</b></summary>
-
 </br>
 🔥 知乎专栏<b>每周日晚11：59自动更新一次（28篇）</b> ，喜欢文章关注点赞👍噢~
 <br><br>
@@ -117,7 +116,6 @@
 
 </hr>
 <br>
-
 
 ## 📖 Go语言
 
@@ -283,7 +281,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
  **[🫵 参与贡献💖❤️‍🩹💓💞](https://nsddd.top/archives/contributors)** 
 
-**[😍 甚至你可以在这个界面按下`.`进入vscode编译环境](https://nsddd.top/archives/githubdev) **
+**[😍 甚至你可以在这个界面按下`.`进入vscode编译环境](https://nsddd.top/archives/githubdev)** 
 
 **要求：**
 
