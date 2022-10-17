@@ -92,6 +92,7 @@
 <br><br>
 
 <!-- BLOG-POST-LIST:START -->
+- [Cubos&lpar;幼兽os）开发准备~](https://zhuanlan.zhihu.com/p/574430945)
 - [c-universal blockchain&lpar;链学社）白皮书](https://zhuanlan.zhihu.com/p/572220389)
 - [计算机寒冬，选择考研？](https://zhuanlan.zhihu.com/p/569740306)
 - [java位运算以及补码重点详解](https://zhuanlan.zhihu.com/p/568911111)
@@ -110,7 +111,6 @@
 - [计算机cs专业笔记](https://zhuanlan.zhihu.com/p/545322143)
 - [CS程序员最全学习笔记（点赞收藏）](https://zhuanlan.zhihu.com/p/545320585)
 - [Go语言进阶篇](https://zhuanlan.zhihu.com/p/542086763)
-- [Go语言基础篇](https://zhuanlan.zhihu.com/p/542084566)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
