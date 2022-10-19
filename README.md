@@ -89,30 +89,8 @@
 </br>
 🔥 知乎专栏<b>每周日晚11：59自动更新一次（28篇）</b> ，喜欢文章关注点赞👍噢~
 <br><br>
+<!-- BLOG-POST-LIST:START -->
 
-<<<<<<< HEAD
-<!-- BLOG-POST-LIST:START -->
-- [c-universal blockchain&lpar;链学社）白皮书](https://zhuanlan.zhihu.com/p/572220389)
-- [计算机寒冬，选择考研？](https://zhuanlan.zhihu.com/p/569740306)
-- [java位运算以及补码重点详解](https://zhuanlan.zhihu.com/p/568911111)
-- [不一样的Linux（基础--&gt;超阶） -- 选自github](https://zhuanlan.zhihu.com/p/568581434)
-- [Java笔记-基础到web、框架（选自github）](https://zhuanlan.zhihu.com/p/568570282)
-- [使用hugo搭建个人博客](https://zhuanlan.zhihu.com/p/568561676)
-- [强烈推荐GitHub学习仓库](https://zhuanlan.zhihu.com/p/566171053)
-- [go语言入门到进阶](https://zhuanlan.zhihu.com/p/561969119)
-- [计算机网络 -- socket编程（全集）](https://zhuanlan.zhihu.com/p/561967387)
-- [汇编语言](https://zhuanlan.zhihu.com/p/559067183)
-- [很棒的 Go 框架、库和软件的精选列表 - Awesome Go / Golang](https://zhuanlan.zhihu.com/p/555867207)
-- [链表学习 --依次刷 leetcode 简单，一般，困难题](https://zhuanlan.zhihu.com/p/547320760)
-- [考研操作系统复习](https://zhuanlan.zhihu.com/p/546896650)
-- [二分查找数组以及对数器使用](https://zhuanlan.zhihu.com/p/546890129)
-- [递归算法和时间复杂度](https://zhuanlan.zhihu.com/p/545323896)
-- [计算机cs专业笔记](https://zhuanlan.zhihu.com/p/545322143)
-- [CS程序员最全学习笔记（点赞收藏）](https://zhuanlan.zhihu.com/p/545320585)
-- [Go语言进阶篇](https://zhuanlan.zhihu.com/p/542086763)
-- [Go语言基础篇](https://zhuanlan.zhihu.com/p/542084566)
-=======
-<!-- BLOG-POST-LIST:START -->
 - [Cubos&lpar;幼兽os）开发准备~](https://zhuanlan.zhihu.com/p/574430945)
 - [c-universal blockchain&lpar;链学社）白皮书](https://zhuanlan.zhihu.com/p/572220389)
 - [计算机寒冬，选择考研？](https://zhuanlan.zhihu.com/p/569740306)
@@ -132,7 +110,6 @@
 - [计算机cs专业笔记](https://zhuanlan.zhihu.com/p/545322143)
 - [CS程序员最全学习笔记（点赞收藏）](https://zhuanlan.zhihu.com/p/545320585)
 - [Go语言进阶篇](https://zhuanlan.zhihu.com/p/542086763)
->>>>>>> 07584ca19561e4d96025c3be182270ea802b2bf2
 <!-- BLOG-POST-LIST:END -->
 
 </details>
@@ -292,11 +269,9 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 >
 > 基于区块链的全民学习平台`C-Universal Blockchain`在保障用户安全，信息的完整性同时为大众带来更多的选择，笔记分享，视频分享，版权保护，以及其他的关于学信数据、电子证书、荣誉证明、成绩证明、信息授权的相关工具。
 
-+ [ ] [ 🖱️cubgo-os(未开始)](https://github.com/3293172751/cubgo-os)
-
-+ [x] [ 🖱️C-Universal Brockchain](C_Universal_Brockchain/README.md)
-
-+ [x] [ 🖱️C-Universal Brockchain（链学）组织地址](https://github.com/C-UB)
++ [ ]  [🧷sealos](https://github.com/3293172751/sealos) 
++ [ ] [ 🧷cubgo-os(未开始)](https://github.com/3293172751/cubgo-os)
++ [x] [ 🧷C-Universal Brockchain（链学）组织地址](https://github.com/C-UB)  |  [ 🧷C-Universal Brockchain](C_Universal_Brockchain/README.md)
 
 <br>
 
