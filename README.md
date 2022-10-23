@@ -91,9 +91,9 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [使用sealos搭建k8s](https://zhuanlan.zhihu.com/p/576388662)
 - [常用命令行替代](https://zhuanlan.zhihu.com/p/576392923)
 - [在线vscode完成贡献和阅读](https://zhuanlan.zhihu.com/p/576392446)
-- [使用sealos搭建k](https://zhuanlan.zhihu.com/p/576388662)
 - [k8s集群搭建记录](https://zhuanlan.zhihu.com/p/576388231)
 - [Cubos&lpar;幼兽os）开发准备~](https://zhuanlan.zhihu.com/p/574430945)
 - [c-universal blockchain&lpar;链学社）白皮书](https://zhuanlan.zhihu.com/p/572220389)
