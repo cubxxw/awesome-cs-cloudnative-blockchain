@@ -91,6 +91,8 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [使用sealos搭建k](https://zhuanlan.zhihu.com/p/576388662)
+- [k8s集群搭建记录](https://zhuanlan.zhihu.com/p/576388231)
 - [Cubos&lpar;幼兽os）开发准备~](https://zhuanlan.zhihu.com/p/574430945)
 - [c-universal blockchain&lpar;链学社）白皮书](https://zhuanlan.zhihu.com/p/572220389)
 - [计算机寒冬，选择考研？](https://zhuanlan.zhihu.com/p/569740306)
@@ -108,8 +110,6 @@
 - [二分查找数组以及对数器使用](https://zhuanlan.zhihu.com/p/546890129)
 - [递归算法和时间复杂度](https://zhuanlan.zhihu.com/p/545323896)
 - [计算机cs专业笔记](https://zhuanlan.zhihu.com/p/545322143)
-- [CS程序员最全学习笔记（点赞收藏）](https://zhuanlan.zhihu.com/p/545320585)
-- [Go语言进阶篇](https://zhuanlan.zhihu.com/p/542086763)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
