@@ -91,6 +91,8 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [常用命令行替代](https://zhuanlan.zhihu.com/p/576392923)
+- [在线vscode完成贡献和阅读](https://zhuanlan.zhihu.com/p/576392446)
 - [使用sealos搭建k](https://zhuanlan.zhihu.com/p/576388662)
 - [k8s集群搭建记录](https://zhuanlan.zhihu.com/p/576388231)
 - [Cubos&lpar;幼兽os）开发准备~](https://zhuanlan.zhihu.com/p/574430945)
@@ -108,8 +110,6 @@
 - [链表学习 --依次刷 leetcode 简单，一般，困难题](https://zhuanlan.zhihu.com/p/547320760)
 - [考研操作系统复习](https://zhuanlan.zhihu.com/p/546896650)
 - [二分查找数组以及对数器使用](https://zhuanlan.zhihu.com/p/546890129)
-- [递归算法和时间复杂度](https://zhuanlan.zhihu.com/p/545323896)
-- [计算机cs专业笔记](https://zhuanlan.zhihu.com/p/545322143)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
