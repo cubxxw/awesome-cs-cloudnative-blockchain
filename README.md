@@ -138,13 +138,11 @@ graph LR
 
 **Go语言的核心编程篇，基础部分30天记录，100篇进阶，还有正在进展的高级篇~**
 
+⚠️ 目前已全部迁移至 ➡️ [CubDoc🧷](https://go.nsddd.top/)
+
 + [x] [🖱️GO 基础部分🔥](TOC.md)
-
-+ [ ] [🖱️GO web框架](go-web/)
-
 + [x] [🖱️Go语言100篇进阶🔥](Gomd_super/README.md)
-
-+ [ ] [🖱️Go 高级篇](go-advancend/README.md)
++ [x] [🖱️Go 高级篇](go-advancend/README.md)
 
 
 
@@ -200,11 +198,13 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 🧋参与普通程序的开发或者是区块链⛓️开发必须[熟悉Linux指令](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)，熟悉[git团队开发](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)，基于[docker容器](docker/README.md)会让我门快速的搭建工具和环境，更好的迁移开发环境和迁移链码（blockcode)，[密码学和信息安全](cryptology/README.md)不仅仅是区块链工程师必须要学习的技术，更是IT从业者未来不可或缺的技术。我们都渴望系统能更加的安全不是吗📵。
 
+⚠️ `Docker` 、`K8s`、`sealos`、`云原生` 已全部迁移至 ➡️ [CubDoc🧷](https://docker.nsddd.top/)
+
 + [x] 🖱️ [linux从入门到精通🔥](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
 
 + [x] 🖱️ [Git—必备神器🔥](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
 
-+ [x] [🖱️ Docker入门到进阶🔥](docker/README.md)  &emsp; ➡️➡️ &emsp;&emsp; 📘[DocCub–docker book地址](https://docker.nsddd.top/markdown/)
++ [x] [🖱️ Docker/k8s/云原生🔥](docker/README.md) 
 
 + [x] [🖱️ 密码学和信息安全🔥](cryptology/README.md)
 
@@ -237,7 +237,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 🚸 以及链学项目[C-Universal Blockchain](https://github.com/c-ub)
 
-> 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下**[以太坊白皮书](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)（需要有golang编程基础）**
+> 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下 **[以太坊白皮书](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)（需要有golang编程基础）**
 >
 > <div align="center">
 > <a href="eth/TOC.md">
