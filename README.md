@@ -286,6 +286,15 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 + [你需要学会使用markdown🖱️](https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md)
 + [符合Google代码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
 
+<details><summary><b>🫡 克隆此仓库到本地</b></summary>
+
+<pre><code>wget -c -d -O gitsync.sh https://sm.nsddd.top/uploads/2022/10/27/Y0iHb6ix_gitsync.sh?attname=gitsync.sh &amp;&amp; sh agit.sh &amp;&amp; chmod 777 agit.sh \
+</code></pre>
+
+</details>
+
+<br>
+
 <font size = 2>如果你也想对本项目做出贡献，那么你可以先把该项目进行 [fork](https://github.com/3293172751/cs-awesome-Block_Chain/fork)或者 `git clone` 到本地（推荐先用 [fock](https://github.com/3293172751/cs-awesome-Block_Chain/fork)到自己仓库，然后再clone到本地，对本地进行操作，最后从自己仓库贡献，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_badge.svg)](https://repography.com)
