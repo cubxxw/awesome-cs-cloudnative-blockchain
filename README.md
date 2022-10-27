@@ -286,10 +286,9 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 + [符合Google代码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
 
 <details><summary><b>🫡 克隆此仓库到本地</b></summary>
-
 <pre><code>git clone https://github.com/3293172751/Block_Chain.git 菜鸟的成长手册
 </code></pre>
-<pre><code>wget -c -d -O gitsync.sh https://sm.nsddd.top/uploads/2022/10/27/Y0iHb6ix_gitsync.sh?attname=gitsync.sh &amp;&amp; sh agit.sh &amp;&amp; chmod 777 agit.sh \
+<pre><code>wget -c -d -O gitsync.sh https://sm.nsddd.top/uploads/2022/10/27/Y0iHb6ix_gitsync.sh?attname=gitsync.sh && echo "gitsync.sh" >> .gitignore && sh gitsync.sh 这里写提交信息~ && chmod 777 gitsync.sh
 </code></pre>
 
 </details>
