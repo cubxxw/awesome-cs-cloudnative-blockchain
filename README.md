@@ -13,6 +13,8 @@
   <a href="https://wakatime.com/@c445b3c6-a2bc-43a2-a24a-0828a17244b4" title="项目的进展时长" > <img src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4.svg"></a>
   <a href="https://github.com/3293172751/cs-awesome-Block_Chain/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/3293172751/cs-awesome-Block_Chain?style=plastic"></a>
   <a href="https://xxw.nsddd.top/s/wRSz"><img alt="个人网盘不限速" src="https://img.shields.io/badge/cloud-xiongxinwei-red?logo=iCloud" title="个人网盘不限速下载浏览"></a>
+  <a href="https://trackgit.com"><img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/la3dpo1i7zzecvro53al" alt="trackgit-views" />
+</a>
   </p>
 
 <div align="center">
@@ -299,7 +301,8 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_badge.svg)](https://repography.com)
 
-![Alt](https://repobeats.axiom.co/api/embed/7053fe17b2bd9f88a0015474635e09cff7dc1ee2.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/7053fe17b2bd9f88a0015474635e09cff7dc1ee2.svg "Repobeats analytics image")[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain?ref=badge_shield)
+
 
 [![Timeline graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_timeline.svg)](https://github.com/3293172751/Block_Chain/commits)
 [![Issue status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_issues.svg)](https://github.com/3293172751/Block_Chain/issues)
@@ -313,3 +316,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 [![GitHub license](https://sm.nsddd.top//typora/cs-awesome-Block_Chain?mail:3293172751@qq.com)](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本)
 
 本书所有内容遵循[CC-BY-SA 3.0协议（署名-相同方式共享）&copy;](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本) 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain?ref=badge_large)
