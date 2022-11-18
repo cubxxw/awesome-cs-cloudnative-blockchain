@@ -124,7 +124,7 @@ echo "是否选择提交类型(默认选择yes)？(Y/N)"
     fi
 
     git add .
-    git commit -s -m "$type($desc):$guser"  # -s 用于签名, -m 用于备注
+    git commit -s -m "$type($desc): $guser"  # -s 用于签名, -m 用于备注
     # pull
     result=$(git pull origin $branch)
     tmp=$(echo $result | grep "fix conflicts")
