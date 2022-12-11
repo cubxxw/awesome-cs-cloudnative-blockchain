@@ -92,6 +92,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [Go genericity、Workspaces、Fuzz测试](https://zhuanlan.zhihu.com/p/586367554)
 - [使用sealos搭建k8s](https://zhuanlan.zhihu.com/p/576388662)
 - [常用命令行替代](https://zhuanlan.zhihu.com/p/576392923)
 - [在线vscode完成贡献和阅读](https://zhuanlan.zhihu.com/p/576392446)
@@ -110,7 +111,6 @@
 - [很棒的 Go 框架、库和软件的精选列表 - Awesome Go / Golang](https://zhuanlan.zhihu.com/p/555867207)
 - [链表学习 --依次刷 leetcode 简单，一般，困难题](https://zhuanlan.zhihu.com/p/547320760)
 - [考研操作系统复习](https://zhuanlan.zhihu.com/p/546896650)
-- [二分查找数组以及对数器使用](https://zhuanlan.zhihu.com/p/546890129)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
