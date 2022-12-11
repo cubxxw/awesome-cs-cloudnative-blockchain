@@ -2,7 +2,7 @@
 
 [toc]
 
-## Go语言的目录结构
+## Go语言目录结构
 
 项目的目录结构通常也是门面，内行人通过目录结构基本就能看出开发者是否有经验。
 
@@ -56,7 +56,7 @@ Go 官网并没有给出一个目录结构的标准模板，但是 [golang-stand
 
 不要在 `/cmd` 目录中放置太多的代码，我们应该将公有代码放置到 `/pkg` 中，将私有代码放置到 `/internal` 中并在 `/cmd` 中引入这些包，**保证 main 函数中的代码尽可能简单和少**。
 
-例子：
+ 🗃️**收集一些很有名的项目目录例子**：
 
 - https://github.com/heptio/ark/tree/master/cmd
 - https://github.com/moby/moby/tree/master/cmd
@@ -82,7 +82,7 @@ Go 官网并没有给出一个目录结构的标准模板，但是 [golang-stand
 
 当根目录包含大量非 Go 组件和目录时，这也是一种将 Go 代码分组到一个位置的方法，从而使运行各种 Go 工具更加容易（在如下的文章中都有提到：[2018 年 GopherCon Best Practices for Industrial Programming](https://www.youtube.com/watch?v=PTE4VJIdHPg)，[GopherCon 2018: Kat Zien - How Do You Structure Your Go Apps](https://www.youtube.com/watch?v=oL6JBUk6tj0)，[Golab 2018 Massimiliano Pippi - Project layout patterns in Go](https://www.youtube.com/watch?v=3gQa1LWwuzk)。
 
-/pkg 在许多开源项目中都使用了，但未被普遍接受，并且 Go 社区中的某些人不推荐这样做。
+`/pkg` 在许多开源项目中都使用了，但未被普遍接受，并且 Go 社区中的某些人不推荐这样做。
 
 如果项目确实很小并且嵌套的层次并不会带来多少价值（除非你就是想用它），那么就不要使用它。但当项目变得很大，并且根目录中包含的内容相当繁杂（尤其是有很多非 Go 的组件）时，可以考虑使用 `/pkg`。
 
@@ -159,7 +159,7 @@ Web 应用程序特定的组件：静态 Web 资源，服务器端模板和单�
 
 ### deployment
 
-IaaS，PaaS，系统和容器编排部署配置和模板（docker-compose，kubernetes/helm，mesos，terraform，bosh）。请注意，在某些存储库中（尤其是使用 kubernetes 部署的应用程序），该目录的名字是 **/deploy**。
+IaaS，PaaS，系统和容器编排部署配置和模板（docker-compose，kubernetes/helm，mesos，terraform，`bosh`）。请注意，在某些存储库中（尤其是使用 kubernetes 部署的应用程序），该目录的名字是 /deploy。
 
 
 
@@ -242,6 +242,8 @@ Git 钩子。
 
 ### src
 
+> 抱歉，现在已经有[mod](https://github.com/3293172751/go-mod)包了
+
 有一些 Go 项目确实包含 `src` 文件夹，但通常只有在开发者是从 Java（这是 Java 中一个通用的模式）转过来的情况下才会有。如果可以的话请不要使用这种 Java 模式。你肯定不希望你的 Go 代码和项目看起来像 Java。
 
 不要将项目级别的 `/src` 目录与 Go 用于其工作空间的 `/src` 目录混淆，就像 [How to Write Go Code](https://golang.org/doc/code.html) 中描述的那样。`$GOPATH`环境变量指向当前的工作空间（默认情况下指向非 Windows 系统中的 $HOME/go）。此工作空间包括顶级 `/pkg`，`/bin` 和 `/src` 目录。实际的项目最终变成 `/src` 下的子目录，因此，如果项目中有 `/src` 目录，则项目路径将会变成：`/some/path/to/workspace/src/your_project/src/your_code.go`。请注意，使用 Go 1.11，可以将项目放在 `GOPATH` 之外，但这并不意味着使用此布局模式是个好主意。
@@ -251,6 +253,8 @@ Git 钩子。
 ## 其他文件
 
 ### Makefile
+
+> 你是不是以为只有C语言才独有`makrfile`，不是这样噢
 
 在任何一个项目中都会存在一些需要运行的脚本，这些脚本文件应该被放到 `/scripts` 目录中并**由 Makefile 触发**。
 

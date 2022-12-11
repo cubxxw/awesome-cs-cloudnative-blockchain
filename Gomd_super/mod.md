@@ -44,10 +44,6 @@ $env:GOPROXY = "https://mirrors.aliyun.com/goproxy/"
 
 ## 自己新创建一个项目
 
-# Go-mod包
-
-[toc]
-
 ### 包的导入方式
 
 1. 绝对路径导入（在GOPATH目录中导入包）
@@ -82,7 +78,7 @@ $env:GOPROXY = "https://mirrors.aliyun.com/goproxy/"
 
 **目录结构**
 
-[![image-20220525220447501](assets/68747470733a2f2f73322e6c6f6c692e6e65742f323032322f30352f32352f654b495632556e544c6a6357524a432e706e67.png)](https://camo.githubusercontent.com/c39c646caad849f1c081432e6a9e5d43fd4811b52eb0648d3e0d187892df90b0/68747470733a2f2f73322e6c6f6c692e6e65742f323032322f30352f32352f654b495632556e544c6a6357524a432e706e67)
+<img src="./images/image-20221003182659317.png" alt="image-20221003182659317" style="zoom:47%;" />
 
 **我们的项目就叫go-mod**
 
@@ -113,7 +109,7 @@ go 1.18
 
 **编辑hello.go**
 
-```
+```go
 package main
 
 import "fmt"
@@ -125,14 +121,14 @@ func main() {
 
 **编译：**
 
-```
+```go
 PS C:\Users\smile\Desktop\区块链\code\go-mod\hello> go run . 
 hello word
 ```
 
 **目录结构**
 
-```
+```go
 PS C:\Users\smile\Desktop\区块链\code\go-mod> tree
 卷 系统 的文件夹 PATH 列表
 卷序列号为 DE95-1D97
@@ -152,7 +148,7 @@ Mode                 LastWriteTime         Length Name
 
 **创建一个包文件夹,创建一个文件task.go**
 
-```
+```go
 PS C:\Users\smile\Desktop\区块链\code\go-mod> mkdir models
 
 
@@ -174,7 +170,7 @@ Mode                 LastWriteTime         Length Name
 
 **主函数**
 
-```
+```go
 package main
 
 import (
@@ -188,7 +184,8 @@ func main() {
 	hello.Hello()
 	Println(models.Name)
 	//hello.Hello()
-}
+}go
+
 ```
 
 **编译：**
@@ -200,13 +197,17 @@ hello word
 test
 ```
 
+
+
 ### 所出现问题
 
 文件mod包嵌入使用的问题，导致mod机制没办法正常在子目录使用~
 
+
+
 ### github导入包
 
-```
+```go
 package models
 
 import "fmt"
@@ -263,4 +264,4 @@ require (
 
 1. 在github上新建一个项目Go-mod
 2. `go mod init github.com/3293172751/go-mod`
-3. 添加readme.m
+3. 添加`readme.m`
