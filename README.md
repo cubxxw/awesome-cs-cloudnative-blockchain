@@ -92,6 +92,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [用于本地实验的小型 Kubernetes：k0s、MicroK8s、kind、k3s 和 Minikube](https://zhuanlan.zhihu.com/p/594206344)
 - [Go genericity、Workspaces、Fuzz测试](https://zhuanlan.zhihu.com/p/586367554)
 - [使用sealos搭建k8s](https://zhuanlan.zhihu.com/p/576388662)
 - [常用命令行替代](https://zhuanlan.zhihu.com/p/576392923)
@@ -110,7 +111,6 @@
 - [汇编语言](https://zhuanlan.zhihu.com/p/559067183)
 - [很棒的 Go 框架、库和软件的精选列表 - Awesome Go / Golang](https://zhuanlan.zhihu.com/p/555867207)
 - [链表学习 --依次刷 leetcode 简单，一般，困难题](https://zhuanlan.zhihu.com/p/547320760)
-- [考研操作系统复习](https://zhuanlan.zhihu.com/p/546896650)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
