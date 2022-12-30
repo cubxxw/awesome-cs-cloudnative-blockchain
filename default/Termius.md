@@ -34,7 +34,7 @@
 ## Sftp
 
 **sftp 具有文件传输的功能。**
-![[default/images/Pasted image 20221230164338.png]
+![[default/images/Pasted image 20221230164338.png]]
 
 
 ## Team
