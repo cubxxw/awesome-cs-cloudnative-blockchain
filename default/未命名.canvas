@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"86505dc92e559546","x":-261,"y":-240,"width":400,"height":400,"type":"file","file":"go-web/markdown/1.md"},
+		{"id":"98d478d17bf78a67","x":243,"y":207,"width":400,"height":400,"type":"file","file":"go-web/markdown/2.md"},
+		{"id":"c294025ca9d2bceb","x":220,"y":-311,"width":250,"height":60,"type":"text","text":"https://baodu.com"},
+		{"id":"2193b79038346648","x":-580,"y":320,"width":400,"height":400,"type":"link","url":"http://43.142.124.85:8090/archives/sealos-one"}
+	],
+	"edges":[]
+}
