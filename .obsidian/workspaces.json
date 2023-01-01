@@ -1,0 +1,189 @@
+{
+  "workspaces": {
+    "one": {
+      "main": {
+        "id": "7ac56030b52d1663",
+        "type": "split",
+        "children": [
+          {
+            "id": "9d2a4fb69dfe287f",
+            "type": "tabs",
+            "dimension": 51.028806584362144,
+            "children": [
+              {
+                "id": "367f763e2653488b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "go_bible/gopl-zh.github.com/ch1/ch1-04.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "85a2f981feb62967",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "go_bible/gopl-zh.github.com/ch2/ch2-03-1.md",
+                    "mode": "preview",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "3181102807b4f2b8",
+            "type": "tabs",
+            "dimension": 48.971193415637856,
+            "children": [
+              {
+                "id": "35acd713053b47b2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "go_bible/gopl-zh.github.com/ch1/ch1-05.md",
+                    "mode": "preview",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "18bd668af9c85842",
+        "type": "split",
+        "children": [
+          {
+            "id": "3c2377e755338232",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "156e259e9938d686",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "a834e59b32e4e338",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "9ee123de654a3fdd",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 224.5
+      },
+      "right": {
+        "id": "957f6520f596bb4d",
+        "type": "split",
+        "children": [
+          {
+            "id": "3bf5c46926f22c98",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "625b4be6b1b85ae4",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "go_bible/gopl-zh.github.com/ch2/ch2-03-1.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "23f7764ac5ea412f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "go_bible/gopl-zh.github.com/ch2/ch2-03-1.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "849eedf3ca76b1a2",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "1a1fd90d4f6757ed",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "go_bible/gopl-zh.github.com/ch2/ch2-03-1.md"
+                  }
+                }
+              },
+              {
+                "id": "dce19bfc9f395b68",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "active": "85a2f981feb62967"
+    }
+  },
+  "active": "one"
+}

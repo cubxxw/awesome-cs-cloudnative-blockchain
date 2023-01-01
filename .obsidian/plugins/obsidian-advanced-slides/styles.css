@@ -1,0 +1,34 @@
+/* Styles */
+
+.view-content.reveal-preview-view {
+    padding: 0;
+    overflow: hidden;
+}
+
+.view-content.reveal-preview-view>iframe, div.reveal-preview-view>iframe {
+    border-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+div.reveal-preview-view {
+    aspect-ratio: 16/9;
+    padding: 0;
+    overflow: hidden;
+}
+
+.releaseNotes .modal-content{
+    padding-right: 5px;
+    margin-right: -5px;
+    user-select: text;
+  }
+  
+  .releaseNotes .modal {
+    max-height: 90%;
+    width: auto;
+    max-width: 70ch;
+  }
+
+  .releaseNotes p>a>img {
+    width: 100%
+  }

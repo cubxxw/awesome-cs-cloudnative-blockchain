@@ -1,0 +1,70 @@
+{
+  "firstRun": false,
+  "initialized": [
+    {
+      "path": "/",
+      "initialized": true
+    }
+  ],
+  "trackedProjects": [
+    "/"
+  ],
+  "checkpointList": [
+    {
+      "path": "/",
+      "date": "2023-01-01",
+      "size": 10618864
+    }
+  ],
+  "activityHistory": [
+    {
+      "path": "/",
+      "size": [
+        {
+          "date": "2022-12-16",
+          "value": 46117
+        },
+        {
+          "date": "2022-12-17",
+          "value": 2606
+        },
+        {
+          "date": "2022-12-18",
+          "value": 33
+        },
+        {
+          "date": "2022-12-19",
+          "value": 2782
+        },
+        {
+          "date": "2022-12-25",
+          "value": 137
+        },
+        {
+          "date": "2022-12-28",
+          "value": 1470
+        },
+        {
+          "date": "2022-12-30",
+          "value": 7163
+        },
+        {
+          "date": "2022-12-31",
+          "value": 21
+        },
+        {
+          "date": "2023-01-01",
+          "value": 97
+        }
+      ]
+    }
+  ],
+  "activityColor1": "#c6e48b",
+  "activityColor2": "#7bc96f",
+  "activityColor3": "#239a3b",
+  "activityColor4": "#196127",
+  "textColor": "#000000",
+  "emptyColor": "#ecedf0",
+  "cellRadius": 1,
+  "type": "yearly"
+}
