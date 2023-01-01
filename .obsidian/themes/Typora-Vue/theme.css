@@ -1,0 +1,191 @@
+/*
+[Obsidian-Typora-Vue-Theme](https://github.com/ZekunC/Obsidian-Typora-Vue-Theme) (**v1.0**) is a theme for [Obsidian](https://obsidian.md/), which is inspired by [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme)and [Blue Topaz](https://github.com/whyt-byte/Blue-Topaz_Obsidian-css/).
+*/
+
+/* The primary color is #42b983 or #42b883.*/
+body{
+	--text-normal: #34495e;
+	--accent-h: 153;
+    --accent-s: 47%;
+    --accent-l: 49%;
+	--icon-color-hover: hsl(var(--interactive-accent-hsl));	
+	--background-modifier-message: hsl(var(--interactive-accent-hsl));
+	--nav-item-color-hover: hsl(var(--interactive-accent-hsl));
+	--code-background: #f8f8f8;
+	--table-header-weight: var(--bold-weight);
+	--table-header-color: var(--text-normal);
+	--table-row-background-hover: #f2f2f2;
+	--h1-size: 2.2em;
+	--h2-size: 1.75em;
+	--h3-size: 1.4em;
+	--h4-size: 1.2em;
+	--h5-size: 1em;
+	--h6-size: 1em;
+}
+
+
+/* blockquote BEGIN*/
+.markdown-rendered blockquote{
+	padding: var(--size-4-2) var(--size-4-3);
+	background-color: hsla(var(--interactive-accent-hsl), 0.1);
+	border-left: 4px solid hsl(var(--interactive-accent-hsl));
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before{
+	border-left: 4px solid hsl(var(--interactive-accent-hsl));
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
+	background-color: hsla(var(--interactive-accent-hsl), 0.1);
+}
+/* blockquote END*/
+
+
+/* code block BEGIN*/
+.markdown-source-view.mod-cm6 .code-block-flair:hover, .markdown-rendered button.copy-code-button:hover{
+	background-color: hsla(var(--interactive-accent-hsl), 0.1);
+}
+
+.cm-s-obsidian span.cm-inline-code{
+	color: #e96900;
+}
+
+.markdown-rendered p code{
+	color: #e96900;
+}
+
+.markdown-rendered pre{
+	border:1px solid #f4f4f4;
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg{
+	border-top: 1px solid #f4f4f4;
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-end-bg{
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock{
+	border-left: 1px solid #f4f4f4;
+	border-right: 1px solid #f4f4f4;
+}
+/* code block END*/
+
+
+/* table BEGIN*/
+table thead{
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+table tr:nth-child(2n),
+thead {
+    background-color: #fafafa;
+}
+/* table END*/
+
+
+/*Header BEGIN*/
+.markdown-preview-view h1, .markdown-preview-view h2, .markdown-preview-view h3, .markdown-preview-view h4, .markdown-preview-view h5, .markdown-preview-view h6{
+	position:relative;
+}
+
+.markdown-preview-view h1:hover::before, .HyperMD-header .cm-header-1:hover::before{
+    content: 'h1';
+    position: absolute;
+    font-size: 10px;
+    color: rgb(221 221 221);
+    font-weight: 400;
+    width: auto;
+    left: -19px;
+    border: 1px solid;
+    padding: 0px 2px;
+    border-radius: 3px;
+    top: 1px;
+}
+
+.markdown-preview-view h2:hover::before, .HyperMD-header .cm-header-2:hover::before{
+    content: 'h2';
+    position: absolute;
+    font-size: 10px;
+    color: rgb(221 221 221);
+    font-weight: 400;
+    width: auto;
+    margin: 0;
+    left: -20px;
+    border: 1px solid;
+    padding: 0px 2px;
+    border-radius: 3px;
+    top: -4px;
+}
+
+.markdown-preview-view h3:hover::before, .HyperMD-header .cm-header-3:hover::before{
+    content: 'h3';
+    position: absolute;
+    font-size: 10px;
+    color: rgb(221 221 221);
+    font-weight: 400;
+    width: auto;
+    margin: 0;
+    left: -20px;
+    border: 1px solid;
+    padding: 0px 2px;
+    border-radius: 3px;
+    top: -6px;
+}
+
+.markdown-preview-view h4:hover::before, .HyperMD-header .cm-header-4:hover::before{
+    content: 'h4';
+    position: absolute;
+    font-size: 10px;
+    color: rgb(221 221 221);
+    font-weight: 400;
+    width: auto;
+    margin: 0;
+    left: -21px;
+    border: 1px solid;
+    padding: 0px 2px;
+    border-radius: 3px;
+    top: -8px;
+}
+
+.markdown-preview-view h5:hover::before, .HyperMD-header .cm-header-5:hover::before{
+   content: 'h5';
+    position: absolute;
+    font-size: 10px;
+    color: rgb(221 221 221);
+    font-weight: 400;
+    width: auto;
+    margin: 0;
+    left: -20px;
+    border: 1px solid;
+    padding: 0px 2px;
+    border-radius: 3px;
+    top: -11px;
+}
+
+.markdown-preview-view h6:hover::before, .HyperMD-header .cm-header-6:hover::before{
+    content: 'h6';
+    position: absolute;
+    font-size: 10px;
+    color: rgb(221 221 221);
+    font-weight: 400;
+    width: auto;
+    margin: 0;
+    left: -20px;
+    border: 1px solid;
+    padding: 0px 2px;
+    border-radius: 3px;
+    top: -11px;
+}
+/*Header END*/
+
+/*Cursor line BEGIN*/
+.cm-active.cm-line{
+	background:rgba(245,204,142,0.12) !important;
+}
+/*Cursor line END*/
+
+
+
