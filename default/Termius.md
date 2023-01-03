@@ -16,7 +16,7 @@
 ## 快捷脚本
 
 **快捷键：`Ctrl + s` 可以调出右边的侧边栏。**
-![[default/images/Pasted image 20221230162855.png]]
+![image-smtermius-file](images/image-smtermius-file.png)
 
 ## 新建服务器
 **新建服务器有两种方法：**
@@ -40,7 +40,7 @@
 ## Team
 
 官网中还有一个 Team 的功能，让你可以分享你的服务给他人使用，不过这个功能是要收费的
-![[default/images/Pasted image 20221230165353.png]]
+![Pasted image 20221230165353](http://sm.nsddd.top/sm202301031844565.png)
 
 
 ## 端口转化
@@ -94,6 +94,7 @@ ssh -N -R 127.0.0.1:8080:google.com:80 user@host.example.com
 
 
 ### 动态端口转发规则
+
 ```bash
 ssh -N -D 127.0.0.1:1080 user@host.example.com
 ```
