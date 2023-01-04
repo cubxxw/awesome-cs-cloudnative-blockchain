@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "default/cloc代码统计.md",
+                "file": "default/diary/20230104-周三.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b4acfea7ac83a9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "template/会议记录模板.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "default/cloc代码统计.md",
+                "file": "template/会议记录模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "default/cloc代码统计.md",
+                "file": "template/会议记录模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "default/cloc代码统计.md"
+                "file": "template/会议记录模板.md"
               }
             }
           },
@@ -179,17 +192,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5e0b55142bf944c5",
+  "active": "4b4acfea7ac83a9a",
   "lastOpenFiles": [
+    "default/diary/20230104-周三.md",
+    "template/日记模板.md",
+    "Excalidraw/Drawing 2022-12-16 10.38.18.excalidraw.md",
+    "Day Planners/Day Planners/Day Planner-20221224.md",
     "default/slide.md",
     "default/Termius.md",
-    "default/未命名.canvas",
-    "Day Planners/Day Planner-20221230.md",
-    "未命名.canvas",
+    "default/cloc代码统计.md",
     "README.md",
-    "Day Planners/Day Planner-20221229.md",
-    "Day Planners/Day Planner-20221218.md",
-    "Day Planners/Day Planner-20221217.md",
-    "Day Planners/Day Planner-20221216.md"
+    "default/未命名.canvas",
+    "Day Planners/Day Planners/Day Planner-20221230.md"
   ]
 }

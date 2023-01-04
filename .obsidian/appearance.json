@@ -1,8 +1,9 @@
 {
   "accentColor": "#956a70",
   "baseFontSize": 18,
-  "translucency": false,
+  "translucency": true,
   "theme": "moonstone",
   "cssTheme": "Typora-Vue",
-  "interfaceFontFamily": "Alibaba Sans Thai"
+  "interfaceFontFamily": "Alibaba Sans Thai",
+  "nativeMenus": false
 }

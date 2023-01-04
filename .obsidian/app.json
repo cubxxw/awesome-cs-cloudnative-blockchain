@@ -1,10 +1,10 @@
 {
   "showLineNumber": false,
   "vimMode": false,
-  "promptDelete": false,
-  "attachmentFolderPath": "./images",
+  "promptDelete": true,
+  "attachmentFolderPath": "./attachments",
   "trashOption": "local",
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "shortest",
   "pdfExportSettings": {
     "includeName": false,
     "pageSize": "Letter",
