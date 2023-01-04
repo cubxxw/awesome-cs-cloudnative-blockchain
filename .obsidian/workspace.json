@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "default/Termius.md",
+                "file": "default/slide.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e0b55142bf944c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "default/cloc代码统计.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "default/Termius.md",
+                "file": "default/cloc代码统计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "default/Termius.md",
+                "file": "default/cloc代码统计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "default/Termius.md"
+                "file": "default/cloc代码统计.md"
               }
             }
           },
@@ -165,12 +179,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "d9c1453c88b21823",
+  "active": "5e0b55142bf944c5",
   "lastOpenFiles": [
-    "default/未命名.canvas",
     "default/slide.md",
-    "Day Planners/Day Planner-20221230.md",
     "default/Termius.md",
+    "default/未命名.canvas",
+    "Day Planners/Day Planner-20221230.md",
     "未命名.canvas",
     "README.md",
     "Day Planners/Day Planner-20221229.md",
