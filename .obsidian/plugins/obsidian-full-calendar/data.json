@@ -1,0 +1,17 @@
+{
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "hsl(352, 17%, calc(50% + 2.5%))",
+      "directory": "/"
+    }
+  ],
+  "defaultCalendar": 0,
+  "recursiveLocal": false,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": false
+}

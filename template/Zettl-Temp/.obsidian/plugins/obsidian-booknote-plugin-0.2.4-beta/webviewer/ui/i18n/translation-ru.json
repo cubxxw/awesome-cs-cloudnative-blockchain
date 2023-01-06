@@ -1,0 +1,666 @@
+{
+  "action": {
+    "apply": "Применить",
+    "applyAll": "Применить все",
+    "calibrate": "калибровать",
+    "cancel": "Отменить",
+    "clear": "Очистить",
+    "close": "Закрыть",
+    "undo": "Отменить",
+    "redo": "готов",
+    "comment": "Откомментировать",
+    "reply": "Ответить",
+    "copy": "Скопировать",
+    "delete": "Удалить",
+    "group": "группа",
+    "ungroup": "Ungroup",
+    "download": "Скачать",
+    "edit": "Редактировать",
+    "extract": "экстракт",
+    "enterFullscreen": "Полный экран",
+    "exitFullscreen": "Выйте из полного экрана",
+    "fit": "Уместить",
+    "fitToPage": "Уместить страницу",
+    "fitToWidth": "Уместить по ширине",
+    "more": "Больше",
+    "openFile": "Открыть документ",
+    "pagePrev": "Предыдущая страница",
+    "pageNext": "Следующая страница",
+    "pageSet": "Установить страницу",
+    "print": "Распечатать",
+    "name": "название",
+    "rename": "Переименовать",
+    "ok": "OK",
+    "rotate": "Повернуть",
+    "rotate3D": "Повернуть",
+    "rotateClockwise": "По часовой",
+    "rotateCounterClockwise": "Против часовой",
+    "save": "Сохранить",
+    "post": "Почта",
+    "create": "Создать",
+    "showMoreResults": "Показать больше",
+    "sign": "Добавить подпись",
+    "style": "Стиль",
+    "submit": "Отправить",
+    "zoom": "Увеличить",
+    "zoomIn": "Увеличить",
+    "zoomOut": "Уменьшить",
+    "zoomSet": "Установить зум",
+    "zoomControls": "Управление масштабированием",
+    "draw": "Привлечь",
+    "type": "Тип",
+    "upload": "Загрузить",
+    "link": "Ссылка на сайт",
+    "darkMode": "Темный режим",
+    "lightMode": "Легкий режим",
+    "fileAttachmentDownload": "Скачать прикрепленный файл",
+    "prevResult": "Предыдущий результат",
+    "nextResult": "Следующий результат",
+    "prev": "предыдущий",
+    "next": "следующий",
+    "startFormEditing": "Начать редактирование формы",
+    "exitFormEditing": "Выйти из режима редактирования формы",
+    "exit": "Выход",
+    "addOption": "Добавить вариант",
+    "formFieldEdit": "Изменить поле формы",
+    "viewShortCutKeysFor3D": "Просмотр горячих клавиш",
+    "markAllRead": "Отметить все как прочитанные",
+    "insertPage": "Вставка страницы",
+    "insertBlankPageAbove": "Вставить пустую страницу выше",
+    "insertBlankPageBelow": "Вставьте пустую страницу ниже",
+    "pageManipulation": "Манипуляции со страницей",
+    "replace": "Заменять"
+  },
+  "annotation": {
+    "areaMeasurement": "Площадь",
+    "arrow": "Стрела",
+    "callout": "Вызыв",
+    "crop": "Обрезать страницу",
+    "caret": "Знак вставки",
+    "formFillCheckmark": "Галочка",
+    "formFillCross": "Крест",
+    "distanceMeasurement": "Дистанция",
+    "countMeasurement": "Измерение счета",
+    "ellipse": "Эллипс",
+    "eraser": "ластик",
+    "fileattachment": "Файл вложения",
+    "freehand": "От руки",
+    "freeHandHighlight": "Ручное выделение",
+    "freetext": "Текст",
+    "highlight": "Выделить",
+    "image": "Изображение",
+    "line": "Линия",
+    "perimeterMeasurement": "Периметр",
+    "polygon": "Многоугольник",
+    "polygonCloud": "Облако",
+    "polyline": "Ломаная",
+    "rectangle": "Прямоугольник",
+    "redact": "Редактировать",
+    "formFillDot": "Точка",
+    "signature": "Подпись",
+    "squiggly": "Волнистая линия",
+    "stamp": "Штамп",
+    "stickyNote": "Комментировать",
+    "strikeout": "Зачеркнуть",
+    "underline": "Подчеркнуть",
+    "custom": "Свой стиль",
+    "rubberStamp": "Штамп",
+    "note": "Заметка",
+    "textField": "Текстовое поле",
+    "signatureFormField": "Поле для подписи",
+    "checkBoxFormField": "Поле флажка",
+    "radioButtonFormField": "Поле RadioButton",
+    "listBoxFormField": "Поле списка",
+    "comboBoxFormField": "Поле со списком",
+    "link": "Ссылка на сайт",
+    "other": "Другие",
+    "3D": "3D"
+  },
+  "rubberStamp": {
+    "Approved": "Одобренный",
+    "AsIs": "Как есть",
+    "Completed": "Завершенный",
+    "Confidential": "конфиденциальный",
+    "Departmental": "ведомственный",
+    "Draft": "Черновой вариант",
+    "Experimental": "экспериментальный",
+    "Expired": "Истекший",
+    "Final": "окончательный",
+    "ForComment": "Для комментариев",
+    "ForPublicRelease": "Для публичного выпуска",
+    "InformationOnly": "Только информация",
+    "NotApproved": "Не одобрено",
+    "NotForPublicRelease": "Не для публичного выпуска",
+    "PreliminaryResults": "Предварительные результаты",
+    "Sold": "Продано",
+    "TopSecret": "Совершенно секретно",
+    "Void": "пустота",
+    "SHSignHere": "Подпишите здесь",
+    "SHWitness": "свидетель",
+    "SHInitialHere": "Здесь",
+    "SHAccepted": "Принятый",
+    "SBRejected": "Отклонено"
+  },
+  "component": {
+    "leftPanel": "Панель",
+    "toolsHeader": "инструменты",
+    "searchOverlay": "Поиск",
+    "searchPanel": "Поиск",
+    "menuOverlay": "Меню",
+    "notesPanel": "Заметки",
+    "outlinesPanel": "Контуры",
+    "bookmarksPanel": "закладки",
+    "signaturePanel": "Подписи",
+    "newBookmark": "Новая закладка",
+    "bookmarkPage": "страница",
+    "layersPanel": "Слои",
+    "thumbnailsPanel": "Эскизы",
+    "toolsButton": "Инструменты",
+    "redaction": "Редактировать",
+    "viewControlsOverlay": "Изменить вид",
+    "calibration": "калибровка",
+    "zoomOverlay": "Наложение масштаба",
+    "textPopup": "Текстовое всплывающее окно",
+    "createStampButton": "Создать новую марку",
+    "filter": "Фильтр"
+  },
+  "message": {
+    "toolsOverlayNoPresets": "Нет пресетов",
+    "badDocument": "Произошла ошибка при загрузке документа. Документ содержит ошибки или недостоверный.",
+    "customPrintPlaceholder": "пример 3, 4-10",
+    "encryptedAttemptsExceeded": "Не удалось загрузить зашифрованный документ. Слишком много попыток.",
+    "encryptedUserCancelled": "Не удалось загрузить зашифрованный документ. Ввод пароля прерван.",
+    "enterPassword": "Документ защищен паролем. Пожалуйста введите пароль.",
+    "incorrectPassword": "Пароль неверный, {{ remainingAttempts }} попыток осталось.",
+    "noAnnotations": "Начните делать аннотации, чтобы оставить комментарий.",
+    "noAnnotationsReadOnly": "Документ не имеет аннотаций.",
+    "noAnnotationsFilter": "Начните делать аннотации и фильтры появятся здесь.",
+    "noOutlines": "Документ не имеет оглавления.",
+    "noResults": "Поиск не вернул результатов.",
+    "numResultsFound": "найдены результаты",
+    "notSupported": "Расширение файла не поддерживается.",
+    "passwordRequired": "Пароль необходим",
+    "preparingToPrint": "Документ печатается...",
+    "annotationReplyCount": "{{count}} Ответить",
+    "annotationReplyCount_plural": "{{count}} Ответы",
+    "printTotalPageCount": "{{count}} страница",
+    "printTotalPageCount_plural": "{{count}} страниц",
+    "processing": "Обработка документа...",
+    "searching": "Поиск...",
+    "searchCommentsPlaceholder": "Поиск комментариев",
+    "searchDocumentPlaceholder": "Искать документ",
+    "signHere": "Распишетесь здесь",
+    "insertTextHere": "Вставьте текст здесь",
+    "imageSignatureAcceptedFileTypes": "Только {{acceptFileTypes}} принимаются",
+    "enterMeasurement": "Введите измерение между двумя точками",
+    "errorEnterMeasurement": "Введенное вами число недействительно, вы можете ввести такие значения, как 7,5 или 7 1/2.",
+    "linkURLorPage": "Ссылка URL или страница",
+    "enterReplacementText": "Введите текст, который хотите заменить",
+    "sortBy": "Сортировать по",
+    "emptyCustomStampInput": "Текст штампа не может быть пустым",
+    "unpostedComment": "Неопубликованный комментарий",
+    "lockedLayer": "Слой заблокирован",
+    "layerVisibililtyNoChange": "Видимость слоя не может быть изменена",
+    "untitled": "Без названия"
+  },
+  "option": {
+    "notesOrder": {
+      "dropdownLabel": "Список порядка сортировки",
+      "position": "Позиция",
+      "time": "Время",
+      "status": "Статус",
+      "author": "Автор",
+      "type": "Тип",
+      "color": "Цвет"
+    },
+    "toolbarGroup": {
+      "dropdownLabel": "Группы панелей инструментов",
+      "toolbarGroup-View": "Посмотреть",
+      "toolbarGroup-Annotate": "Пометки",
+      "toolbarGroup-Shapes": "Формы",
+      "toolbarGroup-Insert": "Вставить",
+      "toolbarGroup-Measure": "Мера",
+      "toolbarGroup-Edit": "редактировать",
+      "toolbarGroup-FillAndSign": "Заполните и подпишите",
+      "toolbarGroup-Forms": "Формы"
+    },
+    "annotationColor": {
+      "StrokeColor": "Цвет границ",
+      "FillColor": "Цвет заливки",
+      "TextColor": "Цвет текста"
+    },
+    "colorPalette": {
+      "colorLabel": "Цвет"
+    },
+    "displayMode": {
+      "layout": "Расположение",
+      "pageTransition": "Переход страниц"
+    },
+    "documentControls": {
+      "placeholder": "1, 3, 5-10"
+    },
+    "outlineControls": {
+      "add": "Добавить элемент",
+      "reorder": "Изменение порядка"
+    },
+    "layout": {
+      "cover": "Полный",
+      "double": "Двойной",
+      "single": "Единый"
+    },
+    "mathSymbols": "Математические символы",
+    "notesPanel": {
+      "separator": {
+        "today": "Сегодня",
+        "yesterday": "Вчера",
+        "unknown": "Неизвестный"
+      },
+      "noteContent": {
+        "noName": "(без имени)",
+        "noDate": "(без даты)"
+      }
+    },
+    "pageTransition": {
+      "continuous": "Непрерывный",
+      "default": "Страница за страницей",
+      "reader": "читатель"
+    },
+    "print": {
+      "all": "Все",
+      "current": "Текущая страница",
+      "pages": "Страницы",
+      "view": "Текущий вид",
+      "pageQuality": "Качество печати",
+      "qualityNormal": "Нормальный",
+      "qualityHigh": "Высокая",
+      "includeAnnotations": "Включить аннотации",
+      "includeComments": "Приложить комментарии",
+      "addWatermarkSettings": "Добавить настройки водяного знака"
+    },
+    "printInfo": {
+      "author": "Автор",
+      "subject": "Предмет",
+      "date": "Дата"
+    },
+    "redaction": {
+      "markForRedaction": "Пометить для редактирования"
+    },
+    "searchPanel": {
+      "caseSensitive": "С учетом регистра",
+      "wholeWordOnly": "Всё слово",
+      "wildcard": "Поиск по шаблону"
+    },
+    "toolsOverlay": {
+      "currentStamp": "Текущая печать",
+      "currentSignature": "Текущая подпись",
+      "signatureAltText": "Подпись"
+    },
+    "stampOverlay": {
+      "addStamp": "Добавить новый штамп"
+    },
+    "signatureOverlay": {
+      "addSignature": "Добавить подпись"
+    },
+    "signatureModal": {
+      "saveSignature": "Сохранить подпись",
+      "dragAndDrop": "Перетащите изображение сюда",
+      "or": "Или",
+      "pickImage": "Выберите Подпись Изображение"
+    },
+    "filterAnnotModal": {
+      "commentBy": "Комментарий от",
+      "types": "Типы",
+      "color": "Цвет",
+      "includeReplies": "Включить ответы"
+    },
+    "status": {
+      "status": "Статус"
+    },
+    "state": {
+      "accepted": "Принято",
+      "rejected": "Отклонено",
+      "completed": "Завершенно",
+      "cancelled": "Отменено",
+      "set": "Поставить статус:",
+      "setBy": "статус поставлен",
+      "none": "Пустой",
+      "marked": "отмечен",
+      "unmarked": "немаркированный"
+    },
+    "measurementOverlay": {
+      "scale": "Масштаб",
+      "angle": "Угол",
+      "distance": "Дистанция",
+      "perimeter": "Периметер",
+      "area": "Площадь",
+      "distanceMeasurement": "Замерение дистанции",
+      "perimeterMeasurement": "Замерение периметера",
+      "areaMeasurement": "Замерение площади",
+      "countMeasurement": "Измерение счета",
+      "radius": "Радиус",
+      "count": "подсчитывать"
+    },
+    "measurementOption": {
+      "scale": "Масштаб"
+    },
+    "styleOption": {
+      "style": "Стиль",
+      "solid": "твердый",
+      "cloudy": "облачный"
+    },
+    "slider": {
+      "opacity": "Прозрачность",
+      "thickness": "Тонкость",
+      "text": "Размер текста"
+    },
+    "shared": {
+      "page": "Страница",
+      "precision": "Точность",
+      "enableSnapping": "Включить привязку для измерительных инструментов"
+    },
+    "watermark": {
+      "size": "Размер",
+      "location": "Выберите место для редактирования водяных знаков",
+      "text": "Текст",
+      "style": "Стиль",
+      "resetAllSettings": "Сбросить все настройки",
+      "font": "шрифт",
+      "locations": {
+        "center": "Центр",
+        "topLeft": "Верхний левый",
+        "topRight": "В правом верхнем углу",
+        "topCenter": "Верхний центр",
+        "bottomLeft": "Левая нижняя",
+        "bottomRight": "Внизу справа",
+        "bottomCenter": "Внизу по центру"
+      }
+    },
+    "thumbnailPanel": {
+      "delete": "удалять",
+      "rotateClockwise": "по часовой стрелке",
+      "rotateCounterClockwise": "Против часовой стрелки"
+    },
+    "richText": {
+      "bold": "Жирное лицо",
+      "italic": "курсивный",
+      "underline": "Подчеркнутый",
+      "strikeout": "Зачеркнутый"
+    },
+    "customStampModal": {
+      "stampText": "Штамп текст:",
+      "timestampText": "Текст метки времени:",
+      "stampColor": "Цвет марки:",
+      "Username": "имя пользователя",
+      "Date": "Дата",
+      "Time": "Время"
+    }
+  },
+  "warning": {
+    "deletePage": {
+      "deleteTitle": "Удалить страницу",
+      "deleteMessage": "Вы уверены, что хотите удалить выбранные страницы? Это не может быть отменено",
+      "deleteLastPageMessage": "Вы не можете удалить все страницы в документе."
+    },
+    "extractPage": {
+      "title": "Извлечь страницу",
+      "message": "Вы уверены, что хотите извлечь выбранные страницы?",
+      "confirmBtn": "Извлечь страницы",
+      "secondaryBtn": "Извлечь и удалить страницу (ы)"
+    },
+    "redaction": {
+      "applyTile": "Применить редактирование",
+      "applyMessage": "Это действие навсегда удалит все элементы, выбранные для редактирования. Это не может быть отменено."
+    },
+    "selectPage": {
+      "selectTitle": "Страницы не выбраны",
+      "selectMessage": "Пожалуйста, выберите страницы и попробуйте еще раз."
+    },
+    "colorPicker": {
+      "deleteTitle": "Удалить собственный цвет",
+      "deleteMessage": "Удалить выбранный пользовательский цвет? Он будет удален из вашей цветовой палитры."
+    }
+  },
+  "shortcut": {
+    "arrow": "(A)",
+    "callout": "(C)",
+    "copy": "(Ctrl C)",
+    "delete": "(Del)",
+    "ellipse": "(O)",
+    "eraser": "(E)",
+    "freehand": "(F)",
+    "freetext": "(T)",
+    "highlight": "(H)",
+    "line": "(L)",
+    "pan": "(P)",
+    "rectangle": "(R)",
+    "rotateClockwise": "(Ctrl Shift +)",
+    "rotateCounterClockwise": "(Ctrl Shift -)",
+    "select": "(Esc)",
+    "signature": "(S)",
+    "squiggly": "(G)",
+    "image": "(Я)",
+    "redo": "(Ctrl Shift Z)",
+    "redo_windows": "(Ctrl Y)",
+    "undo": "(Ctrl Z)",
+    "stickyNote": "(N)",
+    "strikeout": "(K)",
+    "underline": "(U)",
+    "zoomIn": "(Ctrl +)",
+    "zoomOut": "(Ctrl -)",
+    "richText": {
+      "bold": "(Ctrl B)",
+      "italic": "(Ctrl I)",
+      "underline": "(Ctrl U)",
+      "strikeout": "(Ctrl K)"
+    },
+    "rotate3D": "Shift + перетащить",
+    "zoom3D": "Shift + прокрутка"
+  },
+  "tool": {
+    "pan": "Панорамирование",
+    "select": "Выделить",
+    "Marquee": "Увеличить выделение",
+    "Link": "Ссылка URL или Страница",
+    "Standard": "стандарт",
+    "Custom": "изготовленный на заказ"
+  },
+  "link": {
+    "url": "URL",
+    "page": "страница",
+    "enterurl": "Введите URL, на который вы хотите сослаться",
+    "enterpage": "Выберите номер страницы, на которую вы хотите сослаться"
+  },
+  "Model3D": {
+    "add3D": "Добавьте 3D-аннотацию, введя URL",
+    "enterurl": "Введите URL-адрес 3D-объекта в формате glTF",
+    "enterurlOrLocalFile": "Введите URL или загрузите 3D-объект в формате glTF",
+    "formatError": "Поддерживается только формат glTF (.glb)"
+  },
+  "datePicker": {
+    "previousMonth": "Предыдущий месяц",
+    "nextMonth": "Следующем месяце",
+    "months": {
+      "0": "январь",
+      "1": "февраль",
+      "2": "март",
+      "3": "апрель",
+      "4": "май",
+      "5": "июнь",
+      "6": "июль",
+      "7": "август",
+      "8": "сентябрь",
+      "9": "октябрь",
+      "10": "ноябрь",
+      "11": "декабрь"
+    },
+    "monthsShort": {
+      "0": "янв",
+      "1": "февр",
+      "2": "март",
+      "3": "апр",
+      "4": "май",
+      "5": "июнь",
+      "6": "июль",
+      "7": "авг",
+      "8": "сент",
+      "9": "окт",
+      "10": "ноябрь",
+      "11": "дек"
+    },
+    "weekdays": {
+      "0": "воскресенье",
+      "1": "понедельник",
+      "2": "вторник",
+      "3": "среда",
+      "4": "четверг",
+      "5": "пятница",
+      "6": "суббота"
+    },
+    "weekdaysShort": {
+      "0": "вс",
+      "1": "пн",
+      "2": "вт",
+      "3": "ср",
+      "4": "чт",
+      "5": "пт",
+      "6": "сб"
+    }
+  },
+  "formField": {
+    "formFieldPopup": {
+      "fieldName": "Имя поля",
+      "fieldValue": "Значение по умолчанию",
+      "readOnly": "Только чтение",
+      "multiSelect": "Выбор из нескольких вариантов",
+      "required": "Обязательный",
+      "multiLine": "Многострочный",
+      "apply": "Применять",
+      "cancel": "Отмена",
+      "flags": "Флаги поля",
+      "options": "Параметры",
+      "radioGroups": "Радиокнопки с одинаковым именем поля будут входить в одну группу.",
+      "nameRequired": "Требуется название поля",
+      "size": "Размер",
+      "width": "Ширина",
+      "height": "Высота",
+      "invalidField": {
+        "duplicate": "Имя поля уже существует",
+        "empty": "Имя поля не может быть пустым"
+      }
+    },
+    "apply": "Применить поля",
+    "type": "Тип поля",
+    "types": {
+      "text": "Текст",
+      "signature": "Подпись",
+      "checkbox": "Флажок",
+      "radio": "Переключатель",
+      "listbox": "Окно списка",
+      "combobox": "Поле со списком"
+    }
+  },
+  "digitalSignatureModal": {
+    "certification": "сертификация",
+    "Certification": "Сертификация",
+    "signature": "подпись",
+    "Signature": "Подпись",
+    "valid": "действительный",
+    "invalid": "недействительным",
+    "unknown": "неизвестно",
+    "title": "{{type}} Свойства",
+    "header": {
+      "documentIntegrity": "Целостность документа",
+      "identitiesTrust": "Личность и доверие",
+      "generalErrors": "Общие ошибки",
+      "digestStatus": "Статус дайджеста"
+    },
+    "documentPermission": {
+      "noChangesAllowed": "{{editor}} указал, что никакие изменения в этом документе не допускаются.",
+      "formfillingSigningAllowed": "{{editor}} указал, что для этого документа разрешены заполнение форм и подписание. Никакие другие изменения не допускаются.",
+      "annotatingFormfillingSigningAllowed": "{{editor}} указал, что для этого документа разрешены заполнение форм, подписание и комментирование. Никакие другие изменения не допускаются.",
+      "unrestricted": "{{editor}} указал, что для этого документа нет ограничений."
+    },
+    "digestAlgorithm": {
+      "preamble": "Алгоритм дайджеста, который использовался для подписи подписи:",
+      "unknown": "Алгоритм дайджеста, который использовался для подписи подписи, неизвестен."
+    },
+    "trustVerification": {
+      "none": "Нет подробных результатов проверки доверия.",
+      "current": "Попытка проверки доверия относительно текущего времени",
+      "signing": "Попытка проверки доверия в отношении времени подписи: {{trustVerificationTime}}",
+      "timestamp": "Попытка проверки доверия в отношении защищенной встроенной отметки времени: {{trustVerificationTime}}"
+    },
+    "signerIdentity": {
+      "preamble": "Личность подписавшего",
+      "valid": "действительный.",
+      "unknown": "неизвестно."
+    },
+    "summaryBox": {
+      "summary": "Цифровой {{type}} - это {{status}}",
+      "signedBy": ", подписанный {{name}}"
+    }
+  },
+  "digitalSignatureVerification": {
+    "certifier": "удостоверять",
+    "certified": "проверенный",
+    "Certified": "Проверенный",
+    "signer": "подписать",
+    "signed": "подписанный",
+    "Signed": "Подписано",
+    "by": "по",
+    "on": "на",
+    "disallowedChange": "Запрещенное изменение: {{type}}, objnum: {{objnum}}",
+    "unsignedSignatureField": "Поле неподписанной подписи: {{fieldName}}",
+    "trustVerification": {
+      "current": "Использованное время проверки было текущим.",
+      "signing": "Время подтверждения - по часам на компьютере подписавшего.",
+      "timestamp": "Время проверки берется из безопасной отметки времени, встроенной в документ.",
+      "verifiedTrust": "Результат проверки доверия: Проверено",
+      "noTrustVerification": "Нет подробных результатов проверки доверия."
+    },
+    "permissionStatus": {
+      "noPermissionsStatus": "Нет статуса разрешений для сообщения.",
+      "permissionsVerificationDisabled": "Проверка разрешений отключена.",
+      "hasAllowedChanges": "В документе есть изменения, которые разрешены настройками разрешений на подпись.",
+      "invalidatedByDisallowedChanges": "В документе есть изменения, которые запрещены настройками разрешений на подпись.",
+      "unmodified": "Документ не изменялся с момента его"
+    },
+    "trustStatus": {
+      "trustVerified": "Установлено доверие к {{verificationType}} успешно.",
+      "untrusted": "Доверие не могло быть установлено.",
+      "trustVerificationDisabled": "Проверка доверия отключена.",
+      "noTrustStatus": "Нет статуса доверия для сообщения."
+    },
+    "digestStatus": {
+      "digestInvalid": "Дайджест неверен.",
+      "digestVerified": "Дайджест правильный.",
+      "digestVerificationDisabled": "Дайджест-проверка отключена.",
+      "weakDigestAlgorithmButDigestVerifiable": "Дайджест правильный, но алгоритм дайджеста слабый и небезопасный.",
+      "noDigestStatus": "Нет сведений о состоянии дайджеста.",
+      "unsupportedEncoding": "Установленный SignatureHandler не смог распознать кодировку подписи."
+    },
+    "documentStatus": {
+      "noError": "Нет общей ошибки для сообщения.",
+      "corruptFile": "SignatureHandler сообщил о повреждении файла.",
+      "unsigned": "Подпись еще не была криптографически подписана.",
+      "badByteRanges": "SignatureHandler сообщает о повреждении ByteRanges в цифровой подписи.",
+      "corruptCryptographicContents": "SignatureHandler сообщает о повреждении содержимого цифровой подписи."
+    },
+    "signatureDetails": {
+      "signatureDetails": "Детали подписи",
+      "contactInformation": "Контакты",
+      "location": "Расположение",
+      "reason": "Причина",
+      "signingTime": "Время подписания",
+      "noContactInformation": "Контактная информация не указана",
+      "noLocation": "Местоположение не указано",
+      "noReason": "Причина не указана",
+      "noSigningTime": "Время подписи не найдено"
+    },
+    "panelMessages": {
+      "noSignatureFields": "В этом документе нет полей для подписи",
+      "certificateDownloadError": "Ошибка при попытке скачать доверенный сертификат",
+      "localCertificateError": "Есть некоторые проблемы с чтением локального сертификата"
+    }
+  }
+}

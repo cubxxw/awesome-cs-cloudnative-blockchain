@@ -1,0 +1,1 @@
+可以在obsidian中打开Youtube或者是Bilibili的视频来获取时间戳并且记录在笔记之中. 可以参考[[Media Extended Example]]来学习如何使用这个插件.

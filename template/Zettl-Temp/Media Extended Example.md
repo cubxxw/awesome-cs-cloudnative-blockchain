@@ -1,0 +1,3 @@
+- 点击视频链接打开视频 https://www.bilibili.com/video/BV1CP4y137am?spm_id_from=333.999.0.0
+- 点击视频界面右上角的星星图片来加入时间戳
+- [00:23](https://www.bilibili.com/video/BV1CP4y137am?spm_id_from=333.999.0.0#t=23.631657) 尝试使用一下这个时间戳
