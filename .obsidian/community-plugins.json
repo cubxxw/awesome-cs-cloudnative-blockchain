@@ -1,5 +1,4 @@
 [
-  "table-editor-obsidian",
   "dataview",
   "obsidian-kanban",
   "obsidian-git",
@@ -12,5 +11,12 @@
   "easy-typing-obsidian",
   "obsidian-wakatime",
   "obsidian-textgenerator-plugin",
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "file-explorer-note-count",
+  "table-editor-obsidian",
+  "recent-files-obsidian",
+  "obsidian-enhancing-mindmap",
+  "calendar",
+  "obsidian-full-calendar",
+  "obsidian-memos"
 ]

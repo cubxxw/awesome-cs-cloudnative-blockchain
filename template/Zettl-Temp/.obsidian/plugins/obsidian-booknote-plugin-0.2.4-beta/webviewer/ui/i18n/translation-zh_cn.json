@@ -1,0 +1,666 @@
+{
+  "action": {
+    "apply": "应用",
+    "applyAll": "全部申请",
+    "calibrate": "校准",
+    "cancel": "取消",
+    "clear": "清除",
+    "close": "关闭",
+    "undo": "撤消",
+    "redo": "准备",
+    "comment": "注释",
+    "reply": "回复",
+    "copy": "复制",
+    "delete": "删除",
+    "group": "组",
+    "ungroup": "取消组合",
+    "download": "下载",
+    "edit": "编辑",
+    "extract": "提取",
+    "enterFullscreen": "全屏",
+    "exitFullscreen": "退出全屏",
+    "fit": "文档尺寸",
+    "fitToPage": "页面尺寸",
+    "fitToWidth": "自身尺寸",
+    "more": "更多",
+    "openFile": "打开文件",
+    "pagePrev": "上一页",
+    "pageNext": "下一页",
+    "pageSet": "设定页面",
+    "print": "打印",
+    "name": "名称",
+    "rename": "改名",
+    "ok": "好的",
+    "rotate": "旋转",
+    "rotate3D": "旋转",
+    "rotateClockwise": "顺时针",
+    "rotateCounterClockwise": "逆时针",
+    "save": "保存",
+    "post": "发布",
+    "create": "创建",
+    "showMoreResults": "显示更多结果",
+    "sign": "签名",
+    "style": "样式",
+    "submit": "提交",
+    "zoom": "缩放",
+    "zoomIn": "放大",
+    "zoomOut": "缩小",
+    "zoomSet": "设定缩放",
+    "zoomControls": "缩放控制",
+    "draw": "画",
+    "type": "类型",
+    "upload": "上载",
+    "link": "链接",
+    "darkMode": "暗模式",
+    "lightMode": "灯光模式",
+    "fileAttachmentDownload": "下载附件",
+    "prevResult": "先前的结果",
+    "nextResult": "下一个结果",
+    "prev": "以前",
+    "next": "下一个",
+    "startFormEditing": "开始表格编辑",
+    "exitFormEditing": "退出表格编辑模式",
+    "exit": "出口",
+    "addOption": "新增选项",
+    "formFieldEdit": "编辑表格栏位",
+    "viewShortCutKeysFor3D": "查看快捷键",
+    "markAllRead": "将所有内容标记为已读",
+    "insertPage": "页面插入",
+    "insertBlankPageAbove": "在上方插入空白页",
+    "insertBlankPageBelow": "在下方插入空白页",
+    "pageManipulation": "页面操作",
+    "replace": "代替"
+  },
+  "annotation": {
+    "areaMeasurement": "面积测量",
+    "arrow": "箭头",
+    "callout": "标注",
+    "crop": "裁剪页面",
+    "caret": "插入符号",
+    "formFillCheckmark": "打钩",
+    "formFillCross": "叉",
+    "distanceMeasurement": "距离测量",
+    "countMeasurement": "计数测量",
+    "ellipse": "椭圆",
+    "eraser": "橡皮",
+    "fileattachment": "文件附件",
+    "freehand": "手绘",
+    "freeHandHighlight": "自由手精选",
+    "freetext": "自由文本",
+    "highlight": "高亮",
+    "image": "图像",
+    "line": "直线",
+    "perimeterMeasurement": "周长测量",
+    "polygon": "多边形",
+    "polygonCloud": "云",
+    "polyline": "折线",
+    "rectangle": "矩形",
+    "redact": "新版本",
+    "formFillDot": "点",
+    "signature": "签名",
+    "squiggly": "曲线",
+    "stamp": "盖章",
+    "stickyNote": "注释",
+    "strikeout": "删除线",
+    "underline": "下划线",
+    "custom": "自定义",
+    "rubberStamp": "橡皮图章",
+    "note": "注意",
+    "textField": "文本域",
+    "signatureFormField": "签名栏",
+    "checkBoxFormField": "复选框字段",
+    "radioButtonFormField": "单选按钮字段",
+    "listBoxFormField": "列表框字段",
+    "comboBoxFormField": "组合框字段",
+    "link": "链接",
+    "other": "其他",
+    "3D": "3D"
+  },
+  "rubberStamp": {
+    "Approved": "已批准",
+    "AsIs": "照原样",
+    "Completed": "已完成",
+    "Confidential": "机密",
+    "Departmental": "部门的",
+    "Draft": "草案",
+    "Experimental": "实验性",
+    "Expired": "已过期",
+    "Final": "最后",
+    "ForComment": "征求意见",
+    "ForPublicRelease": "公开发行",
+    "InformationOnly": "仅供参考",
+    "NotApproved": "不批准",
+    "NotForPublicRelease": "不公开发布",
+    "PreliminaryResults": "初步结果",
+    "Sold": "已售出",
+    "TopSecret": "最高机密",
+    "Void": "空洞",
+    "SHSignHere": "在这里签名",
+    "SHWitness": "见证人",
+    "SHInitialHere": "最初在这里",
+    "SHAccepted": "公认",
+    "SBRejected": "拒绝"
+  },
+  "component": {
+    "leftPanel": "面板",
+    "toolsHeader": "工具类",
+    "searchOverlay": "搜索",
+    "searchPanel": "搜索",
+    "menuOverlay": "菜单",
+    "notesPanel": "备注",
+    "outlinesPanel": "大纲",
+    "bookmarksPanel": "书签",
+    "signaturePanel": "签名",
+    "newBookmark": "新书签",
+    "bookmarkPage": "页",
+    "layersPanel": "图层",
+    "thumbnailsPanel": "缩略图",
+    "toolsButton": "工具",
+    "redaction": "新版本",
+    "viewControlsOverlay": "调整浏览方式",
+    "calibration": "校准",
+    "zoomOverlay": "缩放叠加",
+    "textPopup": "文字弹出",
+    "createStampButton": "创建新图章",
+    "filter": "过滤"
+  },
+  "message": {
+    "toolsOverlayNoPresets": "无预设",
+    "badDocument": "无法加载文档，此文档已损坏或无效。",
+    "customPrintPlaceholder": "例如，3 4-10",
+    "encryptedAttemptsExceeded": "无法加载加密文档，尝试次数过多。",
+    "encryptedUserCancelled": "无法加载加密文档，密码输入已取消。",
+    "enterPassword": "此文档已被加密。请输入密码。",
+    "incorrectPassword": "密码错误，剩余输入机会：{{remainingAttempts}}",
+    "noAnnotations": "开始制作注释以发表评论。",
+    "noAnnotationsReadOnly": "此文档没有注释。",
+    "noAnnotationsFilter": "开始制作注释，过滤器将显示在此处。",
+    "noOutlines": "此文档没有大纲。",
+    "noResults": "未找到结果。",
+    "numResultsFound": "找到结果",
+    "notSupported": "不支持该文件类型。",
+    "passwordRequired": "需要输入密码",
+    "preparingToPrint": "正在准备打印…",
+    "annotationReplyCount": "{{count}} 回复",
+    "annotationReplyCount_plural": "{{count}} 回复",
+    "printTotalPageCount": "{{count}} 页",
+    "printTotalPageCount_plural": "{{count}} 页",
+    "processing": "正在处理…",
+    "searching": "正在搜索…",
+    "searchCommentsPlaceholder": "搜索评论",
+    "searchDocumentPlaceholder": "搜索文件",
+    "signHere": "在此处签名",
+    "insertTextHere": "在这里插入文字",
+    "imageSignatureAcceptedFileTypes": "仅接受{{acceptedFileTypes}}",
+    "enterMeasurement": "在两点之间输入测量值",
+    "errorEnterMeasurement": "您输入的数字无效，您可以输入7.5或7 1/2之类的值",
+    "linkURLorPage": "链接网址或页面",
+    "enterReplacementText": "输入您要替换的文字",
+    "sortBy": "排序方式",
+    "emptyCustomStampInput": "印章文字不能为空",
+    "unpostedComment": "未发布评论",
+    "lockedLayer": "图层已锁定",
+    "layerVisibililtyNoChange": "图层可见性无法更改",
+    "untitled": "无标题"
+  },
+  "option": {
+    "notesOrder": {
+      "dropdownLabel": "排序订单清单",
+      "position": "位置",
+      "time": "时间",
+      "status": "状态",
+      "author": "作者",
+      "type": "类型",
+      "color": "颜色"
+    },
+    "toolbarGroup": {
+      "dropdownLabel": "工具栏组",
+      "toolbarGroup-View": "视图",
+      "toolbarGroup-Annotate": "注释",
+      "toolbarGroup-Shapes": "形状",
+      "toolbarGroup-Insert": "插",
+      "toolbarGroup-Measure": "测量",
+      "toolbarGroup-Edit": "编辑",
+      "toolbarGroup-FillAndSign": "填写并签名",
+      "toolbarGroup-Forms": "形式"
+    },
+    "annotationColor": {
+      "StrokeColor": "边框颜色",
+      "FillColor": "填充颜色",
+      "TextColor": "文本颜色"
+    },
+    "colorPalette": {
+      "colorLabel": "颜色"
+    },
+    "displayMode": {
+      "layout": "布局",
+      "pageTransition": "页面转换"
+    },
+    "documentControls": {
+      "placeholder": "1, 3, 5-10"
+    },
+    "outlineControls": {
+      "add": "添加项目",
+      "reorder": "重新排序"
+    },
+    "layout": {
+      "cover": "封面",
+      "double": "双页",
+      "single": "单页"
+    },
+    "mathSymbols": "数学符号",
+    "notesPanel": {
+      "separator": {
+        "today": "今天",
+        "yesterday": "昨天",
+        "unknown": "未知"
+      },
+      "noteContent": {
+        "noName": "（无名）",
+        "noDate": "（未注明日期的）"
+      }
+    },
+    "pageTransition": {
+      "continuous": "连续",
+      "default": "逐页",
+      "reader": "阅读"
+    },
+    "print": {
+      "all": "全部",
+      "current": "当前页面",
+      "pages": "页数",
+      "view": "目前来看",
+      "pageQuality": "打印质量",
+      "qualityNormal": "正常",
+      "qualityHigh": "高",
+      "includeAnnotations": "包括注释",
+      "includeComments": "包括评论",
+      "addWatermarkSettings": "添加水印设置"
+    },
+    "printInfo": {
+      "author": "作者",
+      "subject": "学科",
+      "date": "日期"
+    },
+    "redaction": {
+      "markForRedaction": "标记为编辑"
+    },
+    "searchPanel": {
+      "caseSensitive": "区分大小写",
+      "wholeWordOnly": "整个词语",
+      "wildcard": "通配符"
+    },
+    "toolsOverlay": {
+      "currentStamp": "目前的邮票",
+      "currentSignature": "当前签名",
+      "signatureAltText": "签名"
+    },
+    "stampOverlay": {
+      "addStamp": "添加新邮票"
+    },
+    "signatureOverlay": {
+      "addSignature": "添加签名"
+    },
+    "signatureModal": {
+      "saveSignature": "保存签名",
+      "dragAndDrop": "将图片拖放到此处",
+      "or": "要么",
+      "pickImage": "选择签名图像"
+    },
+    "filterAnnotModal": {
+      "commentBy": "评论者",
+      "types": "种类",
+      "color": "颜色",
+      "includeReplies": "包括回覆"
+    },
+    "status": {
+      "status": "状态"
+    },
+    "state": {
+      "accepted": "公认",
+      "rejected": "被拒绝",
+      "completed": "已完成",
+      "cancelled": "取消",
+      "set": "设定状态：",
+      "setBy": "通过设置",
+      "none": "没有",
+      "marked": "标记",
+      "unmarked": "未标记"
+    },
+    "measurementOverlay": {
+      "scale": "比例",
+      "angle": "角度",
+      "distance": "距离",
+      "perimeter": "周长",
+      "area": "面积",
+      "distanceMeasurement": "距离测量",
+      "perimeterMeasurement": "周长测量",
+      "areaMeasurement": "面积测量",
+      "countMeasurement": "计数测量",
+      "radius": "半径",
+      "count": "计数"
+    },
+    "measurementOption": {
+      "scale": "比例"
+    },
+    "styleOption": {
+      "style": "样式",
+      "solid": "固体",
+      "cloudy": "多云的"
+    },
+    "slider": {
+      "opacity": "不透明度",
+      "thickness": "厚度",
+      "text": "文字大小"
+    },
+    "shared": {
+      "page": "页",
+      "precision": "精准度",
+      "enableSnapping": "启用测量工具的捕捉"
+    },
+    "watermark": {
+      "size": "尺寸",
+      "location": "选择一个位置来编辑水印",
+      "text": "文本",
+      "style": "样式",
+      "resetAllSettings": "重置所有设置",
+      "font": "字形",
+      "locations": {
+        "center": "中央",
+        "topLeft": "左上方",
+        "topRight": "右上",
+        "topCenter": "顶尖中心",
+        "bottomLeft": "左下方",
+        "bottomRight": "右下",
+        "bottomCenter": "底部中心"
+      }
+    },
+    "thumbnailPanel": {
+      "delete": "删除",
+      "rotateClockwise": "顺时针",
+      "rotateCounterClockwise": "逆时针方向"
+    },
+    "richText": {
+      "bold": "粗体",
+      "italic": "斜体",
+      "underline": "下划线",
+      "strikeout": "删除线"
+    },
+    "customStampModal": {
+      "stampText": "印章文字：",
+      "timestampText": "时间戳记文字：",
+      "stampColor": "印章颜色：",
+      "Username": "用户名",
+      "Date": "日期",
+      "Time": "时间"
+    }
+  },
+  "warning": {
+    "deletePage": {
+      "deleteTitle": "删除页面",
+      "deleteMessage": "您确定要删除所选页面吗？这是无法撤消的",
+      "deleteLastPageMessage": "您无法删除文档中的所有页面。"
+    },
+    "extractPage": {
+      "title": "提取页面",
+      "message": "您确定要提取所选页面吗？",
+      "confirmBtn": "提取页面",
+      "secondaryBtn": "提取并删除页面"
+    },
+    "redaction": {
+      "applyTile": "应用编辑",
+      "applyMessage": "此操作将永久删除所有要编辑的项目。无法撤消。"
+    },
+    "selectPage": {
+      "selectTitle": "未选择页面",
+      "selectMessage": "请选择页面，然后重试。"
+    },
+    "colorPicker": {
+      "deleteTitle": "删除自定义颜色",
+      "deleteMessage": "删除所选的自定义颜色？它将从您的调色板中删除。"
+    }
+  },
+  "shortcut": {
+    "arrow": "(A)",
+    "callout": "(C)",
+    "copy": "(Ctrl C)",
+    "delete": "(Del)",
+    "ellipse": "(O)",
+    "eraser": "(E)",
+    "freehand": "(F)",
+    "freetext": "(T)",
+    "highlight": "(H)",
+    "line": "(L)",
+    "pan": "(P)",
+    "rectangle": "(R)",
+    "rotateClockwise": "(Ctrl Shift +)",
+    "rotateCounterClockwise": "(Ctrl Shift -)",
+    "select": "(Esc)",
+    "signature": "(S)",
+    "squiggly": "(G)",
+    "image": "（一世）",
+    "redo": "（Ctrl Shift Z）",
+    "redo_windows": "(Ctrl Y)",
+    "undo": "（Ctrl Z）",
+    "stickyNote": "(N)",
+    "strikeout": "(K)",
+    "underline": "(U)",
+    "zoomIn": "(Ctrl +)",
+    "zoomOut": "(Ctrl -)",
+    "richText": {
+      "bold": "（Ctrl B）",
+      "italic": "（Ctrl I）",
+      "underline": "（Ctrl U）",
+      "strikeout": "（Ctrl K）"
+    },
+    "rotate3D": "Shift +拖动",
+    "zoom3D": "Shift +滚动"
+  },
+  "tool": {
+    "pan": "移动",
+    "select": "选择",
+    "Marquee": "选框缩放",
+    "Link": "链接网址或页面",
+    "Standard": "标准",
+    "Custom": "自订"
+  },
+  "link": {
+    "url": "网址",
+    "page": "页",
+    "enterurl": "输入您想要链接的URL",
+    "enterpage": "选择您要链接的页码"
+  },
+  "Model3D": {
+    "add3D": "通过输入URL添加3D注释",
+    "enterurl": "输入glTF格式的3D对象的URL",
+    "enterurlOrLocalFile": "输入URL或以glTF格式上传3D对象",
+    "formatError": "仅支持glTF（.glb）格式"
+  },
+  "datePicker": {
+    "previousMonth": "前一个月",
+    "nextMonth": "下个月",
+    "months": {
+      "0": "一月",
+      "1": "二月",
+      "2": "三月",
+      "3": "四月",
+      "4": "五月",
+      "5": "六月",
+      "6": "七月",
+      "7": "八月",
+      "8": "九月",
+      "9": "十月",
+      "10": "十一月",
+      "11": "十二月"
+    },
+    "monthsShort": {
+      "0": "一月",
+      "1": "二月",
+      "2": "三月",
+      "3": "四月",
+      "4": "五月",
+      "5": "六月",
+      "6": "七月",
+      "7": "八月",
+      "8": "九月",
+      "9": "十月",
+      "10": "十一月",
+      "11": "十二月"
+    },
+    "weekdays": {
+      "0": "星期日",
+      "1": "星期一",
+      "2": "星期二",
+      "3": "星期三",
+      "4": "星期四",
+      "5": "星期五",
+      "6": "星期六"
+    },
+    "weekdaysShort": {
+      "0": "周日",
+      "1": "周一",
+      "2": "周二",
+      "3": "周三",
+      "4": "周四",
+      "5": "周五",
+      "6": "周六"
+    }
+  },
+  "formField": {
+    "formFieldPopup": {
+      "fieldName": "栏位名称",
+      "fieldValue": "默认值",
+      "readOnly": "只读",
+      "multiSelect": "多选",
+      "required": "必需的",
+      "multiLine": "多行",
+      "apply": "申请",
+      "cancel": "取消",
+      "flags": "场旗",
+      "options": "选项",
+      "radioGroups": "具有相同字段名称的单选按钮将属于同一分组。",
+      "nameRequired": "字段名称为必填项",
+      "size": "尺寸",
+      "width": "宽度",
+      "height": "高度",
+      "invalidField": {
+        "duplicate": "字段名称已存在",
+        "empty": "字段名称不能为空"
+      }
+    },
+    "apply": "套用栏位",
+    "type": "字段类型",
+    "types": {
+      "text": "文本",
+      "signature": "签名",
+      "checkbox": "复选框",
+      "radio": "单选按钮",
+      "listbox": "列表框",
+      "combobox": "组合框"
+    }
+  },
+  "digitalSignatureModal": {
+    "certification": "认证证书",
+    "Certification": "资质认证",
+    "signature": "签名",
+    "Signature": "签名",
+    "valid": "有效",
+    "invalid": "无效",
+    "unknown": "未知",
+    "title": "{{type}}属性",
+    "header": {
+      "documentIntegrity": "文件完整性",
+      "identitiesTrust": "身份与信任",
+      "generalErrors": "一般错误",
+      "digestStatus": "摘要状态"
+    },
+    "documentPermission": {
+      "noChangesAllowed": "{{editor}}已指定不允许对此文档进行任何更改",
+      "formfillingSigningAllowed": "{{editor}}已指定允许此文档使用“表单填写”和“签名”。不允许其他更改。",
+      "annotatingFormfillingSigningAllowed": "{{editor}}已指定允许该文档的表单填写，签名和注释。不允许其他更改。",
+      "unrestricted": "{{editor}}已指定此文档没有任何限制。"
+    },
+    "digestAlgorithm": {
+      "preamble": "用于签名签名的摘要算法：",
+      "unknown": "用于签名签名的摘要算法未知。"
+    },
+    "trustVerification": {
+      "none": "没有详细的信任验证结果。",
+      "current": "尝试针对当前时间进行信任验证",
+      "signing": "尝试进行有关签名时间的信任验证：{{trustVerificationTime}}",
+      "timestamp": "尝试针对安全嵌入式时间戳记进行信任验证：{{trustVerificationTime}}"
+    },
+    "signerIdentity": {
+      "preamble": "签名者的身份是",
+      "valid": "有效。",
+      "unknown": "未知。"
+    },
+    "summaryBox": {
+      "summary": "数字{{type}}是{{status}}",
+      "signedBy": "，由{{name}}签名"
+    }
+  },
+  "digitalSignatureVerification": {
+    "certifier": "证明",
+    "certified": "认证的",
+    "Certified": "已认证",
+    "signer": "标志",
+    "signed": "签",
+    "Signed": "签",
+    "by": "通过",
+    "on": "上",
+    "disallowedChange": "不允许更改：{{type}}，objnum：{{objnum}}",
+    "unsignedSignatureField": "未签名的签名字段：{{fieldName}}",
+    "trustVerification": {
+      "current": "验证时间为当前时间",
+      "signing": "验证时间是来自签名者计算机上的时钟",
+      "timestamp": "验证时间来自文档中嵌入的安全时间戳",
+      "verifiedTrust": "信任验证结果：已验证",
+      "noTrustVerification": "没有详细的信任验证结果。"
+    },
+    "permissionStatus": {
+      "noPermissionsStatus": "没有权限状态可以报告。",
+      "permissionsVerificationDisabled": "权限验证已被禁用。",
+      "hasAllowedChanges": "该文档具有签名权限设置所允许的更改。",
+      "invalidatedByDisallowedChanges": "文档具有签名权限设置不允许的更改。",
+      "unmodified": "该文档自从"
+    },
+    "trustStatus": {
+      "trustVerified": "已成功建立对{{verificationType}}的信任。",
+      "untrusted": "无法建立信任。",
+      "trustVerificationDisabled": "信任验证已被禁用。",
+      "noTrustStatus": "没有可报告的信任状态。"
+    },
+    "digestStatus": {
+      "digestInvalid": "摘要不正确。",
+      "digestVerified": "摘要是正确的。",
+      "digestVerificationDisabled": "摘要验证已禁用。",
+      "weakDigestAlgorithmButDigestVerifiable": "摘要是正确的，但摘要算法较弱且不安全。",
+      "noDigestStatus": "没有摘要状态可报告。",
+      "unsupportedEncoding": "没有安装的SignatureHandler能够识别签名的编码"
+    },
+    "documentStatus": {
+      "noError": "没有一般错误要报告。",
+      "corruptFile": "SignatureHandler报告文件损坏。",
+      "unsigned": "签名尚未进行加密签名。",
+      "badByteRanges": "SignatureHandler报告数字签名中ByteRanges中的损坏。",
+      "corruptCryptographicContents": "SignatureHandler报告数字签名内容中的损坏。"
+    },
+    "signatureDetails": {
+      "signatureDetails": "签名细节",
+      "contactInformation": "联系信息",
+      "location": "位置",
+      "reason": "原因",
+      "signingTime": "签约时间",
+      "noContactInformation": "没有提供联系信息",
+      "noLocation": "没有提供位置",
+      "noReason": "没有提供原因",
+      "noSigningTime": "找不到签名时间"
+    },
+    "panelMessages": {
+      "noSignatureFields": "该文档没有签名字段",
+      "certificateDownloadError": "尝试下载受信任的证书时遇到错误",
+      "localCertificateError": "读取本地证书存在一些问题"
+    }
+  }
+}

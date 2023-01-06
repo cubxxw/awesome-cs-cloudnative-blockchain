@@ -1,0 +1,10 @@
+{
+  "program": {
+    "portable":{
+    	"pnacl-translate": {
+      	"url" : "WebOfficeWorker.pexe",
+		"optlevel": 0
+      } 
+    }
+  }
+}

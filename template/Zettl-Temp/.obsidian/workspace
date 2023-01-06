@@ -1,0 +1,129 @@
+{
+  "main": {
+    "id": "5e3cbd713109d73a",
+    "type": "split",
+    "children": [
+      {
+        "id": "594ce834d966789e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "000-Home.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bd8a0c12732a89bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c84c2fa253754b14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83bd2cef09dae08f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2d84b8c890ddb314",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2a4474e763859714",
+            "type": "leaf",
+            "state": {
+              "type": "book-explorer-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6a4bd9ae79f0a943",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0fb5ccbc8e3d897",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cb656e02ff70545",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "000-Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0e4e13373b459a66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f8e8de93937e6dce",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "594ce834d966789e",
+  "lastOpenFiles": [
+    "000-Home.md",
+    "Media Extended Example.md",
+    "Kanban.md",
+    "Calendar.md",
+    "Booknote.md",
+    "Media Extended.md",
+    "Kanban/Slip Box.md",
+    "杰文斯悖论.md",
+    "科技爱好者周刊（第 183 期）：腾讯的员工退休福利.md",
+    "QuickAdd.md"
+  ]
+}

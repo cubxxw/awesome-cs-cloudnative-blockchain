@@ -4,42 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "94f4ea55495507bb",
+        "id": "5456cf5734818f25",
         "type": "tabs",
         "children": [
           {
-            "id": "d9c1453c88b21823",
+            "id": "2281532b3d6ce98b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "default/slide.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "memos_view",
+              "state": {}
             }
           },
           {
-            "id": "5e0b55142bf944c5",
+            "id": "fd0b64b2f0ec6059",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "default/diary/20230104-周三.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b4acfea7ac83a9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "template/会议记录模板.md",
+                "file": "default/diary/20230106-周五.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +29,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#每夜自动构建",
+                "query": "namespace",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,6 +72,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "00fe2c481115b483",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
@@ -113,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "template/会议记录模板.md",
+                "file": "default/diary/20230106-周五.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "template/会议记录模板.md",
+                "file": "default/diary/20230106-周五.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "template/会议记录模板.md"
+                "file": "default/diary/20230106-周五.md"
               }
             }
           },
@@ -164,45 +154,55 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "e9630c17145a504c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 280.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:Create new canvas": false,
       "daily-notes:打开/创建今天的日记": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "zk-prefixer:创建时间戳笔记": false,
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "4b4acfea7ac83a9a",
+  "active": "fd0b64b2f0ec6059",
   "lastOpenFiles": [
     "default/diary/20230104-周三.md",
-    "template/日记模板.md",
-    "Excalidraw/Drawing 2022-12-16 10.38.18.excalidraw.md",
-    "Day Planners/Day Planners/Day Planner-20221224.md",
-    "default/slide.md",
-    "default/Termius.md",
-    "default/cloc代码统计.md",
-    "README.md",
-    "default/未命名.canvas",
-    "Day Planners/Day Planners/Day Planner-20221230.md"
+    "Excalidraw/Drawing 2023-01-05 20.17.59.excalidraw.md",
+    "docker/markdown/1.md",
+    "go_bible/gopl-zh.github.com/ch2/ch2-01.md",
+    "Excalidraw/Drawing 2023-01-05 20.17.27.excalidraw.md",
+    "cs/build-your-own-x/README.md",
+    "cs/images/4j99mhe.png",
+    "go_bible/gopl-zh.github.com/ch2/ch2-02.md",
+    "images/copy.pdf",
+    "images/group.png"
   ]
 }
