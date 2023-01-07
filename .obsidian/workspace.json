@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "default/diary/20230106-周五.md",
+                "file": "cs/markdown/36.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "default/diary/20230106-周五.md",
+                "file": "cs/markdown/36.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "default/diary/20230106-周五.md",
+                "file": "cs/markdown/36.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "default/diary/20230106-周五.md"
+                "file": "cs/markdown/36.md"
               }
             }
           },
@@ -194,15 +194,15 @@
   },
   "active": "fd0b64b2f0ec6059",
   "lastOpenFiles": [
+    "cs/markdown/35.md",
+    "cs/markdown/36.md",
+    "cs/markdown/37.md",
+    "cs/markdown/33.md",
+    "cs/markdown/32.md",
+    "cs/markdown/26.md",
+    "cs/markdown/16.md",
+    "default/diary/20230106-周五.md",
     "default/diary/20230104-周三.md",
-    "Excalidraw/Drawing 2023-01-05 20.17.59.excalidraw.md",
-    "docker/markdown/1.md",
-    "go_bible/gopl-zh.github.com/ch2/ch2-01.md",
-    "Excalidraw/Drawing 2023-01-05 20.17.27.excalidraw.md",
-    "cs/build-your-own-x/README.md",
-    "cs/images/4j99mhe.png",
-    "go_bible/gopl-zh.github.com/ch2/ch2-02.md",
-    "images/copy.pdf",
-    "images/group.png"
+    "Excalidraw/Drawing 2023-01-05 20.17.59.excalidraw.md"
   ]
 }
