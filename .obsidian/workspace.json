@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/markdown/36.md",
+                "file": "default/cloc代码统计.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -58,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cloc",
+                "query": "代码统计",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/markdown/36.md",
+                "file": "default/cloc代码统计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/markdown/36.md",
+                "file": "default/cloc代码统计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/markdown/36.md"
+                "file": "default/cloc代码统计.md"
               }
             }
           },
@@ -193,17 +193,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a834e59b32e4e338",
+  "active": "fd0b64b2f0ec6059",
   "lastOpenFiles": [
-    "cs/markdown/35.md",
+    "README.md",
+    "default/cloc代码统计.md",
     "cs/markdown/36.md",
+    "cs/markdown/35.md",
     "cs/markdown/37.md",
     "cs/markdown/33.md",
     "cs/markdown/32.md",
     "cs/markdown/26.md",
     "cs/markdown/16.md",
-    "default/diary/20230106-周五.md",
-    "default/diary/20230104-周三.md",
-    "Excalidraw/Drawing 2023-01-05 20.17.59.excalidraw.md"
+    "default/diary/20230106-周五.md"
   ]
 }
