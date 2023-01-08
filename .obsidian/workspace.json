@@ -58,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "namespace",
+                "query": "cloc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,7 +193,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "fd0b64b2f0ec6059",
+  "active": "a834e59b32e4e338",
   "lastOpenFiles": [
     "cs/markdown/35.md",
     "cs/markdown/36.md",
