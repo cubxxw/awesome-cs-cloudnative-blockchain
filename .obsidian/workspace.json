@@ -28,8 +28,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,7 +191,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "fd0b64b2f0ec6059",
+  "active": "2281532b3d6ce98b",
   "lastOpenFiles": [
     "README.md",
     "default/cloc代码统计.md",
