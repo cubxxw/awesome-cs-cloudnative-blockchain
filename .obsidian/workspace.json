@@ -21,14 +21,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "default/cloc代码统计.md",
+                "file": "cs/markdown/19.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -57,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "代码统计",
+                "query": "mongod",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +83,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "default/cloc代码统计.md",
+                "file": "cs/markdown/19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "default/cloc代码统计.md",
+                "file": "cs/markdown/19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "default/cloc代码统计.md"
+                "file": "cs/markdown/19.md"
               }
             }
           },
@@ -191,17 +193,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "2281532b3d6ce98b",
+  "active": "fd0b64b2f0ec6059",
   "lastOpenFiles": [
-    "README.md",
+    "docker/markdown/20.md",
+    "cs/markdown/14.md",
+    "cs/markdown/13.md",
+    "the-way-to-go_ZH_CN/eBook/09.10.md",
+    "cs/markdown/6.md",
     "default/cloc代码统计.md",
+    "README.md",
     "cs/markdown/36.md",
     "cs/markdown/35.md",
-    "cs/markdown/37.md",
-    "cs/markdown/33.md",
-    "cs/markdown/32.md",
-    "cs/markdown/26.md",
-    "cs/markdown/16.md",
-    "default/diary/20230106-周五.md"
+    "cs/markdown/37.md"
   ]
 }
