@@ -14,22 +14,8 @@
               "type": "memos_view",
               "state": {}
             }
-          },
-          {
-            "id": "fd0b64b2f0ec6059",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cs/markdown/19.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -58,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mongod",
+                "query": "# mongodb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/markdown/19.md",
+                "file": "the-way-to-go_ZH_CN/eBook/09.10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/markdown/19.md",
+                "file": "the-way-to-go_ZH_CN/eBook/09.10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/markdown/19.md"
+                "file": "the-way-to-go_ZH_CN/eBook/09.10.md"
               }
             }
           },
@@ -193,17 +179,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "fd0b64b2f0ec6059",
+  "active": "a834e59b32e4e338",
   "lastOpenFiles": [
+    "cs/markdown/6.md",
+    "cs/markdown/19.md",
     "docker/markdown/20.md",
     "cs/markdown/14.md",
     "cs/markdown/13.md",
     "the-way-to-go_ZH_CN/eBook/09.10.md",
-    "cs/markdown/6.md",
     "default/cloc代码统计.md",
     "README.md",
     "cs/markdown/36.md",
-    "cs/markdown/35.md",
-    "cs/markdown/37.md"
+    "cs/markdown/35.md"
   ]
 }
