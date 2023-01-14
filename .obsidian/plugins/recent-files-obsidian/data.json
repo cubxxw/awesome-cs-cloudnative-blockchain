@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "09.10",
+      "path": "the-way-to-go_ZH_CN/eBook/09.10.md"
+    },
+    {
+      "basename": "6",
+      "path": "cs/markdown/6.md"
+    },
+    {
       "basename": "19",
       "path": "cs/markdown/19.md"
     },
@@ -15,14 +23,6 @@
     {
       "basename": "13",
       "path": "cs/markdown/13.md"
-    },
-    {
-      "basename": "09.10",
-      "path": "the-way-to-go_ZH_CN/eBook/09.10.md"
-    },
-    {
-      "basename": "6",
-      "path": "cs/markdown/6.md"
     },
     {
       "basename": "cloc代码统计",
