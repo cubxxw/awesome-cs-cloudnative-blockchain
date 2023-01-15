@@ -1,0 +1,266 @@
+{
+  "choices": [
+    {
+      "id": "d5b38d4a-622d-424f-bb21-47e34c71129a",
+      "name": "Capture Literature Note",
+      "type": "Macro",
+      "command": true,
+      "macroId": "afe28e46-30f7-4bfc-b625-2816abeb8fb7"
+    },
+    {
+      "id": "5bc058d9-670c-41ed-b753-4dff82013d15",
+      "name": "New Literature Note",
+      "type": "Macro",
+      "command": true,
+      "macroId": "1eddb15e-08c4-4269-bb4a-54bd2efd7245"
+    },
+    {
+      "id": "020b2fe7-d9e1-4afc-931e-e8e1adaf42c1",
+      "name": "New Fleeting Note",
+      "type": "Macro",
+      "command": true,
+      "macroId": "e0ff9983-f1e9-4a7d-912c-600670e64a5e"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Capture Literature Note",
+      "id": "afe28e46-30f7-4bfc-b625-2816abeb8fb7",
+      "commands": [
+        {
+          "name": "Capture and Create Literature Note",
+          "type": "NestedChoice",
+          "id": "deed751f-bea4-403b-9283-078284a0db1e",
+          "choice": {
+            "id": "e33bcb56-6e66-4605-bf45-8edd746a5c1e",
+            "name": "Capture and Create Literature Note",
+            "type": "Capture",
+            "command": false,
+            "appendLink": true,
+            "captureTo": "{{VALUE:Literature}}",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": true,
+              "createWithTemplate": true,
+              "template": "Template/Literature Template.md"
+            },
+            "format": {
+              "enabled": true,
+              "format": "{{VALUE}}\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## Reference",
+              "insertAtEnd": true,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add to Slip Box",
+          "type": "NestedChoice",
+          "id": "6c847cdf-6b6f-4e04-a9e8-949074e21b8e",
+          "choice": {
+            "id": "168bd4a9-c815-43b2-9e09-5e4e4f16e87f",
+            "name": "Add to Slip Box",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Kanban/Slip Box.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- [ ] [[{{VALUE:Literature}}]]\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## ['Literature']",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "New Literature Note",
+      "id": "1eddb15e-08c4-4269-bb4a-54bd2efd7245",
+      "commands": [
+        {
+          "name": "New Literature Note",
+          "type": "NestedChoice",
+          "id": "ad728882-c740-4f9b-913f-5880d4701c43",
+          "choice": {
+            "id": "e8d550d9-20ea-483a-b562-02d8ddf1a7ee",
+            "name": "New Literature Note",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Template/Literature Template.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Literature}}"
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add to Slip Box",
+          "type": "NestedChoice",
+          "id": "5c448191-f423-45b9-83a8-2f4e12503cd2",
+          "choice": {
+            "id": "53594615-e3b2-4393-92d9-ed6729190454",
+            "name": "Add to Slip Box",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Kanban/Slip Box.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- [ ] [[{{VALUE:Literature}}]]\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## ['Literature']",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "New Fleeting Note",
+      "id": "e0ff9983-f1e9-4a7d-912c-600670e64a5e",
+      "commands": [
+        {
+          "name": "Create New Fleeting Note ",
+          "type": "NestedChoice",
+          "id": "792fc86b-34d5-4534-86ac-6823efb7e1b7",
+          "choice": {
+            "id": "422f581c-419a-4e3b-8bca-5a0f0edd1a62",
+            "name": "Create New Fleeting Note ",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Template/Fleeting Template.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Fleeting}}"
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add to Slip Box",
+          "type": "NestedChoice",
+          "id": "f544ac34-dea2-498e-ac19-b3f7ed2b0d57",
+          "choice": {
+            "id": "32113556-a075-4979-b5a2-9692f3c3ce92",
+            "name": "Add to Slip Box",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Kanban/Slip Box.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- [ ] [[{{VALUE:Fleeting}}]]\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## ['Fleeting']",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+导入把Readwise中的所有的高亮进入到obsidian之中. 更多的信息可以参考[Readwise使用](https://www.bilibili.com/video/BV1CP4y137am?spm_id_from=333.999.0.0).

@@ -96,9 +96,9 @@
 
 - [x] 🎊 [第34节 在线vscode完成贡献和阅读](markdown/34.md)
 
-<!--
+- [x] 🎊 [第35节 yarm](markdown/35.md)
 
-- [ ] 🎊 [](markdown/35.md)
+<!--
 
 - [ ] 🎊 [](markdown/36.md)
 

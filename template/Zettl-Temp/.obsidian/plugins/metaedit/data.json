@@ -1,0 +1,30 @@
+{
+  "ProgressProperties": {
+    "enabled": false,
+    "properties": []
+  },
+  "IgnoredProperties": {
+    "enabled": false,
+    "properties": []
+  },
+  "AutoProperties": {
+    "enabled": false,
+    "properties": []
+  },
+  "EditMode": {
+    "mode": "All Single",
+    "properties": []
+  },
+  "KanbanHelper": {
+    "enabled": true,
+    "boards": [
+      {
+        "property": "tags",
+        "boardName": "Slip Box"
+      }
+    ]
+  },
+  "UIElements": {
+    "enabled": true
+  }
+}

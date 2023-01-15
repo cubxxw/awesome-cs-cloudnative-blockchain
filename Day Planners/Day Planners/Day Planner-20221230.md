@@ -1,0 +1,2 @@
+## Day Planner
+- [ ] ![[default/Termius]]

@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"86505dc92e559546","x":-261,"y":-240,"width":400,"height":400,"type":"file","file":"go-web/markdown/1.md"},
+		{"id":"98d478d17bf78a67","x":243,"y":207,"width":400,"height":400,"type":"file","file":"go-web/markdown/2.md"},
+		{"id":"c294025ca9d2bceb","x":220,"y":-311,"width":250,"height":60,"type":"text","text":"https://baodu.com"},
+		{"id":"2193b79038346648","x":-580,"y":320,"width":400,"height":400,"type":"link","url":"http://43.142.124.85:8090/archives/sealos-one"},
+		{"id":"4c7bee0a35355177","x":-220,"y":-9180,"width":400,"height":400,"color":"1","type":"file","file":"Day Planners/Day Planners/Day Planner-20221217.md"},
+		{"id":"13e2cba9cb3c994a","x":-4,"y":-8983,"width":250,"height":50,"color":"1","type":"text","text":"你好 世界~"},
+		{"id":"f2980b36e84ae867","x":-220,"y":-8660,"width":400,"height":300,"type":"file","file":"default/images/Pasted image 20221231100246.png"},
+		{"id":"07efe92597e4cfbd","x":320,"y":-9180,"width":400,"height":400,"color":"1","type":"file","file":"Day Planners/Day Planners/Day Planner-20221216.md"}
+	],
+	"edges":[
+		{"id":"46483029c3098c7f","fromNode":"4c7bee0a35355177","fromSide":"bottom","toNode":"07efe92597e4cfbd","toSide":"bottom"},
+		{"id":"d0bfa0e1f0db944a","fromNode":"4c7bee0a35355177","fromSide":"right","toNode":"07efe92597e4cfbd","toSide":"left"},
+		{"id":"6aea239535d9f5f9","fromNode":"4c7bee0a35355177","fromSide":"top","toNode":"07efe92597e4cfbd","toSide":"top"}
+	]
+}

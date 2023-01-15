@@ -1,0 +1,666 @@
+{
+  "action": {
+    "apply": "Appliquer",
+    "applyAll": "Appliquer toute",
+    "calibrate": "Étalonner",
+    "cancel": "Annuler",
+    "clear": "Effacer",
+    "close": "Fermer",
+    "undo": "annuler",
+    "redo": "Prêt",
+    "comment": "Commenter",
+    "reply": "Répondre",
+    "copy": "Copier",
+    "delete": "Supprimer",
+    "group": "Groupe",
+    "ungroup": "Dissocier",
+    "download": "Télécharger",
+    "edit": "Éditer",
+    "extract": "Extrait",
+    "enterFullscreen": "Plein écran",
+    "exitFullscreen": "Quitter le plein écran",
+    "fit": "Fit",
+    "fitToPage": "Fit à la page",
+    "fitToWidth": "Ajuster à la largeur",
+    "more": "De plus",
+    "openFile": "Ouvrir un fichier",
+    "pagePrev": "Page précédente",
+    "pageNext": "Page suivante",
+    "pageSet": "Mettre en place la page",
+    "print": "Imprimer",
+    "name": "Nom",
+    "rename": "Renommer",
+    "ok": "OK",
+    "rotate": "Tourner",
+    "rotate3D": "Tourner",
+    "rotateClockwise": "Tourner horaire",
+    "rotateCounterClockwise": "Tourner antihoraire",
+    "save": "Enregistrer",
+    "post": "Publier",
+    "create": "Créer",
+    "showMoreResults": "Montrer plus de résultats",
+    "sign": "Signer",
+    "style": "Style",
+    "submit": "Soumettre",
+    "zoom": "Zoom",
+    "zoomIn": "Zoomer",
+    "zoomOut": "Dézoomer",
+    "zoomSet": "Définir le zoom",
+    "zoomControls": "Commandes de zoom",
+    "draw": "Dessiner",
+    "type": "Type",
+    "upload": "Télécharger",
+    "link": "Lien",
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode lumière",
+    "fileAttachmentDownload": "Télécharger le fichier joint",
+    "prevResult": "Résultat précédent",
+    "nextResult": "Résultat suivant",
+    "prev": "précédent",
+    "next": "Prochain",
+    "startFormEditing": "Commencer l'édition du formulaire",
+    "exitFormEditing": "Quitter le mode d'édition de formulaire",
+    "exit": "Sortie",
+    "addOption": "Ajouter une option",
+    "formFieldEdit": "Modifier le champ de formulaire",
+    "viewShortCutKeysFor3D": "Afficher les touches de raccourci",
+    "markAllRead": "Marquer tout comme lu",
+    "insertPage": "Insertion de pages",
+    "insertBlankPageAbove": "Insérer une page vierge ci-dessus",
+    "insertBlankPageBelow": "Insérez une page vierge ci-dessous",
+    "pageManipulation": "Manipulation des pages",
+    "replace": "Remplacer"
+  },
+  "annotation": {
+    "areaMeasurement": "Surface mesurée",
+    "arrow": "Flèche",
+    "callout": "Faire appel à",
+    "crop": "Page de recadrage",
+    "caret": "Caret",
+    "formFillCheckmark": "Cocher",
+    "formFillCross": "Traverser",
+    "distanceMeasurement": "Mesure de distance",
+    "countMeasurement": "Mesure de comptage",
+    "ellipse": "Ellipse",
+    "eraser": "La gomme",
+    "fileattachment": "Pièce jointe",
+    "freehand": "Stylo",
+    "freeHandHighlight": "Mise en évidence de la main libre",
+    "freetext": "Texte libre",
+    "highlight": "Surligne",
+    "image": "Image",
+    "line": "Ligne",
+    "perimeterMeasurement": "Périmètre mesure",
+    "polygon": "Polygone",
+    "polygonCloud": "Nuage",
+    "polyline": "Ligne polygonale",
+    "rectangle": "Rectangle",
+    "redact": "Biffure",
+    "formFillDot": "Point",
+    "signature": "Signature",
+    "squiggly": "Ligne ondulée",
+    "stamp": "Timbre",
+    "stickyNote": "Note collante",
+    "strikeout": "Barré",
+    "underline": "Soulignage",
+    "custom": "personnalisation",
+    "rubberStamp": "Rubber Stamp",
+    "note": "Remarque",
+    "textField": "Champ de texte",
+    "signatureFormField": "Champ de signature",
+    "checkBoxFormField": "Champ de case à cocher",
+    "radioButtonFormField": "Champ RadioButton",
+    "listBoxFormField": "Champ de zone de liste",
+    "comboBoxFormField": "Champ de zone de liste déroulante",
+    "link": "Lien",
+    "other": "Autre",
+    "3D": "3D"
+  },
+  "rubberStamp": {
+    "Approved": "Approuvée",
+    "AsIs": "Comme Si",
+    "Completed": "Terminé",
+    "Confidential": "Confidentielle",
+    "Departmental": "Départementale",
+    "Draft": "Brouillon",
+    "Experimental": "Expérimentale",
+    "Expired": "Expiré",
+    "Final": "Finale",
+    "ForComment": "Pour commentaire",
+    "ForPublicRelease": "Pour diffusion publique",
+    "InformationOnly": "Information seulement",
+    "NotApproved": "Non approuvé",
+    "NotForPublicRelease": "Pas pour diffusion publique",
+    "PreliminaryResults": "Résultats préliminaires",
+    "Sold": "Vendue",
+    "TopSecret": "Top Secret",
+    "Void": "Néant",
+    "SHSignHere": "Signez ici",
+    "SHWitness": "Témoin",
+    "SHInitialHere": "Initiale",
+    "SHAccepted": "Accepté",
+    "SBRejected": "Rejeté"
+  },
+  "component": {
+    "leftPanel": "Panneau de gauche",
+    "toolsHeader": "Outils",
+    "searchOverlay": "Recherche",
+    "searchPanel": "Chercher",
+    "menuOverlay": "Menu",
+    "notesPanel": "Remarques",
+    "outlinesPanel": "Contour",
+    "bookmarksPanel": "Signets",
+    "signaturePanel": "Signatures",
+    "newBookmark": "Nouveau signet",
+    "bookmarkPage": "Page",
+    "layersPanel": "Couches",
+    "thumbnailsPanel": "Vignettes",
+    "toolsButton": "Outils",
+    "redaction": "Biffure",
+    "viewControlsOverlay": "Contrôles de l'affichage",
+    "calibration": "Étalonnage",
+    "zoomOverlay": "Superposition de zoom",
+    "textPopup": "Popup texte",
+    "createStampButton": "Créer un nouveau tampon",
+    "filter": "Filtre"
+  },
+  "message": {
+    "toolsOverlayNoPresets": "Aucun préréglage",
+    "badDocument": "Échec du chargement du document. Le document est corrompu ou non valide.",
+    "customPrintPlaceholder": "par ex. : 3 4-10",
+    "encryptedAttemptsExceeded": "Échec du chargement du document chiffré. Trop de tentatives.",
+    "encryptedUserCancelled": "Échec du chargement du document chiffré. Saisie du mot de passe annulée.",
+    "enterPassword": "Ce document est protégé par un mot de passe. Veuillez saisir ce mot de passe.",
+    "incorrectPassword": "Mot de passe incorrect. Tentatives restantes: {{remainingAttempts}}",
+    "noAnnotations": "Commencez à faire des annotations pour laisser un commentaire.",
+    "noAnnotationsReadOnly": "Ce document n'a pas d'annotations.",
+    "noAnnotationsFilter": "Commencez à créer des annotations et des filtres apparaîtront ici.",
+    "noOutlines": "Ce document n'a pas de plan.",
+    "noResults": "Aucun résultat trouvé.",
+    "numResultsFound": "résultats trouvés",
+    "notSupported": "Ce type de fichier n'est pas pris en charge.",
+    "passwordRequired": "Mot de passe requis",
+    "preparingToPrint": "Préparation à l'impression...",
+    "annotationReplyCount": "{{count}} Répondre",
+    "annotationReplyCount_plural": "{{count}} réponses",
+    "printTotalPageCount": "{{count}} page",
+    "printTotalPageCount_plural": "{{count}} pages",
+    "processing": "Traitement...",
+    "searching": "Recherche...",
+    "searchCommentsPlaceholder": "Rechercher des commentaires",
+    "searchDocumentPlaceholder": "Rechercher un document",
+    "signHere": "Signer ici",
+    "insertTextHere": "Insérer du texte ici",
+    "imageSignatureAcceptedFileTypes": "Seuls {{acceptedFileTypes}} sont acceptés",
+    "enterMeasurement": "Entrez la mesure entre les deux points",
+    "errorEnterMeasurement": "Le nombre que vous avez entré est invalide, vous pouvez entrer des valeurs comme 7,5 ou 7 1/2",
+    "linkURLorPage": "Lien URL ou une page",
+    "enterReplacementText": "Entrez le texte que vous souhaitez remplacer",
+    "sortBy": "Trier par",
+    "emptyCustomStampInput": "Le texte du tampon ne peut pas être vide",
+    "unpostedComment": "Commentaire non publié",
+    "lockedLayer": "Le calque est verrouillé",
+    "layerVisibililtyNoChange": "La visibilité de la couche ne peut pas être modifiée",
+    "untitled": "Sans titre"
+  },
+  "option": {
+    "notesOrder": {
+      "dropdownLabel": "Liste des ordres de tri",
+      "position": "Position",
+      "time": "Temps",
+      "status": "Statut",
+      "author": "Auteur",
+      "type": "Type",
+      "color": "Couleur"
+    },
+    "toolbarGroup": {
+      "dropdownLabel": "Groupes de barres d'outils",
+      "toolbarGroup-View": "Vue",
+      "toolbarGroup-Annotate": "Annoter",
+      "toolbarGroup-Shapes": "Formes",
+      "toolbarGroup-Insert": "Insérer",
+      "toolbarGroup-Measure": "Mesure",
+      "toolbarGroup-Edit": "Éditer",
+      "toolbarGroup-FillAndSign": "Remplir et signer",
+      "toolbarGroup-Forms": "Formes"
+    },
+    "annotationColor": {
+      "StrokeColor": "Couleur de bordure",
+      "FillColor": "Couleur de remplissage",
+      "TextColor": "Couleur de texte"
+    },
+    "colorPalette": {
+      "colorLabel": "Couleur"
+    },
+    "displayMode": {
+      "layout": "Disposition",
+      "pageTransition": "Transition de page"
+    },
+    "documentControls": {
+      "placeholder": "1, 3, 5-10"
+    },
+    "outlineControls": {
+      "add": "Ajouter un item",
+      "reorder": "Réorganiser"
+    },
+    "layout": {
+      "cover": "Couverture",
+      "double": "Deux",
+      "single": "Une"
+    },
+    "mathSymbols": "Symboles mathématiques",
+    "notesPanel": {
+      "separator": {
+        "today": "Aujourd'hui",
+        "yesterday": "Hier",
+        "unknown": "Inconnu"
+      },
+      "noteContent": {
+        "noName": "(sans nom)",
+        "noDate": "(pas de date)"
+      }
+    },
+    "pageTransition": {
+      "continuous": "Continu",
+      "default": "Page par page",
+      "reader": "Lecteur"
+    },
+    "print": {
+      "all": "Toutes",
+      "current": "Page actuelle",
+      "pages": "Pages",
+      "view": "Vue actuelle",
+      "pageQuality": "Qualité d'impression",
+      "qualityNormal": "Ordinaire",
+      "qualityHigh": "Haute",
+      "includeAnnotations": "Inclure des annotations",
+      "includeComments": "Inclure les commentaires",
+      "addWatermarkSettings": "Ajouter des paramètres de filigrane"
+    },
+    "printInfo": {
+      "author": "Auteur",
+      "subject": "Matière",
+      "date": "Date"
+    },
+    "redaction": {
+      "markForRedaction": "Repérer les biffures"
+    },
+    "searchPanel": {
+      "caseSensitive": "Sensible à la casse",
+      "wholeWordOnly": "Mot complet",
+      "wildcard": "Caractère générique"
+    },
+    "toolsOverlay": {
+      "currentStamp": "Timbre Actuel",
+      "currentSignature": "Signature Actuelle",
+      "signatureAltText": "Signature"
+    },
+    "stampOverlay": {
+      "addStamp": "Ajouter un nouveau tampon"
+    },
+    "signatureOverlay": {
+      "addSignature": "Ajouter une signature"
+    },
+    "signatureModal": {
+      "saveSignature": "Enregistrer la signature",
+      "dragAndDrop": "Faites glisser et déposez votre image ici",
+      "or": "Ou",
+      "pickImage": "Choisir l'image de signature"
+    },
+    "filterAnnotModal": {
+      "commentBy": "Commentaire de",
+      "types": "Les types",
+      "color": "Couleur",
+      "includeReplies": "Inclure les réponses"
+    },
+    "status": {
+      "status": "Statut"
+    },
+    "state": {
+      "accepted": "Accepté",
+      "rejected": "Rejeté",
+      "completed": "Terminé",
+      "cancelled": "Annulé",
+      "set": "Définir le statut:",
+      "setBy": "fixé par",
+      "none": "Aucun",
+      "marked": "Marqué",
+      "unmarked": "Mon marqué"
+    },
+    "measurementOverlay": {
+      "scale": "Ratio d'échelle",
+      "angle": "Angle",
+      "distance": "Distance",
+      "perimeter": "Périmètre",
+      "area": "Surface",
+      "distanceMeasurement": "Mesure de distance",
+      "perimeterMeasurement": "Mesure du périmètre",
+      "areaMeasurement": "Mesure du surface",
+      "countMeasurement": "Mesure de comptage",
+      "radius": "Rayon",
+      "count": "Compter"
+    },
+    "measurementOption": {
+      "scale": "Échelle"
+    },
+    "styleOption": {
+      "style": "Style",
+      "solid": "Solide",
+      "cloudy": "Nuageux"
+    },
+    "slider": {
+      "opacity": "Opacité",
+      "thickness": "Épaisseur",
+      "text": "Taille du texte"
+    },
+    "shared": {
+      "page": "Page",
+      "precision": "Précision",
+      "enableSnapping": "Activer la capture pour les outils de mesure"
+    },
+    "watermark": {
+      "size": "Taille",
+      "location": "Choisissez un emplacement pour modifier les filigranes",
+      "text": "Texte",
+      "style": "Style",
+      "resetAllSettings": "Réinitialiser tous les réglages",
+      "font": "Font",
+      "locations": {
+        "center": "Centre",
+        "topLeft": "En haut à gauche",
+        "topRight": "En haut à droite",
+        "topCenter": "Centre supérieur",
+        "bottomLeft": "En bas à gauche",
+        "bottomRight": "En bas à droite",
+        "bottomCenter": "En bas au centre"
+      }
+    },
+    "thumbnailPanel": {
+      "delete": "Supprimer",
+      "rotateClockwise": "Dans le sens horaire",
+      "rotateCounterClockwise": "Dans le sens antihoraire"
+    },
+    "richText": {
+      "bold": "Audacieux",
+      "italic": "Italique",
+      "underline": "Souligner",
+      "strikeout": "Barré"
+    },
+    "customStampModal": {
+      "stampText": "Texte du tampon:",
+      "timestampText": "Texte d'horodatage:",
+      "stampColor": "Couleur du tampon:",
+      "Username": "Nom d'utilisateur",
+      "Date": "Date",
+      "Time": "Temps"
+    }
+  },
+  "warning": {
+    "deletePage": {
+      "deleteTitle": "Supprimer la page",
+      "deleteMessage": "Voulez-vous vraiment supprimer les pages sélectionnées? Cela ne peut pas être annulé",
+      "deleteLastPageMessage": "Vous ne pouvez pas supprimer toutes les pages du document."
+    },
+    "extractPage": {
+      "title": "Extraire la page",
+      "message": "Voulez-vous vraiment extraire la ou les pages sélectionnées?",
+      "confirmBtn": "Extraire des pages",
+      "secondaryBtn": "Extraire et supprimer des pages"
+    },
+    "redaction": {
+      "applyTile": "Appliquer la rédaction",
+      "applyMessage": "Cette action supprimera définitivement tous les éléments sélectionnés pour la rédaction. Ça ne peut pas être défait."
+    },
+    "selectPage": {
+      "selectTitle": "Aucune page sélectionnée",
+      "selectMessage": "Veuillez sélectionner des pages et réessayer."
+    },
+    "colorPicker": {
+      "deleteTitle": "Supprimer la couleur personnalisée",
+      "deleteMessage": "Supprimer la couleur personnalisée sélectionnée? Il sera supprimé de votre palette de couleurs."
+    }
+  },
+  "shortcut": {
+    "arrow": "(A)",
+    "callout": "(C)",
+    "copy": "(Ctrl C)",
+    "delete": "(Del)",
+    "ellipse": "(O)",
+    "eraser": "(E)",
+    "freehand": "(F)",
+    "freetext": "(T)",
+    "highlight": "(H)",
+    "line": "(L)",
+    "pan": "(P)",
+    "rectangle": "(R)",
+    "rotateClockwise": "(Ctrl Shift +)",
+    "rotateCounterClockwise": "(Ctrl Shift -)",
+    "select": "(Esc)",
+    "signature": "(S)",
+    "squiggly": "(G)",
+    "image": "(JE)",
+    "redo": "(Ctrl Shift Z)",
+    "redo_windows": "(Ctrl Y)",
+    "undo": "(Ctrl Z)",
+    "stickyNote": "(N)",
+    "strikeout": "(K)",
+    "underline": "(U)",
+    "zoomIn": "(Ctrl +)",
+    "zoomOut": "(Ctrl -)",
+    "richText": {
+      "bold": "(Ctrl B)",
+      "italic": "(Ctrl I)",
+      "underline": "(Ctrl U)",
+      "strikeout": "(Ctrl K)"
+    },
+    "rotate3D": "Maj + Glisser",
+    "zoom3D": "Maj + Défilement"
+  },
+  "tool": {
+    "pan": "Panoramique",
+    "select": "Sélection",
+    "Marquee": "Zoom sur la sélection",
+    "Link": "URL de lien ou page",
+    "Standard": "Standard",
+    "Custom": "Personnalisées"
+  },
+  "link": {
+    "url": "URL",
+    "page": "Page",
+    "enterurl": "Entrez l'URL à laquelle vous souhaitez créer un lien",
+    "enterpage": "Sélectionnez le numéro de page auquel vous souhaitez lier"
+  },
+  "Model3D": {
+    "add3D": "Ajoutez une annotation 3D en saisissant une URL",
+    "enterurl": "Entrez l'URL de l'objet 3D au format glTF",
+    "enterurlOrLocalFile": "Entrez l'URL ou téléchargez un objet 3D au format glTF",
+    "formatError": "Seul le format glTF (.glb) est pris en charge"
+  },
+  "datePicker": {
+    "previousMonth": "Le mois précédent",
+    "nextMonth": "Le mois prochain",
+    "months": {
+      "0": "janvier",
+      "1": "février",
+      "2": "mars",
+      "3": "avril",
+      "4": "mai",
+      "5": "juin",
+      "6": "juillet",
+      "7": "août",
+      "8": "septembre",
+      "9": "octobre",
+      "10": "novembre",
+      "11": "décembre"
+    },
+    "monthsShort": {
+      "0": "janv",
+      "1": "févr",
+      "2": "mars",
+      "3": "avril",
+      "4": "mai",
+      "5": "juin",
+      "6": "juil",
+      "7": "août",
+      "8": "sept",
+      "9": "oct",
+      "10": "nov",
+      "11": "déc"
+    },
+    "weekdays": {
+      "0": "dimanche",
+      "1": "lundi",
+      "2": "mardi",
+      "3": "mercredi",
+      "4": "jeudi",
+      "5": "vendredi",
+      "6": "samedi"
+    },
+    "weekdaysShort": {
+      "0": "dim.",
+      "1": "lun.",
+      "2": "mar.",
+      "3": "mer.",
+      "4": "jeu.",
+      "5": "ven.",
+      "6": "sam."
+    }
+  },
+  "formField": {
+    "formFieldPopup": {
+      "fieldName": "Nom de domaine",
+      "fieldValue": "Valeur par défaut",
+      "readOnly": "Lecture seulement",
+      "multiSelect": "Sélection multiple",
+      "required": "Obligatoire",
+      "multiLine": "Multiligne",
+      "apply": "Appliquer",
+      "cancel": "Annuler",
+      "flags": "Drapeaux de terrain",
+      "options": "Options",
+      "radioGroups": "Les boutons radio avec le même nom de champ appartiendront au même groupement.",
+      "nameRequired": "Le nom du champ est obligatoire",
+      "size": "Taille",
+      "width": "Largeur",
+      "height": "Hauteur",
+      "invalidField": {
+        "duplicate": "Le nom du champ existe déjà",
+        "empty": "Le nom du champ ne peut pas être vide"
+      }
+    },
+    "apply": "Appliquer les champs",
+    "type": "Type de champ",
+    "types": {
+      "text": "Texte",
+      "signature": "Signature",
+      "checkbox": "Case à cocher",
+      "radio": "Bouton radio",
+      "listbox": "Zone de liste",
+      "combobox": "Boîte combo"
+    }
+  },
+  "digitalSignatureModal": {
+    "certification": "certification",
+    "Certification": "Certification",
+    "signature": "Signature",
+    "Signature": "Signature",
+    "valid": "valide",
+    "invalid": "invalide",
+    "unknown": "inconnue",
+    "title": "{{type}} propriétés",
+    "header": {
+      "documentIntegrity": "Intégrité des documents",
+      "identitiesTrust": "Identités et confiance",
+      "generalErrors": "Erreurs générales",
+      "digestStatus": "État du résumé"
+    },
+    "documentPermission": {
+      "noChangesAllowed": "Le {{editor}} a spécifié qu'aucune modification n'est autorisée pour ce document",
+      "formfillingSigningAllowed": "Le {{editor}} a spécifié que le remplissage et la signature de formulaire sont autorisés pour ce document. Aucun autre changement n'est autorisé.",
+      "annotatingFormfillingSigningAllowed": "Le {{editor}} a spécifié que le remplissage, la signature et les commentaires de formulaire sont autorisés pour ce document. Aucun autre changement n'est autorisé.",
+      "unrestricted": "Le {{editor}} a spécifié qu'il n'y avait aucune restriction pour ce document."
+    },
+    "digestAlgorithm": {
+      "preamble": "L'algorithme de résumé utilisé pour signer la signature:",
+      "unknown": "L'algorithme de résumé utilisé pour signer la signature est inconnu."
+    },
+    "trustVerification": {
+      "none": "Aucun résultat de vérification de confiance détaillé disponible.",
+      "current": "Vérification de la confiance tentée par rapport à l'heure actuelle",
+      "signing": "Vérification de la confiance tentée en ce qui concerne l'heure de signature: {{trustVerificationTime}}",
+      "timestamp": "Tentative de vérification de la confiance en ce qui concerne l'horodatage intégré sécurisé: {{trustVerificationTime}}"
+    },
+    "signerIdentity": {
+      "preamble": "L'identité du signataire est",
+      "valid": "valide.",
+      "unknown": "inconnue."
+    },
+    "summaryBox": {
+      "summary": "Numérique {{type}} est {{status}}",
+      "signedBy": ", signé par {{name}}"
+    }
+  },
+  "digitalSignatureVerification": {
+    "certifier": "certifier",
+    "certified": "agréé",
+    "Certified": "Agréé",
+    "signer": "signer",
+    "signed": "signé",
+    "Signed": "Signé",
+    "by": "par",
+    "on": "sur",
+    "disallowedChange": "Modification interdite: {{type}}, objnum: {{objnum}}",
+    "unsignedSignatureField": "Champ de signature non signé : {{fieldName}}",
+    "trustVerification": {
+      "current": "L'heure de vérification utilisée était l'heure actuelle",
+      "signing": "L'heure de vérification provient de l'horloge de l'ordinateur du signataire",
+      "timestamp": "L'heure de vérification provient de l'horodatage sécurisé intégré dans le document",
+      "verifiedTrust": "Résultat de la vérification de confiance: vérifié",
+      "noTrustVerification": "Aucun résultat de vérification de confiance détaillé disponible."
+    },
+    "permissionStatus": {
+      "noPermissionsStatus": "Aucun statut d'autorisation à signaler.",
+      "permissionsVerificationDisabled": "La vérification des autorisations a été désactivée.",
+      "hasAllowedChanges": "Le document comporte des modifications autorisées par les paramètres d'autorisations de signatures.",
+      "invalidatedByDisallowedChanges": "Le document comporte des modifications qui ne sont pas autorisées par les paramètres d'autorisations de signatures.",
+      "unmodified": "Le document n'a pas été modifié depuis qu'il"
+    },
+    "trustStatus": {
+      "trustVerified": "Confiance établie avec {{verificationType}} avec succès.",
+      "untrusted": "La confiance n'a pas pu être établie.",
+      "trustVerificationDisabled": "La vérification de la confiance a été désactivée.",
+      "noTrustStatus": "Aucun statut de confiance à signaler."
+    },
+    "digestStatus": {
+      "digestInvalid": "Le résumé est incorrect.",
+      "digestVerified": "Le résumé est correct.",
+      "digestVerificationDisabled": "La vérification du résumé a été désactivée.",
+      "weakDigestAlgorithmButDigestVerifiable": "Le résumé est correct, mais l'algorithme de résumé est faible et non sécurisé.",
+      "noDigestStatus": "Aucun état de résumé à signaler.",
+      "unsupportedEncoding": "Aucun SignatureHandler installé n'a pu reconnaître le codage de la signature"
+    },
+    "documentStatus": {
+      "noError": "Aucune erreur générale à signaler.",
+      "corruptFile": "SignatureHandler a signalé une corruption de fichier.",
+      "unsigned": "La signature n'a pas encore été signée cryptographiquement.",
+      "badByteRanges": "SignatureHandler signale une corruption dans les ByteRanges de la signature numérique.",
+      "corruptCryptographicContents": "SignatureHandler signale une corruption dans le contenu de la signature numérique."
+    },
+    "signatureDetails": {
+      "signatureDetails": "Détails de la signature",
+      "contactInformation": "Informations de contact",
+      "location": "Emplacement",
+      "reason": "Raison",
+      "signingTime": "Heure de signature",
+      "noContactInformation": "Aucune information de contact fournie",
+      "noLocation": "Aucun emplacement fourni",
+      "noReason": "Aucune raison fournie",
+      "noSigningTime": "Aucune heure de signature trouvée"
+    },
+    "panelMessages": {
+      "noSignatureFields": "Ce document n'a pas de champs de signature",
+      "certificateDownloadError": "Erreur rencontrée lors de la tentative de téléchargement d'un certificat de confiance",
+      "localCertificateError": "Il y a quelques problèmes avec la lecture d'un certificat local"
+    }
+  }
+}

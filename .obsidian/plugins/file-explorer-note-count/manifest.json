@@ -1,0 +1,10 @@
+{
+    "id": "file-explorer-note-count",
+    "name": "File Explorer Note Count",
+    "version": "1.2.0",
+    "minAppVersion": "0.11.13",
+    "description": "The plugin helps you to see the number of notes under each folder within the file explorer.",
+    "author": "Ozan Tellioglu",
+    "authorUrl": "https://www.ozan.pl",
+    "isDesktopOnly": false
+}

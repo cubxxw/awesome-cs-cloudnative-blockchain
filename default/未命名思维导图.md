@@ -1,0 +1,6 @@
+---
+
+mindmap-plugin: basic
+
+---
+

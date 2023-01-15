@@ -1,0 +1,20 @@
+{
+  "showLineNumber": false,
+  "vimMode": false,
+  "promptDelete": true,
+  "attachmentFolderPath": "./attachments",
+  "trashOption": "local",
+  "newLinkFormat": "shortest",
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "readableLineLength": true,
+  "showFrontmatter": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "default",
+  "alwaysUpdateLinks": true
+}

@@ -1,0 +1,106 @@
+{
+  "firstRun": false,
+  "initialized": [
+    {
+      "path": "/",
+      "initialized": true
+    }
+  ],
+  "trackedProjects": [
+    "/"
+  ],
+  "checkpointList": [
+    {
+      "path": "/",
+      "date": "2023-01-14",
+      "size": 10699376
+    }
+  ],
+  "activityHistory": [
+    {
+      "path": "/",
+      "size": [
+        {
+          "date": "2022-12-16",
+          "value": 46117
+        },
+        {
+          "date": "2022-12-17",
+          "value": 2606
+        },
+        {
+          "date": "2022-12-18",
+          "value": 33
+        },
+        {
+          "date": "2022-12-19",
+          "value": 2782
+        },
+        {
+          "date": "2022-12-25",
+          "value": 137
+        },
+        {
+          "date": "2022-12-28",
+          "value": 1470
+        },
+        {
+          "date": "2022-12-30",
+          "value": 7163
+        },
+        {
+          "date": "2022-12-31",
+          "value": 21
+        },
+        {
+          "date": "2023-01-01",
+          "value": 97
+        },
+        {
+          "date": "2023-01-03",
+          "value": 14287
+        },
+        {
+          "date": "2023-01-04",
+          "value": 2334
+        },
+        {
+          "date": "2023-01-05",
+          "value": 13863
+        },
+        {
+          "date": "2023-01-06",
+          "value": 21
+        },
+        {
+          "date": "2023-01-07",
+          "value": 3112
+        },
+        {
+          "date": "2023-01-08",
+          "value": 44287
+        },
+        {
+          "date": "2023-01-09",
+          "value": 21
+        },
+        {
+          "date": "2023-01-10",
+          "value": 21
+        },
+        {
+          "date": "2023-01-14",
+          "value": 4234
+        }
+      ]
+    }
+  ],
+  "activityColor1": "#c6e48b",
+  "activityColor2": "#7bc96f",
+  "activityColor3": "#239a3b",
+  "activityColor4": "#196127",
+  "textColor": "#000000",
+  "emptyColor": "#ecedf0",
+  "cellRadius": 1,
+  "type": "yearly"
+}

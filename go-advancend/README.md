@@ -76,41 +76,41 @@
 
 + [x] [⚡第12节 Go语言的并发特性](markdown/12.md)
 
-+ [](markdown/13.md)
++ [x] [第13节 Go语言退出、结束函数或者协程方式](markdown/13.md)
 
-+ [](markdown/14.md)
++ [x] [第14节 Go版本控制](markdown/14.md)
 
-+ [](markdown/15.md)
++ [x] [第15节 Cobra](markdown/15.md)
 
-+ [](markdown/16.md)
++ [x] [第16节 Go genericity（泛型）](markdown/16.md)
 
-+ [](markdown/17.md)
++ [x] [第17节 多模块工作区（Workspaces）](markdown/17.md)
 
-+ [](markdown/18.md)
++ [x] [第18节 go 模糊测试](markdown/18.md)
 
-+ [](markdown/19.md)
++ [x] [第19节 go 实现 ping](markdown/19.md)
 
-+ [](markdown/20.md)
++ [x] [第20节 Golang云原生部署](markdown/20.md)
 
-+ [](markdown/21.md)
++ [x] [](markdown/21.md)
 
-+ [](markdown/22.md)
++ [x] [](markdown/22.md)
 
-+ [](markdown/23.md)
++ [x] [](markdown/23.md)
 
-+ [](markdown/24.md)
++ [x] [](markdown/24.md)
 
-+ [](markdown/25.md)
++ [x] [](markdown/25.md)
 
-+ [](markdown/26.md)
++ [x] [](markdown/26.md)
 
-+ [](markdown/27.md)
++ [x] [](markdown/27.md)
 
-+ [](markdown/28.md)
++ [x] [](markdown/28.md)
 
-+ [](markdown/29.md)
++ [x] [](markdown/29.md)
 
-+ [](markdown/30.md)
++ [x] [](markdown/30.md)
 
 + [](markdown/31.md)
 
@@ -156,19 +156,19 @@
 
 ## 📚 设计模式
 
-- [x] [😎🔑](./design/1.md)
+- [x] [😎🔑设计模式概述](./design/1.md)
 
-- [x] [😎🔑](./design/2.md)
+- [x] [😎🔑第2节 单一职责原则](./design/2.md)
 
-- [x] [😎🔑](./design/3.md)
+- [x] [😎🔑第3节 开闭原则](./design/3.md)
 
-- [x] [😎🔑](./design/4.md)
+- [x] [😎🔑第4节 依赖倒转原则](./design/4.md)
 
-- [x] [😎🔑](./design/5.md)
+- [x] [😎🔑第5节 合成复用原则](./design/5.md)
 
-- [x] [😎🔑](./design/6.md)
+- [x] [😎🔑第6节 迪米特法则](./design/6.md)
 
-- [x] [😎🔑](./design/7.md)
+- [x] [😎🔑第7节 工厂模式（创建型模式）](./design/7.md)
 
 - [x] [😎🔑](./design/8.md)
 
