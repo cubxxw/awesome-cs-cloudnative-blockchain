@@ -92,6 +92,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [项目管理从理论到实践（含GitHub Projects）](https://zhuanlan.zhihu.com/p/598930020)
 - [kubernetes 源码解析资源](https://zhuanlan.zhihu.com/p/597276550)
 - [用于本地实验的小型 Kubernetes：k0s、MicroK8s、kind、k3s 和 Minikube](https://zhuanlan.zhihu.com/p/594206344)
 - [Go genericity、Workspaces、Fuzz测试](https://zhuanlan.zhihu.com/p/586367554)
@@ -110,7 +111,6 @@
 - [go语言入门到进阶](https://zhuanlan.zhihu.com/p/561969119)
 - [计算机网络 -- socket编程（全集）](https://zhuanlan.zhihu.com/p/561967387)
 - [汇编语言](https://zhuanlan.zhihu.com/p/559067183)
-- [很棒的 Go 框架、库和软件的精选列表 - Awesome Go / Golang](https://zhuanlan.zhihu.com/p/555867207)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
