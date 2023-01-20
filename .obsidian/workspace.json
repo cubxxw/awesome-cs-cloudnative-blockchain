@@ -14,8 +14,19 @@
               "type": "memos_view",
               "state": {}
             }
+          },
+          {
+            "id": "6bdab7d33c972722",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-01-18 14.10.37.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "# mongodb",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-way-to-go_ZH_CN/eBook/09.10.md",
+                "file": "Excalidraw/Drawing 2023-01-18 14.10.37.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-way-to-go_ZH_CN/eBook/09.10.md",
+                "file": "Excalidraw/Drawing 2023-01-18 14.10.37.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-way-to-go_ZH_CN/eBook/09.10.md"
+                "file": "Excalidraw/Drawing 2023-01-18 14.10.37.excalidraw.md"
               }
             }
           },
@@ -179,7 +190,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a834e59b32e4e338",
+  "active": "6bdab7d33c972722",
   "lastOpenFiles": [
     "cs/markdown/6.md",
     "cs/markdown/19.md",
