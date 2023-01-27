@@ -92,6 +92,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [GitHub CLI 命令行工具（gh&rpar;](https://zhuanlan.zhihu.com/p/601200139)
 - [项目管理从理论到实践（含GitHub Projects）](https://zhuanlan.zhihu.com/p/598930020)
 - [kubernetes 源码解析资源](https://zhuanlan.zhihu.com/p/597276550)
 - [用于本地实验的小型 Kubernetes：k0s、MicroK8s、kind、k3s 和 Minikube](https://zhuanlan.zhihu.com/p/594206344)
@@ -110,7 +111,6 @@
 - [强烈推荐GitHub学习仓库](https://zhuanlan.zhihu.com/p/566171053)
 - [go语言入门到进阶](https://zhuanlan.zhihu.com/p/561969119)
 - [计算机网络 -- socket编程（全集）](https://zhuanlan.zhihu.com/p/561967387)
-- [汇编语言](https://zhuanlan.zhihu.com/p/559067183)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
