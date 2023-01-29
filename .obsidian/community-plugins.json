@@ -19,5 +19,6 @@
   "calendar",
   "obsidian-full-calendar",
   "obsidian-memos",
-  "todoist-sync-plugin"
+  "todoist-sync-plugin",
+  "obsidian-reminder-plugin"
 ]

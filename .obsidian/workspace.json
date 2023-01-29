@@ -8,21 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2281532b3d6ce98b",
+            "id": "8b09ebd65a7afccf",
             "type": "leaf",
             "state": {
-              "type": "memos_view",
+              "type": "full-calendar-view",
               "state": {}
             }
           },
           {
-            "id": "6bdab7d33c972722",
+            "id": "aa565df272d12125",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-01-18 14.10.37.excalidraw.md"
-              }
+              "type": "memos_view",
+              "state": {}
             }
           }
         ],
@@ -101,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-01-18 14.10.37.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-01-18 14.10.37.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-01-18 14.10.37.excalidraw.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,6 +152,14 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "9bcd643c0c442bf3",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
               "state": {}
             }
           }
@@ -190,8 +192,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "6bdab7d33c972722",
+  "active": "aa565df272d12125",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-01-18 14.10.37.excalidraw.md",
     "cs/markdown/6.md",
     "cs/markdown/19.md",
     "docker/markdown/20.md",
@@ -200,7 +203,6 @@
     "the-way-to-go_ZH_CN/eBook/09.10.md",
     "default/cloc代码统计.md",
     "README.md",
-    "cs/markdown/36.md",
-    "cs/markdown/35.md"
+    "cs/markdown/36.md"
   ]
 }
