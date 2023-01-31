@@ -92,6 +92,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [一篇文章精通git协同开发工作流](https://zhuanlan.zhihu.com/p/602190234)
 - [Go语言框架三件套（Web/RPC/GORM&rpar;](https://zhuanlan.zhihu.com/p/601286934)
 - [GitHub CLI 命令行工具（gh&rpar;](https://zhuanlan.zhihu.com/p/601200139)
 - [项目管理从理论到实践（含GitHub Projects）](https://zhuanlan.zhihu.com/p/598930020)
@@ -110,7 +111,6 @@
 - [Java笔记-基础到web、框架（选自github）](https://zhuanlan.zhihu.com/p/568570282)
 - [使用hugo搭建个人博客](https://zhuanlan.zhihu.com/p/568561676)
 - [强烈推荐GitHub学习仓库](https://zhuanlan.zhihu.com/p/566171053)
-- [go语言入门到进阶](https://zhuanlan.zhihu.com/p/561969119)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
