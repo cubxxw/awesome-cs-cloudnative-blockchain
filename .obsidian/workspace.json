@@ -4,27 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "5456cf5734818f25",
+        "id": "522d110f4074f7a1",
         "type": "tabs",
         "children": [
           {
-            "id": "8b09ebd65a7afccf",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "af4a2ff2b07cffdf",
+            "id": "c7c3598ac7352b81",
             "type": "leaf",
             "state": {
               "type": "memos_view",
               "state": {}
             }
+          },
+          {
+            "id": "25334f6836973872",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,8 +190,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "af4a2ff2b07cffdf",
+  "active": "c7c3598ac7352b81",
   "lastOpenFiles": [
+    "default/diary/20230129-周日.md",
     "default/未命名思维导图 1.md",
     "Excalidraw/Drawing 2023-01-18 14.10.37.excalidraw.md",
     "cs/markdown/6.md",
@@ -201,7 +201,6 @@
     "cs/markdown/14.md",
     "cs/markdown/13.md",
     "the-way-to-go_ZH_CN/eBook/09.10.md",
-    "default/cloc代码统计.md",
-    "README.md"
+    "default/cloc代码统计.md"
   ]
 }
