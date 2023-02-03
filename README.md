@@ -92,6 +92,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [go语言1.20发布 | 新特性](https://zhuanlan.zhihu.com/p/602834012)
 - [Clash学习与配置](https://zhuanlan.zhihu.com/p/602567358)
 - [一篇文章精通git协同开发工作流](https://zhuanlan.zhihu.com/p/602190234)
 - [Go语言框架三件套（Web/RPC/GORM&rpar;](https://zhuanlan.zhihu.com/p/601286934)
@@ -110,7 +111,6 @@
 - [java位运算以及补码重点详解](https://zhuanlan.zhihu.com/p/568911111)
 - [不一样的Linux（基础--&gt;超阶） -- 选自github](https://zhuanlan.zhihu.com/p/568581434)
 - [Java笔记-基础到web、框架（选自github）](https://zhuanlan.zhihu.com/p/568570282)
-- [使用hugo搭建个人博客](https://zhuanlan.zhihu.com/p/568561676)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
