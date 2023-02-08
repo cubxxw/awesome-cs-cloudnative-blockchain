@@ -22,8 +22,22 @@
               "type": "full-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "ee2cb05bffffdf03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker/Cloud-Native-k8s/14.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -52,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "crictl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,11 +91,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "957f6520f596bb4d",
@@ -97,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docker/Cloud-Native-k8s/14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docker/Cloud-Native-k8s/14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docker/Cloud-Native-k8s/14.md"
+              }
             }
           },
           {
@@ -166,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 280.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,8 +211,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c7c3598ac7352b81",
+  "active": "a834e59b32e4e338",
   "lastOpenFiles": [
+    "docker/markdown/5.md",
+    "docker/markdown/3.md",
     "default/diary/20230129-周日.md",
     "default/未命名思维导图 1.md",
     "Excalidraw/Drawing 2023-01-18 14.10.37.excalidraw.md",
@@ -199,8 +222,6 @@
     "cs/markdown/19.md",
     "docker/markdown/20.md",
     "cs/markdown/14.md",
-    "cs/markdown/13.md",
-    "the-way-to-go_ZH_CN/eBook/09.10.md",
-    "default/cloc代码统计.md"
+    "cs/markdown/13.md"
   ]
 }
