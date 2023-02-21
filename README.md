@@ -92,6 +92,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [Go 语言的 Makefile 指南](https://zhuanlan.zhihu.com/p/607940899)
 - [Go语言项目设计和开发流程](https://zhuanlan.zhihu.com/p/607192022)
 - [git-chglog write your CHANGELOG](https://zhuanlan.zhihu.com/p/607015570)
 - [IAM 项目部署](https://zhuanlan.zhihu.com/p/606959150)
@@ -111,7 +112,6 @@
 - [Cubos&lpar;幼兽os）开发准备~](https://zhuanlan.zhihu.com/p/574430945)
 - [c-universal blockchain&lpar;链学社）白皮书](https://zhuanlan.zhihu.com/p/572220389)
 - [计算机寒冬，选择考研？](https://zhuanlan.zhihu.com/p/569740306)
-- [java位运算以及补码重点详解](https://zhuanlan.zhihu.com/p/568911111)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
