@@ -91,13 +91,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "957f6520f596bb4d",
@@ -211,7 +209,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a834e59b32e4e338",
+  "active": "ee2cb05bffffdf03",
   "lastOpenFiles": [
     "docker/markdown/5.md",
     "docker/markdown/3.md",

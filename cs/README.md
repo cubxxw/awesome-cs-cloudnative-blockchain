@@ -98,39 +98,35 @@
 
 - [x] 🎊 [第35节 yarm](markdown/35.md)
 
-<!--
+- [x] 🎊 [第36节 隐私计算](markdown/36.md)
 
-- [ ] 🎊 [](markdown/36.md)
+- [x] 🎊 [第37节 GitHub CLI 命令行工具（gh)](markdown/37.md)
 
-- [ ] 🎊 [](markdown/37.md)
+- [x] 🎊 [第38节 技术领导力与职业规划: 人生路线图上的必读阅读推荐](markdown/38.md)
 
-- [ ] 🎊 [](markdown/38.md)
+- [x] 🎊 [第39节 机器学习（AI）](markdown/39.md)
 
-- [ ] 🎊 [](markdown/39.md)
+- [x] 🎊 [第40节 GTD](markdown/40.md)
 
-- [ ] 🎊 [](markdown/40.md)
+- [x] 🎊 [第41节 分布式架构](markdown/41.md)
 
-- [ ] 🎊 [](markdown/41.md)
+- [x] 🎊 [第42节 Clash 学习和配置](markdown/42.md)
 
-- [ ] 🎊 [](markdown/42.md)
+- [x] 🎊 [第43节 终端美化](markdown/43.md)
 
-- [ ] 🎊 [](markdown/43.md)
+- [x] 🎊 [第44节 规则引擎的设计和实现](markdown/44.md)
 
-- [ ] 🎊 [](markdown/44.md)
+- [ ] 🎊 [第45节 git-chglog write your CHANGELOG](markdown/45.md)
 
-- [ ] 🎊 [](markdown/45.md)
+- [ ] 🎊 [第46节 Gotests Automatically generate Go test](markdown/46.md)
 
-- [ ] 🎊 [](markdown/46.md)
+- [ ] 🎊 [第47节 Github REST API](markdown/47.md)
 
-- [ ] 🎊 [](markdown/47.md)
-
-- [ ] 🎊 [](markdown/48.md)
+- [ ] 🎊 [第48节 gosec is Golang security checker](markdown/48.md)
 
 - [ ] 🎊 [](markdown/49.md)
 
 - [ ] 🎊 [](markdown/50.md)
-
--->
 
 
 
