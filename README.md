@@ -92,6 +92,10 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [Go 语言的 Makefile 指南](https://zhuanlan.zhihu.com/p/607940899)
+- [Go语言项目设计和开发流程](https://zhuanlan.zhihu.com/p/607192022)
+- [git-chglog write your CHANGELOG](https://zhuanlan.zhihu.com/p/607015570)
+- [IAM 项目部署](https://zhuanlan.zhihu.com/p/606959150)
 - [go语言1.20发布 | 新特性](https://zhuanlan.zhihu.com/p/602834012)
 - [Clash学习与配置](https://zhuanlan.zhihu.com/p/602567358)
 - [一篇文章精通git协同开发工作流](https://zhuanlan.zhihu.com/p/602190234)
@@ -108,9 +112,6 @@
 - [Cubos&lpar;幼兽os）开发准备~](https://zhuanlan.zhihu.com/p/574430945)
 - [c-universal blockchain&lpar;链学社）白皮书](https://zhuanlan.zhihu.com/p/572220389)
 - [计算机寒冬，选择考研？](https://zhuanlan.zhihu.com/p/569740306)
-- [java位运算以及补码重点详解](https://zhuanlan.zhihu.com/p/568911111)
-- [不一样的Linux（基础--&gt;超阶） -- 选自github](https://zhuanlan.zhihu.com/p/568581434)
-- [Java笔记-基础到web、框架（选自github）](https://zhuanlan.zhihu.com/p/568570282)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
