@@ -79,6 +79,8 @@
 
 ## 🗓️ Cub知乎精选
 
+知乎上面发表的文章具有独立性，[👀 我的博客](https://nsddd.top/) 同样也记录着很多优质的内容值得一看，如果希望订阅➡️[点这里](https://nsddd.top/rss.xml)
+
 [<img align="left" alt="shenxianpeng | ZhiHu" width="22px" src="https://www.svgrepo.com/show/305628/zhihu.svg" />][zhihu] 
 
 [zhihu]: https://www.zhihu.com/people/3293172751
@@ -138,13 +140,14 @@ graph LR
 
 #### 🔖核心
 
-**Go语言的核心编程篇，基础部分30天记录，100篇进阶，还有正在进展的高级篇~**
+**Go语言的核心编程篇，基础部分30天记录，100篇进阶，高级篇包括Go语言底层的实现，runtime、调度器的原理以及Go语言设计模式~**
 
 ⚠️ 目前已全部迁移至 ➡️ [CubDoc🧷](https://go.nsddd.top/)
 
-+ [x] [🖱️GO 基础部分🔥](TOC.md)
-+ [x] [🖱️Go语言100篇进阶🔥](Gomd_super/README.md)
-+ [x] [🖱️Go 高级篇](go-advancend/README.md)
++ [x] [🖱️GO 基础部分🔥](awesome-golang/README.md)
++ [x] [🖱️Go语言100篇进阶🔥](awesome-golang/Gomd_super/README.md)
++ [x] [🖱️Go 高级篇](awesome-golang/go-advancend/README.md)
++ [x] [🖱️Mit 6.824 笔记](awesome-golang/mit-6-824/README.md)
 
 
 
@@ -172,8 +175,19 @@ graph LR
 > + [Go语言中文官方文档](http://word.topgoer.com/)
 > + [Go语言专家编程地址](http://wen.topgoer.com/docs/gozhuanjia/gogfjhk)
 
-
 <br>
+
+
+
+##  👀 Cloud Native
+
+💡 这是一个关于云原生领域的仓库，涉及到 docker、Kubernetes、cloud native 知识，包括 docker 架构和底层实现，包括Kubernetes的架构、原理、生态以及源码阅读。还有  Cloud Native 其他领域知识，以及各个 CNCF 开源社区项目学习。
+
++ [x] [docker](awesome-docker-kubernetes/README.md)
++ [x] [Kubernetes](awesome-docker-kubernetes/Cloud-Native-k8s/README.md) 
++ [x] [CloudNative](awesome-docker-kubernetes/Cloud-Native/README.md)
+
+
 
 ## 📚 CS系列
 
@@ -258,7 +272,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 ## 🗃️ 项目
 
-⚡[cubgo-os](https://github.com/3293172751/cubgo-os)（幼兽操作系统）由Go语言开发，可以运行基础应用，使用的是热门的命令工具 ~
+⚡[cubgo-os](https://github.com/3293172751/cubgo-os)（幼兽操作系统）由Go语言开发，可以运行基础应用，使用的是热门的命令工具 ~ 阅读 [开源项目贡献 lab](https://nsddd.top/archives/sealos-one) 加入开源社区贡献~
 
 > <p align = "center" color="red">
 >   <b>c-universal blockchain（CUB-链学）</b>    
@@ -271,11 +285,16 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 >
 > 基于区块链的全民学习平台`C-Universal Blockchain`在保障用户安全，信息的完整性同时为大众带来更多的选择，笔记分享，视频分享，版权保护，以及其他的关于学信数据、电子证书、荣誉证明、成绩证明、信息授权的相关工具。
 
-+ [ ]  [🧷sealos](https://github.com/3293172751/sealos) 
-+ [ ] [ 🧷cubgo-os(未开始)](https://github.com/3293172751/cubgo-os)
++ [ ]  [🧷sealos](https://docker.nsddd.top/Cloud-Native/1.html)
++ [ ]  [🔗iam](https://go.nsddd.top/projects/README.html) 
++ [ ]  [🔗sealer](https://docker.nsddd.top/Cloud-Native/1.html)
++ [ ]  [🔗horizon](https://docker.nsddd.top/Cloud-Native/1.html)
++ [ ] [ 🧷cubgo-os(未开始)](https://github.com/cubxxw/cubgo-os)
 + [x] [ 🧷C-Universal Brockchain（链学）组织地址](https://github.com/C-UB)  |  [ 🧷C-Universal Brockchain](C_Universal_Brockchain/README.md)
 
 <br>
+
+
 
 ## ✨ 参与贡献💕
 
