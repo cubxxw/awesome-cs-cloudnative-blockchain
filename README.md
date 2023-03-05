@@ -94,6 +94,8 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [Kubernetes 概念以及架构](https://zhuanlan.zhihu.com/p/611169064)
+- [深入剖析 Docker 底层（全）](https://zhuanlan.zhihu.com/p/610939386)
 - [Go 语言的 Makefile 指南](https://zhuanlan.zhihu.com/p/607940899)
 - [Go语言项目设计和开发流程](https://zhuanlan.zhihu.com/p/607192022)
 - [git-chglog write your CHANGELOG](https://zhuanlan.zhihu.com/p/607015570)
@@ -112,8 +114,6 @@
 - [在线vscode完成贡献和阅读](https://zhuanlan.zhihu.com/p/576392446)
 - [k8s集群搭建记录](https://zhuanlan.zhihu.com/p/576388231)
 - [Cubos&lpar;幼兽os）开发准备~](https://zhuanlan.zhihu.com/p/574430945)
-- [c-universal blockchain&lpar;链学社）白皮书](https://zhuanlan.zhihu.com/p/572220389)
-- [计算机寒冬，选择考研？](https://zhuanlan.zhihu.com/p/569740306)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
