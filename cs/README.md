@@ -112,21 +112,21 @@
 
 - [x] 🎊 [第42节 Clash 学习和配置](markdown/42.md)
 
-- [x] 🎊 [第43节 终端美化](markdown/43.md)
+- [x] 🎊 [第43节 终端美化 Oh my zsh](markdown/43.md)
 
 - [x] 🎊 [第44节 规则引擎的设计和实现](markdown/44.md)
 
-- [ ] 🎊 [第45节 git-chglog write your CHANGELOG](markdown/45.md)
+- [x] 🎊 [第45节 git-chglog write your CHANGELOG](markdown/45.md)
 
-- [ ] 🎊 [第46节 Gotests Automatically generate Go test](markdown/46.md)
+- [x] 🎊 [第46节 Gotests Automatically generate Go test](markdown/46.md)
 
-- [ ] 🎊 [第47节 Github REST API](markdown/47.md)
+- [x] 🎊 [第47节 Github REST API](markdown/47.md)
 
-- [ ] 🎊 [第48节 gosec is Golang security checker](markdown/48.md)
+- [x] 🎊 [第48节 gosec is Golang security checker](markdown/48.md)
 
-- [ ] 🎊 [](markdown/49.md)
+- [x] 🎊 [第49节 Fast linters Runner for Go](markdown/49.md)
 
-- [ ] 🎊 [](markdown/50.md)
+- [x] 🎊 [第50节 NFS](markdown/50.md)
 
 
 
