@@ -94,6 +94,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [Istio 高级流量管理](https://zhuanlan.zhihu.com/p/614775174)
 - [Kubernetes 概念以及架构](https://zhuanlan.zhihu.com/p/611169064)
 - [深入剖析 Docker 底层（全）](https://zhuanlan.zhihu.com/p/610939386)
 - [Go 语言的 Makefile 指南](https://zhuanlan.zhihu.com/p/607940899)
@@ -113,7 +114,6 @@
 - [常用命令行替代](https://zhuanlan.zhihu.com/p/576392923)
 - [在线vscode完成贡献和阅读](https://zhuanlan.zhihu.com/p/576392446)
 - [k8s集群搭建记录](https://zhuanlan.zhihu.com/p/576388231)
-- [Cubos&lpar;幼兽os）开发准备~](https://zhuanlan.zhihu.com/p/574430945)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
