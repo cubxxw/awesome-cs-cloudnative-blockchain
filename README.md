@@ -94,6 +94,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [CloudNative / Kubernetes 学习资源整理](https://zhuanlan.zhihu.com/p/614921043)
 - [Istio 高级流量管理](https://zhuanlan.zhihu.com/p/614775174)
 - [Kubernetes 概念以及架构](https://zhuanlan.zhihu.com/p/611169064)
 - [深入剖析 Docker 底层（全）](https://zhuanlan.zhihu.com/p/610939386)
@@ -113,7 +114,6 @@
 - [使用sealos搭建k8s](https://zhuanlan.zhihu.com/p/576388662)
 - [常用命令行替代](https://zhuanlan.zhihu.com/p/576392923)
 - [在线vscode完成贡献和阅读](https://zhuanlan.zhihu.com/p/576392446)
-- [k8s集群搭建记录](https://zhuanlan.zhihu.com/p/576388231)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
