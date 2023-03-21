@@ -103,7 +103,6 @@
 - [git-chglog write your CHANGELOG](https://zhuanlan.zhihu.com/p/607015570)
 - [IAM 项目部署](https://zhuanlan.zhihu.com/p/606959150)
 - [go语言1.20发布 | 新特性](https://zhuanlan.zhihu.com/p/602834012)
-- [Clash学习与配置](https://zhuanlan.zhihu.com/p/602567358)
 - [一篇文章精通git协同开发工作流](https://zhuanlan.zhihu.com/p/602190234)
 - [Go语言框架三件套（Web/RPC/GORM&rpar;](https://zhuanlan.zhihu.com/p/601286934)
 - [GitHub CLI 命令行工具（gh&rpar;](https://zhuanlan.zhihu.com/p/601200139)
