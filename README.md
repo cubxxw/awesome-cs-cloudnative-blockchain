@@ -1,8 +1,8 @@
-# 菜鸟的成长手册[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/3293172751/cs-awesome-Block_Chain)
+# 菜鸟的成长手册[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/cubxxw/cs-awesome-Block_Chain)
 
 ## 🧭 导航
 
-+ 🔍[**快速指南(wike) — 仓库总结**](https://github.com/3293172751/Block_Chain/wiki)
++ 🔍[**快速指南(wike) — 仓库总结**](https://github.com/cubxxw/Block_Chain/wiki)
 
 + 🔗[**中国大陆加速地址（Gitee平台）**](https://gitee.com/xxw3293172751/Block_Chain)
 
@@ -11,14 +11,14 @@
   <p align='center'>
   <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee" title="国内gitee镜像加速"></a>
   <a href="https://wakatime.com/@c445b3c6-a2bc-43a2-a24a-0828a17244b4" title="项目的进展时长" > <img src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4.svg"></a>
-  <a href="https://github.com/3293172751/cs-awesome-Block_Chain/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/3293172751/cs-awesome-Block_Chain?style=plastic"></a>
+  <a href="https://github.com/cubxxw/cs-awesome-Block_Chain/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/3293172751/cs-awesome-Block_Chain?style=plastic"></a>
   <a href="https://xxw.nsddd.top/s/wRSz"><img alt="个人网盘不限速" src="https://img.shields.io/badge/cloud-xiongxinwei-red?logo=iCloud" title="个人网盘不限速下载浏览"></a>
   <a href="https://trackgit.com"><img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/la3dpo1i7zzecvro53al" alt="trackgit-views" />
   </a>
   </p>
 
 <div align="center">
-	<a href = "https://github.com/3293172751/cs-awesome-Block_Chain">🅱️GitHub</a>
+	<a href = "https://github.com/cubxxw/cs-awesome-Block_Chain">🅱️GitHub</a>
 	&emsp;&emsp; | &emsp;&emsp;
 	<a href="https://interview.huihut.com">📚DocCub</a>
 </div>
@@ -42,7 +42,7 @@
 </p>
 <p align='center'>
 <a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
-<a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
+<a href="https://github.com/cubxxw" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
 <a href="http://nsddd.top" target="_blank"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-%40xiongxinwei-blue?style=social&logo=Octopus%20Deploy"></a>
 </p>
 </hr>
@@ -60,7 +60,7 @@
 
 📄 保存为 PDF 方式：使用 Chrome 浏览器打开 <a href="https://go.nsddd.top">📚 DocCub 文档</a> 页面，缩起左侧目录-右键 - 打印 - 选择目标打印机是另存为PDF - 保存  —— [🖨️以Go语言第一节打印效果预览.pdf](./images/copy.pdf)）
 
-🙏 仓库内容如有错误或改进欢迎 [issue](https://github.com/3293172751/cs-awesome-Block_Chain/issues) 或 pr，[🧷参与贡献](https://nsddd.top/archives/contributors)，建议或讨论可在 [#10](https://github.com/3293172751/cs-awesome-Block_Chain/issues/10) 提出。由于本人水平有限，仓库中的知识点有来自本人原创、读书笔记、书籍、博文等，非原创均已标明出处，如有遗漏，请 [issue](https://github.com/3293172751/cs-awesome-Block_Chain/issues/new/choose) 提出。本仓库遵循 [CC BY-NC-SA 4.0（署名 - 非商业性使用 - 相同方式共享）](https://github.com/huihut/interview/blob/master/LICENSE) 协议，转载请注明出处，不得用于商业目的。
+🙏 仓库内容如有错误或改进欢迎 [issue](https://github.com/cubxxw/cs-awesome-Block_Chain/issues) 或 pr，[🧷参与贡献](https://nsddd.top/archives/contributors)，建议或讨论可在 [#10](https://github.com/cubxxw/cs-awesome-Block_Chain/issues/10) 提出。由于本人水平有限，仓库中的知识点有来自本人原创、读书笔记、书籍、博文等，非原创均已标明出处，如有遗漏，请 [issue](https://github.com/cubxxw/cs-awesome-Block_Chain/issues/new/choose) 提出。本仓库遵循 [CC BY-NC-SA 4.0（署名 - 非商业性使用 - 相同方式共享）](https://github.com/huihut/interview/blob/master/LICENSE) 协议，转载请注明出处，不得用于商业目的。
 
 </details>
 
@@ -79,7 +79,7 @@
 
 ## 🗓️ Cub知乎精选
 
-知乎上面发表的文章具有独立性，[👀 我的博客](https://nsddd.top/) 同样也记录着很多优质的内容值得一看，如果希望订阅➡️[点这里](https://nsddd.top/rss.xml)
+知乎上面发表的文章具有独立性，[👀 我的博客](https://nsddd.top/) 同样也记录着很多优质的内容值得一看，如果希望订阅 SSR ➡️[点这里](https://nsddd.top/rss.xml)
 
 [<img align="left" alt="shenxianpeng | ZhiHu" width="22px" src="https://www.svgrepo.com/show/305628/zhihu.svg" />][zhihu] 
 
@@ -94,6 +94,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+
 - [Istio 高级流量管理](https://zhuanlan.zhihu.com/p/614775174)
 - [Kubernetes 概念以及架构](https://zhuanlan.zhihu.com/p/611169064)
 - [深入剖析 Docker 底层（全）](https://zhuanlan.zhihu.com/p/610939386)
@@ -147,13 +148,15 @@ graph LR
 + [x] [🖱️GO 基础部分🔥](awesome-golang/README.md)
 + [x] [🖱️Go语言100篇进阶🔥](awesome-golang/Gomd_super/README.md)
 + [x] [🖱️Go 高级篇](awesome-golang/go-advancend/README.md)
-+ [x] [🖱️Mit 6.824 笔记](awesome-golang/mit-6-824/README.md)
++ [ ] [🖱️Mit 6.824 笔记](awesome-golang/mit-6-824/README.md)
 
 
 
 #### 📝补充
 
-`mod`包是`Go`语言2018年推出的包管理工具，并会一直延续下去。命名规范以及项目目录结构📇的设定对于一名合格的工程师来说也是非常重要的。下面是作为一名合格的开发者🤵，必须要会的基本素养。
+学习开源项目对于我们的成长非常大，我结合我自己的开源经历写了[这篇🎯开源之路：跨越八个阶段，成就行业佼佼者](https://nsddd.notion.site/f8854a0f60d346d98b9eb2ccb6eaef8f)。同[🧋 学习 Kubernetes 的成长轨迹](https://nsddd.notion.site/CloudNative-Kubernetes-2f278e98ed274999829333272415c72d)一样，这篇文章将会长期更新，也可以参与贡献 ，补全更新~。[k8s-iam](https://github.com/cubxxw/k8s-iam) 项目就是我结合Kubernetes 和 iam 这两个极为优秀的项目联合打造的k8s-iam 项目，对 [企业级 iam 项目](https://github.com/marmotedu/iam/) 进行学习和仿写，以及对开源文档和技术细节的输出。iam 技术栈涵盖了开发环境配置、代码设计、常用包使用、HTTP、客户端CLI、RESTful设计、数据库操作、Swagger文档、Cache机制、业务逻辑处理、开发规范、API调试、部署方式和云原生架构设计等方面。有兴趣的可以一起阅读学习。
+
+🥇 命名规范以及项目目录结构📇的设定对于一名合格的工程师来说也是非常重要的。下面是作为一名合格的开发者🤵，必须要会的基本素养。
 
 + [🖱️Go语言包管理工具 — mod包](Gomd_super/mod.md)
 
@@ -191,34 +194,33 @@ graph LR
 
 ## 📚 CS系列
 
-CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-course)，内容涵盖 计算机操作系统、csapp系列、算法和数据结构、计算机网络、`linux`、`java`、`python`、`C/C++`、`vuepress`、`gitbook`、`nodejs`、`vuejs`、`halo`、`redis`、`hugo`、`nginx`、`nosql`、`mysql`、`JavaScript`、`git`、`markdown`、`web`前端等笔记，更多移步到[AWESOME系列CS仓库地址](https://github.com/3293172751/CS_COURSE)
+CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-course)，内容涵盖 计算机操作系统、csapp系列、算法和数据结构、计算机网络、`linux`、`java`、`python`、`C/C++`、`vuepress`、`gitbook`、`nodejs`、`vuejs`、`halo`、`redis`、`hugo`、`nginx`、`nosql`、`mysql`、`JavaScript`、`git`、`markdown`、`web`前端等笔记，更多移步到[AWESOME系列CS仓库地址](https://github.com/cubxxw/awesome-cs-course/)
 
-+ [x] [Java全册☕](https://github.com/3293172751/awesome-cs-course/blob/master/java/README.md)
++ [x] [Java全册☕](https://github.com/cubxxw/awesome-cs-course/blob/master/java/README.md)
 
 + [x] [汇编学习🔥](汇编/README.md)
 
 + [x] [软件工程](./软件工程&系统设计和架构/README.md)
 
-+ [x] [算法与数据结构（LeetCode刷题记录）🔥](https://github.com/3293172751/LeetCode/)
++ [x] [算法与数据结构（LeetCode刷题记录）](https://github.com/cubxxw/LeetCode/)
 
 + [x] [计算机网络🔥](./web/README.md)
 
-+ [x] [操作系统 — OS🔥](https://github.com/3293172751/os)
++ [x] [操作系统 — OS🔥](https://github.com/cubxxw/os)
 
 + [x] [CS必须要会的技术🔥](cs/README.md)
-
 
 <br>
 
 ## 📘 开发必备技术
 
-🧋参与普通程序的开发或者是区块链⛓️开发必须[熟悉Linux指令](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)，熟悉[git团队开发](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)，基于[docker容器](docker/README.md)会让我门快速的搭建工具和环境，更好的迁移开发环境和迁移链码（blockcode)，[密码学和信息安全](cryptology/README.md)不仅仅是区块链工程师必须要学习的技术，更是IT从业者未来不可或缺的技术。我们都渴望系统能更加的安全不是吗📵。
+🧋参与普通程序的开发或者是区块链⛓️开发必须[熟悉Linux指令](https://github.com/cubxxw/awesome-cs-course/blob/master/linux/README.md)，熟悉[git团队开发](https://github.com/cubxxw/awesome-cs-course/blob/master/Git/README.md)，基于[docker容器](docker/README.md)会让我门快速的搭建工具和环境，更好的迁移开发环境和迁移链码（blockcode)，[密码学和信息安全](cryptology/README.md)不仅仅是区块链工程师必须要学习的技术，更是IT从业者未来不可或缺的技术。我们都渴望系统能更加的安全不是吗📵。
 
 ⚠️ `Docker` 、`K8s`、`sealos`、`云原生` 已全部迁移至 ➡️ [CubDoc🧷](https://docker.nsddd.top/)
 
-+ [x] 🖱️ [linux从入门到精通🔥](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
++ [x] 🖱️ [linux从入门到精通🔥](https://github.com/cubxxw/awesome-cs-course/blob/master/linux/README.md)
 
-+ [x] 🖱️ [Git—必备神器🔥](https://github.com/3293172751/CS_COURSE/blob/master/Git/README.md)
++ [x] 🖱️ [Git—必备神器🔥](https://github.com/cubxxw/awesome-cs-course/blob/master/Git/README.md)
 
 + [x] [🖱️ Docker/k8s/云原生🔥](docker/README.md) 
 
@@ -272,7 +274,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 ## 🗃️ 项目
 
-⚡[cubgo-os](https://github.com/3293172751/cubgo-os)（幼兽操作系统）由Go语言开发，可以运行基础应用，使用的是热门的命令工具 ~ 阅读 [开源项目贡献 lab](https://nsddd.top/archives/sealos-one) 加入开源社区贡献~
+⚡[cubgo-os](https://github.com/cubxxw/cubgo-os)（幼兽操作系统）由Go语言开发，可以运行基础应用，使用的是热门的命令工具 ~ 阅读 [开源项目贡献 lab](https://nsddd.top/archives/sealos-one) 加入开源社区贡献~
 
 > <p align = "center" color="red">
 >   <b>c-universal blockchain（CUB-链学）</b>    
@@ -304,11 +306,11 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 **要求：**
 
-+ [你需要学会使用markdown🖱️](https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md)
++ [你需要学会使用markdown🖱️](https://github.com/cubxxw/awesome-cs-course/blob/master/markdown/README.md)
 + [符合Google代码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
 
 <details><summary><b>🫡 克隆此仓库到本地</b></summary>
-<pre><code>git clone https://ghproxy.com/https://github.com/3293172751/Block_Chain.git 菜鸟的成长手册
+<pre><code>git clone https://ghproxy.com/https://github.com/cubxxw/Block_Chain.git 菜鸟的成长手册
 </code></pre>
 <pre><code>wget -c -d -O gitsync.sh https://sm.nsddd.top/uploads/2022/10/27/Y0iHb6ix_gitsync.sh?attname=gitsync.sh && echo "gitsync.sh" >> .gitignore && sh gitsync.sh 这里写提交信息~ && chmod 777 gitsync.sh
 </code></pre>
@@ -318,7 +320,9 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 <br>
 
-<font size = 2>如果你也想对本项目做出贡献，那么你可以先把该项目进行 [fork](https://github.com/3293172751/cs-awesome-Block_Chain/fork)或者 `git clone` 到本地（推荐先用 [fock](https://github.com/3293172751/cs-awesome-Block_Chain/fork)到自己仓库，然后再clone到本地，对本地进行操作，最后从自己仓库贡献，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
+<font size = 2>🎯 如果你也想对本项目做出贡献，那么你可以先把该项目进行 [fork](https://github.com/cubxxw/cs-awesome-Block_Chain/fork)或者 `git clone` 到本地（推荐先用 [fock](https://github.com/cubxxw/cs-awesome-Block_Chain/fork)到自己仓库，然后再clone到本地，对本地进行操作，最后从自己仓库贡献，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
+
+ 
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_badge.svg)](https://repography.com)
 
@@ -326,9 +330,9 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain?ref=badge_shield)
 
 
-[![Timeline graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_timeline.svg)](https://github.com/3293172751/Block_Chain/commits)
-[![Issue status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_issues.svg)](https://github.com/3293172751/Block_Chain/issues)
-[![Pull request status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_prs.svg)](https://github.com/3293172751/Block_Chain/pulls)
+[![Timeline graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_timeline.svg)](https://github.com/cubxxw/Block_Chain/commits)
+[![Issue status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_issues.svg)](https://github.com/cubxxw/Block_Chain/issues)
+[![Pull request status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_prs.svg)](https://github.com/cubxxw/Block_Chain/pulls)
 ![Trending topics](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_words.svg)
 
 <br>
@@ -337,8 +341,6 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/3293172751/awesome-cs-
 
 [![GitHub license](https://sm.nsddd.top//typora/cs-awesome-Block_Chain?mail:3293172751@qq.com)](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本)
 
-本书所有内容遵循[CC-BY-SA 3.0协议（署名-相同方式共享）&copy;](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本) 
+***License**:* 本书所有内容遵循[CC-BY-SA 3.0协议（署名-相同方式共享）&copy;](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本) 
 
-
-## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain?ref=badge_large)
