@@ -94,7 +94,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
-
+- [CloudNative / Kubernetes 学习资源整理](https://zhuanlan.zhihu.com/p/614921043)
 - [Istio 高级流量管理](https://zhuanlan.zhihu.com/p/614775174)
 - [Kubernetes 概念以及架构](https://zhuanlan.zhihu.com/p/611169064)
 - [深入剖析 Docker 底层（全）](https://zhuanlan.zhihu.com/p/610939386)
@@ -103,7 +103,6 @@
 - [git-chglog write your CHANGELOG](https://zhuanlan.zhihu.com/p/607015570)
 - [IAM 项目部署](https://zhuanlan.zhihu.com/p/606959150)
 - [go语言1.20发布 | 新特性](https://zhuanlan.zhihu.com/p/602834012)
-- [Clash学习与配置](https://zhuanlan.zhihu.com/p/602567358)
 - [一篇文章精通git协同开发工作流](https://zhuanlan.zhihu.com/p/602190234)
 - [Go语言框架三件套（Web/RPC/GORM&rpar;](https://zhuanlan.zhihu.com/p/601286934)
 - [GitHub CLI 命令行工具（gh&rpar;](https://zhuanlan.zhihu.com/p/601200139)
@@ -114,7 +113,6 @@
 - [使用sealos搭建k8s](https://zhuanlan.zhihu.com/p/576388662)
 - [常用命令行替代](https://zhuanlan.zhihu.com/p/576392923)
 - [在线vscode完成贡献和阅读](https://zhuanlan.zhihu.com/p/576392446)
-- [k8s集群搭建记录](https://zhuanlan.zhihu.com/p/576388231)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
