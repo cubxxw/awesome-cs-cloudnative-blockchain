@@ -1,16 +1,5 @@
 # welcome here
 
-<p align='center'>
-<a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin"></a>
-<a href="https://twitter.com/xxw3293172751" target="_blank"><img src="https://img.shields.io/badge/twitter-%40xxw3293172751-informational?logo=twitter"></a>
-<a href="https://www.zhihu.com/people/3293172751" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E9%93%BE%E5%AD%A6%E8%80%85%E7%A4%BE%E5%8C%BA-blue?logo=zhihu"></a>
-<a href="https://s2.loli.net/2022/07/05/sQHuozItvWg1heA.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?logo=wechat"></a>
-<a href="https://space.bilibili.com/14089380" target="_blank"><img src="https://img.shields.io/badge/b%E7%AB%99-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-red?logo=bilibili"></a>
-</p>
-<p align='center'>
-<a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
-<a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
-</p>
 ---
 
 ## 🚀前言
@@ -112,24 +101,21 @@
 
 - [x] 🎊 [第42节 Clash 学习和配置](markdown/42.md)
 
-- [x] 🎊 [第43节 终端美化](markdown/43.md)
+- [x] 🎊 [第43节 终端美化 Oh my zsh](markdown/43.md)
 
 - [x] 🎊 [第44节 规则引擎的设计和实现](markdown/44.md)
 
-- [ ] 🎊 [第45节 git-chglog write your CHANGELOG](markdown/45.md)
+- [x] 🎊 [第45节 git-chglog write your CHANGELOG](markdown/45.md)
 
-- [ ] 🎊 [第46节 Gotests Automatically generate Go test](markdown/46.md)
+- [x] 🎊 [第46节 Gotests Automatically generate Go test](markdown/46.md)
 
-- [ ] 🎊 [第47节 Github REST API](markdown/47.md)
+- [x] 🎊 [第47节 Github REST API](markdown/47.md)
 
-- [ ] 🎊 [第48节 gosec is Golang security checker](markdown/48.md)
+- [x] 🎊 [第48节 gosec is Golang security checker](markdown/48.md)
 
-- [ ] 🎊 [](markdown/49.md)
+- [x] 🎊 [第49节 Fast linters Runner for Go](markdown/49.md)
 
-- [ ] 🎊 [](markdown/50.md)
-
-
-
+- [x] 🎊 [第50节 NFS](markdown/50.md)
 
 ## 参与贡献
 
@@ -142,8 +128,18 @@
 
 <font size = 2>如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
 
-
-
 ## 版权声明
 
 本书所有内容遵循 [CC-BY-SA 3.0协议（署名-相同方式共享）](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本)
+
+<p align='center'>
+<a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin"></a>
+<a href="https://twitter.com/xxw3293172751" target="_blank"><img src="https://img.shields.io/badge/twitter-%40xxw3293172751-informational?logo=twitter"></a>
+<a href="https://www.zhihu.com/people/3293172751" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E9%93%BE%E5%AD%A6%E8%80%85%E7%A4%BE%E5%8C%BA-blue?logo=zhihu"></a>
+<a href="https://s2.loli.net/2022/07/05/sQHuozItvWg1heA.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?logo=wechat"></a>
+<a href="https://space.bilibili.com/14089380" target="_blank"><img src="https://img.shields.io/badge/b%E7%AB%99-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-red?logo=bilibili"></a>
+</p>
+<p align='center'>
+<a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
+<a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
+</p>
