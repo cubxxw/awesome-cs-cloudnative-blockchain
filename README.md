@@ -94,6 +94,9 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [K8s 深入理解 Operator-client 详解](https://zhuanlan.zhihu.com/p/629622839)
+- [Kubernetes 社区规范](https://zhuanlan.zhihu.com/p/629622183)
+- [高级的 Githook 设计](https://zhuanlan.zhihu.com/p/629617458)
 - [CloudNative / Kubernetes 学习资源整理](https://zhuanlan.zhihu.com/p/614921043)
 - [Istio 高级流量管理](https://zhuanlan.zhihu.com/p/614775174)
 - [Kubernetes 概念以及架构](https://zhuanlan.zhihu.com/p/611169064)
@@ -110,9 +113,6 @@
 - [kubernetes 源码解析资源](https://zhuanlan.zhihu.com/p/597276550)
 - [用于本地实验的小型 Kubernetes：k0s、MicroK8s、kind、k3s 和 Minikube](https://zhuanlan.zhihu.com/p/594206344)
 - [Go genericity、Workspaces、Fuzz测试](https://zhuanlan.zhihu.com/p/586367554)
-- [使用sealos搭建k8s](https://zhuanlan.zhihu.com/p/576388662)
-- [常用命令行替代](https://zhuanlan.zhihu.com/p/576392923)
-- [在线vscode完成贡献和阅读](https://zhuanlan.zhihu.com/p/576392446)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
