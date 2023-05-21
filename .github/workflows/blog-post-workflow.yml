@@ -16,3 +16,4 @@ jobs:
         with:
           feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
           max_post_count: 28
+          token: ${{ secrets.BOT_GITHUB_TOKEN }}
