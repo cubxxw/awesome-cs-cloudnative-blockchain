@@ -37,6 +37,7 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
+          token: ${{ secrets.BOT_GITHUB_TOKEN }}
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
