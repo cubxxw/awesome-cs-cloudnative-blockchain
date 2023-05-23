@@ -112,7 +112,6 @@
 - [项目管理从理论到实践（含GitHub Projects）](https://zhuanlan.zhihu.com/p/598930020)
 - [kubernetes 源码解析资源](https://zhuanlan.zhihu.com/p/597276550)
 - [用于本地实验的小型 Kubernetes：k0s、MicroK8s、kind、k3s 和 Minikube](https://zhuanlan.zhihu.com/p/594206344)
-- [Go genericity、Workspaces、Fuzz测试](https://zhuanlan.zhihu.com/p/586367554)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
