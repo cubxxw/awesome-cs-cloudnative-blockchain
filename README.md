@@ -30,7 +30,7 @@
 </div>
 <br>
 
-<details><summary><b>💡 关于（先看❗）</b></summary>
+<details><summary><b>💡 关于</b></summary>
 
 <p><a href='https://www.facebook.com/profile.php?id=100034435372354'>Facebook</a> | <a href='https://telsacoin.io/'>Website</a> | <a href='http://nsddd.top'>Blog</a> | <a href='https://t.me/smile3293172751'>Telegram</a> | <a href='https://twitter.com/xxw3293172751'>Twitter</a> | <a href='https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227'>Linkedin</a> | <a href='https://liberapay.com/xiongxinwei/donate'>Donate</a></p>
 <p align='center'>
@@ -77,9 +77,9 @@
 
 <br>
 
-## 🗓️ Cub知乎精选
+## 🗓️ My 博客精选
 
-知乎上面发表的文章具有独立性，[👀 我的博客](https://nsddd.top/) 同样也记录着很多优质的内容值得一看，如果希望订阅 SSR ➡️[点这里](https://nsddd.top/rss.xml)
+博客上面发表的文章具有独立性，是我参与开源项目以来，所见所得所学，希望这种模式可以成功并且得以模仿。[👀 我的博客](https://nsddd.top/) 记录着很多优质的内容值得一看，如果希望订阅 SSR ➡️[点这里](https://nsddd.top/rss.xml)
 
 [<img align="left" alt="shenxianpeng | ZhiHu" width="22px" src="https://www.svgrepo.com/show/305628/zhihu.svg" />][zhihu] 
 
@@ -88,7 +88,7 @@
 <a href="https://www.zhihu.com/people/3293172751" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E9%93%BE%E5%AD%A6%E8%80%85%E7%A4%BE%E5%8C%BA-blue?logo=zhihu&style=flat-square"></a>
 <a href="http://sm.nsddd.top/sm0d220ad72063197b9875379403f6c88.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?logo=wechat&style=flat-square"></a>
 
-<details><summary><b>📚 知乎专栏订阅（每周更新❗）</b></summary>
+<details><summary><b>📚 我的博客订阅（每周更新❗）</b></summary>
 </br>
 🔥 知乎专栏<b>每个工作日11：59自动更新一次（actions部署）</b> ，喜欢文章关注点赞👍噢~
 
@@ -293,7 +293,9 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 
 
 
-## 知乎订阅
+## 📖 知乎订阅
+
+🥰 订阅了我的 [知乎账户](https://www.zhihu.com/people/3293172751) 里面的 [云原生精选文章专栏](https://www.zhihu.com/column/c_1496496113348206594)。展开可在 GitHub 中即可阅读全文。
 
 <!-- My-Blog:START -->
  #### - [go 语言工具包](https://zhuanlan.zhihu.com/p/631662028) 
