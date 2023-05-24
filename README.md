@@ -293,6 +293,53 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 > 欢迎加入 kubecub 社区一起学习、为开源做贡献 ! 为了方便每一位开源爱好者交流和学习，我们在 slack 中集成了 很多自动化工具以及 AI，欢迎大家 [🔥加入 Slack](https://join.slack.com/t/kubecub/shared_invite/zt-1se0k2bae-lkYzz0_T~BYh3rjkvlcUqQ)。
 
 
+## ✨ 参与贡献💕
+
+ **[🫵 参与贡献💖❤️‍🩹💓💞](https://nsddd.top/archives/contributors)** 
+
+**[😍 甚至你可以在这个界面按下`.`进入vscode编译环境](https://nsddd.top/archives/githubdev)** 
+
+**要求：**
+
++ [你需要学会使用markdown🖱️](https://github.com/cubxxw/awesome-cs-course/blob/master/markdown/README.md)
++ [符合Google代码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
+
+<details><summary><b>🫡 克隆此仓库到本地</b></summary>
+<pre><code>git clone https://ghproxy.com/https://github.com/cubxxw/Block_Chain.git 菜鸟的成长手册
+</code></pre>
+<pre><code>wget -c -d -O gitsync.sh https://sm.nsddd.top/uploads/2022/10/27/Y0iHb6ix_gitsync.sh?attname=gitsync.sh && echo "gitsync.sh" >> .gitignore && sh gitsync.sh 这里写提交信息~ && chmod 777 gitsync.sh
+</code></pre>
+
+
+</details>
+
+<br>
+
+<font size = 2>🎯 如果你也想对本项目做出贡献，那么你可以先把该项目进行 [fork](https://github.com/cubxxw/cs-awesome-Block_Chain/fork)或者 `git clone` 到本地（推荐先用 [fock](https://github.com/cubxxw/cs-awesome-Block_Chain/fork)到自己仓库，然后再clone到本地，对本地进行操作，最后从自己仓库贡献，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
+
+ 
+
+## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_badge.svg)](https://repography.com)
+
+![Alt](https://repobeats.axiom.co/api/embed/7053fe17b2bd9f88a0015474635e09cff7dc1ee2.svg "Repobeats analytics image")
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain?ref=badge_shield)
+
+
+[![Timeline graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_timeline.svg)](https://github.com/cubxxw/Block_Chain/commits)
+[![Issue status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_issues.svg)](https://github.com/cubxxw/Block_Chain/issues)
+[![Pull request status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_prs.svg)](https://github.com/cubxxw/Block_Chain/pulls)
+![Trending topics](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_words.svg)
+
+<br>
+
+## 💡 版权声明 &copy;
+
+[![GitHub license](https://sm.nsddd.top//typora/cs-awesome-Block_Chain?mail:3293172751@qq.com)](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本)
+
+***License**:* 本书所有内容遵循[CC-BY-SA 3.0协议（署名-相同方式共享）&copy;](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本) 
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain?ref=badge_large)
+
 
 ## 📖 知乎订阅
 
@@ -3186,54 +3233,6 @@ go install github.com/cloudwego/thriftgo@latest</code></pre></div><p data-pid="T
 </span><span class="w"> </span><span class="l">|----------|-----------|---------|--------------|------|---------|---------|-------|</span></code></pre></div><p class="ztext-empty-paragraph"><br></p><h3><b>6. 替代解决方案</b></h3><p data-pid="KgbgKkJL">有些项目没有被纳入本综述，因为它们不太受欢迎或出于其他原因。例如：</p><ul><li data-pid="03CbXr-o"><a href="https://github.com/code-ready/crc" target="_blank">Red Hat CRC</a> 工具（CodeReady Containers;750+ GitHub stars）取代<a href="https://github.com/minishift/minishift" target="_blank">了 Minishift</a>，在笔记本电脑/台式机上运行最小的 OpenShift 4.x 集群。</li><li data-pid="dEsNylEA">Weaveworks的<a href="https://github.com/weaveworks/wks-quickstart-firekube" target="_blank">Firekube</a>（~300 GitHub星）是一个在<a href="https://github.com/firecracker-microvm/firecracker" target="_blank">Firecracker</a>虚拟机中运行的Kubernetes集群，也值得一提。但是，它似乎并不活跃。</li></ul><p class="ztext-empty-paragraph"><br></p><h2><b>支持的操作系统</b></h2><p data-pid="sgw9TZgx">上述所有发行版都在 Linux 上运行。但是，即使您的主机具有不同的操作系统（借助虚拟化工具），您也可以使用它们：</p><ul><li data-pid="PdfUasVO"><a href="https://multipass.run/" target="_blank">Multipass</a> 和 <a href="https://www.virtualbox.org/" target="_blank">VirtualBox</a> 适用于大多数情况;</li><li data-pid="EJcjrezc">在其他情况下，可能需要使用特殊的虚拟化工具，例如 Windows 上的 <a href="https://docs.microsoft.com/en-us/windows/wsl/about" target="_blank">WSL</a>。</li></ul><p data-pid="36-gQpqY">对于kind，k3d和Minikube，您可以使用一个Linux VM（用于基本集群），而在k0s，Microk8s和k3s的情况下，您将需要创建多个与集群节点数量相等的VM。</p><h2><b>比较表</b></h2><p data-pid="3VRXR3uB">以下是基本功能的摘要：</p><table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><th></th><th>K0s</th><th>MicroK8s</th><th>kind</th><th>K3S + K3D</th><th>minikube</th></tr><tr><td>管理节点创建/删除</td><td>✗</td><td>✗</td><td>✓</td><td>✓</td><td>✓</td></tr><tr><td>节点管理系统</td><td>✗</td><td>✗</td><td>docker</td><td>docker</td><td>virtualbox， vmwarefusion， kvm2， vmware， none， docker， podman， ssh</td></tr><tr><td>容器运行时</td><td>containerd</td><td>containerd</td><td>containerd, CRI-O</td><td>CRI-O</td><td>Docker, CRI-O, containerd</td></tr><tr><td>默认 CNI</td><td>Calico</td><td>Calico</td><td>kindnet</td><td>Flannel</td><td>bridge</td></tr><tr><td>挂载主机操作系统的文件系统</td><td>HostPath</td><td>HostPath</td><td>HostPath + docker mount</td><td>HostPath + docker mount</td><td>HostPath + … (depends on the virtualization system)</td></tr><tr><td>插件</td><td>✗</td><td>✓</td><td>✗</td><td>✗</td><td>✓</td></tr><tr><td>非特权用户创建群集的能力</td><td>✗</td><td>✗</td><td>✓</td><td>✓</td><td>✓</td></tr><tr><td>Vanilla Kubernetes</td><td>✓</td><td>✓</td><td>✓</td><td>✗</td><td>✓</td></tr></tbody></table><p data-pid="84xzLauk"> Vanilla Kubernetes 指纯净、原生的 Kubernetes，一般还有 Vanilla JavaScript/Vanilla Linux 等用法，指原生 JavaScript 或 Linux，而不是它们的方言版或发行版本。</p><p data-pid="FJPF33er">原生 Kubernetes 指的是 Kubernetes 的原生未修改版本，提供源代码下载。</p><p data-pid="NlY7ABed">之所以称为原生版，是因为在软件界有一个长达几十年的传统，即打上 “Vanilla” 原生标签的软件被部署到任何应用程序或平台上时，表示这是没有修改过的官方版本。类似于，我们还会听到“原生 Linux” ，这是指使用纯粹的、官方的 Linux 内核源代码构建 Linux 内核，而不像在 Linux 发行版本中，会修改 Linux 内核程序。</p><p data-pid="-o3UNHCM">与原生 Kubernetes 相对的是 Kubernetes 发行版，例如 Rancher，Red Hat OpenShift，或基于云的 Kubernetes 服务，例如 Amazon EKS。这些发行版采用了开源 Kubernets 代码，并将其集成到更广泛的平台中，而这些平台通常包含不属于 Kubernetes 本身的管理、监视和安全工具。这些平台中的很多平台还提供安装程序，简化 Kubernetes 安装程序。</p><p data-pid="1Vi_7boG">当然，最近也有人提出了不适用发行版本的 Kubernets 的5个理由，具体可以参考：<a href="https://www.itprotoday.com/devops/5-reasons-not-use-kubernetes-distributions" target="_blank">5 Reasons Not to Use Kubernetes Distributions</a> :::</p><p class="ztext-empty-paragraph"><br></p><h2><b>结论</b></h2><p data-pid="EV4vkVSH">比较是在特定任务（本地运行的沙盒）的上下文中进行的，但上面的一些发行版是为利基使用场景设计的。例如，Canonical 的 MicroK8s 和 Rancher 的 K3s 针对物联网和边缘计算。因此，我应该重申，最终的选择 <b>将在很大程度上取决于手头的任务</b>、资源考虑和网络基础设施要求。我希望以上信息对您做出正确的选择有所帮助。</p><h2><b>有用的外部链接</b></h2><ul><li data-pid="NIAzbaEf"><a href="https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1" target="_blank">K3S + K3D = K8S：开发和测试的新完美匹配</a></li><li data-pid="WBDOCGxd"><a href="https://habd.as/post/kubernetes-macos-k3s-k3d-rancher/" target="_blank">带有 K3s、K3d 和 Rancher 的 macOS 上的 K8s</a></li><li data-pid="xXrk7uWp"><a href="https://www.reddit.com/r/kubernetes/comments/n2bsrz/k3s_vs_microk8s_vs_k0s_and_thoughts_about_their/" target="_blank">K3S vs Microk8S vs K0s 以及对未来的想法</a></li><li data-pid="vrRsWAls"><a href="https://www.reddit.com/r/kubernetes/comments/be0415/k3s_minikube_or_microk8s/" target="_blank">K3s，minikube还是microk8s？</a></li><li data-pid="LSLsDnTa"><a href="https://faun.pub/environment-for-comparing-several-on-premise-kubernetes-distributions-k3s-kind-kubeadm-a53675a80a00" target="_blank">用于比较几个内部部署 Kubernetes 发行版（K3s、MicroK8s、KinD、kubeadm）的环境</a></li><li data-pid="CRRNvghn"><a href="https://www.padok.fr/en/blog/minikube-kubeadm-kind-k3s" target="_blank">MiniKube， Kubeadm， Kind， K3S， 如何开始使用 Kubernetes？</a></li><li data-pid="HWCT-vi_"><a href="http://ceur-ws.org/Vol-2839/paper11.pdf" target="_blank">分析轻量级容器平台：MicroK8s 和 K3s 与 Kubernetes 的比较</a><i>（性能测试）</i></li><li data-pid="SbE0fbVm"><a href="https://brennerm.github.io/posts/minikube-vs-kind-vs-k3s.html" target="_blank">Minikube vs. kind vs. k3s – 我应该使用什么？</a><i>（总结）</i></li><li data-pid="UxRcO_Wu"><a href="https://searchitoperations.techtarget.com/answer/Evaluate-3-ways-to-run-Kubernetes-locally" target="_blank">评估在本地运行 Kubernetes 的 3 种方法</a></li><li data-pid="kiMP0PSY"><a href="https://docs.tilt.dev/choosing_clusters.html" target="_blank">选择本地开发群集</a></li><li data-pid="vjvnzpd5"><a href="https://kubevious.io/blog/post/what-is-mirantis-k0s-and-how-it-compares-with-rancher-k3s" target="_blank">什么是米兰蒂斯k0s，它与牧场主k3s有何不同</a></li><li data-pid="baypzhOT"><a href="https://www.cncf.io/wp-content/uploads/2020/08/CNCF-Webinar-Navigating-the-Sea-of-Local-Clusters-.pdf" target="_blank">驾驭 Kubernetes 本地集群的海洋</a></li></ul><h2><b>相关文章：</b></h2><ul><li data-pid="QA-Am8Ld"><a href="https://blog.palark.com/comparing-ingress-controllers-for-kubernetes/" target="_blank">比较 Kubernetes 的入口控制器</a></li><li data-pid="D_Y_qpiO"><a href="https://blog.palark.com/open-source-self-hosted-serverless-frameworks-for-kubernetes/" target="_blank">Kubernetes 自托管无服务器框架概述：OpenFaaS、Knative、OpenWhisk、Fission</a></li><li data-pid="W7V-gES1"><a href="https://blog.palark.com/logs-in-kubernetes-expectations-vs-reality/" target="_blank">Kubernetes 中的日志：期望与现实</a></li></ul><p class="ztext-empty-paragraph"><br></p><h2><b>END 链接</b></h2><ul><li data-pid="X6DNLFKB"><a href="typora://app/README.md" target="_blank">Ⓜ️回到目录 </a></li><li data-pid="4H-L2bln"><b><a href="https://nsddd.top/archives/contributors" target="_blank"> 参与贡献 ❤️‍  </a></b>)</li><li data-pid="3V78Qqjj">✴️版权声明 © ：本书所有内容遵循<a href="http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank">CC-BY-SA 3.0协议（署名-相同方式共享）©</a> </li></ul><p></p></div> </details> 
  <hr /> 
 <!-- ZHIHU:END -->
+---
 
-
-
-<br>
-
-## ✨ 参与贡献💕
-
- **[🫵 参与贡献💖❤️‍🩹💓💞](https://nsddd.top/archives/contributors)** 
-
-**[😍 甚至你可以在这个界面按下`.`进入vscode编译环境](https://nsddd.top/archives/githubdev)** 
-
-**要求：**
-
-+ [你需要学会使用markdown🖱️](https://github.com/cubxxw/awesome-cs-course/blob/master/markdown/README.md)
-+ [符合Google代码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
-
-<details><summary><b>🫡 克隆此仓库到本地</b></summary>
-<pre><code>git clone https://ghproxy.com/https://github.com/cubxxw/Block_Chain.git 菜鸟的成长手册
-</code></pre>
-<pre><code>wget -c -d -O gitsync.sh https://sm.nsddd.top/uploads/2022/10/27/Y0iHb6ix_gitsync.sh?attname=gitsync.sh && echo "gitsync.sh" >> .gitignore && sh gitsync.sh 这里写提交信息~ && chmod 777 gitsync.sh
-</code></pre>
-
-
-</details>
-
-<br>
-
-<font size = 2>🎯 如果你也想对本项目做出贡献，那么你可以先把该项目进行 [fork](https://github.com/cubxxw/cs-awesome-Block_Chain/fork)或者 `git clone` 到本地（推荐先用 [fock](https://github.com/cubxxw/cs-awesome-Block_Chain/fork)到自己仓库，然后再clone到本地，对本地进行操作，最后从自己仓库贡献，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
-
- 
-
-## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_badge.svg)](https://repography.com)
-
-![Alt](https://repobeats.axiom.co/api/embed/7053fe17b2bd9f88a0015474635e09cff7dc1ee2.svg "Repobeats analytics image")
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain?ref=badge_shield)
-
-
-[![Timeline graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_timeline.svg)](https://github.com/cubxxw/Block_Chain/commits)
-[![Issue status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_issues.svg)](https://github.com/cubxxw/Block_Chain/issues)
-[![Pull request status graph](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_prs.svg)](https://github.com/cubxxw/Block_Chain/pulls)
-![Trending topics](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_words.svg)
-
-<br>
-
-## 💡 版权声明 &copy;
-
-[![GitHub license](https://sm.nsddd.top//typora/cs-awesome-Block_Chain?mail:3293172751@qq.com)](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本)
-
-***License**:* 本书所有内容遵循[CC-BY-SA 3.0协议（署名-相同方式共享）&copy;](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本) 
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain?ref=badge_large)
+</br>
