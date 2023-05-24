@@ -94,6 +94,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [go 语言工具包](https://zhuanlan.zhihu.com/p/631662028)
 - [K8s 深入理解 Operator-client 详解](https://zhuanlan.zhihu.com/p/629622839)
 - [Kubernetes 社区规范](https://zhuanlan.zhihu.com/p/629622183)
 - [高级的 Githook 设计](https://zhuanlan.zhihu.com/p/629617458)
