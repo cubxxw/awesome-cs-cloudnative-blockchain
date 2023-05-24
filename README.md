@@ -93,7 +93,7 @@
 🔥 知乎专栏<b>每个工作日11：59自动更新一次（actions部署）</b> ，喜欢文章关注点赞👍噢~
 
 
-<!-- BLOG-POST-LIST:START -->
+<!-- ZHIHU:START -->
 - [go 语言工具包](https://zhuanlan.zhihu.com/p/631662028)
 - [K8s 深入理解 Operator-client 详解](https://zhuanlan.zhihu.com/p/629622839)
 - [Kubernetes 社区规范](https://zhuanlan.zhihu.com/p/629622183)
@@ -113,7 +113,7 @@
 - [项目管理从理论到实践（含GitHub Projects）](https://zhuanlan.zhihu.com/p/598930020)
 - [kubernetes 源码解析资源](https://zhuanlan.zhihu.com/p/597276550)
 - [用于本地实验的小型 Kubernetes：k0s、MicroK8s、kind、k3s 和 Minikube](https://zhuanlan.zhihu.com/p/594206344)
-<!-- BLOG-POST-LIST:END -->
+<!-- ZHIHU:END -->
 
 </details>
 
@@ -294,7 +294,11 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 
 <br>
 
+## 🔮 我的博客订阅
 
+<!-- MY-BLOG:START -->
+
+<!-- MY-BLOG:END -->
 
 ## ✨ 参与贡献💕
 
