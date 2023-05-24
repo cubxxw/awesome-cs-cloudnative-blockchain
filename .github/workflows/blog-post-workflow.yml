@@ -15,10 +15,10 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: "My-Blog" 
-          feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
+          feed_list: "https://rss.starerror.com/https://nsddd.top/rss.xml"
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           BOT_GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
-          max_post_count: 40
+          max_post_count: 100
           commit_message: "🔥docs(main): update with lastest RadioGeek feed"
           committer_username: "🤖kubbot"
           disable_html_encoding: true
@@ -27,7 +27,7 @@ jobs:
         with:
           comment_tag_name: "ZHIHU"
           #feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
-          feed_list: "https://rss.starerror.com/https://nsddd.top/rss.xml"
+          feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
           token: ${{ secrets.ZHIHU_TOKEN }}
           max_post_count: 20
           commit_message: "🔥docs(main): update blog https://nsddd.top"
