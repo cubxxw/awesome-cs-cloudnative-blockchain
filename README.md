@@ -93,27 +93,7 @@
 🔥 知乎专栏<b>每个工作日11：59自动更新一次（actions部署）</b> ，喜欢文章关注点赞👍噢~
 
 
-<!-- BLOG-POST-LIST:START -->
-- [go 语言工具包](https://zhuanlan.zhihu.com/p/631662028)
-- [K8s 深入理解 Operator-client 详解](https://zhuanlan.zhihu.com/p/629622839)
-- [Kubernetes 社区规范](https://zhuanlan.zhihu.com/p/629622183)
-- [高级的 Githook 设计](https://zhuanlan.zhihu.com/p/629617458)
-- [CloudNative / Kubernetes 学习资源整理](https://zhuanlan.zhihu.com/p/614921043)
-- [Istio 高级流量管理](https://zhuanlan.zhihu.com/p/614775174)
-- [Kubernetes 概念以及架构](https://zhuanlan.zhihu.com/p/611169064)
-- [深入剖析 Docker 底层（全）](https://zhuanlan.zhihu.com/p/610939386)
-- [Go 语言的 Makefile 指南](https://zhuanlan.zhihu.com/p/607940899)
-- [Go语言项目设计和开发流程](https://zhuanlan.zhihu.com/p/607192022)
-- [git-chglog write your CHANGELOG](https://zhuanlan.zhihu.com/p/607015570)
-- [IAM 项目部署](https://zhuanlan.zhihu.com/p/606959150)
-- [go语言1.20发布 | 新特性](https://zhuanlan.zhihu.com/p/602834012)
-- [一篇文章精通git协同开发工作流](https://zhuanlan.zhihu.com/p/602190234)
-- [Go语言框架三件套（Web/RPC/GORM&rpar;](https://zhuanlan.zhihu.com/p/601286934)
-- [GitHub CLI 命令行工具（gh&rpar;](https://zhuanlan.zhihu.com/p/601200139)
-- [项目管理从理论到实践（含GitHub Projects）](https://zhuanlan.zhihu.com/p/598930020)
-- [kubernetes 源码解析资源](https://zhuanlan.zhihu.com/p/597276550)
-- [用于本地实验的小型 Kubernetes：k0s、MicroK8s、kind、k3s 和 Minikube](https://zhuanlan.zhihu.com/p/594206344)
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START --><tr><td>go 语言工具包</td><td>https://zhuanlan.zhihu.com/p/631662028</td></tr><tr><td>K8s 深入理解 Operator-client 详解</td><td>https://zhuanlan.zhihu.com/p/629622839</td></tr><tr><td>Kubernetes 社区规范</td><td>https://zhuanlan.zhihu.com/p/629622183</td></tr><tr><td>高级的 Githook 设计</td><td>https://zhuanlan.zhihu.com/p/629617458</td></tr><tr><td>CloudNative / Kubernetes 学习资源整理</td><td>https://zhuanlan.zhihu.com/p/614921043</td></tr><tr><td>Istio 高级流量管理</td><td>https://zhuanlan.zhihu.com/p/614775174</td></tr><tr><td>Kubernetes 概念以及架构</td><td>https://zhuanlan.zhihu.com/p/611169064</td></tr><tr><td>深入剖析 Docker 底层（全）</td><td>https://zhuanlan.zhihu.com/p/610939386</td></tr><tr><td>Go 语言的 Makefile 指南</td><td>https://zhuanlan.zhihu.com/p/607940899</td></tr><tr><td>Go语言项目设计和开发流程</td><td>https://zhuanlan.zhihu.com/p/607192022</td></tr><tr><td>git-chglog write your CHANGELOG</td><td>https://zhuanlan.zhihu.com/p/607015570</td></tr><tr><td>IAM 项目部署</td><td>https://zhuanlan.zhihu.com/p/606959150</td></tr><tr><td>go语言1.20发布 | 新特性</td><td>https://zhuanlan.zhihu.com/p/602834012</td></tr><tr><td>一篇文章精通git协同开发工作流</td><td>https://zhuanlan.zhihu.com/p/602190234</td></tr><tr><td>Go语言框架三件套（Web/RPC/GORM&rpar;</td><td>https://zhuanlan.zhihu.com/p/601286934</td></tr><tr><td>GitHub CLI 命令行工具（gh&rpar;</td><td>https://zhuanlan.zhihu.com/p/601200139</td></tr><tr><td>项目管理从理论到实践（含GitHub Projects）</td><td>https://zhuanlan.zhihu.com/p/598930020</td></tr><tr><td>kubernetes 源码解析资源</td><td>https://zhuanlan.zhihu.com/p/597276550</td></tr><tr><td>用于本地实验的小型 Kubernetes：k0s、MicroK8s、kind、k3s 和 Minikube</td><td>https://zhuanlan.zhihu.com/p/594206344</td></tr><!-- BLOG-POST-LIST:END -->
 
 </details>
 
