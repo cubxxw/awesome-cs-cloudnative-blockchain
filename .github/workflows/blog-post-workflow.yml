@@ -15,7 +15,14 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
-          max_post_count: 30
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           BOT_GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
-          template: "<tr><td>$title</td><td>$url</td></tr>"
+          max_post_count: 1000
+          commit_message: "🔥Update with lastest RadioGeek feed"
+          committer_username: "🤖kubbot"
+          committer_email: "<>"
+          date_format: 'UTC: yyyy-mm-dd'
+          template: "$newline #### - [$title]($url) $newline <details><summary>توضیحات</summary> $description </details> $newline <hr /> $newline"
+          # Regex for remove HTML TAG:    /(<([^>]+)>)/ig
+          item_exec: "post.description = post.description.replace('','')"
+          disable_html_encoding: true
