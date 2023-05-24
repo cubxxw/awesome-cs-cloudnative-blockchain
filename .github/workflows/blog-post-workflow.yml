@@ -26,9 +26,9 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: "My-Blog" 
-          feed_list: "https://nsddd.top/rss.xml"
+          feed_list: "https://rss.starerror.com/https://nsddd.top/rss.xml"
           token: ${{ secrets.ZHIHU_TOKEN }}
-          max_post_count: 40
+          max_post_count: 20
           commit_message: "🔥docs(main): update blog https://nsddd.top"
           committer_username: "🤖kubbot"
           committer_email: "<>"
