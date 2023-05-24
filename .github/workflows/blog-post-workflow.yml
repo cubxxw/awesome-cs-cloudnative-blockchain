@@ -14,7 +14,7 @@ jobs:
       - name: Pull in dev.to posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          comment_tag_name: "ZHIHU"
+          comment_tag_name: "My-Blog" 
           feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           BOT_GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
@@ -25,9 +25,9 @@ jobs:
       - name: Pull in dev.to 中文内容
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          comment_tag_name: "My-Blog" 
-          feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
-          #feed_list: "https://rss.starerror.com/https://nsddd.top/rss.xml"
+          comment_tag_name: "ZHIHU"
+          #feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
+          feed_list: "https://rss.starerror.com/https://nsddd.top/rss.xml"
           token: ${{ secrets.ZHIHU_TOKEN }}
           max_post_count: 20
           commit_message: "🔥docs(main): update blog https://nsddd.top"
