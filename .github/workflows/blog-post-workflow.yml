@@ -17,12 +17,7 @@ jobs:
           feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           BOT_GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
-          max_post_count: 1000
+          max_post_count: 40
           commit_message: "🔥Update with lastest RadioGeek feed"
           committer_username: "🤖kubbot"
-          committer_email: "<>"
-          date_format: 'UTC: yyyy-mm-dd'
-          template: "$newline #### - [$title]($url) $newline <details><summary>توضیحات</summary> $description </details> $newline <hr /> $newline"
-          # Regex for remove HTML TAG:    /(<([^>]+)>)/ig
-          item_exec: "post.description = post.description.replace('','')"
           disable_html_encoding: true
