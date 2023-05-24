@@ -14,6 +14,7 @@ jobs:
       - name: Pull in dev.to posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
+          comment_tag_name: "ZHIHU"
           feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           BOT_GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
