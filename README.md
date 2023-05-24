@@ -296,9 +296,125 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 ## 知乎订阅
 
 <!-- My-Blog:START -->
+ #### - [高级的 Githook 设计](https://nsddd.top/archives/githook) 
+ <details><summary>توضیحات</summary> 
+                            author高级的 Githook 设计❤️💕💕记录sealos开源项目的学习过程。k8s,do
+                     </details> 
+ <hr /> 
 
+ #### - [速读 sealos 源码 核心思想解析](https://nsddd.top/archives/sealos-source-code) 
+ <details><summary>توضیحات</summary> 
+                            这篇文章等的太久了，也是自己经历 docker 跨越到 Kubernetes 以及 CloudNative 生态的过程。反过来再去理解开源、理解 sealos、 理解 Kubernetes，有种豁然开朗的视角。这篇文章和其他文章不一样的是，这篇是按照自己现在的思路来写的，具体为什么，在以前的文章中能找到答案~
+                     </details> 
+ <hr /> 
 
+ #### - [Kubernetes 二次开发 CRD 入门](https://nsddd.top/archives/kubernetes-crd) 
+ <details><summary>توضیحات</summary> 
+                            这篇文章将参考各个博客和 kubebuilder 官方文档 以及 kubernetes/sample-controller 进行学习，最后实践一个项目的步骤，对静态博客进行 CRD，形成学习闭环~
+                     </details> 
+ <hr /> 
 
+ #### - [开源之路：跨越八个阶段，成就行业佼佼者](https://nsddd.top/archives/open-source) 
+ <details><summary>توضیحات</summary> 
+                            开源之路：跨越八个阶段，成就行业佼佼者开源之路：跨越八个阶段，成就行业佼佼者第一阶段：简单看源码阶段
+                     </details> 
+ <hr /> 
+
+ #### - [CloudNative / Kubernetes 学习资源整理](https://nsddd.top/archives/cloudnativekubernetes) 
+ <details><summary>توضیحات</summary> 
+                            ⚠️ 注意，这篇文章将永久保存在 notion，将会不断地更新下去，提供了可写通道，如果你有更好的资源，欢迎补充在notion上!!!!!!
+                     </details> 
+ <hr /> 
+
+ #### - [Istio 高级流量管理](https://nsddd.top/archives/istio) 
+ <details><summary>توضیحات</summary> 
+                            微服务架构的演变包括单体应用、SOA架构、微服务架构等，随着业务的增长，单体应用和SOA架构逐渐暴露出诸多问题，如可扩展性、可维护性、服务间耦合度等，而微服务架构则以其松耦合、高内聚、可扩展等特点逐渐成为业界关注的重点。Istio是一个专注于服务网格的开源项目，提供了强大的高级流量管理、可观察性和安全性功能，帮助企业快速构建高可用、高性能、高安全性的微服务架构，是当前最流行的服务网格之一。
+                     </details> 
+ <hr /> 
+
+ #### - [Kubernetes 网络](https://nsddd.top/archives/kubernetes-network) 
+ <details><summary>توضیحات</summary> 
+                            网络很难，Kubernetes 的网络更难，后面更是有复杂的网络分治，要理解实现，必须对Kubernetes的网络有着深入的了解。Kubernetes 往深处挖必须要打好网络的基础，这个很重要 ~从使用交换机、路由器和以太网电缆的物理网络迁移到使用软件定义网络（SDN）和虚拟接口的虚拟网络需要一段时间。当然，原则是相同的，但有不同的规范和最佳实践。Kubernetes有自己的一套规则，如果您要处理容器和云，了解Kubernetes网络的工作原理会有所帮助。
+                     </details> 
+ <hr /> 
+
+ #### - [Kubernetes 概念以及架构](https://nsddd.top/archives/kubernetes-docker) 
+ <details><summary>توضیحات</summary> 
+                            Kunbernetes遵循了声明式系统的原则。Kunbernetes是构建与声明式系统之上的一个云管理平台。Kunbernetes中所有代管的对象(计算节点、服务、作业等)全部抽象成了标准API。这之后，就把这些API作为统一的规范，和一些大厂联合背书，让大家都遵循同样的规则下场玩游戏。这样一来，这套API就成了事实标准。这意味着所有下场玩游戏的玩家，都只能向这套标准靠拢。把目光看向未来，标准已然存在，标准可以演进，但标准很难被取代。取代一个已存在的标准，这件事可以称之为"革命"。
+                     </details> 
+ <hr /> 
+
+ #### - [深挖容器底层技术（全）](https://nsddd.top/archives/dockers) 
+ <details><summary>توضیحات</summary> 
+                            一篇挖完 docker 底层细节、架构、原理 以及 相关 Linux 内核。
+                     </details> 
+ <hr /> 
+
+ #### - [Clash for Linux(CLI)、Windows、Android](https://nsddd.top/archives/clash) 
+ <details><summary>توضیحات</summary> 
+                            大纲具有身份验证支持的本地 HTTP/HTTPS/SOCKS 服务器Shadowsocks(R)、VMess、Trojan、Snell、SOCKS5、HTTP(S) 出站支持内置 DNS 服务器，旨在最大限度地减少 DNS 污染攻击的影响。支持 DoH/DoT 上游。基于域、GEOIP、IP-CIDR 或进程名称的规则将数据包路由到不同的目的地代理组允许用户实施强大的规则。支持自动回退、负载均衡或基于关闭延迟自动选择代理远程提供商，允许用户远程获取代理列表而不是在配置中硬编码透明代理：使用自动路由表/规则管理重定向 TCP 和 TProxy TCP/UDP通过全面的 HTTP RESTful API 控制器进行热重载
+                     </details> 
+ <hr /> 
+
+ #### - [golangci-lin: Fast linters Runner for Go](https://nsddd.top/archives/golangci) 
+ <details><summary>توضیحات</summary> 
+                            author(Github)Fast linters Runner for Gostatic ana
+                     </details> 
+ <hr /> 
+
+ #### - [高质量的Makefile编写](https://nsddd.top/archives/makefile) 
+ <details><summary>توضیحات</summary> 
+                            平常写的Makefile 存在不少问题。例如：功能简单，只能完成最基本的编译、格式化等操作，像构建镜像、自动生成代码等一些高阶的功能都没有；扩展性差，没法编译出可在 Mac 下运行的二进制文件；没有 Help 功能，使用难度高；单 Makefile 文件，结构单一，不适合添加一些复杂的管理功能。所以，我们不光要编写 Makefile，还要编写高质量的 Makefile。那么如何编写一个高质量的 Makefile 呢？
+                     </details> 
+ <hr /> 
+
+ #### - [Gotests Automatically generate Go test](https://nsddd.top/archives/gotests) 
+ <details><summary>توضیحات</summary> 
+                            gotests: Automatically generate Go test boilerplate from your source code.`gotests` makes writing Go tests easy. It's a Golang commandline tool that generates [table driven tests](https://github.com/golang/go/wiki/TableDrivenTests) based on its target source files' function and method signatures. Any new dependencies in the test files are automatically imported.
+                     </details> 
+ <hr /> 
+
+ #### - [git-chglog write your CHANGELOG](https://nsddd.top/archives/git-chglog) 
+ <details><summary>توضیحات</summary> 
+                            author(Github)git-chglog write your CHANGELOG❤️💕?
+                     </details> 
+ <hr /> 
+
+ #### - [Project specification and commit message](https://nsddd.top/archives/projectspecificationandcommitmessage) 
+ <details><summary>توضیحات</summary> 
+                            **原因：**1. 开源项目在代码质量、代码规范、文档等方面，要比非开源项目要求更高，在项目开发中按照开源项目的要求来规范自己的项目，可以更好地驱动项目质量的提高；2. 一些大公司为了不重复造轮子，会要求公司团队能够将自己的项目开源，所以提前按开源标准来驱动 Go 项目开发，也会为我们日后代码开源省去不少麻烦。一个开源项目一定需要一个开源协议，开源协议规定了你在使用开源软件时的权利和责任，也就是规定了你可以做什么，不可以做什么。所以，开源规范的第一条规范就是选择一个合适的开源协议。那么有哪些开源协议，如何选择呢？接下来，我来详细介绍下。
+                     </details> 
+ <hr /> 
+
+ #### - [GTD实践](https://nsddd.top/archives/gtd-todo) 
+ <details><summary>توضیحات</summary> 
+                            不知道你有没有发现，很多时候自己列好了计划，甚至也写在了纸上，却还是没有完成。归根结底，就是你的效率太低了。我试过使用 Notion 来管理计划，这个激发了我的三分钟热度，我期望有更好的工具。目前流行的工作模式包括 GTD 法（Getting Things Done）、SMART 板、番茄工作法、个人看板、黄金生物钟法则等等。虽然叫法不一样，但它们的目标只有一个：完成你要做的事。你可以花十天左右的时间去尝试不同的模式，然后选择一个或多个适合自己的，也可以根据自己的需要，在这些工作模式的基础上做些添加或者修改。
+                     </details> 
+ <hr /> 
+
+ #### - [技术领导力与职业规划: 人生路线图上的必读阅读推荐](https://nsddd.top/archives/career-development) 
+ <details><summary>توضیحات</summary> 
+                            我不是一个按部就班的人，我不是一个喜欢走大部分人都走的平稳路线。1. 要去经历就去经历大部分人都经历不到的，有不一样的感受和思想2. 要把学习时间花在那些比较难的地方3. 要写文章就要写没有人写过的，或是别人写过，但我能写得更好的4. 更重要的是，技术和知识完全是可以变现的，要勇于尝试~🖊️ 二十到三十五岁是人生中最宝贵的十五年，应该用到刀刃上。
+                     </details> 
+ <hr /> 
+
+ #### - [GitHub CLI 命令行工具（gh)](https://nsddd.top/archives/gh) 
+ <details><summary>توضیحات</summary> 
+                            [[Github CLI]] 是一个非常好用的命令行工具，可以让开发者通过命令行于 GitHub 进行无缝的协同工作，也就是我们直接在命令行终端上就可以进行 pull requests、issues 等其他功能。🤔不仅如此，我们在 github 中也可以发现，GitHub CLI 是用 Go语言写的一个命令行工具，目前的贡献者已经快达到 400 人，甚至对于我们来说，这也是一个很好的学习机会，我们可以对此进行 PR 。
+                     </details> 
+ <hr /> 
+
+ #### - [sealos开源社区~第一阶段](https://nsddd.top/archives/sealos-one) 
+ <details><summary>توضیحات</summary> 
+                            - 完成 first contribute，目的：了解开源项目的贡献流程- 完成 sealos 开发环境构建- 了解 kuberentes 基本使用，核心概念，核心组件的作用
+                     </details> 
+ <hr /> 
+
+ #### - [在线vscode完成贡献和阅读](https://nsddd.top/archives/githubdev) 
+ <details><summary>توضیحات</summary> 
+                            author(Github)在线vscode完成贡献和阅读❤️💕💕CS自学指南,大学教育无论是深
+                     </details> 
+ <hr /> 
 <!-- My-Blog:END -->
 
 
