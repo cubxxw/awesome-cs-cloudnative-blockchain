@@ -19,6 +19,21 @@ jobs:
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           BOT_GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
           max_post_count: 40
-          commit_message: "🔥Update with lastest RadioGeek feed"
+          commit_message: "🔥docs(main): update with lastest RadioGeek feed"
           committer_username: "🤖kubbot"
+          disable_html_encoding: true
+      - name: Pull in dev.to 中文内容
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: "My-Blog" 
+          feed_list: "https://nsddd.top/rss.xml"
+          token: ${{ secrets.ZHIHU_TOKEN }}
+          max_post_count: 40
+          commit_message: "🔥docs(main): update blog https://nsddd.top"
+          committer_username: "🤖kubbot"
+          committer_email: "<>"
+          date_format: 'UTC: yyyy-mm-dd'
+          template: "$newline #### - [$title]($url) $newline <details><summary>توضیحات</summary> $description </details> $newline <hr /> $newline"
+          # Regex for remove HTML TAG:    /(<([^>]+)>)/ig
+          item_exec: "post.description = post.description.replace('','')"
           disable_html_encoding: true
