@@ -77,7 +77,9 @@
 
 <br>
 
-## 🗓️ My 博客精选
+## 🗓️ My 订阅精选
+
+#### 博客专栏
 
 博客上面发表的文章具有独立性，是我参与开源项目以来，所见所得所学，希望这种模式可以成功并且得以模仿。[👀 我的博客](https://nsddd.top/) 记录着很多优质的内容值得一看，如果希望订阅 SSR ➡️[点这里](https://nsddd.top/rss.xml)
 
@@ -90,7 +92,7 @@
 
 <details><summary><b>📚 我的博客订阅（每周更新❗）</b></summary>
 </br>
-🔥 知乎专栏<b>每个工作日11：59自动更新一次（actions部署）</b> ，喜欢文章关注点赞👍噢~
+🔥 博客专栏<b>每个工作日11：59自动更新一次（actions部署）</b> ，喜欢文章关注点赞👍噢~
 
 
 <!-- My-Blog:START -->
@@ -120,6 +122,46 @@
 
 </hr>
 <br>
+
+
+#### 知乎专栏
+
+🥰 订阅了我的 [知乎账户](https://www.zhihu.com/people/3293172751) 里面的 [云原生精选文章专栏](https://www.zhihu.com/column/c_1496496113348206594)。
+
+</br>
+<details><summary><b>📚 我的知乎文章订阅（每周更新❗）</b></summary>
+</br>
+🔥 知乎专栏<b>每个工作日11：59自动更新一次（actions部署）</b> ，喜欢文章关注点赞👍噢~
+
+
+<!-- ZHIHU:START -->
+- [高级的 Githook 设计](https://nsddd.top/archives/githook)
+- [速读 sealos 源码 核心思想解析](https://nsddd.top/archives/sealos-source-code)
+- [Kubernetes 二次开发 CRD 入门](https://nsddd.top/archives/kubernetes-crd)
+- [开源之路：跨越八个阶段，成就行业佼佼者](https://nsddd.top/archives/open-source)
+- [CloudNative / Kubernetes 学习资源整理](https://nsddd.top/archives/cloudnativekubernetes)
+- [Istio 高级流量管理](https://nsddd.top/archives/istio)
+- [Kubernetes 网络](https://nsddd.top/archives/kubernetes-network)
+- [Kubernetes 概念以及架构](https://nsddd.top/archives/kubernetes-docker)
+- [深挖容器底层技术（全）](https://nsddd.top/archives/dockers)
+- [Clash for Linux(CLI)、Windows、Android](https://nsddd.top/archives/clash)
+- [golangci-lin: Fast linters Runner for Go](https://nsddd.top/archives/golangci)
+- [高质量的Makefile编写](https://nsddd.top/archives/makefile)
+- [Gotests Automatically generate Go test](https://nsddd.top/archives/gotests)
+- [git-chglog write your CHANGELOG](https://nsddd.top/archives/git-chglog)
+- [Project specification and commit message](https://nsddd.top/archives/projectspecificationandcommitmessage)
+- [GTD实践](https://nsddd.top/archives/gtd-todo)
+- [技术领导力与职业规划: 人生路线图上的必读阅读推荐](https://nsddd.top/archives/career-development)
+- [GitHub CLI 命令行工具（gh)](https://nsddd.top/archives/gh)
+- [sealos开源社区~第一阶段](https://nsddd.top/archives/sealos-one)
+- [在线vscode完成贡献和阅读](https://nsddd.top/archives/githubdev)
+<!-- ZHIHU:END -->
+
+</details>
+
+</hr>
+<br>
+
 
 ## 📖 Go语言
 
@@ -339,33 +381,5 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 ***License**:* 本书所有内容遵循[CC-BY-SA 3.0协议（署名-相同方式共享）&copy;](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本) 
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain?ref=badge_large)
-
-
-## 📖 知乎订阅
-
-🥰 订阅了我的 [知乎账户](https://www.zhihu.com/people/3293172751) 里面的 [云原生精选文章专栏](https://www.zhihu.com/column/c_1496496113348206594)。展开可在 GitHub 中即可阅读全文。
-
-<!-- ZHIHU:START -->
-- [go 语言工具包](https://zhuanlan.zhihu.com/p/631662028)
-- [K8s 深入理解 Operator-client 详解](https://zhuanlan.zhihu.com/p/629622839)
-- [Kubernetes 社区规范](https://zhuanlan.zhihu.com/p/629622183)
-- [高级的 Githook 设计](https://zhuanlan.zhihu.com/p/629617458)
-- [CloudNative / Kubernetes 学习资源整理](https://zhuanlan.zhihu.com/p/614921043)
-- [Istio 高级流量管理](https://zhuanlan.zhihu.com/p/614775174)
-- [Kubernetes 概念以及架构](https://zhuanlan.zhihu.com/p/611169064)
-- [深入剖析 Docker 底层（全）](https://zhuanlan.zhihu.com/p/610939386)
-- [Go 语言的 Makefile 指南](https://zhuanlan.zhihu.com/p/607940899)
-- [Go语言项目设计和开发流程](https://zhuanlan.zhihu.com/p/607192022)
-- [git-chglog write your CHANGELOG](https://zhuanlan.zhihu.com/p/607015570)
-- [IAM 项目部署](https://zhuanlan.zhihu.com/p/606959150)
-- [go语言1.20发布 | 新特性](https://zhuanlan.zhihu.com/p/602834012)
-- [一篇文章精通git协同开发工作流](https://zhuanlan.zhihu.com/p/602190234)
-- [Go语言框架三件套（Web/RPC/GORM)](https://zhuanlan.zhihu.com/p/601286934)
-- [GitHub CLI 命令行工具（gh)](https://zhuanlan.zhihu.com/p/601200139)
-- [项目管理从理论到实践（含GitHub Projects）](https://zhuanlan.zhihu.com/p/598930020)
-- [kubernetes 源码解析资源](https://zhuanlan.zhihu.com/p/597276550)
-- [用于本地实验的小型 Kubernetes：k0s、MicroK8s、kind、k3s 和 Minikube](https://zhuanlan.zhihu.com/p/594206344)
-<!-- ZHIHU:END -->
----
 
 </br>
