@@ -105,7 +105,6 @@
 - [Kubernetes 网络](https://nsddd.top/archives/kubernetes-network)
 - [Kubernetes 概念以及架构](https://nsddd.top/archives/kubernetes-docker)
 - [深挖容器底层技术（全）](https://nsddd.top/archives/dockers)
-- [Clash for Linux(CLI)、Windows、Android](https://nsddd.top/archives/clash)
 - [golangci-lin: Fast linters Runner for Go](https://nsddd.top/archives/golangci)
 - [高质量的Makefile编写](https://nsddd.top/archives/makefile)
 - [Gotests Automatically generate Go test](https://nsddd.top/archives/gotests)
@@ -116,6 +115,7 @@
 - [GitHub CLI 命令行工具（gh)](https://nsddd.top/archives/gh)
 - [sealos开源社区~第一阶段](https://nsddd.top/archives/sealos-one)
 - [在线vscode完成贡献和阅读](https://nsddd.top/archives/githubdev)
+- [常用命令行替代](https://nsddd.top/archives/cmdorbash)
 <!-- My-Blog:END -->
 
 </details>
