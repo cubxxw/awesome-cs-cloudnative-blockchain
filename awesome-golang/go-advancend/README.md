@@ -4,7 +4,7 @@
 
 >   学习资料很全，推荐！！！！
 
-[😶‍🌫️我的学习笔记（Github）](https://github.com/3293172751/Block_Chain)
+[😶‍🌫️我的学习笔记（Github）](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain)
 
 <p align='center'>
 <a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin"></a>
@@ -36,11 +36,11 @@
 
 ## 前期知识
 
-> + [x] [Go语言基础篇](https://github.com/3293172751/Block_Chain/blob/master/TOC.md)
-> + [x] [Go语言100篇进阶](https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md)（可选）
+> + [x] [Go语言基础篇](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/TOC.md)
+> + [x] [Go语言100篇进阶](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/Gomd_super/README.md)（可选）
 > + [x] [操作系统学习](https://github.com/3293172751/os)
 > + [x] [Linux的基础知识](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
-> + [x] [汇编语言的学习](https://github.com/3293172751/Block_Chain/blob/master/%E6%B1%87%E7%BC%96/README.md)
+> + [x] [汇编语言的学习](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/%E6%B1%87%E7%BC%96/README.md)
 
 ## 📜目录
 
@@ -278,4 +278,3 @@
 ## 版权声明
 
 本书所有内容遵循 [CC-BY-SA 3.0协议（署名-相同方式共享）](
-
