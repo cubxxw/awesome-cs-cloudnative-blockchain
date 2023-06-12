@@ -1,7 +1,7 @@
 :::  tip 
 这将会是一个很特别的仓库
 
-喜欢一定要在[GitHub](https://github.com/3293172751/cs-awesome-Block_Chain)上给个⭐
+喜欢一定要在[GitHub](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain)上给个⭐
 
 :::
 
@@ -11,17 +11,17 @@
 
 > 基础：
 >
-> +  [计算机网络 – TCP/IP – 抓包 – Linux网络编程](https://github.com/3293172751/Block_Chain/blob/master/web/README.md) （有一点网络基础就好）
-> +  [有Linux的基础](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
-> +  [有Git的基础](https://github.com/3293172751/awesome-cs-course/blob/master/Git/README.md)
+> +  [计算机网络 – TCP/IP – 抓包 – Linux网络编程](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/web/README.md) （有一点网络基础就好）
+> +  [有Linux的基础](https://github.com/cubxxw/awesome-cs-course/blob/master/linux/README.md)
+> +  [有Git的基础](https://github.com/cubxxw/awesome-cs-course/blob/master/Git/README.md)
 > +  [docker的基础](https://docker.nsddd.top)
 >
 > **编程语言不限**
 >
-> -  [🖱️GO 基础部分🔥](https://github.com/3293172751/Block_Chain/blob/master/TOC.md)
-> -  [🖱️GO web框架](https://github.com/3293172751/Block_Chain/blob/master/go-web)
-> -  [🖱️Go语言100篇进阶🔥](https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md)
-> -  [🖱️Go 高级篇](https://github.com/3293172751/Block_Chain/blob/master/go-advancend/README.md)
+> -  [🖱️GO 基础部分🔥](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/TOC.md)
+> -  [🖱️GO web框架](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/go-web)
+> -  [🖱️Go语言100篇进阶🔥](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/Gomd_super/README.md)
+> -  [🖱️Go 高级篇](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/go-advancend/README.md)
 >
 > ---
 
@@ -75,37 +75,33 @@ yum install docker
 
 🐋 13. [第13节 存储抽象](13.md)
 
+🐋 14. [第14节 k3s](14.md)
 
+🐋 15. [第15节 k3s 补充](15.md)
 
-<!--
+🐋 16. [第16节 Treafik LB](16.md)
 
-🐋 14. [容器数据卷](14.md)
+🐋 17. [第17节 Service LB](17.md)
 
-🐋 15. [docker基础篇最后补充-资源](15.md)
+🐋 18. [第18节kubernetes API 访问控制](18.md)
 
-🐋 16. [tomcat安装挂载](16.md)
+🐋 19. [第21节 Minikube](19.md)
 
-🐋 17. [docker安装MySQL](17.md)
+🐋 20. [第22节 运行有状态应用](20.md)
 
-🐋 18. [docker安装redis](18.md)
+🐋 21. [第23节 Kubeconfig && token](21.md)
 
-🐋 19. [mysql主从复制docker版](19.md)
+🐋 22. [第24节 ETCD](22.md)
 
-🐋 20. [分布式存储之hash取余算法](20.md)
+🐋 23. [第25节 raft 算法](23.md)
 
-🐋 21. [3主3从redis集群扩缩容配置案例说明](21.md)
+🐋 24. [第26节 helm 教程](24.md)
 
-🐋 22. [redis主从扩容](22.md)
+🐋 25. [第27节 k3s 补充（高级）](25.md)
 
-🐋 23. [redis主从缩容](23.md)
+🐋 26. [第28节 Linux系统移植，分区，rootfs](26.md)
 
-🐋 24. [DockerFile解析](24.md)
-
-🐋 25. [dockerfile保留字](25.md)
-
-🐋 26. [dockerfile案例](26.md)
-
-🐋 27. [虚悬镜像](27.md)
+🐋 27. [第29节 kubernetes 源码解析资源](27.md)
 
 🐋 28. [编写自定义镜像myubuntu](28.md)
 
@@ -136,7 +132,7 @@ yum install docker
 +  [ 🖱️脑图下载](脑图笔记)
 
 ---
--->
+
 
 ## ✨参与贡献
 
@@ -144,7 +140,7 @@ yum install docker
 
 **要求：**
 
-- [**你需要学会使用markdown🖱️**](https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md)
+- [**你需要学会使用markdown🖱️**](https://github.com/cubxxw/awesome-cs-course/blob/master/markdown/README.md)
 - [**符合Google代码规范**](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
 
 如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。

@@ -1,7 +1,7 @@
 :::  tip 
 这将会是一个很特别的仓库
 
-喜欢一定要在[GitHub](https://github.com/3293172751/cs-awesome-Block_Chain)上给个⭐
+喜欢一定要在[GitHub](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain)上给个⭐
 
 :::
 
@@ -11,17 +11,17 @@
 
 > 基础：
 >
-> +  [计算机网络 – TCP/IP – 抓包 – Linux网络编程](https://github.com/3293172751/Block_Chain/blob/master/web/README.md) （有一点网络基础就好）
-> +  [有Linux的基础](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
-> +  [有Git的基础](https://github.com/3293172751/awesome-cs-course/blob/master/Git/README.md)
+> +  [计算机网络 – TCP/IP – 抓包 – Linux网络编程](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/web/README.md) （有一点网络基础就好）
+> +  [有Linux的基础](https://github.com/cubxxw/awesome-cs-course/blob/master/linux/README.md)
+> +  [有Git的基础](https://github.com/cubxxw/awesome-cs-course/blob/master/Git/README.md)
 > +  [docker的基础](https://docker.nsddd.top)
 >
 > **编程语言不限**
 >
-> -  [🖱️GO 基础部分🔥](https://github.com/3293172751/Block_Chain/blob/master/TOC.md)
-> -  [🖱️GO web框架](https://github.com/3293172751/Block_Chain/blob/master/go-web)
-> -  [🖱️Go语言100篇进阶🔥](https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md)
-> -  [🖱️Go 高级篇](https://github.com/3293172751/Block_Chain/blob/master/go-advancend/README.md)
+> -  [🖱️GO 基础部分🔥](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/TOC.md)
+> -  [🖱️GO web框架](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/go-web)
+> -  [🖱️Go语言100篇进阶🔥](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/Gomd_super/README.md)
+> -  [🖱️Go 高级篇](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/go-advancend/README.md)
 >
 > ---
 
@@ -190,7 +190,7 @@ yum install docker
 
 **要求：**
 
-- [**你需要学会使用markdown🖱️**](https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md)
+- [**你需要学会使用markdown🖱️**](https://github.com/cubxxw/awesome-cs-course/blob/master/markdown/README.md)
 - [**符合Google代码规范**](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
 
 如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。
