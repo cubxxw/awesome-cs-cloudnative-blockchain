@@ -135,6 +135,7 @@
 
 
 <!-- ZHIHU:START -->
+- [一篇学会 github actions](https://zhuanlan.zhihu.com/p/643085910)
 - [kubecub - 帮助萌新打造开源项目](https://zhuanlan.zhihu.com/p/634020346)
 - [go 语言工具包](https://zhuanlan.zhihu.com/p/631662028)
 - [K8s 深入理解 Operator-client 详解](https://zhuanlan.zhihu.com/p/629622839)
@@ -153,7 +154,6 @@
 - [Go语言框架三件套（Web/RPC/GORM)](https://zhuanlan.zhihu.com/p/601286934)
 - [GitHub CLI 命令行工具（gh)](https://zhuanlan.zhihu.com/p/601200139)
 - [项目管理从理论到实践（含GitHub Projects）](https://zhuanlan.zhihu.com/p/598930020)
-- [kubernetes 源码解析资源](https://zhuanlan.zhihu.com/p/597276550)
 <!-- ZHIHU:END -->
 
 </details>
