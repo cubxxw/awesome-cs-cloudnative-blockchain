@@ -20,9 +20,9 @@ jobs:
           BOT_GITHUB_TOKEN: ${{ secrets.REDBOT_GITHUB_TOKEN }}
           max_post_count: 50
           commit_message: "🔥docs(main): update with lastest RadioGeek feed"
-          committer_username: "🤖kubbot"
+          committer_username: "openimbot"
           disable_html_encoding: true
-      - name: Pull in dev.to 中文内容
+      - name: Pull in dev.to zh
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: "ZHIHU"
@@ -31,6 +31,6 @@ jobs:
           token: ${{ secrets.REDBOT_GITHUB_TOKEN }}
           BOT_GITHUB_TOKEN: ${{ secrets.REDBOT_GITHUB_TOKEN }}
           max_post_count: 50
-          commit_message: "🔥docs(main): update with lastest RadioGeek feed"
-          committer_username: "🤖kubbot"
+          commit_message: "🔥docs(main): update with lastest red zhihu feed"
+          committer_username: "openimbot"
           disable_html_encoding: true
