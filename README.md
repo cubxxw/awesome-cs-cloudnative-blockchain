@@ -135,6 +135,9 @@
 
 
 <!-- ZHIHU:START -->
+- [git cherry-pick cource](https://zhuanlan.zhihu.com/p/649283181)
+- [DevOps OpenIM 的标准设计](https://zhuanlan.zhihu.com/p/648188241)
+- [GO Gorelease](https://zhuanlan.zhihu.com/p/648187762)
 - [OpenIM standardization](https://zhuanlan.zhihu.com/p/645182674)
 - [一篇学会 github actions](https://zhuanlan.zhihu.com/p/643085910)
 - [kubecub - 帮助萌新打造开源项目](https://zhuanlan.zhihu.com/p/634020346)
@@ -151,9 +154,6 @@
 - [git-chglog write your CHANGELOG](https://zhuanlan.zhihu.com/p/607015570)
 - [IAM 项目部署](https://zhuanlan.zhihu.com/p/606959150)
 - [go语言1.20发布 | 新特性](https://zhuanlan.zhihu.com/p/602834012)
-- [一篇文章精通git协同开发工作流](https://zhuanlan.zhihu.com/p/602190234)
-- [Go语言框架三件套（Web/RPC/GORM)](https://zhuanlan.zhihu.com/p/601286934)
-- [GitHub CLI 命令行工具（gh)](https://zhuanlan.zhihu.com/p/601200139)
 <!-- ZHIHU:END -->
 
 </details>
