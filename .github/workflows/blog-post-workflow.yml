@@ -11,6 +11,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Set up Git
+        run: |
+          git config --global user.name "openimbot"
+          git config --global user.email "openimsdk@qq.com"
+
       - name: Pull in dev.to posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
@@ -18,7 +23,7 @@ jobs:
           feed_list: "https://rss.starerror.com/https://nsddd.top/rss.xml"
           token: ${{ secrets.REDBOT_GITHUB_TOKEN }}
           BOT_GITHUB_TOKEN: ${{ secrets.REDBOT_GITHUB_TOKEN }}
-          max_post_count: 50
+          max_post_count: 100
           commit_message: "🔥docs(main): update with lastest RadioGeek feed"
           committer_username: "openimbot"
           disable_html_encoding: true
@@ -30,7 +35,7 @@ jobs:
           feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
           token: ${{ secrets.REDBOT_GITHUB_TOKEN }}
           BOT_GITHUB_TOKEN: ${{ secrets.REDBOT_GITHUB_TOKEN }}
-          max_post_count: 50
+          max_post_count: 100
           commit_message: "🔥docs(main): update with lastest red zhihu feed"
           committer_username: "openimbot"
           disable_html_encoding: true
