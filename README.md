@@ -135,6 +135,7 @@
 
 
 <!-- ZHIHU:START -->
+- [OpenIM 离线部署](https://zhuanlan.zhihu.com/p/651917752)
 - [git cherry-pick cource](https://zhuanlan.zhihu.com/p/649283181)
 - [DevOps OpenIM 的标准设计](https://zhuanlan.zhihu.com/p/648188241)
 - [GO Gorelease](https://zhuanlan.zhihu.com/p/648187762)
