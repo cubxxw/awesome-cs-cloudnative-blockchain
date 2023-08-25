@@ -135,6 +135,7 @@
 
 
 <!-- ZHIHU:START -->
+- [OpenIM 多进程管理策略](https://zhuanlan.zhihu.com/p/652047787)
 - [OpenIM 离线部署](https://zhuanlan.zhihu.com/p/651917752)
 - [git cherry-pick cource](https://zhuanlan.zhihu.com/p/649283181)
 - [DevOps OpenIM 的标准设计](https://zhuanlan.zhihu.com/p/648188241)
@@ -154,7 +155,6 @@
 - [Go语言项目设计和开发流程](https://zhuanlan.zhihu.com/p/607192022)
 - [git-chglog write your CHANGELOG](https://zhuanlan.zhihu.com/p/607015570)
 - [IAM 项目部署](https://zhuanlan.zhihu.com/p/606959150)
-- [go语言1.20发布 | 新特性](https://zhuanlan.zhihu.com/p/602834012)
 <!-- ZHIHU:END -->
 
 </details>
