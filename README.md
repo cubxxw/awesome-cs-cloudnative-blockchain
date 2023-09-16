@@ -96,7 +96,23 @@
 
 
 <!-- My-Blog:START -->
-- [Hello Halo](https://nsddd.top/archives/hello-halo)
+- [Prow Ecological Learning](https://nsddd.top/zh/posts/prow-ecological-learning/)
+- [一份完整的开源贡献指南（第一次踏入开源）](https://nsddd.top/zh/posts/open-source-contribution-guidelines/)
+- [开源社区的规范设计思路](https://nsddd.top/zh/posts/advanced-githook-design/)
+- [GoReleaser：自动化你的软件发布](https://nsddd.top/zh/posts/go-release-tools/)
+- [我的第一个博客](https://nsddd.top/zh/posts/my-first-blog/)
+- [关于我的 Hugo (教程)](https://nsddd.top/zh/posts/my-hugo/)
+- [速读开源项目 Sealos 的源码](https://nsddd.top/zh/posts/read-openim-project-sealos-openim-source-code/)
+- [DevOps OpenIM 的标准设计](https://nsddd.top/zh/posts/openim-devops-design/)
+- [OpenIM 多进程管理](https://nsddd.top/zh/posts/openim-multi-process-management/)
+- [如何安装和使用自主人工智能工具Auto-GPT](https://nsddd.top/zh/posts/use-auto-gpt/)
+- [go 调试 测试 以及调试工具 dlv 学习](https://nsddd.top/zh/posts/use-go-tools-dlv/)
+- [Github Actions 的高级使用技巧](https://nsddd.top/zh/posts/github-actions-advanced-techniques/)
+- [开源的阶段性成长指南](https://nsddd.top/zh/posts/stage-growth-of-open-source/)
+- [Openkf 多架构镜像的构建策略设计](https://nsddd.top/zh/posts/openkf-multi-architecture-image/)
+- [OpenIM 远程工作团队协作协议 v1.3](https://nsddd.top/zh/posts/openim-remote-work-culture/)
+- [跨平台以及多架构编译设计](https://nsddd.top/zh/posts/cross-platform-compilation/)
+- [Openim离线部署设计](https://nsddd.top/zh/posts/openim-offline-deployment-design/)
 <!-- My-Blog:END -->
 
 </details>
