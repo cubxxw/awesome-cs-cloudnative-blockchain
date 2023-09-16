@@ -81,7 +81,7 @@
 
 #### 博客专栏
 
-博客上面发表的文章具有独立性，是我参与开源项目以来，所见所得所学，希望这种模式可以成功并且得以模仿。[👀 我的博客](https://nsddd.top/) 记录着很多优质的内容值得一看，如果希望订阅 SSR ➡️[点这里](https://nsddd.top/rss.xml)
+博客上面发表的文章具有独立性，是我参与开源项目以来，所见所得所学，希望这种模式可以成功并且得以模仿。[👀 我的博客](https://nsddd.top/) 记录着很多优质的内容值得一看，如果希望订阅 SSR ➡️[点这里]([https://nsddd.top/rss.xml](https://nsddd.top/posts/index.xml))
 
 [<img align="left" alt="shenxianpeng | ZhiHu" width="22px" src="https://www.svgrepo.com/show/305628/zhihu.svg" />][zhihu] 
 
