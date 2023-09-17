@@ -96,7 +96,8 @@
 
 
 <!-- My-Blog:START -->
-- [Prow Ecological Learning](https://nsddd.top/zh/posts/prow-ecological-learning/)
+- [在开源社区中学会如何提问](https://nsddd.top/zh/posts/the-art-of-asking-questions-in-open-source-communities/)
+- [Prow 是什么？kubernetes 为什么需要它](https://nsddd.top/zh/posts/prow-ecological-learning/)
 - [一份完整的开源贡献指南（第一次踏入开源）](https://nsddd.top/zh/posts/open-source-contribution-guidelines/)
 - [开源社区的规范设计思路](https://nsddd.top/zh/posts/advanced-githook-design/)
 - [GoReleaser：自动化你的软件发布](https://nsddd.top/zh/posts/go-release-tools/)
