@@ -96,6 +96,11 @@
 
 
 <!-- My-Blog:START -->
+- [Kubernetes 控制平面 - Kubectl](https://nsddd.top/zh/posts/deep-dive-into-the-components-of-kubernetes-kubectl/)
+- [Kubernetes 控制平面 - 调度器](https://nsddd.top/zh/posts/deep-dive-into-the-components-of-kubernetes-scheduler/)
+- [Kubernetes 的 CNI，CRI，CSI 详解](https://nsddd.top/zh/posts/deep-dive-into-the-components-of-kubernetes-cni-csi-cri/)
+- [深入了解Kubernetes Kube apisserver的组件](https://nsddd.top/zh/posts/deep-dive-into-the-components-of-kubernetes-kube-apiserver/)
+- [深入了解Kubernetes等组件之ETCD](https://nsddd.top/zh/posts/deep-dive-into-the-components-of-kubernetes-etcd/)
 - [设计建议:通过配置文件简化Kubernetes部署的端口配置](https://nsddd.top/zh/posts/openim-cluster-deployment-parameter-passing-policy/)
 - [OpenIM 的集群化设计 | Kubernetes 部署 | 方案讨论 | 总结](https://nsddd.top/zh/posts/openim-cluster-deployment-scheme-of/)
 - [在开源社区中学会如何提问](https://nsddd.top/zh/posts/the-art-of-asking-questions-in-open-source-communities/)
@@ -115,6 +120,7 @@
 - [Openkf 多架构镜像的构建策略设计](https://nsddd.top/zh/posts/openkf-multi-architecture-image/)
 - [OpenIM 远程工作团队协作协议 v1.3](https://nsddd.top/zh/posts/openim-remote-work-culture/)
 - [跨平台以及多架构编译设计](https://nsddd.top/zh/posts/cross-platform-compilation/)
+- [Kubernetes一篇快速入门的文章](https://nsddd.top/zh/posts/kubernetes-an-article-to-get-started-quickly/)
 - [Openim离线部署设计](https://nsddd.top/zh/posts/openim-offline-deployment-design/)
 <!-- My-Blog:END -->
 
