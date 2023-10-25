@@ -143,6 +143,7 @@
 
 
 <!-- ZHIHU:START -->
+- [OpenIM 使用 Harbor 搭建企业级镜像仓库](https://zhuanlan.zhihu.com/p/662935033)
 - [OpenIM 多进程管理策略](https://zhuanlan.zhihu.com/p/652047787)
 - [OpenIM 离线部署](https://zhuanlan.zhihu.com/p/651917752)
 - [git cherry-pick cource](https://zhuanlan.zhihu.com/p/649283181)
@@ -162,7 +163,6 @@
 - [Go 语言的 Makefile 指南](https://zhuanlan.zhihu.com/p/607940899)
 - [Go语言项目设计和开发流程](https://zhuanlan.zhihu.com/p/607192022)
 - [git-chglog write your CHANGELOG](https://zhuanlan.zhihu.com/p/607015570)
-- [IAM 项目部署](https://zhuanlan.zhihu.com/p/606959150)
 <!-- ZHIHU:END -->
 
 </details>
