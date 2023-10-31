@@ -143,6 +143,7 @@
 
 
 <!-- ZHIHU:START -->
+- [云原生领域中GitHub开源Go项目的自动化测试实践与策略](https://zhuanlan.zhihu.com/p/664338584)
 - [OpenIM 使用 Harbor 搭建企业级镜像仓库](https://zhuanlan.zhihu.com/p/662935033)
 - [OpenIM 多进程管理策略](https://zhuanlan.zhihu.com/p/652047787)
 - [OpenIM 离线部署](https://zhuanlan.zhihu.com/p/651917752)
@@ -162,7 +163,6 @@
 - [深入剖析 Docker 底层（全）](https://zhuanlan.zhihu.com/p/610939386)
 - [Go 语言的 Makefile 指南](https://zhuanlan.zhihu.com/p/607940899)
 - [Go语言项目设计和开发流程](https://zhuanlan.zhihu.com/p/607192022)
-- [git-chglog write your CHANGELOG](https://zhuanlan.zhihu.com/p/607015570)
 <!-- ZHIHU:END -->
 
 </details>
