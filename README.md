@@ -96,6 +96,7 @@
 
 
 <!-- My-Blog:START -->
+- [GitOps 实践理论：Kubernetes 部署策略深入解析](https://nsddd.top/zh/posts/gitops-practice-theory-part/)
 - [管理后台和监控的部署与设计](https://nsddd.top/zh/posts/deployment-and-design-of-management-backend-and-monitoring/)
 - [Hugo 的高级教程](https://nsddd.top/zh/posts/hugo-advanced-tutorial/)
 - [Kubernetes Kustomize 学习指南](https://nsddd.top/zh/posts/kubernetes-for-kustomize-learning/)
