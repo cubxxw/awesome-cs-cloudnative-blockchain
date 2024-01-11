@@ -551,6 +551,7 @@
  🔸 [**We Leak Info**](https://weleakinfo.com/) - 世界上最快和最大的数据泄露搜索引擎。
  🔸 [**Pulsedive**](https://pulsedive.com/) - 恶意 URL、IP 和域的扫描，包括端口扫描和 Web 请求。
  🔸 [**Grayhatwarfar 的 Buckets**](https://buckets.grayhatwarfare.com/) - 公开搜索 Open Amazon S3 Buckets 及其内容的数据库。
+ 🔸 [**OpenBuckets**](https://openbuckets.io/) - 公开搜索 Open Amazon S3, GCS, DO, IBM, Azure, Linode Buckets 及其内容的数据库。
  🔸 [**Vigilante.pw**](https://vigilante.pw/) - 被破坏的数据库目录。
  🔸 [**builtwith**](https://builtwith.com/) - 找出网站是用什么构建的。
  🔸 [**NerdyData**](https://nerdydata.com/) - 在数百万个站点中搜索网络的源代码以获取技术。
