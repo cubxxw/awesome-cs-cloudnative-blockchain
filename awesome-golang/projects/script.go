@@ -37,7 +37,8 @@ func main() {
 	// 	fmt.Println("Error: ", err)
 	// }
 	fmt.Println("欢迎使用xiongxinwei构建的脚本，" + "一键构建GitHub的文档结构\n" + "关于我：\n" +
-		"	+ 博客：http://nsddd.top\n" +
+	"	+ 博客：http://nsddd.top\n" +
+	"	+ GitHub地址: https://github.com/3293172751\n" +
 		"	+ GitHub地址: https://github.com/3293172751")
 	fmt.Println()
 	fmt.Println()
