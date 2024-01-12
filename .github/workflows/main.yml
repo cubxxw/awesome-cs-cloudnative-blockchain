@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build and test
+        run: |
+          echo "Building and testing..."
+          # Add build and test commands here
+
+      - name: Add badge
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const fs = require('fs');
+            const badge = '[![Workflow Status](https://img.shields.io/github/workflow/status/username/repo/workflow-name)](https://github.com/username/repo/actions/workflows/workflow-name)';
+            const readmePath = './README.md';
+            let readmeContent = fs.readFileSync(readmePath, 'utf8');
+            readmeContent = readmeContent.replace(/## Badge for Workflow[\s\S]*/, '');
+            readmeContent += '\n\n' + badge;
+            fs.writeFileSync(readmePath, readmeContent);
