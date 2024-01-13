@@ -1,0 +1,29 @@
+name: GitHub Actions Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.17
+
+      - name: Build and test
+        run: |
+          go build ./...
+          go test ./...
+
+      - name: Deploy
+        uses: some-deployment-action@v1
+        with:
+          api-key: ${{ secrets.API_KEY }}
