@@ -1,7 +1,11 @@
-name: GitHub Actions Workflow
+name: Awesome GitHub Actions Workflow
 
 on:
   push:
+    branches:
+      - main
+
+  pull_request:
     branches:
       - main
 
@@ -23,7 +27,7 @@ jobs:
           go build ./...
           go test ./...
 
-      - name: Deploy
+      - name: Build, test, and Deploy
         uses: some-deployment-action@v1
         with:
-          api-key: ${{ secrets.API_KEY }}
+          api-key: ${{ secrets.DEPLOYMENT_API_KEY }}
