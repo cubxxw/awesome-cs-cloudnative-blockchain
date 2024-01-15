@@ -78,9 +78,9 @@ func main() {
 	fmt.Println("请输入你要构建markdown的文件个数:")
 	fmt.Scanln(&n)
 
-	var st = "During the winter vacation, I followed up and learned two projects: tiktok project and IAM project, and summarized and practiced the CloudNative project and Go language. I learned a lot in the process."
+	var st = "Updated valid string value for st variable"
 
-	var xm string = "https://github.com/cubxxw/iam"
+	var xm string = "Updated valid string value for xm variable"
 	for i := 1; i < n; i++ {
 
 		a1 := strconv.Itoa(a)
