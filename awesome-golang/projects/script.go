@@ -44,7 +44,7 @@ func main() {
 	fmt.Println("请选择是否(yes\\no)创建目录")
 	var createDirInput, dirName string
 	fmt.Scanln(&createDirInput)
-	if createDirInput == "yes" { // If yes is entered then create a directory
+	if userInput == "yes" { // If yes is entered then create a directory
 		fmt.Println("请选择创建目录的名称(输入yes默认markdown文件夹)")
 		var customDirName string
 		fmt.Scanln(&customDirName)
