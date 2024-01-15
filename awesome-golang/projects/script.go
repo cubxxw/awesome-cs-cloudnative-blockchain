@@ -42,14 +42,14 @@ func main() {
 	fmt.Println()
 	fmt.Println()
 	fmt.Println("请选择是否(yes\\no)创建目录")
-	var yes, fname string
-	fmt.Scanln(&yes)
-	if yes == "yes" { //输入的是yes 则 创建目录
+	var createDirInput, dirName string
+	fmt.Scanln(&createDirInput)
+	if createDirInput == "yes" { // If yes is entered then create a directory
 		fmt.Println("请选择创建目录的名称(输入yes默认markdown文件夹)")
-		var markdown string
-		fmt.Scanln(&markdown)
-		if markdown != "yes" {
-			fmt.Scanln(&fname) //输入文件夹名称
+		var customDirName string
+		fmt.Scanln(&customDirName)
+		if customDirName != "yes" {
+			fmt.Scanln(&dirName) // Enter the directory name
 		} else {
 			//选择默认markdown格式
 			fname = "markdown"
