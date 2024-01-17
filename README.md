@@ -96,6 +96,7 @@
 
 
 <!-- My-Blog:START -->
+- [OpenIM：构建高效的版本控制和测试工作流程](https://nsddd.top/zh/posts/openim-building-an-efficient-version-control-and-testing-workflow/)
 - [2024年的新兴挑战与趋势](https://nsddd.top/zh/posts/emerging-challenges-and-trends-in-2024/)
 - [2023年度总结：反思与展望](https://nsddd.top/zh/posts/2023-annual-summary-reflections-and-aspirations/)
 - [对开源商业化的思考 & 全球流量大会（GTC）学习以及总结](https://nsddd.top/zh/posts/openim-open-source-business-journey/)
