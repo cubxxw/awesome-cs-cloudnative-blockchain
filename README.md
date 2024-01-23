@@ -96,6 +96,7 @@
 
 
 <!-- My-Blog:START -->
+- [Vector Database Learning](https://nsddd.top/zh/posts/vector-database-learning/)
 - [OpenIM：构建高效的版本控制和测试工作流程](https://nsddd.top/zh/posts/openim-building-an-efficient-version-control-and-testing-workflow/)
 - [2024年的新兴挑战与趋势](https://nsddd.top/zh/posts/emerging-challenges-and-trends-in-2024/)
 - [2023年度总结：反思与展望](https://nsddd.top/zh/posts/2023-annual-summary-reflections-and-aspirations/)
