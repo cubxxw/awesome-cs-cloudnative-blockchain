@@ -96,6 +96,7 @@
 
 
 <!-- My-Blog:START -->
+- [参与这个项目](https://nsddd.top/zh/posts/participating-in-this-project/)
 - [Go 源码里的这些 go: 指令 && go 自动化工具](https://nsddd.top/zh/posts/directives-and-the-use-of-automation-tools/)
 - [Go 语言中的并发类型检查与跨平台开发](https://nsddd.top/zh/posts/concurrent-type-checking-and-cross-platform-development-in-go/)
 - [Vector Database Learning](https://nsddd.top/zh/posts/vector-database-learning/)
