@@ -131,6 +131,7 @@
 - [go 调试 测试 以及调试工具 dlv 学习](https://nsddd.top/zh/posts/use-go-tools-dlv/)
 - [Github Actions 的高级使用技巧](https://nsddd.top/zh/posts/github-actions-advanced-techniques/)
 - [开源的阶段性成长指南](https://nsddd.top/zh/posts/stage-growth-of-open-source/)
+- [从理论到实践的项目管理打通](https://nsddd.top/zh/posts/project-management-from-theory-to-practice/)
 - [Openkf 多架构镜像的构建策略设计](https://nsddd.top/zh/posts/openkf-multi-architecture-image/)
 - [OpenIM 远程工作团队协作协议 v1.3](https://nsddd.top/zh/posts/openim-remote-work-culture/)
 - [跨平台以及多架构编译设计](https://nsddd.top/zh/posts/cross-platform-compilation/)
