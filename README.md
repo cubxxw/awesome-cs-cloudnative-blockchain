@@ -96,10 +96,12 @@
 
 
 <!-- My-Blog:START -->
+- [心流状态的魔力：专注与幸福感提升指南](https://nsddd.top/zh/posts/flow-state/)
+- [GTD与四象限法则实践](https://nsddd.top/zh/posts/gtd-and-the-four-quadrant-rule-practice/)
 - [参与这个项目](https://nsddd.top/zh/posts/participating-in-this-project/)
 - [Go 源码里的这些 go: 指令 && go 自动化工具](https://nsddd.top/zh/posts/directives-and-the-use-of-automation-tools/)
 - [Go 语言中的并发类型检查与跨平台开发](https://nsddd.top/zh/posts/concurrent-type-checking-and-cross-platform-development-in-go/)
-- [Vector Database Learning](https://nsddd.top/zh/posts/vector-database-learning/)
+- [向量数据库的学习](https://nsddd.top/zh/posts/vector-database-learning/)
 - [OpenIM：构建高效的版本控制和测试工作流程](https://nsddd.top/zh/posts/openim-building-an-efficient-version-control-and-testing-workflow/)
 - [2024年的新兴挑战与趋势](https://nsddd.top/zh/posts/emerging-challenges-and-trends-in-2024/)
 - [2023年度总结：反思与展望](https://nsddd.top/zh/posts/2023-annual-summary-reflections-and-aspirations/)
