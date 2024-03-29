@@ -251,7 +251,7 @@ graph LR
 
 
 
-##  👀 Cloud Native
+##  👀 云原生 Cloud Native
 
 💡 这是一个关于云原生领域的仓库，涉及到 docker、Kubernetes、cloud native 知识，包括 docker 架构和底层实现，包括Kubernetes的架构、原理、生态以及源码阅读。还有  Cloud Native 其他领域知识，以及各个 CNCF 开源社区项目学习。
 
@@ -341,7 +341,10 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 
 <br>
 
+<!--
 
+## AI 教程
+-->
 
 ## 🗃️ 项目
 
