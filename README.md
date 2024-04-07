@@ -260,7 +260,6 @@ graph LR
 + [x] [CloudNative](awesome-docker-kubernetes/Cloud-Native/README.md)
 
 
-
 ## 📚 CS系列
 
 CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-course)，内容涵盖 计算机操作系统、csapp系列、算法和数据结构、计算机网络、`linux`、`java`、`python`、`C/C++`、`vuepress`、`gitbook`、`nodejs`、`vuejs`、`halo`、`redis`、`hugo`、`nginx`、`nosql`、`mysql`、`JavaScript`、`git`、`markdown`、`web`前端等笔记，更多移步到[AWESOME系列CS仓库地址](https://github.com/cubxxw/awesome-cs-course/)
@@ -390,7 +389,6 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 
 <font size = 2>🎯 如果你也想对本项目做出贡献，那么你可以先把该项目进行 [fork](https://github.com/cubxxw/cs-awesome-Block_Chain/fork)或者 `git clone` 到本地（推荐先用 [fock](https://github.com/cubxxw/cs-awesome-Block_Chain/fork)到自己仓库，然后再clone到本地，对本地进行操作，最后从自己仓库贡献，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
 
- 
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_badge.svg)](https://repography.com)
 
