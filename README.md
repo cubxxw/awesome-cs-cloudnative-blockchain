@@ -96,6 +96,7 @@
 
 
 <!-- My-Blog:START -->
+- [探索开源以及商业模式研究](https://nsddd.top/zh/posts/navigating-the-open-source-landscape/)
 - [Sora Ease 指南：开发者掌握 Sora AI 的全面指南](https://nsddd.top/zh/posts/sora-ease-guide-mastering-sora-ai-for-developers/)
 - [2023年，我的旅行起点 - 2023年的我漫步在世界边缘](https://nsddd.top/zh/posts/in-2023-i-was-wandering-at-the-edge-of-the-world/)
 - [Sora 技术讨论以及普通人和开发者如何利用 Sora 改变世界](https://nsddd.top/zh/posts/exploring-sora-technology-for-enthusiasts-and-developers/)
