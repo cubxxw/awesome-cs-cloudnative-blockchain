@@ -145,7 +145,7 @@
 - [开源的阶段性成长指南](https://nsddd.top/zh/posts/stage-growth-of-open-source/)
 - [从理论到实践的项目管理打通](https://nsddd.top/zh/posts/project-management-from-theory-to-practice/)
 - [Openkf 多架构镜像的构建策略设计](https://nsddd.top/zh/posts/openkf-multi-architecture-image/)
-- [一篇适用远程工作的约定指南： OpenIM 远程工作团队协作协议 v1.3](https://nsddd.top/zh/posts/openim-remote-work-culture/)
+- [在AI时代 - 精益团队的企业文化和远程工作指南 v2.0](https://nsddd.top/zh/posts/openim-remote-work-culture/)
 - [跨平台以及多架构编译设计](https://nsddd.top/zh/posts/cross-platform-compilation/)
 - [Kubernetes一篇快速入门的文章](https://nsddd.top/zh/posts/kubernetes-an-article-to-get-started-quickly/)
 - [参与我们的区块链学习平台项目](https://nsddd.top/zh/posts/participating-in-this-project/)
