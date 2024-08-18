@@ -201,7 +201,7 @@
 
 #### 🏷️前言
 
-`Go`语言的学习参考官网文档[go语言官方编程指南](https://golang.org/#)，如何找到合适的Go语言学习路线[Go语言路线](go-advancend/go_route.md)（🎈 含有大量的Go语言项目资源、线上资源收集）。
+`Go`语言的学习参考官网文档[go语言官方编程指南](https://golang.org/#)，如何找到合适的Go语言学习路线[Go语言路线](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/awesome-golang/go-advancend/go_route.md)（🎈 含有大量的Go语言项目资源、线上资源收集）。
 
 ```mermaid
 graph LR
