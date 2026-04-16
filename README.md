@@ -1,6 +1,7 @@
 # 菜鸟的成长手册[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/cubxxw/cs-awesome-Block_Chain)
 
 ## 🧭 导航
+- [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain. Old computers earn more than new ones.
 
 + 🔍[**快速指南(wike) — 仓库总结**](https://github.com/cubxxw/Block_Chain/wiki)
 
