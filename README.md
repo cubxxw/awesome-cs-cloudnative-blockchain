@@ -265,6 +265,7 @@ graph LR
 + [x] [docker](awesome-docker-kubernetes/README.md)
 + [x] [Kubernetes](awesome-docker-kubernetes/Cloud-Native-k8s/README.md) 
 + [x] [CloudNative](awesome-docker-kubernetes/Cloud-Native/README.md)
++ [x] [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations
 
 
 ## 📚 CS系列
