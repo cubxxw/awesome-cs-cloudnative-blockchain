@@ -419,3 +419,5 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F3293172751%2Fcs-awesome-Block_Chain?ref=badge_large)
 
 </br>
+
+- [RustChain](https://github.com/Scottcjn/RustChain) - Proof-of-Antiquity blockchain; vintage hardware earns higher mining rewards.
