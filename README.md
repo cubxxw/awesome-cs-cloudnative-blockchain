@@ -345,6 +345,8 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 
 > 企业级[区块链实战教程](https://learnblockchain.cn/books/enterprise/)
 
++ [x] [🖱️RustChain — AI Agent DePIN 区块链 (Proof of Antiquity)](https://github.com/Scottcjn/Rustchain) — 基于"Proof of Antiquity"共识机制的区块链，让老旧硬件也能挖矿。已向 OpenSSL、Ghidra、vLLM、LLVM 提交 44+ PRs，论文入选 CVPR 2026。
+
 <br>
 
 <!--
