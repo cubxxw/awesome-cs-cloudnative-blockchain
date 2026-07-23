@@ -7,7 +7,7 @@
 <li><RouterLink to="/go-advancend/markdown/27.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
@@ -26,7 +26,7 @@
 <li>异常情况处理</li>
 <li>易读易维护</li>
 </ul>
-<p><img src="http://sm.nsddd.top/sm202301171533160.png" alt="image-20230117153307968"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171533160.png" alt="image-20230117153307968"></p>
 <h3 id="注释" tabindex="-1"><a class="header-anchor" href="#注释" aria-hidden="true">#</a> 注释</h3>
 <ul>
 <li>注释解释代码的作用</li>
@@ -46,7 +46,7 @@
 <li>不能使用与Go语言关键字相同的名字。</li>
 <li>注意缩略词全大写，位于开头的话可以全小写（HTTP、XML）</li>
 </ol>
-<p><img src="http://sm.nsddd.top/sm202301171549104.png" alt="image-20230117154947011"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171549104.png" alt="image-20230117154947011"></p>
 <h3 id="函数命名规范" tabindex="-1"><a class="header-anchor" href="#函数命名规范" aria-hidden="true">#</a> 函数命名规范</h3>
 <p>在 Go 语言中，函数命名规范如下:</p>
 <ol>
@@ -56,7 +56,7 @@
 <li>函数名不能缩写，应该使用全称。</li>
 <li>函数名应该能够清楚地描述函数的功能。</li>
 </ol>
-<p><img src="http://sm.nsddd.top/sm202301171554556.png" alt="image-20230117155415454"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171554556.png" alt="image-20230117155415454"></p>
 <h3 id="包的规范" tabindex="-1"><a class="header-anchor" href="#包的规范" aria-hidden="true">#</a> 包的规范</h3>
 <p>在 Go 语言中，包名命名规范如下:</p>
 <ol>
@@ -69,9 +69,9 @@
 <li>包名不能以下划线或短横线开头。</li>
 </ol>
 <p>注意：Go语言默认支持在线安装包，所以包名必须是全局唯一的， 建议使用公司或者组织名称作为包名的前缀。</p>
-<p><img src="http://sm.nsddd.top/sm202301171555035.png" alt="image-20230117155500912"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171555035.png" alt="image-20230117155500912"></p>
 <h2 id="错误和异常处理" tabindex="-1"><a class="header-anchor" href="#错误和异常处理" aria-hidden="true">#</a> 错误和异常处理</h2>
-<p><img src="http://sm.nsddd.top/sm202301171602992.png" alt="image-20230117160247843"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171602992.png" alt="image-20230117160247843"></p>
 <p><code v-pre>errors.New</code> 函数是 Go 语言标准库中定义的一个函数，它用于创建一个新的错误。该函数接受一个字符串作为参数，该字符串描述了错误的原因。这个函数会返回一个实现了 <code v-pre>error</code> 接口的对象，可以在程序中使用这个对象来报告错误。</p>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code><span class="token keyword">package</span> main
 
@@ -98,7 +98,7 @@
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>cannot divide by zero
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>在上面的程序中，divide函数检查分母是否为0，如果是，则使用errors.New函数创建了一个新的错误，描述了错误原因为“cannot divide by zero”.在main函数中，使用if语句判断返回值是否为错误，如果是，则输出错误信息.</p>
 <p>记住，<code v-pre>errors.New</code> 不会添加额外的调试信息到错误中,如果需要添加更多的信息，可以使用 fmt.Errorf 函数.</p>
-<p><img src="http://sm.nsddd.top/sm202301171606958.png" alt="image-20230117160650790"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171606958.png" alt="image-20230117160650790"></p>
 <p><code v-pre>fmt.Errorf</code> 函数是 Go 语言标准库中定义的一个函数，它用于格式化错误信息并创建一个新的错误。该函数接受一个格式字符串和一些参数作为参数，格式字符串描述了错误的原因，参数用于替换格式字符串中的占位符。这个函数会返回一个实现了 <code v-pre>error</code> 接口的对象，可以在程序中使用这个对象来报告错误。</p>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code><span class="token keyword">package</span> main
 
@@ -129,12 +129,12 @@ cannot divide 10 by 0
 <li>Go语言提供了支持基准性能测试benchmark工具</li>
 </ul>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>go test -bench=. -benchmen
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="http://sm.nsddd.top/sm202301171631293.png" alt="image-20230117163103118"></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="http://sm.cubxxw.com/sm202301171631293.png" alt="image-20230117163103118"></p>
 <p><strong>程序在初始化的时候指定大小，可以看到执行时间是之前的 1/3 大小。</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301171631051.png" alt="image-20230117163132940"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171631051.png" alt="image-20230117163132940"></p>
 <p><strong>这个和底层数据结构相关的。</strong></p>
 <p>🤔 可以看到当容量不够的时候，底层是先有一次扩容 （✖2）操作，然后再添加，消耗时间~</p>
-<p><img src="http://sm.nsddd.top/sm202301171634233.png" alt="image-20230117163410113"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171634233.png" alt="image-20230117163410113"></p>
 <h3 id="大内存未释放" tabindex="-1"><a class="header-anchor" href="#大内存未释放" aria-hidden="true">#</a> 大内存未释放</h3>
 <p>切片是引用的一段空间，所以原底层再内存中的引用得不到释放。</p>
 <p>在 Go 语言中，使用 <code v-pre>copy</code> 函数可以避免重新切片 (re-slice) 造成的性能问题。</p>
@@ -145,7 +145,7 @@ cannot divide 10 by 0
 <p>而使用copy函数复制数据可以避免这个问题，因为它只是将数据从一个切片复制到另一个切片，不会导致内存的重新分配.</p>
 </blockquote>
 <p>使用 <code v-pre>copy</code> 函数可以避免这个问题。 <code v-pre>copy</code> 函数接受两个参数，分别是目标切片和源切片，它会将源切片中的数据复制到目标切片中，而不是新分配内存。</p>
-<p><img src="http://sm.nsddd.top/sm202301171636018.png" alt="image-20230117163610901"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171636018.png" alt="image-20230117163610901"></p>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code><span class="token keyword">package</span> main
 
 <span class="token keyword">import</span> <span class="token punctuation">(</span>
@@ -170,13 +170,13 @@ cannot divide 10 by 0
 <p>注意，copy 函数只能复制切片的数据，不能复制切片的底层数组。如果需要复制底层数组，可以使用其他方法如 <code v-pre>append</code> 函数来实现。</p>
 <h2 id="map优化建议" tabindex="-1"><a class="header-anchor" href="#map优化建议" aria-hidden="true">#</a> map优化建议</h2>
 <p>和<code v-pre>slice</code> 类似：</p>
-<p><img src="http://sm.nsddd.top/sm202301171645393.png" alt="image-20230117164516197"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171645393.png" alt="image-20230117164516197"></p>
 <p><strong>分配内存建议：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301171645873.png" alt="image-20230117164529754"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171645873.png" alt="image-20230117164529754"></p>
 <h2 id="字符串处理-优化" tabindex="-1"><a class="header-anchor" href="#字符串处理-优化" aria-hidden="true">#</a> 字符串处理，优化</h2>
 <p><strong>不同拼接字符串的方法对应的性能有差异：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301171650729.png" alt="image-20230117165018556"></p>
-<p><img src="http://sm.nsddd.top/sm202301171650473.png" alt="image-20230117165024292"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171650729.png" alt="image-20230117165018556"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171650473.png" alt="image-20230117165024292"></p>
 <p>Go语言中常见的拼接字符串的方式有以下几种:</p>
 <p>使用 <code v-pre>+</code> 运算符:</p>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code>s1 <span class="token operator">:=</span> <span class="token string">"Hello"</span>
@@ -204,7 +204,7 @@ fmt<span class="token punctuation">.</span><span class="token function">Println<
 <p>需要注意的是，在使用 <code v-pre>+</code> 运算符拼接字符串时，如果字符串数量较多，会产生大量的临时对象，导致频繁的内存分配和垃圾回收，影响性能。而使用 <code v-pre>fmt.Sprintf</code>, <code v-pre>strings.Join</code> 以及 <code v-pre>bytes.Buffer</code> 不会有这个问题。</p>
 <p>另外，在处理大量数据时，使用 bytes.Buffer 效率更高，因为它是基于字节的，而不是基于字符的。</p>
 <p>总之,在选择字符串拼接的方式时，要考虑到字符串的数量、性能和可读性等因素。</p>
-<p><img src="http://sm.nsddd.top/sm202301171652457.png" alt="image-20230117165239305"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171652457.png" alt="image-20230117165239305"></p>
 <p><strong>但是bytes.Buffer和strings.builder底层区别也影响了它们的性能：</strong></p>
 <ol>
 <li>bytes.Buffer是基于字节的，内部使用一个动态数组来存储字节。它提供了一些方法来操作字节，如 Write, WriteString, WriteByte 等。</li>
@@ -241,7 +241,7 @@ Work done<span class="token operator">!</span>
 <p>在这个例子中，我们使用了一个空结构体类型的 channel 来传递信号，当 goroutine 完成了工作之后就会向 channel 中发送一个空结构体，主 goroutine 通过读取 channel 中的数据来判断工作是否完成。</p>
 <p>需要注意的是，由于空结构体不占用任何内存，所以它在 channel 中传递的是一个空消息，不能在 channel 中传递数据。</p>
 <p>空结构体还有其它用途，例如作为占位符在 map 中使用、作为锁的实现等。</p>
-<p><img src="http://sm.nsddd.top/sm202301171656299.png" alt="image-20230117165629098"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171656299.png" alt="image-20230117165629098"></p>
 <h3 id="作为占位符在-map-中使用" tabindex="-1"><a class="header-anchor" href="#作为占位符在-map-中使用" aria-hidden="true">#</a> 作为占位符在 map 中使用</h3>
 <p>作为占位符在 map 中使用，用来检查一个键是否存在：</p>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code>m <span class="token operator">:=</span> <span class="token function">make</span><span class="token punctuation">(</span><span class="token keyword">map</span><span class="token punctuation">[</span><span class="token builtin">string</span><span class="token punctuation">]</span><span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
@@ -341,9 +341,9 @@ Size of myStruct2<span class="token punctuation">:</span> <span class="token num
     fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token comment">// 1</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="性能对比" tabindex="-1"><a class="header-anchor" href="#性能对比" aria-hidden="true">#</a> 性能对比</h3>
-<p><img src="http://sm.nsddd.top/sm202301171713805.png" alt="image-20230117171344626"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171713805.png" alt="image-20230117171344626"></p>
 <h3 id="使用actomic包" tabindex="-1"><a class="header-anchor" href="#使用actomic包" aria-hidden="true">#</a> 使用actomic包</h3>
-<p><img src="http://sm.nsddd.top/sm202301171715939.png" alt="image-20230117171535814"></p>
+<p><img src="http://sm.cubxxw.com/sm202301171715939.png" alt="image-20230117171535814"></p>
 <h3 id="actomic保持线程安全" tabindex="-1"><a class="header-anchor" href="#actomic保持线程安全" aria-hidden="true">#</a> actomic保持线程安全</h3>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code><span class="token keyword">package</span> main
 
@@ -407,7 +407,7 @@ Size of myStruct2<span class="token punctuation">:</span> <span class="token num
 <li>通过 pprof 提供的不同的 web页面 或 命令行工具 查看性能统计信息</li>
 </ol>
 <p>pprof 支持多种类型的性能分析，包括 CPU profile、memory profile、block profile、goroutine profile、threadcreate profile、heap profile等.</p>
-<p><img src="http://sm.nsddd.top/sm202301181539789.png" alt="image-20230118153922625"></p>
+<p><img src="http://sm.cubxxw.com/sm202301181539789.png" alt="image-20230118153922625"></p>
 <h3 id="pprof项目实战" tabindex="-1"><a class="header-anchor" href="#pprof项目实战" aria-hidden="true">#</a> pprof项目实战</h3>
 <p>将最开始的项目 clone 到本地，在这个项目中，写了一些造成性能问题的代码炸弹。</p>
 <p><strong>编译并保持链接：</strong></p>
@@ -422,7 +422,7 @@ Size of myStruct2<span class="token punctuation">:</span> <span class="token num
 </blockquote>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>go tool pprof <span class="token string">"http://localhost:6060/debug/pprof/profile?seconds=10"</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h4 id="topn-—-查看占用资源最多的函数" tabindex="-1"><a class="header-anchor" href="#topn-—-查看占用资源最多的函数" aria-hidden="true">#</a> topN — 查看占用资源最多的函数：</h4>
-<p><img src="http://sm.nsddd.top/sm202301181622460.png" alt="image-20230118162256355"></p>
+<p><img src="http://sm.cubxxw.com/sm202301181622460.png" alt="image-20230118162256355"></p>
 <p>📜 对上面的解释：</p>
 <ul>
 <li>flat = cum，函数中没有调用其他的函数</li>
@@ -447,9 +447,9 @@ ROUTINE <span class="token operator">==</span><span class="token operator">==</s
 <span class="token punctuation">(</span>pprof<span class="token punctuation">)</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>问题出在第 24 L</strong></p>
 <h4 id="调用关系可视化" tabindex="-1"><a class="header-anchor" href="#调用关系可视化" aria-hidden="true">#</a> 调用关系可视化</h4>
-<p><img src="http://sm.nsddd.top/sm202301181636935.png" alt="image-20230118163659804"></p>
+<p><img src="http://sm.cubxxw.com/sm202301181636935.png" alt="image-20230118163659804"></p>
 <p><strong>解决后，发现协程数下降：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301181639282.png" alt="image-20230118163915913"></p>
+<p><img src="http://sm.cubxxw.com/sm202301181639282.png" alt="image-20230118163915913"></p>
 <h2 id="性能调优实战" tabindex="-1"><a class="header-anchor" href="#性能调优实战" aria-hidden="true">#</a> 性能调优实战</h2>
 <p>pprof是性能调试工具，可以生成类似火焰图、堆栈图，内存分析图等。</p>
 <p>整个分析的过程分为两步：1. 导出数据，2. 分析数据。</p>
@@ -464,7 +464,7 @@ ROUTINE <span class="token operator">==</span><span class="token operator">==</s
 <p>threadcreate：查看创建新 OS 线程的堆栈跟踪。</p>
 <p>trace：<a href="https://mp.weixin.qq.com/s/I9xSMxy32cALSNQAN8wlnQ" target="_blank" rel="noopener noreferrer">mp.weixin.qq.com/s/I9xSMxy32…<ExternalLinkIcon/></a></p>
 <h3 id="过程和原理" tabindex="-1"><a class="header-anchor" href="#过程和原理" aria-hidden="true">#</a> 过程和原理</h3>
-<p><img src="http://sm.nsddd.top/sm202301181641399.png" alt="image-20230118164157274"></p>
+<p><img src="http://sm.cubxxw.com/sm202301181641399.png" alt="image-20230118164157274"></p>
 <h2 id="end-链接" tabindex="-1"><a class="header-anchor" href="#end-链接" aria-hidden="true">#</a> END 链接</h2>
 <ul>
 <li><RouterLink to="/go-advancend/">回到目录</RouterLink></li>

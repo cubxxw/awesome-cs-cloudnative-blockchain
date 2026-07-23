@@ -7,7 +7,7 @@
 <li><RouterLink to="/go-advancend/markdown/9.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
 </blockquote>
@@ -53,7 +53,7 @@ air <span class="token parameter variable">-v</span>
     <span class="token parameter variable">-v</span> <span class="token variable"><span class="token variable">$(</span><span class="token builtin class-name">pwd</span><span class="token variable">)</span></span>:/go/src/github.com/cosmtrek/hub <span class="token punctuation">\</span>
     <span class="token parameter variable">-p</span> <span class="token number">9090</span>:9090 <span class="token punctuation">\</span>
     cosmtrek/air
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><img src="http://sm.nsddd.top/smimage-20220822170342761.png" alt="image-20220822170342761" style="zoom:50%;" />
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><img src="http://sm.cubxxw.com/smimage-20220822170342761.png" alt="image-20220822170342761" style="zoom:50%;" />
 <h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法" aria-hidden="true">#</a> 使用方法</h2>
 <p>您可以添加 <code v-pre>alias air='~/.air'</code> 到您的 <code v-pre>.bashrc</code> 或 <code v-pre>.zshrc</code> 后缀的文件.</p>
 <p>首先，进入你的项目文件夹</p>
@@ -68,7 +68,7 @@ air -c .air.toml
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>cmd = "go build -o ./tmp/main.exe ."
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>cmd是可以执行air的目录，即使你<code v-pre>go mod init ”name&quot;</code> 初始化了，但是也是要加入相对路径的，比如说加入项目根目录下的cmd文件</strong></p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>cmd = "go build -o ./tmp/main.exe ./cmd"
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><img src="http://sm.nsddd.top/smimage-20220822170925614.png" alt="image-20220822170925614" style="zoom:25%;" />
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><img src="http://sm.cubxxw.com/smimage-20220822170925614.png" alt="image-20220822170925614" style="zoom:25%;" />
 </blockquote>
 <p>在这之后，你只需执行 <code v-pre>air</code> 命令，无需添加额外的变量，它就能使用 <code v-pre>.air.toml</code> 文件中的配置了。</p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>air

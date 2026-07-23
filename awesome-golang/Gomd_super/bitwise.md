@@ -46,7 +46,7 @@ b ^= a; // b = a
 a ^= b; // a = temp
 ```
 
-![image-20220925161607882](http://sm.nsddd.top/smimage-20220925161607882.png?xxw@nsddd.top)
+![image-20220925161607882](http://sm.cubxxw.com/smimage-20220925161607882.png?xxw@cubxxw.com)
 
 
 
@@ -66,7 +66,7 @@ i = ~-i; // i--
 >
 > **注意这个补码求反是所有位数都求反，所以结果是`(2--)==1`**
 
-![image-20220925161741820](http://sm.nsddd.top/smsmsmimage-20220925161741820.png?xxw@nsddd.top)
+![image-20220925161741820](http://sm.cubxxw.com/smsmsmimage-20220925161741820.png?xxw@cubxxw.com)
 
 ## 🎈标志翻转
 

@@ -7,7 +7,7 @@
 <li><RouterLink to="/go-advancend/markdown/18.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
 </blockquote>
@@ -54,7 +54,7 @@
 </tr>
 </tbody>
 </table>
-<img src="http://sm.nsddd.top/smasdasdf.png" alt="TCP/IP协议族的网络层基础（5）——ICMP协议以及ping命令_TLpigff的博客-CSDN博客" style="zoom:150%;" />
+<img src="http://sm.cubxxw.com/smasdasdf.png" alt="TCP/IP协议族的网络层基础（5）——ICMP协议以及ping命令_TLpigff的博客-CSDN博客" style="zoom:150%;" />
 <h3 id="icmp-的格式" tabindex="-1"><a class="header-anchor" href="#icmp-的格式" aria-hidden="true">#</a> ICMP 的格式</h3>
 <p>ICMP 消息由四个字段组成：类型、代码、校验和和和数据。</p>
 <table>

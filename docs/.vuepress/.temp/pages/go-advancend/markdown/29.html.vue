@@ -7,14 +7,14 @@
 <li><RouterLink to="/go-advancend/markdown/28.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
 </blockquote>
 <hr>
 <p>[TOC]</p>
 <h2 id="orm、gorm" tabindex="-1"><a class="header-anchor" href="#orm、gorm" aria-hidden="true">#</a> ORM、GORM</h2>
-<p><img src="http://sm.nsddd.top/sm202301202100697.png" alt="image-20230120210000499"></p>
+<p><img src="http://sm.cubxxw.com/sm202301202100697.png" alt="image-20230120210000499"></p>
 <p>ORM全称是：Object Relational Mapping(<strong>对象关系映射</strong>)，其主要作用是在编程中，把<strong>面向对象</strong>的概念跟数据库中<strong>表的概念</strong>对应起来。</p>
 <p><em>举例来说就是，我定义一个对象，那就对应着一张表，这个对象的实例，就对应着表中的一条记录。</em></p>
 <p>GORM：是Golang语言中一款<strong>性能极好</strong>的ORM库，对开发人员相对是比较友好的。</p>
@@ -208,7 +208,7 @@ db<span class="token punctuation">.</span><span class="token function">Delete</s
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>设置默认值是非常有用的，它可以帮助你简化代码并减少错误。</p>
 <h3 id="first-使用详细" tabindex="-1"><a class="header-anchor" href="#first-使用详细" aria-hidden="true">#</a> First 使用详细</h3>
 <p><code v-pre>First</code> 是 GORM 中查询数据的一种方法，它可以返回第一条符合条件的数据。使用 <code v-pre>First</code> 方法时需要传递一个参数，这个参数可以是模型结构体的指针或接口。</p>
-<p><img src="http://sm.nsddd.top/sm202301271609289.png" alt="image-20230127160958022"></p>
+<p><img src="http://sm.cubxxw.com/sm202301271609289.png" alt="image-20230127160958022"></p>
 <p>例如，如果你想查询第一条名称为 &quot;Apple&quot; 的产品数据，你可以这样写：</p>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code><span class="token keyword">var</span> product Product
 db<span class="token punctuation">.</span><span class="token function">First</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>product<span class="token punctuation">,</span> <span class="token string">"name = ?"</span><span class="token punctuation">,</span> <span class="token string">"Apple"</span><span class="token punctuation">)</span>
@@ -516,7 +516,7 @@ db<span class="token punctuation">.</span><span class="token function">Save</spa
 <li>尽量使用批量操作: GORM支持对多个对象批量进行操作，如果你需要对多个对象进行相同的操作，可以考虑使用批量操作来提高性能。</li>
 <li>数据库连接池: GORM默认使用数据库连接池来管理数据库连接，但是默认的连接池大小可能不够，可以通过调整连接池大小来提高性能。</li>
 </ol>
-<p><img src="http://sm.nsddd.top/sm202301271708839.png" alt="image-20230127170840505"></p>
+<p><img src="http://sm.cubxxw.com/sm202301271708839.png" alt="image-20230127170840505"></p>
 <h4 id="缓存预编译" tabindex="-1"><a class="header-anchor" href="#缓存预编译" aria-hidden="true">#</a> 缓存预编译</h4>
 <p>预编译是一种将 SQL 语句编译为数据库可以识别的语句的过程。这种编译过程可以提高查询性能，因为数据库不需要在每次执行查询时都重新编译 SQL 语句。</p>
 <p>GORM 中可以使用预编译语句来提高查询性能。使用预编译语句的方法是将 SQL 语句传递给 gorm.DB.Exec 或 gorm.DB.Query，并将需要传递给 SQL 语句的参数作为第二个参数传递。</p>
@@ -631,15 +631,15 @@ service Echo <span class="token punctuation">{</span>
 <p>目前Kitex的服务注册与发现已经对接了主流的服务注册与发现中心，如ETCD，Nacos等；</p>
 <p>Kitex生态：</p>
 <p>详见：<code v-pre>https://www.cloudwego.io/zh/docs/kitex/</code></p>
-<p><img src="http://sm.nsddd.top/sm202301272042483.png" alt="image-20230127204236167"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272042483.png" alt="image-20230127204236167"></p>
 <p><strong>发起请求：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301272042324.png" alt="image-20230127204252098"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272042324.png" alt="image-20230127204252098"></p>
 <h3 id="kitex-服务注册与发现" tabindex="-1"><a class="header-anchor" href="#kitex-服务注册与发现" aria-hidden="true">#</a> Kitex 服务注册与发现</h3>
 <p>目前的 Kitex 的服务注册与发现已经对接了主流的服务注册与发现中心，如 ETCD 、Nacos</p>
-<p><img src="http://sm.nsddd.top/sm202301272043745.png" alt="image-20230127204301522"></p>
-<p><img src="http://sm.nsddd.top/sm202301272043419.png" alt="image-20230127204312988"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272043745.png" alt="image-20230127204301522"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272043419.png" alt="image-20230127204312988"></p>
 <h3 id="生态" tabindex="-1"><a class="header-anchor" href="#生态" aria-hidden="true">#</a> 生态</h3>
-<p><img src="http://sm.nsddd.top/sm202301272043192.png" alt="image-20230127204326966"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272043192.png" alt="image-20230127204326966"></p>
 <h2 id="hertz" tabindex="-1"><a class="header-anchor" href="#hertz" aria-hidden="true">#</a> Hertz</h2>
 <p>Hertz 是字节内部的 HTTP 框架。</p>
 <p>Hertz 是字节跳动服务框架团队研发的超大规模的企业级微服务 HTTP 框架，具有 <strong>高易用性、易扩展、低时延</strong> 等特点。在经过了字节跳动内部一年多的使用和迭代，如今已在 CloudWeGo 正式开源。目前，<code v-pre>Hertz</code> 已经成为了字节跳动内部最大的 <code v-pre>HTTP</code> 框架，线上接入的服务数量超过 1 万，峰值 QPS 超过 4 千万。除了各个业务线的同学使用外，也服务于内部很多基础组件，<strong>如：</strong> 函数计算平台 <code v-pre>FaaS</code>、压测平台、各类网关、<code v-pre>Service Mesh</code> 控制面等，均收到不错的使用反馈。在如此大规模的场景下，<code v-pre>Hertz</code> 拥有极强的稳定性和性能，在内部实践中某些典型服务，如框架占比较高的服务、网关等服务，迁移 <code v-pre>Hertz</code> 后相比 Gin 框架，资源使用显著减少，CPU 使用率随流量大小降低 <code v-pre>30%-60%</code>，时延也有明显降低。</p>
@@ -648,7 +648,7 @@ service Echo <span class="token punctuation">{</span>
 <p>最初，字节跳动内部的 HTTP 框架是对 Gin 框架的封装，具备不错的易用性、生态完善等优点。随着内部业务的不断发展，高性能、多场景的需求日渐强烈。而 Gin 是对 Golang 原生 net/http 进行的二次开发，在按需扩展和性能优化上受到很大局限。因此，为了满足业务需求，更好的服务各大业务线，2020 年初，字节跳动服务框架团队经过内部使用场景和外部主流开源 HTTP 框架 Fasthttp、Gin、Echo 的调研后，开始基于自研网络库 Netpoll 开发内部框架 Hertz，让 Hertz 在面对企业级需求时，有更好的性能及稳定性表现，也能够满足业务发展和应对不断演进的技术需求。</p>
 <h3 id="架构设计" tabindex="-1"><a class="header-anchor" href="#架构设计" aria-hidden="true">#</a> 架构设计</h3>
 <p>Hertz 设计之初调研了大量业界优秀的 HTTP 框架，同时参考了近年来内部实践中积累的经验。为了保证框架整体上满足：1. 极致性能优化的可能性；2. 面对未来不可控需求的扩展能力， Hertz 采用了 4 层分层设计，保证各个层级功能内聚，同时通过层级之间的接口达到灵活扩展的目标。整体架构图如图 1 所示。</p>
-<p><img src="http://sm.nsddd.top/sm202301272153673.png" alt="image-20230127215358335"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272153673.png" alt="image-20230127215358335"></p>
 <p>Hertz 从上到下分为：应用层、路由层、协议层和传输层，每一层各司其职，同时公共能力被统一抽象到公共层（common），做到跨层级复用。另外，同主库一同发布的还有作为子模块的 Hz 脚手架，它能够协助使用者快速搭建出项目核心骨架以及提供实用的构建工具链。</p>
 <h3 id="应用层" tabindex="-1"><a class="header-anchor" href="#应用层" aria-hidden="true">#</a> 应用层</h3>
 <p>应用层是和用户直接交互的一层，提供丰富易用的 API，主要包括 Server、Client 和一些其他通用抽象。Server 提供了注册 HandlerFunc、Binding、Rendering 等能力；Client 提供了调用下游和服务发现等能力；以及抽象一个 HTTP 请求所必须涉及到的请求（Request）、响应（Response）、上下文（RequestContext）、中间件（Middleware）等等。Hertz 的 Server 和 Client 都能够提供中间件这样的扩展能力。</p>
@@ -658,7 +658,7 @@ service Echo <span class="token punctuation">{</span>
 <p>路由层负责根据 URI 匹配对应的处理函数。</p>
 <p>起初，Hertz 的路由基于 httprouter 开发，但随着使用的用户越来越多，httprouter 渐渐不能够满足需求，主要体现在 httprouter 不能够同时注册静态路由和参数路由，即 /a/b，/:c/d 这两个路由不能够同时注册；甚至有一些更特殊的需求，如/a/b、/:c/b ，当匹配 /a/b 路由时，两个路由都能够匹配上。</p>
 <p>Hertz 为满足这些需求重新构造了路由树，用户在注册路由时拥有很高的自由度：支持静态路由、参数路由的注册；支持按优先级匹配，如上述例子会优先匹配静态路由 /a/b ；支持路由回溯，如注册 /a/b、/:c/d，当匹配 /a/d 时仍然能够匹配上；支持尾斜线重定向，如注册 /a/b，当匹配 /a/b/ 时能够重定向到 /a/b 上。Hertz 提供了丰富的路由能力来满足用户的需求，更多的功能可以参考 Hertz 配置文档。</p>
-<p><img src="http://sm.nsddd.top/sm202301272204268.png" alt="image-20230127220436931"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272204268.png" alt="image-20230127220436931"></p>
 <h3 id="协议层" tabindex="-1"><a class="header-anchor" href="#协议层" aria-hidden="true">#</a> 协议层</h3>
 <p>协议层负责不同协议的实现和扩展。</p>
 <p>Hertz 支持协议的扩展，用户只需要实现下面的接口便可以按照自己的需求在引擎（Engine） 上扩展协议，同时也支持通过 ALPN 协议协商的方式注册。Hertz 首批只开源了 <code v-pre>HTTP1</code> 实现，未来会陆续开源 <code v-pre>HTTP2</code>、QUIC 等实现。协议层扩展提供的灵活性甚至可以超越 HTTP 协议的范畴，用户完全可以按需注册任意符合自身需求的协议层实现，并且加入到 Hertz 的引擎中来，同时，也能够无缝享受到传输层带来的极致性能。</p>
@@ -685,23 +685,23 @@ service Echo <span class="token punctuation">{</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="hertz-中间件" tabindex="-1"><a class="header-anchor" href="#hertz-中间件" aria-hidden="true">#</a> Hertz 中间件</h3>
 <p>Hertz 除了提供 Server 的中间件能力，还提供了 Client 中间件能力。用户可以使用中间件能力将通用逻辑（如：日志记录、性能统计、异常处理、鉴权逻辑等等）和业务逻辑区分开，让用户更加专注于业务代码。Server 和 Client 中间件使用方式相同，使用 Use 方法注册中间件，中间件执行顺序和注册顺序相同，同时支持预处理和后处理逻辑。</p>
-<p><img src="http://sm.nsddd.top/sm202301272215831.png" alt="image-20230127221552419"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272215831.png" alt="image-20230127221552419"></p>
 <p>Server 和 Client 的中间件实现方式并不相同。对于 Server 来说，我们希望减少栈的深度，同时也希望中间件能够默认的执行下一个，用户需要手动终止中间件的执行。因此，我们将 Server 的中间件分成了两种类型，即不在同一个函数调用栈（该中间件调用完后返回，由上一个中间件调用下一个中间件，如图 2 中 B 和 C）和在同一个函数调用栈的中间件（该中间件调用完后由该中间件继续调用下一个中间件，如图 2 中 C 和 Business Handler）。</p>
-<p><img src="http://sm.nsddd.top/sm202301272207362.png" alt="image-20230127220729078"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272207362.png" alt="image-20230127220729078"></p>
 <p>其核心是需要一个地方存下当前的调用位置 index，并始终保持其递增。恰好 RequestContext 就是一个存储 index 合适的位置。但是对于 Client，由于没有合适的地方存储 index，我们只能退而求其次，抛弃 index 的实现，将所有的中间件构造在同一调用链上，需要用户手动调用下一个中间件。</p>
 <h3 id="hertz代码生成工具" tabindex="-1"><a class="header-anchor" href="#hertz代码生成工具" aria-hidden="true">#</a> Hertz代码生成工具</h3>
-<p><img src="http://sm.nsddd.top/sm202301272216988.png" alt="image-20230127221632637"></p>
-<p><img src="http://sm.nsddd.top/sm202301272216143.png" alt="image-20230127221625700"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272216988.png" alt="image-20230127221632637"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272216143.png" alt="image-20230127221625700"></p>
 <h3 id="hertz-性能" tabindex="-1"><a class="header-anchor" href="#hertz-性能" aria-hidden="true">#</a> Hertz 性能</h3>
 <p>hertz 的性能非常不错</p>
 <p>Hertz 使用字节跳动自研高性能网络库 Netpoll，在提高网络库效率方面有诸多实践，参考已发布文章字节跳动在 Go 网络库上的实践。除此之外，Netpoll 还针对 HTTP 场景进行优化，通过减少拷贝和系统调用次数提高吞吐以及降低时延。为了衡量 Hertz 性能指标，我们选取了社区中有代表性的框架 Gin（net/http）和 Fasthttp 作为对比，可以看到，Hertz 的极限吞吐、TP99 等指标均处于业界领先水平。未来，Hertz 还将继续和 Netpoll 深度配合，探索 HTTP 框架性能的极限。</p>
-<p><img src="http://sm.nsddd.top/sm202301272221082.png" alt="image-20230127222150908"></p>
-<p><img src="http://sm.nsddd.top/sm202301272220139.png" alt="image-20230127222008547"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272221082.png" alt="image-20230127222150908"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272220139.png" alt="image-20230127222008547"></p>
 <h2 id="笔记项目" tabindex="-1"><a class="header-anchor" href="#笔记项目" aria-hidden="true">#</a> 笔记项目</h2>
 <ul>
 <li><a href="https://github.com/cloudwego/kitex-examples/tree/main/bizdemo/easy_note" target="_blank" rel="noopener noreferrer">https://github.com/cloudwego/kitex-examples/tree/main/bizdemo/easy_note<ExternalLinkIcon/></a></li>
 </ul>
-<p><img src="http://sm.nsddd.top/sm202301272222973.png" alt="image-20230127222247737"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272222973.png" alt="image-20230127222247737"></p>
 <table>
 <thead>
 <tr>
@@ -741,12 +741,12 @@ service Echo <span class="token punctuation">{</span>
 </tbody>
 </table>
 <p><strong>项目模板：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301272225986.png" alt="image-20230127222531947"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272225986.png" alt="image-20230127222531947"></p>
 <p><strong>项目调用关系：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301272225539.png" alt="image-20230127222554091"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272225539.png" alt="image-20230127222554091"></p>
 <p>API 并不是和数据库打交道的，这样好处是可以复用接口，可扩展性强。</p>
 <p><strong>技术栈：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301272228762.png" alt="image-20230127222808115"></p>
+<p><img src="http://sm.cubxxw.com/sm202301272228762.png" alt="image-20230127222808115"></p>
 <h2 id="end-链接" tabindex="-1"><a class="header-anchor" href="#end-链接" aria-hidden="true">#</a> END 链接</h2>
 <ul>
 <li><RouterLink to="/go-advancend/">回到目录</RouterLink></li>

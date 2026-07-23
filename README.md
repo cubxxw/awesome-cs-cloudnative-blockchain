@@ -6,13 +6,13 @@
 
 + 🔗[**中国大陆加速地址（Gitee平台）**](https://gitee.com/xxw3293172751/Block_Chain)
 
-+ 📵[**不限速在线个人云盘**](https://xxw.nsddd.top/s/wRSz)
++ 📵[**不限速在线个人云盘**](https://xxw.cubxxw.com/s/wRSz)
 
   <p align='center'>
   <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee" title="国内gitee镜像加速"></a>
   <a href="https://wakatime.com/@c445b3c6-a2bc-43a2-a24a-0828a17244b4" title="项目的进展时长" > <img src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4.svg"></a>
   <a href="https://github.com/cubxxw/cs-awesome-Block_Chain/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/3293172751/cs-awesome-Block_Chain?style=plastic"></a>
-  <a href="https://xxw.nsddd.top/s/wRSz"><img alt="个人网盘不限速" src="https://img.shields.io/badge/cloud-xiongxinwei-red?logo=iCloud" title="个人网盘不限速下载浏览"></a>
+  <a href="https://xxw.cubxxw.com/s/wRSz"><img alt="个人网盘不限速" src="https://img.shields.io/badge/cloud-xiongxinwei-red?logo=iCloud" title="个人网盘不限速下载浏览"></a>
   <a href="https://trackgit.com"><img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/la3dpo1i7zzecvro53al" alt="trackgit-views" />
   </a>
   </p>
@@ -32,18 +32,18 @@
 
 <details><summary><b>💡 关于</b></summary>
 
-<p><a href='https://www.facebook.com/profile.php?id=100034435372354'>Facebook</a> | <a href='https://telsacoin.io/'>Website</a> | <a href='http://nsddd.top'>Blog</a> | <a href='https://t.me/smile3293172751'>Telegram</a> | <a href='https://twitter.com/xxw3293172751'>Twitter</a> | <a href='https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227'>Linkedin</a> | <a href='https://liberapay.com/xiongxinwei/donate'>Donate</a></p>
+<p><a href='https://www.facebook.com/profile.php?id=100034435372354'>Facebook</a> | <a href='https://telsacoin.io/'>Website</a> | <a href='http://cubxxw.com'>Blog</a> | <a href='https://t.me/smile3293172751'>Telegram</a> | <a href='https://twitter.com/xxw3293172751'>Twitter</a> | <a href='https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227'>Linkedin</a> | <a href='https://liberapay.com/xiongxinwei/donate'>Donate</a></p>
 <p align='center'>
 <a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin&style=flat-square"></a>
 <a href="https://twitter.com/xxw3293172751" target="_blank"><img src="https://img.shields.io/badge/twitter-%40xxw3293172751-informational?logo=twitter&style=flat-square"></a>
 <a href="https://www.zhihu.com/people/3293172751" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E9%93%BE%E5%AD%A6%E8%80%85%E7%A4%BE%E5%8C%BA-blue?logo=zhihu&style=flat-square"></a>
-<a href="http://sm.nsddd.top/sm0d220ad72063197b9875379403f6c88.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?logo=wechat&style=flat-square"></a>
+<a href="http://sm.cubxxw.com/sm0d220ad72063197b9875379403f6c88.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?logo=wechat&style=flat-square"></a>
 <a href="https://space.bilibili.com/1233089591" target="_blank"><img src="https://img.shields.io/badge/b%E7%AB%99-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-red?logo=bilibili&style=flat-square"></a>
 </p>
 <p align='center'>
 <a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
 <a href="https://github.com/cubxxw" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
-<a href="http://nsddd.top" target="_blank"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-%40xiongxinwei-blue?style=social&logo=Octopus%20Deploy"></a>
+<a href="http://cubxxw.com" target="_blank"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-%40xiongxinwei-blue?style=social&logo=Octopus%20Deploy"></a>
 </p>
 </hr>
 
@@ -54,13 +54,13 @@
 
  ⛓️ <b>区块链技术（也称之为分布式账本技术）</b>，是一种互联网数据库技术，其特点是<font color ="gree">去中心化，公开透明，信息不可篡改性，隐私匿名性🤑</font><a href="https://github.com/C-UB">CUB链学社</a>致力打造<b>区块链自学教育平台。</b>
 
-💡 侧边目录支持方式：[📚 DocCub 文档](https://go.nsddd.top)、🗃️[Github + TOC 导航](http://sm.nsddd.top/sm20221004130721.png?xxw@nsddd.top)， 😍 甚至你可以在这个界面按下`.` ➡️ [进入vscode编译环境](https://nsddd.top/archives/githubdev) 
+💡 侧边目录支持方式：[📚 DocCub 文档](https://go.cubxxw.com)、🗃️[Github + TOC 导航](http://sm.cubxxw.com/sm20221004130721.png?xxw@cubxxw.com)， 😍 甚至你可以在这个界面按下`.` ➡️ [进入vscode编译环境](https://cubxxw.com/archives/githubdev) 
 
 👣 存在数学公式无法正常显示问题，强烈推荐[:triangular_ruler: MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 插件使用。
 
-📄 保存为 PDF 方式：使用 Chrome 浏览器打开 <a href="https://go.nsddd.top">📚 DocCub 文档</a> 页面，缩起左侧目录-右键 - 打印 - 选择目标打印机是另存为PDF - 保存  —— [🖨️以Go语言第一节打印效果预览.pdf](./images/copy.pdf)）
+📄 保存为 PDF 方式：使用 Chrome 浏览器打开 <a href="https://go.cubxxw.com">📚 DocCub 文档</a> 页面，缩起左侧目录-右键 - 打印 - 选择目标打印机是另存为PDF - 保存  —— [🖨️以Go语言第一节打印效果预览.pdf](./images/copy.pdf)）
 
-🙏 仓库内容如有错误或改进欢迎 [issue](https://github.com/cubxxw/cs-awesome-Block_Chain/issues) 或 pr，[🧷参与贡献](https://nsddd.top/archives/contributors)，建议或讨论可在 [#10](https://github.com/cubxxw/cs-awesome-Block_Chain/issues/10) 提出。由于本人水平有限，仓库中的知识点有来自本人原创、读书笔记、书籍、博文等，非原创均已标明出处，如有遗漏，请 [issue](https://github.com/cubxxw/cs-awesome-Block_Chain/issues/new/choose) 提出。本仓库遵循 [CC BY-NC-SA 4.0（署名 - 非商业性使用 - 相同方式共享）](https://github.com/huihut/interview/blob/master/LICENSE) 协议，转载请注明出处，不得用于商业目的。
+🙏 仓库内容如有错误或改进欢迎 [issue](https://github.com/cubxxw/cs-awesome-Block_Chain/issues) 或 pr，[🧷参与贡献](https://cubxxw.com/archives/contributors)，建议或讨论可在 [#10](https://github.com/cubxxw/cs-awesome-Block_Chain/issues/10) 提出。由于本人水平有限，仓库中的知识点有来自本人原创、读书笔记、书籍、博文等，非原创均已标明出处，如有遗漏，请 [issue](https://github.com/cubxxw/cs-awesome-Block_Chain/issues/new/choose) 提出。本仓库遵循 [CC BY-NC-SA 4.0（署名 - 非商业性使用 - 相同方式共享）](https://github.com/huihut/interview/blob/master/LICENSE) 协议，转载请注明出处，不得用于商业目的。
 
 </details>
 
@@ -71,9 +71,9 @@
 
 🈺 存在`GitHub`上浏览效果不佳，[Cub链学社](https://github.com/C-UB)推出`CubDoc`文档形式，使用`vuejs`渲染 。使用国内的服务器搭建（速度嘎快:bullettrain_front:) 。目前支持以下的项目🗃️：
 
-+ [x] [:speedboat: Go语言基础-进阶](https://go.nsddd.top)
++ [x] [:speedboat: Go语言基础-进阶](https://go.cubxxw.com)
 
-+ [x] [:speedboat: docker & k8s & 云原生](https://docker.nsddd.top)
++ [x] [:speedboat: docker & k8s & 云原生](https://docker.cubxxw.com)
 
 <br>
 
@@ -81,14 +81,14 @@
 
 #### 博客专栏
 
-博客上面发表的文章具有独立性，是我参与开源项目以来，所见所得所学，希望这种模式可以成功并且得以模仿。[👀 我的博客](https://nsddd.top/) 记录着很多优质的内容值得一看，如果希望订阅 SSR ➡️[点这里]([https://nsddd.top/rss.xml](https://nsddd.top/posts/index.xml))
+博客上面发表的文章具有独立性，是我参与开源项目以来，所见所得所学，希望这种模式可以成功并且得以模仿。[👀 我的博客](https://cubxxw.com/) 记录着很多优质的内容值得一看，如果希望订阅 SSR ➡️[点这里]([https://cubxxw.com/rss.xml](https://cubxxw.com/posts/index.xml))
 
 [<img align="left" alt="shenxianpeng | ZhiHu" width="22px" src="https://www.svgrepo.com/show/305628/zhihu.svg" />][zhihu] 
 
 [zhihu]: https://www.zhihu.com/people/3293172751
 
 <a href="https://www.zhihu.com/people/3293172751" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E9%93%BE%E5%AD%A6%E8%80%85%E7%A4%BE%E5%8C%BA-blue?logo=zhihu&style=flat-square"></a>
-<a href="http://sm.nsddd.top/sm0d220ad72063197b9875379403f6c88.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?logo=wechat&style=flat-square"></a>
+<a href="http://sm.cubxxw.com/sm0d220ad72063197b9875379403f6c88.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?logo=wechat&style=flat-square"></a>
 
 <details><summary><b>📚 我的博客订阅（每周更新❗）</b></summary>
 </br>
@@ -96,61 +96,61 @@
 
 
 <!-- My-Blog:START -->
-- [2025 年度回顾](https://nsddd.top/zh/posts/2025-annual-review/)
-- [Kubernetes 资源与学习路径总结](https://nsddd.top/zh/posts/kubernetes-learning/)
-- [利用 LangChain 框架的语言模型应用：开发者指南](https://nsddd.top/zh/posts/harnessing-language-model-applications-with-langchain-a-developer-is-guide/)
-- [探索大型语言模型（llm）：人工智能在理解与生成人类语言方面的先锋](https://nsddd.top/zh/posts/exploring-large-language-models-llms-pioneering-ai-understanding-generation-human-language/)
-- [塑造职业道路：开源简历生成器与专业简历技巧指南](https://nsddd.top/zh/posts/crafting-your-career-pathway-a-guide-to-open-source-resume-builders-and-expert-resume-tips/)
-- [这是一篇我职业生涯总结的 OpenIM 故障排查指南](https://nsddd.top/zh/posts/troubleshooting-guide-for-openim/)
-- [探索开源以及开源商业模式研究](https://nsddd.top/zh/posts/navigating-the-open-source-landscape/)
-- [Sora Ease 指南：开发者掌握 Sora AI 的全面指南](https://nsddd.top/zh/posts/sora-ease-guide-mastering-sora-ai-for-developers/)
-- [2023年，我的旅行起点 - 2023年的我漫步在世界边缘](https://nsddd.top/zh/posts/in-2023-i-was-wandering-at-the-edge-of-the-world/)
-- [Sora 技术讨论以及普通人和开发者如何利用 Sora 改变世界](https://nsddd.top/zh/posts/exploring-sora-technology-for-enthusiasts-and-developers/)
-- [双剑合璧：结合GitHub与Google Workspace的项目管理艺术](https://nsddd.top/zh/posts/combining-github-and-google-workspace-for-project-management/)
-- [脑友好型英语学习策略：工具与技巧解析](https://nsddd.top/zh/posts/brain-friendly-english-learning-strategies-tools-and-techniques-explained/)
-- [心流状态的魔力：专注与幸福感提升指南](https://nsddd.top/zh/posts/flow-state/)
-- [GTD与四象限法则实践](https://nsddd.top/zh/posts/gtd-and-the-four-quadrant-rule-practice/)
-- [Go 源码里的这些 go: 指令 && go 自动化工具](https://nsddd.top/zh/posts/directives-and-the-use-of-automation-tools/)
-- [Go 语言中的并发类型检查与跨平台开发](https://nsddd.top/zh/posts/concurrent-type-checking-and-cross-platform-development-in-go/)
-- [向量数据库的学习](https://nsddd.top/zh/posts/vector-database-learning/)
-- [OpenIM：构建高效的版本控制和测试工作流程](https://nsddd.top/zh/posts/openim-building-an-efficient-version-control-and-testing-workflow/)
-- [AI元年: 2024年的新兴挑战与趋势](https://nsddd.top/zh/posts/emerging-challenges-and-trends-in-2024/)
-- [回顾与前瞻：我的2023年度总结报告](https://nsddd.top/zh/posts/2023-annual-summary-reflections-and-aspirations/)
-- [对开源商业化的思考 & 全球流量大会（GTC）学习以及总结](https://nsddd.top/zh/posts/openim-open-source-business-journey/)
-- [GitOps 实践理论：Kubernetes 部署策略深入解析](https://nsddd.top/zh/posts/gitops-practice-theory-part/)
-- [管理后台和监控的部署与设计](https://nsddd.top/zh/posts/deployment-and-design-of-management-backend-and-monitoring/)
-- [Hugo 的高级教程](https://nsddd.top/zh/posts/hugo-advanced-tutorial/)
-- [Kubernetes Kustomize 学习指南](https://nsddd.top/zh/posts/kubernetes-for-kustomize-learning/)
-- [设计 OpenIM 使用 Harbor 构建企业镜像仓库](https://nsddd.top/zh/posts/openim-use-harbor-build-enterprise-mirror-repositories/)
-- [自动化测试的学习(一)](https://nsddd.top/zh/posts/learn-about-automated-testing/)
-- [Kubernetes 控制平面 - Kubectl 详细讲解](https://nsddd.top/zh/posts/deep-dive-into-the-components-of-kubernetes-kubectl/)
-- [Kubernetes 控制平面 - 调度器](https://nsddd.top/zh/posts/deep-dive-into-the-components-of-kubernetes-scheduler/)
-- [Kubernetes 的 CNI，CRI，CSI 详解](https://nsddd.top/zh/posts/deep-dive-into-the-components-of-kubernetes-cni-csi-cri/)
-- [深入了解Kubernetes Kube apisserver的组件](https://nsddd.top/zh/posts/deep-dive-into-the-components-of-kubernetes-kube-apiserver/)
-- [深入了解Kubernetes等组件之ETCD](https://nsddd.top/zh/posts/deep-dive-into-the-components-of-kubernetes-etcd/)
-- [通过配置文件简化 Kubernetes 部署的参数端口配置](https://nsddd.top/zh/posts/openim-cluster-deployment-parameter-passing-policy/)
-- [OpenIM 的集群化设计 | Kubernetes 部署 | 方案讨论 | 会议总结](https://nsddd.top/zh/posts/openim-cluster-deployment-scheme-of/)
-- [在开源社区中学会如何提问](https://nsddd.top/zh/posts/the-art-of-asking-questions-in-open-source-communities/)
-- [自动化的高级追求： Prow 是什么？Kubernetes 为什么需要它](https://nsddd.top/zh/posts/prow-ecological-learning/)
-- [一份完整的开源贡献指南（提供给第一次踏入开源伙伴秘籍）](https://nsddd.top/zh/posts/open-source-contribution-guidelines/)
-- [我的实践总结：开源社区的规范设计思路](https://nsddd.top/zh/posts/advanced-githook-design/)
-- [GoReleaser：自动化你的软件发布](https://nsddd.top/zh/posts/go-release-tools/)
-- [我的第一个博客](https://nsddd.top/zh/posts/my-first-blog/)
-- [关于我的 Hugo 博客 (教程)](https://nsddd.top/zh/posts/my-hugo/)
-- [速读开源项目 Sealos 的源码](https://nsddd.top/zh/posts/read-openim-project-sealos-openim-source-code/)
-- [我如何设计 DevOps 下的 OpenIM 标准开发流 & 敏捷体系 & 精益模式](https://nsddd.top/zh/posts/openim-devops-design/)
-- [我是如何优雅设计 OpenIM 多进程管理策略的](https://nsddd.top/zh/posts/openim-multi-process-management/)
-- [如何安装和使用自主人工智能工具Auto-GPT](https://nsddd.top/zh/posts/use-auto-gpt/)
-- [Go 调试测试以及调试工具 dlv 学习](https://nsddd.top/zh/posts/use-go-tools-dlv/)
-- [Github Actions 的高级使用技巧](https://nsddd.top/zh/posts/github-actions-advanced-techniques/)
-- [OpenIM离线部署设计](https://nsddd.top/zh/posts/openim-offline-deployment-design/)
-- [开源的阶段性成长指南](https://nsddd.top/zh/posts/stage-growth-of-open-source/)
-- [从理论到实践的项目管理打通](https://nsddd.top/zh/posts/project-management-from-theory-to-practice/)
-- [Openkf 多架构镜像的构建策略设计](https://nsddd.top/zh/posts/openkf-multi-architecture-image/)
-- [在AI时代 - 精益团队的企业文化和远程工作指南 v2.0](https://nsddd.top/zh/posts/openim-remote-work-culture/)
-- [跨平台以及多架构编译设计](https://nsddd.top/zh/posts/cross-platform-compilation/)
-- [Kubernetes一篇快速入门的文章](https://nsddd.top/zh/posts/kubernetes-an-article-to-get-started-quickly/)
-- [参与我们的区块链学习平台项目](https://nsddd.top/zh/posts/participating-in-this-project/)
+- [2025 年度回顾](https://cubxxw.com/zh/posts/2025-annual-review/)
+- [Kubernetes 资源与学习路径总结](https://cubxxw.com/zh/posts/kubernetes-learning/)
+- [利用 LangChain 框架的语言模型应用：开发者指南](https://cubxxw.com/zh/posts/harnessing-language-model-applications-with-langchain-a-developer-is-guide/)
+- [探索大型语言模型（llm）：人工智能在理解与生成人类语言方面的先锋](https://cubxxw.com/zh/posts/exploring-large-language-models-llms-pioneering-ai-understanding-generation-human-language/)
+- [塑造职业道路：开源简历生成器与专业简历技巧指南](https://cubxxw.com/zh/posts/crafting-your-career-pathway-a-guide-to-open-source-resume-builders-and-expert-resume-tips/)
+- [这是一篇我职业生涯总结的 OpenIM 故障排查指南](https://cubxxw.com/zh/posts/troubleshooting-guide-for-openim/)
+- [探索开源以及开源商业模式研究](https://cubxxw.com/zh/posts/navigating-the-open-source-landscape/)
+- [Sora Ease 指南：开发者掌握 Sora AI 的全面指南](https://cubxxw.com/zh/posts/sora-ease-guide-mastering-sora-ai-for-developers/)
+- [2023年，我的旅行起点 - 2023年的我漫步在世界边缘](https://cubxxw.com/zh/posts/in-2023-i-was-wandering-at-the-edge-of-the-world/)
+- [Sora 技术讨论以及普通人和开发者如何利用 Sora 改变世界](https://cubxxw.com/zh/posts/exploring-sora-technology-for-enthusiasts-and-developers/)
+- [双剑合璧：结合GitHub与Google Workspace的项目管理艺术](https://cubxxw.com/zh/posts/combining-github-and-google-workspace-for-project-management/)
+- [脑友好型英语学习策略：工具与技巧解析](https://cubxxw.com/zh/posts/brain-friendly-english-learning-strategies-tools-and-techniques-explained/)
+- [心流状态的魔力：专注与幸福感提升指南](https://cubxxw.com/zh/posts/flow-state/)
+- [GTD与四象限法则实践](https://cubxxw.com/zh/posts/gtd-and-the-four-quadrant-rule-practice/)
+- [Go 源码里的这些 go: 指令 && go 自动化工具](https://cubxxw.com/zh/posts/directives-and-the-use-of-automation-tools/)
+- [Go 语言中的并发类型检查与跨平台开发](https://cubxxw.com/zh/posts/concurrent-type-checking-and-cross-platform-development-in-go/)
+- [向量数据库的学习](https://cubxxw.com/zh/posts/vector-database-learning/)
+- [OpenIM：构建高效的版本控制和测试工作流程](https://cubxxw.com/zh/posts/openim-building-an-efficient-version-control-and-testing-workflow/)
+- [AI元年: 2024年的新兴挑战与趋势](https://cubxxw.com/zh/posts/emerging-challenges-and-trends-in-2024/)
+- [回顾与前瞻：我的2023年度总结报告](https://cubxxw.com/zh/posts/2023-annual-summary-reflections-and-aspirations/)
+- [对开源商业化的思考 & 全球流量大会（GTC）学习以及总结](https://cubxxw.com/zh/posts/openim-open-source-business-journey/)
+- [GitOps 实践理论：Kubernetes 部署策略深入解析](https://cubxxw.com/zh/posts/gitops-practice-theory-part/)
+- [管理后台和监控的部署与设计](https://cubxxw.com/zh/posts/deployment-and-design-of-management-backend-and-monitoring/)
+- [Hugo 的高级教程](https://cubxxw.com/zh/posts/hugo-advanced-tutorial/)
+- [Kubernetes Kustomize 学习指南](https://cubxxw.com/zh/posts/kubernetes-for-kustomize-learning/)
+- [设计 OpenIM 使用 Harbor 构建企业镜像仓库](https://cubxxw.com/zh/posts/openim-use-harbor-build-enterprise-mirror-repositories/)
+- [自动化测试的学习(一)](https://cubxxw.com/zh/posts/learn-about-automated-testing/)
+- [Kubernetes 控制平面 - Kubectl 详细讲解](https://cubxxw.com/zh/posts/deep-dive-into-the-components-of-kubernetes-kubectl/)
+- [Kubernetes 控制平面 - 调度器](https://cubxxw.com/zh/posts/deep-dive-into-the-components-of-kubernetes-scheduler/)
+- [Kubernetes 的 CNI，CRI，CSI 详解](https://cubxxw.com/zh/posts/deep-dive-into-the-components-of-kubernetes-cni-csi-cri/)
+- [深入了解Kubernetes Kube apisserver的组件](https://cubxxw.com/zh/posts/deep-dive-into-the-components-of-kubernetes-kube-apiserver/)
+- [深入了解Kubernetes等组件之ETCD](https://cubxxw.com/zh/posts/deep-dive-into-the-components-of-kubernetes-etcd/)
+- [通过配置文件简化 Kubernetes 部署的参数端口配置](https://cubxxw.com/zh/posts/openim-cluster-deployment-parameter-passing-policy/)
+- [OpenIM 的集群化设计 | Kubernetes 部署 | 方案讨论 | 会议总结](https://cubxxw.com/zh/posts/openim-cluster-deployment-scheme-of/)
+- [在开源社区中学会如何提问](https://cubxxw.com/zh/posts/the-art-of-asking-questions-in-open-source-communities/)
+- [自动化的高级追求： Prow 是什么？Kubernetes 为什么需要它](https://cubxxw.com/zh/posts/prow-ecological-learning/)
+- [一份完整的开源贡献指南（提供给第一次踏入开源伙伴秘籍）](https://cubxxw.com/zh/posts/open-source-contribution-guidelines/)
+- [我的实践总结：开源社区的规范设计思路](https://cubxxw.com/zh/posts/advanced-githook-design/)
+- [GoReleaser：自动化你的软件发布](https://cubxxw.com/zh/posts/go-release-tools/)
+- [我的第一个博客](https://cubxxw.com/zh/posts/my-first-blog/)
+- [关于我的 Hugo 博客 (教程)](https://cubxxw.com/zh/posts/my-hugo/)
+- [速读开源项目 Sealos 的源码](https://cubxxw.com/zh/posts/read-openim-project-sealos-openim-source-code/)
+- [我如何设计 DevOps 下的 OpenIM 标准开发流 & 敏捷体系 & 精益模式](https://cubxxw.com/zh/posts/openim-devops-design/)
+- [我是如何优雅设计 OpenIM 多进程管理策略的](https://cubxxw.com/zh/posts/openim-multi-process-management/)
+- [如何安装和使用自主人工智能工具Auto-GPT](https://cubxxw.com/zh/posts/use-auto-gpt/)
+- [Go 调试测试以及调试工具 dlv 学习](https://cubxxw.com/zh/posts/use-go-tools-dlv/)
+- [Github Actions 的高级使用技巧](https://cubxxw.com/zh/posts/github-actions-advanced-techniques/)
+- [OpenIM离线部署设计](https://cubxxw.com/zh/posts/openim-offline-deployment-design/)
+- [开源的阶段性成长指南](https://cubxxw.com/zh/posts/stage-growth-of-open-source/)
+- [从理论到实践的项目管理打通](https://cubxxw.com/zh/posts/project-management-from-theory-to-practice/)
+- [Openkf 多架构镜像的构建策略设计](https://cubxxw.com/zh/posts/openkf-multi-architecture-image/)
+- [在AI时代 - 精益团队的企业文化和远程工作指南 v2.0](https://cubxxw.com/zh/posts/openim-remote-work-culture/)
+- [跨平台以及多架构编译设计](https://cubxxw.com/zh/posts/cross-platform-compilation/)
+- [Kubernetes一篇快速入门的文章](https://cubxxw.com/zh/posts/kubernetes-an-article-to-get-started-quickly/)
+- [参与我们的区块链学习平台项目](https://cubxxw.com/zh/posts/participating-in-this-project/)
 <!-- My-Blog:END -->
 
 </details>
@@ -219,7 +219,7 @@ graph LR
 
 **Go语言的核心编程篇，基础部分30天记录，100篇进阶，高级篇包括Go语言底层的实现，runtime、调度器的原理以及Go语言设计模式~**
 
-⚠️ 目前已全部迁移至 ➡️ [CubDoc🧷](https://go.nsddd.top/)
+⚠️ 目前已全部迁移至 ➡️ [CubDoc🧷](https://go.cubxxw.com/)
 
 + [x] [🖱️GO 基础部分🔥](awesome-golang/README.md)
 + [x] [🖱️Go语言100篇进阶🔥](awesome-golang/Gomd_super/README.md)
@@ -291,7 +291,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 
 🧋参与普通程序的开发或者是区块链⛓️开发必须[熟悉Linux指令](https://github.com/cubxxw/awesome-cs-course/blob/master/linux/README.md)，熟悉[git团队开发](https://github.com/cubxxw/awesome-cs-course/blob/master/Git/README.md)，基于[docker容器](docker/README.md)会让我门快速的搭建工具和环境，更好的迁移开发环境和迁移链码（blockcode)，[密码学和信息安全](cryptology/README.md)不仅仅是区块链工程师必须要学习的技术，更是IT从业者未来不可或缺的技术。我们都渴望系统能更加的安全不是吗📵。
 
-⚠️ `Docker` 、`K8s`、`sealos`、`云原生` 已全部迁移至 ➡️ [CubDoc🧷](https://docker.nsddd.top/)
+⚠️ `Docker` 、`K8s`、`sealos`、`云原生` 已全部迁移至 ➡️ [CubDoc🧷](https://docker.cubxxw.com/)
 
 + [x] 🖱️ [linux从入门到精通🔥](https://github.com/cubxxw/awesome-cs-course/blob/master/linux/README.md)
 
@@ -334,7 +334,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 >
 > <div align="center">
 > <a href="eth/TOC.md">
-> 	<img src="https://sm.nsddd.top//typora/image-20220630192622583.png?mail:3293172751@qq.com" alt="区块链的学习" style="zoom: 20%;" />
+> 	<img src="https://sm.cubxxw.com//typora/image-20220630192622583.png?mail:3293172751@qq.com" alt="区块链的学习" style="zoom: 20%;" />
 > </a></div>
 
 + [x] [🖱️区块链教程🔥](C_Universal_Brockchain/README.md)
@@ -358,7 +358,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 
 我参与过很多顶级开源社区，包括 [sealer](https://github.com/sealerio/sealer)、[sealos](https://github.com/labring/sealos)、[Kubernetes](https://github.com/kubernetes/kubernetes/)、[OpenIM](https://github.com/OpenIMSDK)、[K8sgpt](https://github.com/k8sgpt-ai/k8sgpt)、[Horizon](https://github.com/horizoncd/horizon/) 以及 我自己打造的 开源社区 [Kubecub](https://github.com/kubecub)。kubecub 中有很多我沉淀下来的开源规范以及代码、项目规范都总结在各个仓库中。并且，Kubecub 和 OpenIM 使用了我创造的 [🤖 robot(kubbot)](https://github.com/kubbot) 来对 PR 和 Issue 高度自动化。kubecub 宗旨是面向所有的开发者进行学习和创造的，你可以在里面利用我们的自动化工具和模板打造自己的开源项目，并且让更多的人来帮助你协同、review 代码。
 
-在里面积累了很多的开源经验，并且记录在我的 [博客](https://nsddd.top) 中，其中，很多的提案和在贡献的成长笔记，所学习到的知识都在 [CloudNative](https://docker.nsddd.top/Cloud-Native/) 这篇知识库中有所记录。
+在里面积累了很多的开源经验，并且记录在我的 [博客](https://cubxxw.com) 中，其中，很多的提案和在贡献的成长笔记，所学习到的知识都在 [CloudNative](https://docker.cubxxw.com/Cloud-Native/) 这篇知识库中有所记录。
 
 > <p align = "center" color="red">
 > <b> kubecub（kubecub-开源社区）</b>    
@@ -366,7 +366,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 >
 > <div align="center">
 > <a href="https://github.com/kubecub">
-> 	<img src="http://sm.nsddd.top/sm202305242215086.png"  alt="twitter_header_photo_1" style="zoom: 20%;" />
+> 	<img src="http://sm.cubxxw.com/sm202305242215086.png"  alt="twitter_header_photo_1" style="zoom: 20%;" />
 > </a></div>
 >
 > 欢迎加入 kubecub 社区一起学习、为开源做贡献 ! 为了方便每一位开源爱好者交流和学习，我们在 slack 中集成了 很多自动化工具以及 AI，欢迎大家 [🔥加入 Slack](https://join.slack.com/t/kubecub/shared_invite/zt-1se0k2bae-lkYzz0_T~BYh3rjkvlcUqQ)。
@@ -374,9 +374,9 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 
 ## ✨ 参与贡献💕
 
- **[🫵 参与贡献💖❤️‍🩹💓💞](https://nsddd.top/archives/contributors)** 
+ **[🫵 参与贡献💖❤️‍🩹💓💞](https://cubxxw.com/archives/contributors)** 
 
-**[😍 甚至你可以在这个界面按下`.`进入vscode编译环境](https://nsddd.top/archives/githubdev)** 
+**[😍 甚至你可以在这个界面按下`.`进入vscode编译环境](https://cubxxw.com/archives/githubdev)** 
 
 **要求：**
 
@@ -386,7 +386,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 <details><summary><b>🫡 克隆此仓库到本地</b></summary>
 <pre><code>git clone https://ghproxy.com/https://github.com/cubxxw/Block_Chain.git 菜鸟的成长手册
 </code></pre>
-<pre><code>wget -c -d -O gitsync.sh https://sm.nsddd.top/uploads/2022/10/27/Y0iHb6ix_gitsync.sh?attname=gitsync.sh && echo "gitsync.sh" >> .gitignore && sh gitsync.sh 这里写提交信息~ && chmod 777 gitsync.sh
+<pre><code>wget -c -d -O gitsync.sh https://sm.cubxxw.com/uploads/2022/10/27/Y0iHb6ix_gitsync.sh?attname=gitsync.sh && echo "gitsync.sh" >> .gitignore && sh gitsync.sh 这里写提交信息~ && chmod 777 gitsync.sh
 </code></pre>
 
 
@@ -412,7 +412,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 
 ## 💡 版权声明 &copy;
 
-[![GitHub license](https://sm.nsddd.top//typora/cs-awesome-Block_Chain?mail:3293172751@qq.com)](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本)
+[![GitHub license](https://sm.cubxxw.com//typora/cs-awesome-Block_Chain?mail:3293172751@qq.com)](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本)
 
 ***License**:* 本书所有内容遵循[CC-BY-SA 3.0协议（署名-相同方式共享）&copy;](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本) 
 

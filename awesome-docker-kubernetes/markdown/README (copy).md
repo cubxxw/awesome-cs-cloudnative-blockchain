@@ -175,7 +175,7 @@ yum install docker
 
 ## ✨参与贡献
 
-**[🫵参与贡献❤️❤️💕💕](https://nsddd.top/archives/contributors)**
+**[🫵参与贡献❤️❤️💕💕](https://cubxxw.com/archives/contributors)**
 
 **要求：**
 

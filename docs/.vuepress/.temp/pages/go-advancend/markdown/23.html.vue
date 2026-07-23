@@ -7,7 +7,7 @@
 <li><RouterLink to="/go-advancend/markdown/22.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议你先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议你先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
@@ -79,7 +79,7 @@ ok      example/sum        <span class="token number">0</span>.002s
 <p><strong>当然，我们应该充分利用 GitHub 带给我们的帮助，对于我来说，对于一个优秀的GitHub使用者来说，在工程代码开战前，你是否应该考虑 文档、测试先行、CI 帮助你自动推进。</strong></p>
 <h2 id="测试覆盖率-coverage" tabindex="-1"><a class="header-anchor" href="#测试覆盖率-coverage" aria-hidden="true">#</a> 测试覆盖率 coverage</h2>
 <p>对于 coverage 来说，对于开源项目无疑是非常重要的，如下：</p>
-<p><img src="http://sm.nsddd.top/sm202301141501718.png" alt="image-20230114150113512"></p>
+<p><img src="http://sm.cubxxw.com/sm202301141501718.png" alt="image-20230114150113512"></p>
 <p>**覆盖率高达 98% 的项目，必然更受 contributor 喜爱。 **</p>
 <p>当然，除此之外，code climate（代码审核）也很重要，4.0 的指数意味着质量的保证。</p>
 <blockquote>
@@ -88,9 +88,9 @@ ok      example/sum        <span class="token number">0</span>.002s
 </blockquote>
 <h2 id="获取-api" tabindex="-1"><a class="header-anchor" href="#获取-api" aria-hidden="true">#</a> 获取 API</h2>
 <p>选择 <a href="https://fanyi.caiyunapp.com" target="_blank" rel="noopener noreferrer">彩云科技<ExternalLinkIcon/></a></p>
-<p><img src="http://sm.nsddd.top/sm202301141547085.png" alt="image-20230114154742796"></p>
+<p><img src="http://sm.cubxxw.com/sm202301141547085.png" alt="image-20230114154742796"></p>
 <p><strong>接下来，我们就可以找到自己想要的数据了：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301141548925.png" alt="image-20230114154857843"></p>
+<p><img src="http://sm.cubxxw.com/sm202301141548925.png" alt="image-20230114154857843"></p>
 <p><strong>下一步，我们想办法去 Golang 获取请求。</strong></p>
 <h2 id="一键生成请求" tabindex="-1"><a class="header-anchor" href="#一键生成请求" aria-hidden="true">#</a> 一键生成请求</h2>
 <p><strong>右键复制请求 cURL ，得到请求的 json 数据：</strong></p>
@@ -173,9 +173,9 @@ ok      example/sum        <span class="token number">0</span>.002s
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>给出的请求序列化，得到的是 json反序列化即可~</strong></p>
 <h2 id="列化-json" tabindex="-1"><a class="header-anchor" href="#列化-json" aria-hidden="true">#</a> 列化 json</h2>
 <p>序列化方法：</p>
-<p><img src="http://sm.nsddd.top/sm202301141609708.png" alt="image-20230114160934553"></p>
+<p><img src="http://sm.cubxxw.com/sm202301141609708.png" alt="image-20230114160934553"></p>
 <p><strong>变更：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301141612077.png" alt="image-20230114161211900"></p>
+<p><img src="http://sm.cubxxw.com/sm202301141612077.png" alt="image-20230114161211900"></p>
 <h2 id="反序列化" tabindex="-1"><a class="header-anchor" href="#反序列化" aria-hidden="true">#</a> 反序列化</h2>
 <ul>
 <li>[x] <a href="https://oktools.net/" target="_blank" rel="noopener noreferrer">在线工具 - OKTools json转发其他语言结构体和代码<ExternalLinkIcon/></a></li>

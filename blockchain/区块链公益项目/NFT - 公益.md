@@ -2,7 +2,7 @@
 
 [TOC]
 
-区块链 - 公益：https://nsddd.top/index.php/2021/12/04/qukuailiangongyi/
+区块链 - 公益：https://cubxxw.com/index.php/2021/12/04/qukuailiangongyi/
 
 
 

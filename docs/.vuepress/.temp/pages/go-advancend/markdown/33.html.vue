@@ -7,7 +7,7 @@
 <li><RouterLink to="/go-advancend/markdown/32.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
@@ -121,9 +121,9 @@ p <span class="token operator">=</span> <span class="token function">new</span><
 <p>内存分配器还使用了一种称为mspan的机制，它将一段连续的虚拟内存映射到物理内存中，然后用于分配较大的对象。每个mspan包含了一组大小相同的内存块，内存分配器将其缓存到线程的mcache中，以便下次分配时可以更快地返回。</p>
 <p>除了mcache和mspan外，Go语言的内存分配器还有一些其他的机制，例如用于跟踪内存分配的heap结构和用于管理内存释放的GCHelper结构等。</p>
 <p>总的来说，Go语言的内存分配器使用了缓存机制，通过缓存对象减少对全局内存的访问，提高了内存分配的效率。同时，内存分配器还使用了一些其他的机制来优化内存分配和释放的效率，例如分代垃圾回收、写屏障等。</p>
-<p><img src="http://sm.nsddd.top/sm202302231710042.png" alt="image-20230223171006715"></p>
+<p><img src="http://sm.cubxxw.com/sm202302231710042.png" alt="image-20230223171006715"></p>
 <h2 id="编译器和静态分析" tabindex="-1"><a class="header-anchor" href="#编译器和静态分析" aria-hidden="true">#</a> 编译器和静态分析</h2>
-<p><img src="http://sm.nsddd.top/sm202302231720604.png" alt="image-20230223172037284"></p>
+<p><img src="http://sm.cubxxw.com/sm202302231720604.png" alt="image-20230223172037284"></p>
 <p>以下是Go语言中常用的静态分析工具：</p>
 <ol>
 <li>go vet：go vet是Go语言自带的一个静态分析工具，它用于检查代码中的常见错误和不规范的使用方式，例如未使用的变量、多余的参数、不合法的格式化字符串等。</li>

@@ -187,7 +187,7 @@ require (
 </blockquote>
 <h2 id="简单上手" tabindex="-1"><a class="header-anchor" href="#简单上手" aria-hidden="true">#</a> 简单上手</h2>
 <p>当前目录结构</p>
-<p><img src="http://sm.nsddd.top/smimage-20221120151919161.png" alt="image-20221120151919161"></p>
+<p><img src="http://sm.cubxxw.com/smimage-20221120151919161.png" alt="image-20221120151919161"></p>
 <h3 id="文件内容" tabindex="-1"><a class="header-anchor" href="#文件内容" aria-hidden="true">#</a> 文件内容</h3>
 <p><strong>mod包内容：</strong></p>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code>module nsddd<span class="token punctuation">.</span>top<span class="token operator">/</span>mszlu<span class="token operator">-</span>common
@@ -243,7 +243,7 @@ use <span class="token punctuation">(</span>
 <span class="token keyword">import</span> <span class="token punctuation">(</span>
 	<span class="token string">"fmt"</span>
 
-	utils <span class="token string">"nsddd.top/mszlu-common"</span>
+	utils <span class="token string">"cubxxw.com/mszlu-common"</span>
 <span class="token punctuation">)</span>
 
 <span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>

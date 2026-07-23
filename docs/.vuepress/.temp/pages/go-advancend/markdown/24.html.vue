@@ -7,7 +7,7 @@
 <li><RouterLink to="/go-advancend/markdown/23.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
@@ -30,7 +30,7 @@
 </ul>
 <h2 id="原理介绍" tabindex="-1"><a class="header-anchor" href="#原理介绍" aria-hidden="true">#</a> 原理介绍</h2>
 <p>SOCKS5是用于通过代理服务器安全地路由网络流量的协议。它通常用于绕过网络限制和访问被阻止的网站。SOCKS5为SOCKS协议添加了额外的功能，例如验证用户身份的能力以及对TCP和UDP流量的支持。SOCKS5代理服务器充当客户端和目标服务器之间的中间人，在它们之间转发流量，同时隐藏客户端的IP地址。这允许客户端访问目标服务器上的资源，就好像它们位于同一网络上一样。</p>
-<p><img src="http://sm.nsddd.top/sm202301141645441.png" alt="image-20230114164536220"></p>
+<p><img src="http://sm.cubxxw.com/sm202301141645441.png" alt="image-20230114164536220"></p>
 <h2 id="第一步-一个简单的链接" tabindex="-1"><a class="header-anchor" href="#第一步-一个简单的链接" aria-hidden="true">#</a> 第一步，一个简单的链接</h2>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code><span class="token keyword">package</span> main
 

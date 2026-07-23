@@ -37,7 +37,7 @@ func main() {
 	// 	fmt.Println("Error: ", err)
 	// }
 	fmt.Println("欢迎使用xiongxinwei构建的脚本，" + "一键构建GitHub的文档结构\n" + "关于我：\n" +
-		"	+ 博客：http://nsddd.top\n" +
+		"	+ 博客：http://cubxxw.com\n" +
 		"	+ GitHub地址: https://github.com/3293172751")
 	fmt.Println()
 	fmt.Println()
@@ -108,7 +108,7 @@ func main() {
 		write.WriteString("<div><a href = '" + a3 + ".md" + "' style='float:left'>⬆️上一节🔗  </a><a href = '" + a2 + ".md" + "' style='float: right'>  ⬇️下一节🔗</a></div>\n")
 		write.WriteString("<br>\n")
 		write.WriteString("\n")
-		write.WriteString("> ❤️💕💕" + st + "Myblog:[http://nsddd.top](http://nsddd.top/)\n") //不能有空格
+		write.WriteString("> ❤️💕💕" + st + "Myblog:[http://cubxxw.com](http://cubxxw.com/)\n") //不能有空格
 		//运行输入空格
 		write.WriteString("\n")
 		write.WriteString("---\n")
@@ -122,7 +122,7 @@ func main() {
 		write.WriteString("\n")
 		write.WriteString("+ [Ⓜ️回到目录🏠](../README.md)\n")
 		write.WriteString("\n")
-		write.WriteString("+ [**🫵参与贡献💞❤️‍🔥💖**](https://nsddd.top/archives/contributors))\n")
+		write.WriteString("+ [**🫵参与贡献💞❤️‍🔥💖**](https://cubxxw.com/archives/contributors))\n")
 		write.WriteString("\n")
 		// 版权声明
 		write.WriteString("+ ✴️版权声明 &copy; ：本书所有内容遵循[CC-BY-SA 3.0协议（署名-相同方式共享）&copy;](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本) \n")

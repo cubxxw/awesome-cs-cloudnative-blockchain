@@ -7,7 +7,7 @@
 <li><RouterLink to="/go-advancend/markdown/25.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
@@ -18,7 +18,7 @@
 <p><strong>通信共享内存（Communicating Sequential Processes, CSP）是一种并发编程模型，它将并发程序视为若干独立的进程，这些进程之间通过通信来协调工作。</strong></p>
 <p>其中一种常用的通信方式是共享内存，即多个进程共用一块内存区域，并通过读写操作来实现通信。这种方式的优点是通信速度快，因为数据不需要经过网络传输，但缺点是需要额外的同步机制来保证数据的一致性。</p>
 <p>通信共享内存是一种比较流行的并发编程模型，并且在一些多处理器系统中得到了广泛应用。</p>
-<p><img src="http://sm.nsddd.top/sm202301151043893.png" alt="image-20230115104310586"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151043893.png" alt="image-20230115104310586"></p>
 <h3 id="缓冲通道" tabindex="-1"><a class="header-anchor" href="#缓冲通道" aria-hidden="true">#</a> 缓冲通道</h3>
 <p>在 Go 语言中，通道是用于在 goroutines 之间传递数据的类型。通道可以是无缓冲的或有缓冲的。</p>
 <ol>
@@ -27,9 +27,9 @@
 </ol>
 <p>使用无缓冲通道时，消息传递会更加同步，因为发送方和接收方必须同时准备好。</p>
 <p>而使用有缓冲通道时，消息传递会更加异步，因为发送方和接收方不必同时准备好。</p>
-<p><img src="http://sm.nsddd.top/sm202301151046692.png" alt="image-20230115104638471"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151046692.png" alt="image-20230115104638471"></p>
 <p><strong>💡简单的一个案例如下：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301151057598.png" alt="image-20230115105753367"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151057598.png" alt="image-20230115105753367"></p>
 <p><strong>📜 对上面的解释：</strong></p>
 <p>我们在前面解释过了，有缓冲的适合异步，无缓冲的适合同步，我们代入生产者和消费者的角色。</p>
 <p>通过 <code v-pre>src channel</code> 实现 A 协程和 B 协程的通信。</p>
@@ -171,7 +171,7 @@ github.com        google.golang.org  gopkg.in             k8s.io           sigs.
 <li><code v-pre>go mod verify</code>: 检查依赖的签名。</li>
 <li><code v-pre>go mod why</code>: 显示为什么需要依赖。</li>
 </ul>
-<p><img src="http://sm.nsddd.top/sm202301151210538.png" alt="image-20230115121030371"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151210538.png" alt="image-20230115121030371"></p>
 <h3 id="依赖分发" tabindex="-1"><a class="header-anchor" href="#依赖分发" aria-hidden="true">#</a> 依赖分发</h3>
 <p>在 Go 语言中，依赖的分发通常通过包管理器进行。Go 语言支持多种包管理工具，如 go mod、govendor、glide 等，它们都可以用来管理项目依赖。</p>
 <ul>
@@ -180,13 +180,13 @@ github.com        google.golang.org  gopkg.in             k8s.io           sigs.
 <li>glide是一个基于 glide.yaml 的 Go 包管理工具，支持多种版本管理策略。</li>
 </ul>
 <p>除了这些包管理工具之外，还可以通过其他方式来管理和分发 Go 语言的依赖。比如将项目打包成二进制文件，或者将项目发布到代码仓库，其他人可以通过 git clone 来获取项目代码和依赖。</p>
-<p><img src="http://sm.nsddd.top/sm202301151204471.png" alt="image-20230115120436202"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151204471.png" alt="image-20230115120436202"></p>
 <p>Go proxy是Go语言中用来设置代理服务器的一种方式。当使用Go语言进行网络请求时，如果网络环境需要使用代理服务器，可以使用Go proxy来设置代理。</p>
-<p><img src="http://sm.nsddd.top/sm202301151209722.png" alt="image-20230115120907556"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151209722.png" alt="image-20230115120907556"></p>
 <h2 id="测试" tabindex="-1"><a class="header-anchor" href="#测试" aria-hidden="true">#</a> 测试</h2>
 <p>学习Go语言的测试是很有用的。 Go语言提供了自带的测试框架，可以很容易地编写单元测试和性能测试。</p>
 <p>在Go语言中，测试文件的命名应该以 _test.go 为后缀。 测试函数的命名应该以 Test 开头。</p>
-<p><img src="http://sm.nsddd.top/sm202301151215148.png" alt="image-20230115121537963"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151215148.png" alt="image-20230115121537963"></p>
 <p>💡简单的一个案例如下：</p>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code><span class="token keyword">package</span> main
 
@@ -219,7 +219,7 @@ github.com        google.golang.org  gopkg.in             k8s.io           sigs.
 <li>使用 defer 语句来在测试结束后清理测试依赖。</li>
 <li>使用 mock 库来替换真实依赖。</li>
 </ul>
-<p><img src="http://sm.nsddd.top/sm202301151239560.png" alt="image-20230115123906424"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151239560.png" alt="image-20230115123906424"></p>
 <p>💡简单的一个案例如下：</p>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code><span class="token keyword">package</span> main
 
@@ -340,7 +340,7 @@ github.com        google.golang.org  gopkg.in             k8s.io           sigs.
 <p>另外,在并行基准测试中，如果你的函数有共享的变量和状态，需要注意使用互斥锁或其他同步机制来保证线程安全。</p>
 <h2 id="项目实践" tabindex="-1"><a class="header-anchor" href="#项目实践" aria-hidden="true">#</a> 项目实践</h2>
 <ul>
-<li><a href="http://sm.nsddd.top/sm202301151511679.png" target="_blank" rel="noopener noreferrer">项目地址<ExternalLinkIcon/></a></li>
+<li><a href="http://sm.cubxxw.com/sm202301151511679.png" target="_blank" rel="noopener noreferrer">项目地址<ExternalLinkIcon/></a></li>
 </ul>
 <h3 id="需求" tabindex="-1"><a class="header-anchor" href="#需求" aria-hidden="true">#</a> 需求</h3>
 <ul>
@@ -366,7 +366,7 @@ github.com        google.golang.org  gopkg.in             k8s.io           sigs.
 <li>文件操作：读文件<a href="https://pkg.go.dev/io" target="_blank" rel="noopener noreferrer">pkg.go.dev/io<ExternalLinkIcon/></a></li>
 <li>数据查询：索引<a href="www.baike.com/wikiid/5527%E2%80%A6">www.baike.com/wikiid/5527…</a></li>
 </ul>
-<p><img src="http://sm.nsddd.top/sm202301151423555.png" alt="image-20230115142324412"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151423555.png" alt="image-20230115142324412"></p>
 <h3 id="分层结构" tabindex="-1"><a class="header-anchor" href="#分层结构" aria-hidden="true">#</a> 分层结构</h3>
 <p>Go语言项目的分层结构通常包括三个部分：模型层、服务层和控制器层。</p>
 <ol>
@@ -379,7 +379,7 @@ github.com        google.golang.org  gopkg.in             k8s.io           sigs.
 <p>另外,还有一个会用到的是数据传输层（DTO）,用来在不同层之间传递数据,以避免相互依赖。</p>
 <p>最后,关于项目文件结构，可以按照不同层放置在不同的文件夹中,这样可以更容易地维护和组织代码.</p>
 </blockquote>
-<p><img src="http://sm.nsddd.top/sm202301151501920.png" alt="image-20230115150104748"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151501920.png" alt="image-20230115150104748"></p>
 <p><strong>组件工具</strong></p>
 <ul>
 <li><a href="https://github.com/gin-gonic/gin#quick-start" target="_blank" rel="noopener noreferrer">github.com/gin-gonic/g…<ExternalLinkIcon/></a></li>
@@ -418,7 +418,7 @@ drwxr-xr-x <span class="token number">1</span> smile <span class="token number">
 drwxr-xr-x <span class="token number">1</span> smile <span class="token number">197121</span>     <span class="token number">0</span> Jan <span class="token number">15</span> <span class="token number">15</span>:16 util
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="数据层" tabindex="-1"><a class="header-anchor" href="#数据层" aria-hidden="true">#</a> 数据层</h4>
 <p><strong>主要包括 Topic、Post、user</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301151509833.png" alt="image-20230115150921578"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151509833.png" alt="image-20230115150921578"></p>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code><span class="token keyword">type</span> Post <span class="token keyword">struct</span> <span class="token punctuation">{</span>
 	Id         <span class="token builtin">int64</span>     <span class="token string">`gorm:"column:id"`</span>
 	ParentId   <span class="token builtin">int64</span>     <span class="token string">`gorm:"parent_id"`</span>
@@ -446,22 +446,22 @@ drwxr-xr-x <span class="token number">1</span> smile <span class="token number">
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>如何实现查询操作？可以通过全扫描对应，MySQL全表扫描，这样能实现，但是并不高效。</strong></p>
 <p>⭕ <strong>或许我们可以用索引，我们通过目录定位结果。</strong></p>
 <p>Map 时间复杂度是 O1</p>
-<p><img src="http://sm.nsddd.top/sm202301151509659.png" alt="image-20230115150928396"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151509659.png" alt="image-20230115150928396"></p>
 <p><strong>实例：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301151509726.png" alt="image-20230115150938547"></p>
-<p><img src="http://sm.nsddd.top/sm202301151509112.png" alt="image-20230115150956917"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151509726.png" alt="image-20230115150938547"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151509112.png" alt="image-20230115150956917"></p>
 <p><strong>有了这两个函数,我们就可以上传到逻辑层,对其进行封装.</strong></p>
 <h4 id="逻辑层" tabindex="-1"><a class="header-anchor" href="#逻辑层" aria-hidden="true">#</a> 逻辑层</h4>
 <p>对传入的进行校验,然后组装实体</p>
-<p><img src="http://sm.nsddd.top/sm202301151510759.png" alt="image-20230115151045530"></p>
-<p><img src="http://sm.nsddd.top/sm202301151510012.png" alt="image-20230115151054819"></p>
-<p><img src="http://sm.nsddd.top/sm202301151511382.png" alt="image-20230115151104214"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151510759.png" alt="image-20230115151045530"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151510012.png" alt="image-20230115151054819"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151511382.png" alt="image-20230115151104214"></p>
 <h4 id="视图层" tabindex="-1"><a class="header-anchor" href="#视图层" aria-hidden="true">#</a> 视图层</h4>
 <p><strong>控制层：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301151511081.png" alt="image-20230115151110888"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151511081.png" alt="image-20230115151110888"></p>
 <p><strong>通过 gin 搭建web框架：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202301151511006.png" alt="image-20230115151121826"></p>
-<p><img src="http://sm.nsddd.top/sm202301151511679.png" alt="image-20230115151143752"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151511006.png" alt="image-20230115151121826"></p>
+<p><img src="http://sm.cubxxw.com/sm202301151511679.png" alt="image-20230115151143752"></p>
 <h2 id="总结" tabindex="-1"><a class="header-anchor" href="#总结" aria-hidden="true">#</a> 总结</h2>
 <p>对于学习Go语言来说，一定要学习它的设计思维和编程思维，而不是带入别的语言来批判新的语言，这样你总归无路可循。</p>
 <p>在掌握Go基础之后，可以 <strong>通过“三刷”的方式掌握SQL、Redis、Linux、Nginx的基础知识点</strong>，这样就有能力开发Web项目了。</p>

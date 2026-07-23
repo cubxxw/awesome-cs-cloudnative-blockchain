@@ -40,7 +40,7 @@
 ## Team
 
 官网中还有一个 Team 的功能，让你可以分享你的服务给他人使用，不过这个功能是要收费的
-![Pasted image 20221230165353](http://sm.nsddd.top/sm202301031844565.png)
+![Pasted image 20221230165353](http://sm.cubxxw.com/sm202301031844565.png)
 
 
 ## 端口转化

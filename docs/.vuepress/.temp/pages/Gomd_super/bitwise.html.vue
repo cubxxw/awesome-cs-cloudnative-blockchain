@@ -29,7 +29,7 @@ x <span class="token operator">=</span> x <span class="token operator">>></span>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>a ^= b; // int temp = b
 b ^= a; // b = a
 a ^= b; // a = temp
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="http://sm.nsddd.top/smimage-20220925161607882.png?xxw@nsddd.top" alt="image-20220925161607882"></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="http://sm.cubxxw.com/smimage-20220925161607882.png?xxw@cubxxw.com" alt="image-20220925161607882"></p>
 <h2 id="🎈增量-减量-较慢但有利于混淆" tabindex="-1"><a class="header-anchor" href="#🎈增量-减量-较慢但有利于混淆" aria-hidden="true">#</a> 🎈增量/减量（较慢但有利于混淆）</h2>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>i = -~i; // i++
 i = ~-i; // i--
@@ -43,7 +43,7 @@ i = ~-i; // i--
 </ul>
 <p><strong>注意这个补码求反是所有位数都求反，所以结果是<code v-pre>(2--)==1</code></strong></p>
 </blockquote>
-<p><img src="http://sm.nsddd.top/smsmsmimage-20220925161741820.png?xxw@nsddd.top" alt="image-20220925161741820"></p>
+<p><img src="http://sm.cubxxw.com/smsmsmimage-20220925161741820.png?xxw@cubxxw.com" alt="image-20220925161741820"></p>
 <h2 id="🎈标志翻转" tabindex="-1"><a class="header-anchor" href="#🎈标志翻转" aria-hidden="true">#</a> 🎈标志翻转</h2>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code>i <span class="token operator">=</span> <span class="token operator">~</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token comment">// or</span>
 i <span class="token operator">=</span> <span class="token punctuation">(</span>i <span class="token operator">^</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token comment">// i = -i</span>

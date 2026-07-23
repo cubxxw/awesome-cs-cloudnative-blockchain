@@ -76,7 +76,7 @@ go <span class="token function">env</span> <span class="token parameter variable
 <p>⚡ <code v-pre>go install</code>一般安装到环境变量的<code v-pre>bin</code>目录下面，可以用下面命令查看Go语言环境变量</p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>go env
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></blockquote>
-<p><img src="http://sm.nsddd.top/smimage-20221004184910837.png?xxw@nsddd.top" alt="image-20221004184910837"></p>
+<p><img src="http://sm.cubxxw.com/smimage-20221004184910837.png?xxw@cubxxw.com" alt="image-20221004184910837"></p>
 <h3 id="使用docker" tabindex="-1"><a class="header-anchor" href="#使用docker" aria-hidden="true">#</a> 使用Docker</h3>
 <p>请拉取这个 Docker 镜像 <a href="https://hub.docker.com/r/cosmtrek/air" target="_blank" rel="noopener noreferrer">cosmtrek/air<ExternalLinkIcon/></a>.</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">docker</span> run <span class="token parameter variable">-it</span> <span class="token parameter variable">--rm</span> <span class="token punctuation">\</span>

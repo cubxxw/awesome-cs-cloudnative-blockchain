@@ -7,7 +7,7 @@
 <li><RouterLink to="/go-advancend/markdown/34.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
@@ -36,7 +36,7 @@
 </blockquote>
 <p>12-Factor应用(译者注：应该是说一个使用本文概念来设计的应用，下同)通常会使用版本控制系统加以管理，如<a href="http://git-scm.com/" target="_blank" rel="noopener noreferrer">Git<ExternalLinkIcon/></a>, <a href="https://www.mercurial-scm.org/" target="_blank" rel="noopener noreferrer">Mercurial<ExternalLinkIcon/></a>, <a href="http://subversion.apache.org/" target="_blank" rel="noopener noreferrer">Subversion<ExternalLinkIcon/></a>。一份用来跟踪代码所有修订版本的数据库被称作 <em>代码库</em>（code repository, code repo, repo）。</p>
 <p>在类似 SVN 这样的集中式版本控制系统中，<em>基准代码</em> 就是指控制系统中的这一份代码库；而在 Git 那样的分布式版本控制系统中，<em>基准代码</em>  则是指最上游的那份代码库。</p>
-<p><img src="http://sm.nsddd.top/sm202302262130214.png" alt="一份代码库对应多份部署"></p>
+<p><img src="http://sm.cubxxw.com/sm202302262130214.png" alt="一份代码库对应多份部署"></p>
 <p>基准代码和应用之间总是保持一一对应的关系：</p>
 <ul>
 <li>一旦有多个基准代码，就不能称为一个应用，而是一个分布式系统。分布式系统中的每一个组件都是一个应用，每一个应用可以分别使用 12-Factor 进行开发。</li>
@@ -78,7 +78,7 @@
 <p>类似数据库的后端服务，通常由部署应用程序的系统管理员一起管理。除了本地服务之外，应用程序有可能使用了第三方发布和管理的服务。示例包括 SMTP（例如 <a href="http://postmarkapp.com/" target="_blank" rel="noopener noreferrer">Postmark<ExternalLinkIcon/></a>），数据收集服务（例如 <a href="http://newrelic.com/" target="_blank" rel="noopener noreferrer">New Relic<ExternalLinkIcon/></a> 或 <a href="http://www.loggly.com/" target="_blank" rel="noopener noreferrer">Loggly<ExternalLinkIcon/></a>），数据存储服务（如 <a href="http://http//aws.amazon.com/s3/" target="_blank" rel="noopener noreferrer">Amazon S3<ExternalLinkIcon/></a>），以及使用 API 访问的服务（例如 <a href="http://dev.twitter.com/" target="_blank" rel="noopener noreferrer">Twitter<ExternalLinkIcon/></a>, <a href="https://developers.google.com/maps/" target="_blank" rel="noopener noreferrer">Google Maps<ExternalLinkIcon/></a>, <a href="http://www.last.fm/api" target="_blank" rel="noopener noreferrer">Last.fm<ExternalLinkIcon/></a>）。</p>
 <p><strong>12-Factor 应用不会区别对待本地或第三方服务。</strong> 对应用程序而言，两种都是附加资源，通过一个 url 或是其他存储在 <a href="https://12factor.net/zh_cn/config" target="_blank" rel="noopener noreferrer">配置<ExternalLinkIcon/></a> 中的服务定位/服务证书来获取数据。12-Factor 应用的任意 <a href="https://12factor.net/zh_cn/codebase" target="_blank" rel="noopener noreferrer">部署<ExternalLinkIcon/></a> ，都应该可以在不进行任何代码改动的情况下，将本地 MySQL 数据库换成第三方服务（例如 <a href="http://aws.amazon.com/rds/" target="_blank" rel="noopener noreferrer">Amazon RDS<ExternalLinkIcon/></a>）。类似的，本地 SMTP 服务应该也可以和第三方 SMTP 服务（例如 Postmark ）互换。上述 2 个例子中，仅需修改配置中的资源地址。</p>
 <p>每个不同的后端服务是一份 <em>资源</em> 。例如，一个 MySQL 数据库是一个资源，两个 MySQL 数据库（用来数据分区）就被当作是 2 个不同的资源。12-Factor 应用将这些数据库都视作 <em>附加资源</em> ，这些资源和它们附属的部署保持松耦合。</p>
-<p><img src="http://sm.nsddd.top/sm202302272244649.png" alt="一种部署附加4个后端服务"></p>
+<p><img src="http://sm.cubxxw.com/sm202302272244649.png" alt="一种部署附加4个后端服务"></p>
 <p>部署可以按需加载或卸载资源。例如，如果应用的数据库服务由于硬件问题出现异常，管理员可以从最近的备份中恢复一个数据库，<strong>卸载当前的数据库，然后加载新的数据库 – 整个过程都不需要修改代码。</strong></p>
 <h2 id="构建-发布-运行" tabindex="-1"><a class="header-anchor" href="#构建-发布-运行" aria-hidden="true">#</a> 构建，发布，运行</h2>
 <blockquote>
@@ -90,7 +90,7 @@
 <li><em>发布阶段</em> 会将构建的结果和当前部署所需 <a href="https://12factor.net/zh_cn/config" target="_blank" rel="noopener noreferrer">配置<ExternalLinkIcon/></a> 相结合，并能够立刻在运行环境中投入使用。</li>
 <li><em>运行阶段</em> （或者说“运行时”）是指针对选定的发布版本，在执行环境中启动一系列应用程序 <a href="https://12factor.net/zh_cn/processes" target="_blank" rel="noopener noreferrer">进程<ExternalLinkIcon/></a>。</li>
 </ul>
-<p><img src="http://sm.nsddd.top/sm202302272245783.png" alt="代码被构建，然后和配置结合成为发布版本"></p>
+<p><img src="http://sm.cubxxw.com/sm202302272245783.png" alt="代码被构建，然后和配置结合成为发布版本"></p>
 <p><strong>12-factor 应用严格区分构建，发布，运行这三个步骤。</strong> 举例来说，直接修改处于运行状态的代码是非常不可取的做法，因为这些修改很难再同步回构建步骤。</p>
 <p>部署工具通常都提供了发布管理工具，最引人注目的功能是退回至较旧的发布版本。比如， <a href="https://github.com/capistrano/capistrano/wiki" target="_blank" rel="noopener noreferrer">Capistrano<ExternalLinkIcon/></a> 将所有发布版本都存储在一个叫 <code v-pre>releases</code> 的子目录中，当前的在线版本只需映射至对应的目录即可。该工具的 <code v-pre>rollback</code> 命令可以很容易地实现回退版本的功能。</p>
 <p>每一个发布版本必须对应一个唯一的发布 ID，例如可以使用发布时的时间戳（<code v-pre>2011-04-06-20:32:17</code>），亦或是一个增长的数字（<code v-pre>v100</code>）。发布的版本就像一本只能追加的账本，一旦发布就不可修改，任何的变动都应该产生一个新的发布版本。</p>
@@ -120,7 +120,7 @@
 <p>通过进程模型进行扩展</p>
 </blockquote>
 <p>任何计算机程序，一旦启动，就会生成一个或多个进程。互联网应用采用多种进程运行方式。例如，PHP 进程作为 Apache 的子进程存在，随请求按需启动。Java 进程则采取了相反的方式，在程序启动之初 JVM 就提供了一个超级进程储备了大量的系统资源(CPU 和内存)，并通过多线程实现内部的并发管理。上述 2 个例子中，进程是开发人员可以操作的最小单位。</p>
-<p><img src="http://sm.nsddd.top/sm202302272252313.png" alt="扩展表现为运行中的进程，工作多样性表现为进程类型。"></p>
+<p><img src="http://sm.cubxxw.com/sm202302272252313.png" alt="扩展表现为运行中的进程，工作多样性表现为进程类型。"></p>
 <p>**在 12-factor 应用中，进程是一等公民。**12-Factor 应用的进程主要借鉴于 <a href="https://adam.herokuapp.com/past/2011/5/9/applying_the_unix_process_model_to_web_apps/" target="_blank" rel="noopener noreferrer">unix 守护进程模型<ExternalLinkIcon/></a> 。开发人员可以运用这个模型去设计应用架构，将不同的工作分配给不同的 <em>进程类型</em> 。例如，HTTP 请求可以交给 web 进程来处理，而常驻的后台工作则交由 worker 进程负责。</p>
 <p>这并不包括个别较为特殊的进程，例如通过虚拟机的线程处理并发的内部运算，或是使用诸如 <a href="https://github.com/eventmachine/eventmachine" target="_blank" rel="noopener noreferrer">EventMachine<ExternalLinkIcon/></a>, <a href="http://twistedmatrix.com/trac/" target="_blank" rel="noopener noreferrer">Twisted<ExternalLinkIcon/></a>, <a href="http://nodejs.org/" target="_blank" rel="noopener noreferrer">Node.js<ExternalLinkIcon/></a> 的异步/事件触发模型。但一台独立的虚拟机的扩展有瓶颈（垂直扩展），所以应用程序必须可以在多台物理机器间跨进程工作。</p>
 <p>上述进程模型会在系统急需扩展时大放异彩。 <a href="https://12factor.net/zh_cn/processes" target="_blank" rel="noopener noreferrer">12-Factor 应用的进程所具备的无共享，水平分区的特性<ExternalLinkIcon/></a> 意味着添加并发会变得简单而稳妥。这些进程的类型以及每个类型中进程的数量就被称作 <em>进程构成</em> 。</p>

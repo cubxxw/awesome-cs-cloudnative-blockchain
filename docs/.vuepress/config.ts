@@ -74,7 +74,7 @@ export default {
         docsearchPlugin({
             apiKey: "e0bc57bb5910bb4cbaff54471af173d4",
             appId: "LIPIDXUN7V",
-            indexName: "go.nsddd.top",
+            indexName: "go.cubxxw.com",
             searchParameters: {
                 attributesToSnippet: ["lvl1:30", "content:25"],
             },
@@ -129,8 +129,8 @@ export default {
     ],
     theme: defaultTheme({
         sidebarDepth: 1,
-        logoDark: "https://sm.nsddd.top//typora/1.jpg?mail:3293172751@qq.com",
-        logo: "https://sm.nsddd.top//typora/4.png?mail:3293172751@qq.com",
+        logoDark: "https://sm.cubxxw.com//typora/1.jpg?mail:3293172751@qq.com",
+        logo: "https://sm.cubxxw.com//typora/4.png?mail:3293172751@qq.com",
         editLinkText: "在GitHub上贡献此页面",
         lastUpdatedText: "上次更新",
         contributorsText: "贡献者",
@@ -146,7 +146,7 @@ export default {
             "我们怎么到这来了？",
             "这是一个 404 页面",
             "看起来我们进入了错误的链接",
-            '你可以返回首页<href="https//docker.nsddd.top">首页</a>',
+            '你可以返回首页<href="https//docker.cubxxw.com">首页</a>',
         ],
         backToHome: "返回首页",
         openInNewWindow: "在新窗口打开",
@@ -165,7 +165,7 @@ export default {
                     {
                         text: "我的博客",
                         target: "_blank",
-                        link: "http://nsddd.top",
+                        link: "http://cubxxw.com",
                         activeMatch: "/",
                     },
                     {
@@ -184,7 +184,7 @@ export default {
             { text: "🏠首页", link: "/" },
             {
                 text: "🐋docker文档",
-                link: "https://docker.nsddd.top/",
+                link: "https://docker.cubxxw.com/",
                 target: "_blank",
             },
             {
@@ -201,7 +201,7 @@ export default {
                 { text: "🏠回到主页", link: "/" },
                 {
                     text: "💱个人云盘地址",
-                    link: "https://xxw.nsddd.top/s/wRSz",
+                    link: "https://xxw.cubxxw.com/s/wRSz",
                 },
                 { text: "🔥 进阶篇首页", link: "/Gomd_super/markdown/" },
                 { text: "🔥 Go语言高级篇", link: "/go-advancend/" },
@@ -248,7 +248,7 @@ export default {
                         "/markdown/九型人格.md",
                         {
                             text: "💝如何参与贡献？",
-                            link: "https://nsddd.top/archives/contributors",
+                            link: "https://cubxxw.com/archives/contributors",
                         },
                     ],
                 },
@@ -257,7 +257,7 @@ export default {
                 { text: "🏠回到主页", link: "/" },
                 {
                     text: "💱个人云盘地址",
-                    link: "https://xxw.nsddd.top/s/wRSz",
+                    link: "https://xxw.cubxxw.com/s/wRSz",
                 },
                 { text: "🔥 进阶篇首页", link: "/Gomd_super/markdown/" },
                 { text: "🔥 Go语言高级篇", link: "/go-advancend/" },
@@ -374,7 +374,7 @@ export default {
                         "/Gomd_super/markdown/100.md",
                         {
                             text: "💝如何参与贡献？",
-                            link: "https://nsddd.top/archives/contributors",
+                            link: "https://cubxxw.com/archives/contributors",
                         },
                     ],
                 },
@@ -383,7 +383,7 @@ export default {
                 { text: "🏠回到主页", link: "/" },
                 {
                     text: "💱个人云盘地址",
-                    link: "https://xxw.nsddd.top/s/wRSz",
+                    link: "https://xxw.cubxxw.com/s/wRSz",
                 },
                 { text: "🔥 进阶篇首页", link: "/Gomd_super/markdown/" },
                 {

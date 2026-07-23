@@ -7,7 +7,7 @@
 <li><RouterLink to="/go-advancend/markdown/17.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
@@ -83,13 +83,13 @@
     reverse_test.go:27: reverse<span class="token punctuation">(</span><span class="token string">"abc!def12321fedcba"</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">"abcdef12321fed!cba"</span>, want <span class="token string">"abc!def12321fedcba"</span>
 FAIL
 <span class="token builtin class-name">exit</span> status <span class="token number">1</span>
-FAIL    nsddd.top/fuzz-demo     <span class="token number">0</span>.235s
+FAIL    cubxxw.com/fuzz-demo     <span class="token number">0</span>.235s
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>是的，我留下了一个小bug，我们试着解决它：</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token punctuation">{</span><span class="token string">"abc!def12321fedcba"</span>, <span class="token string">"abcdef12321fed!cba"</span><span class="token punctuation">}</span>,
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>🚀 编译结果如下：</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>PS C:<span class="token punctuation">\</span>Users<span class="token punctuation">\</span>smile<span class="token punctuation">\</span>Desktop<span class="token punctuation">\</span>test<span class="token punctuation">\</span>fuzz-demo<span class="token operator">></span> go <span class="token builtin class-name">test</span>
 PASS
-ok      nsddd.top/fuzz-demo     <span class="token number">0</span>.274s
+ok      cubxxw.com/fuzz-demo     <span class="token number">0</span>.274s
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>:::</p>
 <h2 id="问题" tabindex="-1"><a class="header-anchor" href="#问题" aria-hidden="true">#</a> 问题</h2>
 <p>即使我们看起来万无一失，但是实际上还是有个问题，当我们输入中文的时候，我们知道此时的<code v-pre>byte[]</code> 是很弱鸡的~</p>
@@ -131,7 +131,7 @@ func TestReverse<span class="token punctuation">(</span>t *testing.T<span class=
     reverse_test.go:28: reverse<span class="token punctuation">(</span><span class="token string">"我是中国人"</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">"<span class="token entity" title="\xba">\xba</span><span class="token entity" title="\xba">\xba</span>佛學䯘摈<span class="token entity" title="\xe6">\xe6</span>"</span>, want <span class="token string">"人中国是我"</span>
 FAIL
 <span class="token builtin class-name">exit</span> status <span class="token number">1</span>
-FAIL    nsddd.top/fuzz-demo     <span class="token number">0</span>.264s
+FAIL    cubxxw.com/fuzz-demo     <span class="token number">0</span>.264s
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="custom-container danger"><p class="custom-container-title">警告</p>
 <p>当然，我们的目的不仅仅是为了解决它，而是说明我们的测试方法或许可以改进；</p>
 <p>我们可能写不了那么多的测试用例，那么我们可以使用模糊测试了</p>
@@ -202,7 +202,7 @@ FAIL    nsddd.top/fuzz-demo     <span class="token number">0</span>.264s
     reverse_test.go:29: reverse("我是中国人") == "\xba\xba佛學䯘摈\xe6", want "人中国是我"
 FAIL
 exit status 1
-FAIL    nsddd.top/fuzz-demo     0.268s
+FAIL    cubxxw.com/fuzz-demo     0.268s
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="end-链接" tabindex="-1"><a class="header-anchor" href="#end-链接" aria-hidden="true">#</a> END 链接</h2>
 <ul>
 <li><RouterLink to="/go-advancend/">回到目录</RouterLink></li>

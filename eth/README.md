@@ -8,7 +8,7 @@
 
 **区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是去中心化，公开透明，让每一个人均可参与的数据库记录
 
->   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。[个人博客http://nsddd.top](http://nsddd.top)
+>   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。[个人博客http://cubxxw.com](http://cubxxw.com)
 
 <a href = "https://etherscan.io/ "><img src = "./images/gTiDdUAxtHGJ4f8.png"></a>
 
@@ -21,7 +21,7 @@
 
 如果你有志向来改变这个世界，欢迎你加入[c-ub](https://github.com/c-ub)，我们将打造web3的学习平台
 
-[😶‍🌫️需要联系我联系我🖱️](xxw@nsddd.top)
+[😶‍🌫️需要联系我联系我🖱️](xxw@cubxxw.com)
 
 :::
 

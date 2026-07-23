@@ -7,7 +7,7 @@
 <li><RouterLink to="/go-advancend/markdown/36.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
@@ -172,10 +172,10 @@ count: <span class="token number">10</span>
 count: <span class="token number">10</span>
 count: <span class="token number">10</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="sync-waitgroup" tabindex="-1"><a class="header-anchor" href="#sync-waitgroup" aria-hidden="true">#</a> <code v-pre>sync.WaitGroup</code></h3>
-<p><img src="http://sm.nsddd.top/sm202302282346627.png" alt="image-20230228234629382"></p>
+<p><img src="http://sm.cubxxw.com/sm202302282346627.png" alt="image-20230228234629382"></p>
 <p><code v-pre>sync.WaitGroup</code>：等待组，它用于等待一组goroutine执行完成。等待组有两个主要方法：<code v-pre>Add</code>方法用于添加goroutine数量，<code v-pre>Done</code>方法用于减少goroutine数量。当等待组内所有goroutine执行完成后，调用<code v-pre>Wait</code>方法可以阻塞等待直到所有goroutine完成。</p>
 <h3 id="sync-cond" tabindex="-1"><a class="header-anchor" href="#sync-cond" aria-hidden="true">#</a> <code v-pre>sync.Cond</code></h3>
-<p><img src="http://sm.nsddd.top/sm202302282350135.png" alt="image-20230228235054943"></p>
+<p><img src="http://sm.cubxxw.com/sm202302282350135.png" alt="image-20230228235054943"></p>
 <p><code v-pre>sync.Cond</code>：条件变量，它可以让一个goroutine等待另一个goroutine的信号，从而实现线程间的同步。条件变量通常与互斥锁一起使用，可以让等待某个条件的goroutine在条件满足时被唤醒。</p>
 <h3 id="sync-once" tabindex="-1"><a class="header-anchor" href="#sync-once" aria-hidden="true">#</a> <code v-pre>sync.Once</code></h3>
 <p><code v-pre>sync.Once</code>：一次性初始化，它用于保证一个函数只被执行一次。<code v-pre>Once</code>的主要方法是<code v-pre>Do</code>，它接收一个函数作为参数，只有在第一次调用<code v-pre>Do</code>方法时，才会执行该函数。后续对<code v-pre>Do</code>方法的调用都将被忽略。</p>
@@ -186,7 +186,7 @@ count: <span class="token number">10</span>
 <li>线程：这是调度分配的基本单位（用户态线程不分配资源——）</li>
 </ul>
 <p><strong>无论是线程还是进程，其实我的理解是，线程也是属于进程，在 Linux 中都是以 <code v-pre>task_struct</code> 描述，从内核的本质上看，与进程无本质区别。</strong></p>
-<p><img src="http://sm.nsddd.top/sm202302282340463.png" alt="image-20230228234015309"></p>
+<p><img src="http://sm.cubxxw.com/sm202302282340463.png" alt="image-20230228234015309"></p>
 <p>上面的图 告诉我们，线程也可以是一种特殊的进程，进程也是从 init system 根进程 中 不断地 fork 出来的二叉树。那么线程也是一直 copy 进程。</p>
 <h2 id="调度策略" tabindex="-1"><a class="header-anchor" href="#调度策略" aria-hidden="true">#</a> 调度策略</h2>
 <p>不同的操作系统，大型的系统，比如说 Linux、Kubernetes 都有自己的调度策略。</p>
@@ -205,11 +205,11 @@ count: <span class="token number">10</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这段代码中，我们开启了10个协程，每个协程打印去打印i这个变量。由于这10个协程的调度时机并不固定，所以等到协程被调度执行的时候才会去取循环中变量i的值。</p>
 <p>我们写的这段代码，每个我们开启的协程都是一个计算任务，这些任务会被提交给go的runtime。如果计算任务非常多，有成千上万个，那么这些任务是不可能同时被立刻执行的，所以这个计算任务一定会被先暂存起来，一般的做法是放到内存的队列中等待被执行。</p>
 <p>而消费端则是一个go runtime维护的一个<strong>调度循环</strong>。调度循环简单来说，就是不断从队列中消费计算任务并执行。这里本质上就是一个生产者-消费者模型，实现了用户任务与调度器的解耦。</p>
-<p><img src="http://sm.nsddd.top/sm202303011534248.png" alt="image-20230301153417002"></p>
+<p><img src="http://sm.cubxxw.com/sm202303011534248.png" alt="image-20230301153417002"></p>
 <p>这里图中的G就代表我们的一个<strong>goroutine计算任务</strong>，M就代表<strong>操作系统线程</strong></p>
 <h3 id="linux的内存使用" tabindex="-1"><a class="header-anchor" href="#linux的内存使用" aria-hidden="true">#</a> Linux的内存使用</h3>
 <p><strong>Linux 进程的内存使用：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202303011535829.png" alt="image-20230301153554711"></p>
+<p><img src="http://sm.cubxxw.com/sm202303011535829.png" alt="image-20230301153554711"></p>
 <blockquote>
 <p>上面是高地址：栈，先进先出，栈是向下生长的，线程中就是栈内存管理</p>
 <p>后面是堆，堆是向上生长的</p>
@@ -250,12 +250,12 @@ count: <span class="token number">10</span>
 <p><strong>所以说：Go语言是不能写入 data、bss、dec的，是通过  runtime 自带的变量。</strong></p>
 </blockquote>
 <h3 id="go语言对内存的访问" tabindex="-1"><a class="header-anchor" href="#go语言对内存的访问" aria-hidden="true">#</a> Go语言对内存的访问</h3>
-<p><img src="http://sm.nsddd.top/sm202303011557108.png" alt="image-20230301155705966"></p>
+<p><img src="http://sm.cubxxw.com/sm202303011557108.png" alt="image-20230301155705966"></p>
 <p><strong>我们最终的目的是了解 进程切换的开销，所以回到主题：</strong></p>
 <h3 id="进程切换开销" tabindex="-1"><a class="header-anchor" href="#进程切换开销" aria-hidden="true">#</a> 进程切换开销</h3>
 <p><strong>进程的切换，整个进程的虚拟地址都将会切换掉。</strong></p>
 <p>进程切换是指从一个进程切换到另一个进程。在操作系统中，进程切换通常需要执行一些额外的操作，以便将控制权从当前进程转移到另一个进程。这些操作涉及到操作系统内核的一些特定的处理和资源调度，因此会带来一定的开销。</p>
-<p><img src="http://sm.nsddd.top/sm202303011602381.png" alt="image-20230301160221278"></p>
+<p><img src="http://sm.cubxxw.com/sm202303011602381.png" alt="image-20230301160221278"></p>
 <p><strong>直接开销是指直接与进程切换相关的开销，包括：</strong></p>
 <ul>
 <li>保存和恢复寄存器状态：进程切换时，操作系统需要保存当前进程的寄存器状态，并恢复新进程的寄存器状态。</li>
@@ -280,13 +280,13 @@ count: <span class="token number">10</span>
 </ul>
 <h3 id="用户线程" tabindex="-1"><a class="header-anchor" href="#用户线程" aria-hidden="true">#</a> 用户线程</h3>
 <p>🆗，我们也知道对吧，还有个用户线程，用户线程在用户空间创建的可执行单元，创建和销毁完全在用户态完成。</p>
-<p><img src="http://sm.nsddd.top/sm202303011606492.png" alt="image-20230301160649352"></p>
+<p><img src="http://sm.cubxxw.com/sm202303011606492.png" alt="image-20230301160649352"></p>
 <p><strong>那么 Goruntime 就是基于 GMP 模型实现用户态线程的。</strong></p>
 <h3 id="goruntime" tabindex="-1"><a class="header-anchor" href="#goruntime" aria-hidden="true">#</a> Goruntime</h3>
-<p><img src="http://sm.nsddd.top/sm202303011607199.png" alt="image-20230301160726026"></p>
+<p><img src="http://sm.cubxxw.com/sm202303011607199.png" alt="image-20230301160726026"></p>
 <p>在 Go 中，<strong>线程是运行 goroutine 的实体，调度器的功能是把可运行的 goroutine 分配到工作线程上</strong>。</p>
 <p><strong>Processor，它包含了运行 goroutine 的资源</strong>，如果线程想运行 goroutine，必须先获取 P，P 中还包含了可运行的 G 队列。</p>
-<p><img src="http://sm.nsddd.top/sm202303011614340.png" alt="image-20230301161437159"></p>
+<p><img src="http://sm.cubxxw.com/sm202303011614340.png" alt="image-20230301161437159"></p>
 <ol>
 <li>全局队列（Global Queue）：存放等待运行的 G。</li>
 <li>P 的本地队列：同全局队列类似，存放的也是等待运行的 G，存的数量有限，不超过 256 个。新建 G’时，G’优先加入到 P 的本地队列，如果队列满了，则会把本地队列中一半的 G 移动到全局队列。</li>
@@ -294,11 +294,11 @@ count: <span class="token number">10</span>
 <li>M：线程想运行任务就得获取 P，从 P 的本地队列获取 G，P 队列为空时，M 也会尝试从全局队列拿一批 G 放到 P 的本地队列，或从其他 P 的本地队列偷一半放到自己 P 的本地队列。M 运行 G，G 执行之后，M 会从 P 获取下一个 G，不断重复下去。</li>
 </ol>
 <p><strong>模型细节：</strong></p>
-<p><img src="http://sm.nsddd.top/sm202303011617950.png" alt="image-20230301161757756"></p>
+<p><img src="http://sm.cubxxw.com/sm202303011617950.png" alt="image-20230301161757756"></p>
 <h3 id="调度策略-1" tabindex="-1"><a class="header-anchor" href="#调度策略-1" aria-hidden="true">#</a> 调度策略</h3>
 <h4 id="生产者" tabindex="-1"><a class="header-anchor" href="#生产者" aria-hidden="true">#</a> 生产者</h4>
 <p>接上面的例子，我们生产了10个计算任务，我们一定是要在内存中先把它存起来等待调度器去消费的。那么很显然，最合适的数据结构就是队列，先来先服务。但是这样做是有问题的。现在我们都是多核多线程模型，消费者肯定不止有一个，所以如果多个消费者去消费同一个队列，会出现线程安全的问题，必须加锁。所有计算任务G都必须在M上来执行。</p>
-<p><img src="http://sm.nsddd.top/sm202303011535328.png" alt="image-20230301153520194"></p>
+<p><img src="http://sm.cubxxw.com/sm202303011535328.png" alt="image-20230301153520194"></p>
 <h2 id="end-链接" tabindex="-1"><a class="header-anchor" href="#end-链接" aria-hidden="true">#</a> END 链接</h2>
 <ul>
 <li><RouterLink to="/go-advancend/">回到目录</RouterLink></li>

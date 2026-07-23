@@ -5,7 +5,7 @@
 <div><a href = '2.md' style='float:left'>⬆️上一节🔗</a><a href = '4.md' style='float: right'>⬇️下一节🔗</a></div>
 <br>
 <blockquote>
-<p>❤️💕💕Java和Golang的设计模式，设计模式介绍、创建者模式、结构型模式、行为型模式。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Java和Golang的设计模式，设计模式介绍、创建者模式、结构型模式、行为型模式。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 </blockquote>
 <hr>
 <p>[TOC]</p>
@@ -58,7 +58,7 @@
 <p>这就是设计的弊端。</p>
 </div>
 <p>那么，如果我们拥有接口, <code v-pre>interface</code>这个东西，那么我们就可以抽象一层出来，制作一个抽象的Banker模块，然后提供一个抽象的方法。 分别根据这个抽象模块，去实现<code v-pre>支付Banker（实现支付方法）</code>,<code v-pre>转账Banker（实现转账方法）</code></p>
-<p><img src="http://sm.nsddd.top/smimage-20221127231259024.png" alt="image-20221127231259024"></p>
+<p><img src="http://sm.cubxxw.com/smimage-20221127231259024.png" alt="image-20221127231259024"></p>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>那么即使 Banker 的添加，不会修改 任何已经稳定的代码，出现问题也不会连累其他模块。</p>
 </div>
@@ -197,7 +197,7 @@
 <p><RouterLink to="/go-advancend/">Ⓜ️回到目录🏠</RouterLink></p>
 </li>
 <li>
-<p><a href="https://nsddd.top/archives/contributors" target="_blank" rel="noopener noreferrer"><strong>🫵参与贡献💞❤️‍🔥💖</strong><ExternalLinkIcon/></a>)</p>
+<p><a href="https://cubxxw.com/archives/contributors" target="_blank" rel="noopener noreferrer"><strong>🫵参与贡献💞❤️‍🔥💖</strong><ExternalLinkIcon/></a>)</p>
 </li>
 <li>
 <p>✴️版权声明 © :本书所有内容遵循<a href="http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="noopener noreferrer">CC-BY-SA 3.0协议（署名-相同方式共享）©<ExternalLinkIcon/></a></p>

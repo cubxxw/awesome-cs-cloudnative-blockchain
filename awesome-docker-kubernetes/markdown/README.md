@@ -53,7 +53,7 @@
 ::: warning
 ⚠️ 正在更新⚡~关注等待~
 
-+ [k8s & 云原生](https://docker.nsddd.top/Cloud-Native-k8s/)
++ [k8s & 云原生](https://docker.cubxxw.com/Cloud-Native-k8s/)
 
 :::
 
@@ -200,7 +200,7 @@ yum install docker
 
 ## ✨参与贡献
 
-**[🫵参与贡献❤️❤️💕💕](https://nsddd.top/archives/contributors)**
+**[🫵参与贡献❤️❤️💕💕](https://cubxxw.com/archives/contributors)**
 
 **要求：**
 

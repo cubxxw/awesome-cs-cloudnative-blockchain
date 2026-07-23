@@ -118,7 +118,7 @@ go install github.com/cosmtrek/air@latest
 > go env
 > ```
 
-![image-20221004184910837](http://sm.nsddd.top/smimage-20221004184910837.png?xxw@nsddd.top)
+![image-20221004184910837](http://sm.cubxxw.com/smimage-20221004184910837.png?xxw@cubxxw.com)
 
 
 

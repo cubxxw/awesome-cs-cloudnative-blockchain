@@ -7,7 +7,7 @@
 <li><RouterLink to="/go-advancend/markdown/24.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
 </blockquote>
@@ -23,7 +23,7 @@
 <h2 id="什么是kafka" tabindex="-1"><a class="header-anchor" href="#什么是kafka" aria-hidden="true">#</a> 什么是Kafka</h2>
 <p><strong>官方介绍</strong>：Apache Kafka 是一个开源分布式事件流平台，被数千家公司用于高性能数据管道、流分析、数据集成和任务关键型应用程序。</p>
 <p><strong>维基</strong>：<strong>Kafka</strong>是由<a href="https://zh.wikipedia.org/wiki/Apache%E8%BD%AF%E4%BB%B6%E5%9F%BA%E9%87%91%E4%BC%9A" target="_blank" rel="noopener noreferrer">Apache软件基金会<ExternalLinkIcon/></a>开发的一个<a href="https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90" target="_blank" rel="noopener noreferrer">开源<ExternalLinkIcon/></a><a href="https://zh.wikipedia.org/wiki/%E6%B5%81%E5%A4%84%E7%90%86" target="_blank" rel="noopener noreferrer">流处理<ExternalLinkIcon/></a>平台，由<a href="https://zh.wikipedia.org/wiki/Scala" target="_blank" rel="noopener noreferrer">Scala<ExternalLinkIcon/></a>和<a href="https://zh.wikipedia.org/wiki/Java" target="_blank" rel="noopener noreferrer">Java<ExternalLinkIcon/></a>编写。该项目的目标是为处理实时数据提供一个统一、高吞吐、低延迟的平台。其持久化层本质上是一个“按照分布式事务日志架构的大规模发布/订阅消息队列”，[<a href="https://zh.wikipedia.org/zh-cn/Kafka#cite_note-4" target="_blank" rel="noopener noreferrer">4]<ExternalLinkIcon/></a>这使它作为企业级基础设施来处理流式数据非常有价值。此外，Kafka可以通过Kafka Connect连接到外部系统（用于数据输入/输出），并提供了Kafka Streams——一个<a href="https://zh.wikipedia.org/wiki/Java" target="_blank" rel="noopener noreferrer">Java<ExternalLinkIcon/></a>流式处理<a href="https://zh.wikipedia.org/wiki/%E5%BA%93_(%E8%AE%A1%E7%AE%97%E6%9C%BA)" target="_blank" rel="noopener noreferrer">库<ExternalLinkIcon/></a>。</p>
-<p><img src="http://sm.nsddd.top/sm202301161137678.png" alt="image-20230116113759591"></p>
+<p><img src="http://sm.cubxxw.com/sm202301161137678.png" alt="image-20230116113759591"></p>
 <p><strong>消息系统</strong></p>
 <p>Kafka 和传统的消息系统(也称作消息中间件)都具备系统解耦、冗余存储、流量削峰、缓冲、异步通信、扩展性、可恢复性等功能。与此同时，Kafka 还提供了大多数消息系统难以实现的消息顺序性保障及回溯消费的功能。</p>
 <p><strong>存储系统</strong></p>
@@ -40,7 +40,7 @@
 <p>Kafka 不仅为每个流行的流式处理框架提供了可靠的数据来源，还提供了一个完整的流式处理类库，比如窗口、连接、变换和聚合等各类操作。</p>
 <h2 id="kafka基础概念" tabindex="-1"><a class="header-anchor" href="#kafka基础概念" aria-hidden="true">#</a> Kafka基础概念</h2>
 <h3 id="架构" tabindex="-1"><a class="header-anchor" href="#架构" aria-hidden="true">#</a> 架构</h3>
-<p><img src="http://sm.nsddd.top/sm202301161158683.png" alt="image-20230116115851564"></p>
+<p><img src="http://sm.cubxxw.com/sm202301161158683.png" alt="image-20230116115851564"></p>
 <p>Kafka存储的消息来自任意多被称为“生产者”（Producer）的进程。数据从而可以被分配到不同的“分区”（Partition）、不同的“Topic”下。在一个分区内，这些消息被索引并连同时间戳存储在一起。其它被称为“消费者”（Consumer）的进程可以从分区查询消息。Kafka运行在一个由一台或多台服务器组成的集群上，并且分区可以跨集群结点分布。</p>
 <p>Kafka高效地处理实时流式数据，可以实现与Storm、HBase和Spark的集成。作为聚类部署到多台服务器上，Kafka处理它所有的发布和订阅消息系统使用了四个API，即生产者API、消费者API、Stream API和Connector API。它能够传递大规模流式消息，自带容错功能，已经取代了一些传统消息系统，如JMS、AMQP等。</p>
 <p>Kafka架构的主要术语包括Topic、Record和Broker。Topic由Record组成，Record持有不同的信息，而Broker则负责复制消息。Kafka有四个主要API：</p>

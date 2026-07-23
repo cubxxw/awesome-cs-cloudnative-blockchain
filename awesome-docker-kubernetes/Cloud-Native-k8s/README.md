@@ -14,7 +14,7 @@
 > +  [计算机网络 – TCP/IP – 抓包 – Linux网络编程](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/web/README.md) （有一点网络基础就好）
 > +  [有Linux的基础](https://github.com/cubxxw/awesome-cs-course/blob/master/linux/README.md)
 > +  [有Git的基础](https://github.com/cubxxw/awesome-cs-course/blob/master/Git/README.md)
-> +  [docker的基础](https://docker.nsddd.top)
+> +  [docker的基础](https://docker.cubxxw.com)
 >
 > **编程语言不限**
 >
@@ -136,7 +136,7 @@ yum install docker
 
 ## ✨参与贡献
 
-**[🫵参与贡献❤️❤️💕💕](https://nsddd.top/archives/contributors)**
+**[🫵参与贡献❤️❤️💕💕](https://cubxxw.com/archives/contributors)**
 
 **要求：**
 

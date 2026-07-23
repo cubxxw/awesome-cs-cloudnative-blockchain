@@ -7,14 +7,14 @@
 <li><RouterLink to="/go-advancend/markdown/31.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
 <hr>
 <p>[TOC]</p>
 <h2 id="开始" tabindex="-1"><a class="header-anchor" href="#开始" aria-hidden="true">#</a> 开始</h2>
-<p><img src="http://sm.nsddd.top/sm202302021326221.png" alt="image-20230202132639133"></p>
+<p><img src="http://sm.cubxxw.com/sm202302021326221.png" alt="image-20230202132639133"></p>
 <p>可以访问<a href="https://go.dev/dl/" target="_blank" rel="noopener noreferrer">下载页面<ExternalLinkIcon/></a>获取它</p>
 <p><strong>向下兼容，无脑升就好了！Go 1.20 amd64 版本 95MB，相比 Go 1.19 144MB，以及 Go 1.18.10 138MB 来说，降幅达到了 49MB</strong>。</p>
 <p><a href="https://tip.golang.org/doc/go1.19" target="_blank" rel="noopener noreferrer">最新的 Go 版本 1.20 在Go 1.19<ExternalLinkIcon/></a> 发布六个月后发布。它的大部分更改都在工具链、运行时和库的实现中。一如既往，该版本保持了 Go 1<a href="https://tip.golang.org/doc/go1compat" target="_blank" rel="noopener noreferrer">的兼容性承诺<ExternalLinkIcon/></a>。我们期望几乎所有的 Go 程序都能像以前一样继续编译和运行。</p>

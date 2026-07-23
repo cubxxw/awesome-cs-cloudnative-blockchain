@@ -6,7 +6,7 @@
 
 使用到的工具有`golang`,`vim`,`vscode`
 
-+ [x] [Go语言代码个人网盘地址(不限速下载)](https://xxw.nsddd.top/s/vmIj)
++ [x] [Go语言代码个人网盘地址(不限速下载)](https://xxw.cubxxw.com/s/vmIj)
 
 **如果你有良好的网络环境(科学上网),可以直接访问replit在线仓库地址**
 

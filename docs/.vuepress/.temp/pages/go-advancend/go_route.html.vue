@@ -1,6 +1,6 @@
 <template><div><h2 id="路线图" tabindex="-1"><a class="header-anchor" href="#路线图" aria-hidden="true">#</a> 路线图</h2>
 <hr>
-<p><img src="https://sm.nsddd.top/QkPSJrhimqpXLGz.png?mail:3293172751@qq.com" alt="image-20220403155757049"></p>
+<p><img src="https://sm.cubxxw.com/QkPSJrhimqpXLGz.png?mail:3293172751@qq.com" alt="image-20220403155757049"></p>
 <h2 id="资源" tabindex="-1"><a class="header-anchor" href="#资源" aria-hidden="true">#</a> 资源</h2>
 <h3 id="看书路线" tabindex="-1"><a class="header-anchor" href="#看书路线" aria-hidden="true">#</a> 看书路线</h3>
 <div class="language-mermaid ext-mermaid line-numbers-mode"><pre v-pre class="language-mermaid"><code><span class="token keyword">graph</span> TD

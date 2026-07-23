@@ -7,7 +7,7 @@
 <li><RouterLink to="/go-advancend/markdown/16.html">上一节</RouterLink></li>
 </ul>
 <blockquote>
-<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://nsddd.top/" target="_blank" rel="noopener noreferrer">http://nsddd.top<ExternalLinkIcon/></a></p>
+<p>❤️💕💕Go语言高级篇章,在此之前建议您先了解基础和进阶篇。Myblog:<a href="http://cubxxw.com/" target="_blank" rel="noopener noreferrer">http://cubxxw.com<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="go语言基础篇" tabindex="-1"><a class="header-anchor" href="#go语言基础篇" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/TOC.md" target="_blank" rel="noopener noreferrer">Go语言基础篇<ExternalLinkIcon/></a></strong></h3>
 <h3 id="go语言100篇进阶" tabindex="-1"><a class="header-anchor" href="#go语言100篇进阶" aria-hidden="true">#</a> <strong><a href="https://github.com/3293172751/Block_Chain/blob/master/Gomd_super/README.md" target="_blank" rel="noopener noreferrer">Go语言100篇进阶<ExternalLinkIcon/></a></strong></h3>
@@ -29,7 +29,7 @@
 </blockquote>
 <h2 id="简单上手" tabindex="-1"><a class="header-anchor" href="#简单上手" aria-hidden="true">#</a> 简单上手</h2>
 <p>当前目录结构</p>
-<p><img src="http://sm.nsddd.top/smimage-20221120151919161.png" alt="image-20221120151919161"></p>
+<p><img src="http://sm.cubxxw.com/smimage-20221120151919161.png" alt="image-20221120151919161"></p>
 <h3 id="文件内容" tabindex="-1"><a class="header-anchor" href="#文件内容" aria-hidden="true">#</a> 文件内容</h3>
 <p><strong>mod包内容：</strong></p>
 <div class="language-go ext-go line-numbers-mode"><pre v-pre class="language-go"><code>module nsddd<span class="token punctuation">.</span>top<span class="token operator">/</span>mszlu<span class="token operator">-</span>common
@@ -85,7 +85,7 @@ use <span class="token punctuation">(</span>
 <span class="token keyword">import</span> <span class="token punctuation">(</span>
 	<span class="token string">"fmt"</span>
 
-	utils <span class="token string">"nsddd.top/mszlu-common"</span>
+	utils <span class="token string">"cubxxw.com/mszlu-common"</span>
 <span class="token punctuation">)</span>
 
 <span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>

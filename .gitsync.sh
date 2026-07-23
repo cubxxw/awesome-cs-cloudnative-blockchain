@@ -4,7 +4,7 @@
  # @Author: xiongxinwei 3293172751nss@gmail.com
  # @LastEditTime: 2022-10-26 18:27:35
  # @FilePath: \coded:\其他\测试文件夹\gitsync.sh
- # Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://nsddd.top
+ # Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://cubxxw.com
 
     # 1. git add . 
     # 2. git commit -m "update" 
@@ -20,10 +20,10 @@
     # windows下面没有bash,所以需要使用git-bash来执行脚本
 
     # 脚本代码在线浏览
-    # http://xxw.nsddd.top/code?p=%2Fgitsync.sh&id=AN16H9
+    # http://xxw.cubxxw.com/code?p=%2Fgitsync.sh&id=AN16H9
 
     # Linux一键下载
-    # wget -c -d -O gitsync.sh https://sm.nsddd.top/uploads/2022/10/27/Y0iHb6ix_gitsync.sh?attname=gitsync.sh && echo "gitsync.sh" >> .gitignore && sh gitsync.sh && chmod 777 gitsync.sh \
+    # wget -c -d -O gitsync.sh https://sm.cubxxw.com/uploads/2022/10/27/Y0iHb6ix_gitsync.sh?attname=gitsync.sh && echo "gitsync.sh" >> .gitignore && sh gitsync.sh && chmod 777 gitsync.sh \
 
  
  ### 
@@ -45,9 +45,9 @@ fi
 if [ 0 -lt ${#is_change} ]; then  # 有文件改动
     echo "监测到程序改动,程序将会自动帮您同步⚡ 请稍等...(The program will automatically help you synchronize ⚡ Please wait...)"
     echo " "
-    echo "Myblog: http://nsddd.top"
+    echo "Myblog: http://cubxxw.com"
     echo
-    echo "脚本地址在线浏览🧷: https://sm.nsddd.top/uploads/2022/10/26/2iCzooCq_gitsync.sh"
+    echo "脚本地址在线浏览🧷: https://sm.cubxxw.com/uploads/2022/10/26/2iCzooCq_gitsync.sh"
 
     is_change=$(git status -s)  # 判断是否有文件改动
 

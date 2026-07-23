@@ -15,7 +15,7 @@
 </div>
 <h2 id="🐶往下看" tabindex="-1"><a class="header-anchor" href="#🐶往下看" aria-hidden="true">#</a> 🐶往下看</h2>
 <div class="custom-container danger"><p class="custom-container-title">提醒</p>
-<p>⚠️ 注意：页面需要下载，建议在下面📵<a href="https://xxw.nsddd.top/s/wRSz" target="_blank" rel="noopener noreferrer"><strong>不限速在线个人云盘</strong><ExternalLinkIcon/></a>里面找到文件</p>
+<p>⚠️ 注意：页面需要下载，建议在下面📵<a href="https://xxw.cubxxw.com/s/wRSz" target="_blank" rel="noopener noreferrer"><strong>不限速在线个人云盘</strong><ExternalLinkIcon/></a>里面找到文件</p>
 <p><a href="https://github.com/3293172751/cs-awesome-Block_Chain" target="_blank" rel="noopener noreferrer"> 🖱️github地址<ExternalLinkIcon/></a></p>
 <p>图片当初是用sm图库，对于小时访问量有限制，后期会慢慢转到服务器中。</p>
 </div>
@@ -37,7 +37,7 @@
 <h2 id="前言" tabindex="-1"><a class="header-anchor" href="#前言" aria-hidden="true">#</a> 前言</h2>
 <p>使用到的工具有<code v-pre>golang</code>,<code v-pre>vim</code>,<code v-pre>vscode</code></p>
 <ul>
-<li>[x] <a href="https://xxw.nsddd.top/s/vmIj" target="_blank" rel="noopener noreferrer">Go语言代码个人网盘地址(不限速下载)<ExternalLinkIcon/></a></li>
+<li>[x] <a href="https://xxw.cubxxw.com/s/vmIj" target="_blank" rel="noopener noreferrer">Go语言代码个人网盘地址(不限速下载)<ExternalLinkIcon/></a></li>
 </ul>
 <p><strong>如果你有良好的网络环境(科学上网),可以直接访问replit在线仓库地址</strong></p>
 <ul>
@@ -290,12 +290,12 @@
 <p>🔗<a href="https://gitee.com/xxw3293172751/Block_Chain" target="_blank" rel="noopener noreferrer"><strong>中国大陆加速地址（Gitee平台）</strong><ExternalLinkIcon/></a></p>
 </li>
 <li>
-<p>📵<a href="https://xxw.nsddd.top/s/wRSz" target="_blank" rel="noopener noreferrer"><strong>不限速在线个人云盘</strong><ExternalLinkIcon/></a></p>
+<p>📵<a href="https://xxw.cubxxw.com/s/wRSz" target="_blank" rel="noopener noreferrer"><strong>不限速在线个人云盘</strong><ExternalLinkIcon/></a></p>
 <p align='center'>
 <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee" title="国内gitee镜像加速"></a>
 <a href="https://wakatime.com/@3293172751/projects/hngzsvjxqc?start=2022-03-30&end=2022-04-05" title="项目的进展时长" > <img src="http://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg"></a>
 <a href="https://github.com/3293172751/cs-awesome-Block_Chain/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/3293172751/cs-awesome-Block_Chain?style=plastic"></a>
-<a href="https://xxw.nsddd.top/s/wRSz"><img alt="个人网盘不限速" src="https://img.shields.io/badge/cloud-xiongxinwei-red?logo=iCloud" title="个人网盘不限速下载浏览"></a>
+<a href="https://xxw.cubxxw.com/s/wRSz"><img alt="个人网盘不限速" src="https://img.shields.io/badge/cloud-xiongxinwei-red?logo=iCloud" title="个人网盘不限速下载浏览"></a>
 </p>
 </li>
 </ul>
@@ -388,7 +388,7 @@
 <p>以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下<strong>以太坊白皮书（需要有golang编程基础）</strong></p>
 <div align="center">
 <a href="eth/TOC.md">
-	<img src="https://sm.nsddd.top//typora/image-20220630192622583.png?mail:3293172751@qq.com" alt="区块链的学习" style="zoom: 20%;" />
+	<img src="https://sm.cubxxw.com//typora/image-20220630192622583.png?mail:3293172751@qq.com" alt="区块链的学习" style="zoom: 20%;" />
 </a></div>
 </blockquote>
 <ul>
@@ -404,7 +404,7 @@
 <p><strong>c-universal blockchain（CUB-链学）</strong></p>
 <div align="center">
 <a href="https://github.com/C-UB">
-	<img src="https://sm.nsddd.top//typora/twitter_header_photo_1.png?mail:3293172751@qq.com" alt="twitter_header_photo_1" style="zoom: 20%;" />
+	<img src="https://sm.cubxxw.com//typora/twitter_header_photo_1.png?mail:3293172751@qq.com" alt="twitter_header_photo_1" style="zoom: 20%;" />
 </a></div>
 <p>基于区块链的全民学习平台<code v-pre>C-Universal Blockchain</code>在保障用户安全，信息的完整性同时为大众带来更多的选择，笔记分享，视频分享，版权保护，以及其他的关于学信数据、电子证书、荣誉证明、成绩证明、信息授权的相关工具。</p>
 </blockquote>
@@ -414,7 +414,7 @@
 <li><a href="https://github.com/C-UB" target="_blank" rel="noopener noreferrer">🖱️C-Universal Brockchain（链学）组织地址<ExternalLinkIcon/></a></li>
 </ul>
 <h2 id="✨参与贡献💕" tabindex="-1"><a class="header-anchor" href="#✨参与贡献💕" aria-hidden="true">#</a> ✨参与贡献💕</h2>
-<p><strong><a href="https://nsddd.top/archives/contributors" target="_blank" rel="noopener noreferrer">🫵参与贡献💖❤️‍🩹💓💞<ExternalLinkIcon/></a></strong></p>
+<p><strong><a href="https://cubxxw.com/archives/contributors" target="_blank" rel="noopener noreferrer">🫵参与贡献💖❤️‍🩹💓💞<ExternalLinkIcon/></a></strong></p>
 <p><strong>要求：</strong></p>
 <ul>
 <li><a href="https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md" target="_blank" rel="noopener noreferrer">你需要学会使用markdown🖱️<ExternalLinkIcon/></a></li>
@@ -429,7 +429,7 @@
 <a href="https://github.com/3293172751/Block_Chain/pulls" target="_blank" rel="noopener noreferrer"><img src="https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_prs.svg" alt="Pull request status graph"><ExternalLinkIcon/></a>
 <img src="https://images.repography.com/26892425/3293172751/Block_Chain/recent-activity/04864df8cf8f1f104b2b9453e0b47498_words.svg" alt="Trending topics"></p>
 <h2 id="版权声明-©" tabindex="-1"><a class="header-anchor" href="#版权声明-©" aria-hidden="true">#</a> 版权声明 ©</h2>
-<p><a href="http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="noopener noreferrer"><img src="https://sm.nsddd.top//typora/cs-awesome-Block_Chain?mail:3293172751@qq.com" alt="GitHub license"><ExternalLinkIcon/></a></p>
+<p><a href="http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="noopener noreferrer"><img src="https://sm.cubxxw.com//typora/cs-awesome-Block_Chain?mail:3293172751@qq.com" alt="GitHub license"><ExternalLinkIcon/></a></p>
 <p>本书所有内容遵循<a href="http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="noopener noreferrer">CC-BY-SA 3.0协议（署名-相同方式共享）©<ExternalLinkIcon/></a></p>
 </div></template>
 
