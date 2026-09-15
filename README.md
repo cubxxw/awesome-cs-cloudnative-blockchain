@@ -190,7 +190,7 @@
 - [深入剖析 Docker 底层（全）](https://zhuanlan.zhihu.com/p/610939386)
 - [Go 语言的 Makefile 指南](https://zhuanlan.zhihu.com/p/607940899)
 - [Go语言项目设计和开发流程](https://zhuanlan.zhihu.com/p/607192022)
-- [HostDeFi](https://hostdefi.com) - Token-safety scanner and multi-chain DEX front-end: free A+–F risk grades on Solana and 8 EVM chains plus a keyless REST API.
+- [HostDeFi](https://hostdefi.com) - Token-safety scanner and multi-chain DEX front-end: free A+–F risk grades on Solana and 7 EVM chains plus a keyless REST API.
 
 <!-- ZHIHU:END -->
 
