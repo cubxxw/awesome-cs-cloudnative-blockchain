@@ -24,8 +24,6 @@
 
 🐾[Go实现批量处理文件](awesome-golang/markdown/file.md)
 
-🐾<del>[九型人格- -学会和人打交道](awesome-golang/markdown/九型人格.md)</del>不该出现在这❌
-
 
 
 ## Go语言基础
