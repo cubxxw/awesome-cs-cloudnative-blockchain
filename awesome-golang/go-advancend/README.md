@@ -37,7 +37,7 @@
 ## 前期知识
 
 > + [x] [Go语言基础篇](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/TOC.md)
-> + [x] [Go语言100篇进阶](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/Gomd_super/README.md)（可选）
+> + [x] [Go语言100篇进阶](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/awesome-golang/Gomd_super/README.md)（可选）
 > + [x] [操作系统学习](https://github.com/3293172751/os)
 > + [x] [Linux的基础知识](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
 > + [x] [汇编语言的学习](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/%E6%B1%87%E7%BC%96/README.md)

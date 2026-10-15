@@ -81,7 +81,7 @@
 
 #### 博客专栏
 
-博客上面发表的文章具有独立性，是我参与开源项目以来，所见所得所学，希望这种模式可以成功并且得以模仿。[👀 我的博客](https://cubxxw.com/) 记录着很多优质的内容值得一看，如果希望订阅 SSR ➡️[点这里]([https://cubxxw.com/rss.xml](https://cubxxw.com/posts/index.xml))
+博客上面发表的文章具有独立性，是我参与开源项目以来，所见所得所学，希望这种模式可以成功并且得以模仿。[👀 我的博客](https://cubxxw.com/) 记录着很多优质的内容值得一看，如果希望订阅 SSR ➡️[点这里](https://cubxxw.com/index.xml)
 
 [<img align="left" alt="shenxianpeng | ZhiHu" width="22px" src="https://www.svgrepo.com/show/305628/zhihu.svg" />][zhihu] 
 
@@ -211,7 +211,7 @@ graph LR
 
 + 🔱[go语言官方编程指南](https://golang.org/#)  
 
-+ 🚧[Go语言路线和资源征集(update 2023)](go-advancend/go_route.md)
++ 🚧[Go语言路线和资源征集(update 2023)](awesome-golang/go-advancend/go_route.md)
 
 
 
@@ -234,19 +234,19 @@ graph LR
 
 🥇 命名规范以及项目目录结构📇的设定对于一名合格的工程师来说也是非常重要的。下面是作为一名合格的开发者🤵，必须要会的基本素养。
 
-+ [🖱️Go语言包管理工具 — mod包](Gomd_super/mod.md)
++ [🖱️Go语言包管理工具 — mod包](awesome-golang/Gomd_super/mod.md)
 
-+ [🖱️Go-air实现热加载编译](Gomd_super/go-air.md)
++ [🖱️Go-air实现热加载编译](awesome-golang/Gomd_super/go-air.md)
 
-+ [🖱️命名规则和代码规范](Gomd_super/name.md)
++ [🖱️命名规则和代码规范](awesome-golang/Gomd_super/name.md)
 
-+ 🖱️[Go语言目录结构](Gomd_super/catalogue.md)
++ 🖱️[Go语言目录结构](awesome-golang/Gomd_super/catalogue.md)
 
-+ 🖱️[Go文件以及编码处理](Gomd_super/go_file.md)
++ 🖱️[Go文件以及编码处理](awesome-golang/Gomd_super/go_file.md)
 
-+ 🖱️[正则表达式](Gomd_super/zhenze.md)
++ 🖱️[正则表达式](awesome-golang/Gomd_super/zhenze.md)
 
-+ 🖱️[位运算技巧](Gomd_super/bitwise.md)
++ 🖱️[位运算技巧](awesome-golang/Gomd_super/bitwise.md)
 
 > Go语言一些其他的网站和博客，值得一看
 >
@@ -289,7 +289,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 
 ## 📘 开发必备技术
 
-🧋参与普通程序的开发或者是区块链⛓️开发必须[熟悉Linux指令](https://github.com/cubxxw/awesome-cs-course/blob/master/linux/README.md)，熟悉[git团队开发](https://github.com/cubxxw/awesome-cs-course/blob/master/Git/README.md)，基于[docker容器](docker/README.md)会让我门快速的搭建工具和环境，更好的迁移开发环境和迁移链码（blockcode)，[密码学和信息安全](cryptology/README.md)不仅仅是区块链工程师必须要学习的技术，更是IT从业者未来不可或缺的技术。我们都渴望系统能更加的安全不是吗📵。
+🧋参与普通程序的开发或者是区块链⛓️开发必须[熟悉Linux指令](https://github.com/cubxxw/awesome-cs-course/blob/master/linux/README.md)，熟悉[git团队开发](https://github.com/cubxxw/awesome-cs-course/blob/master/Git/README.md)，基于[docker容器](awesome-docker-kubernetes/README.md)会让我门快速的搭建工具和环境，更好的迁移开发环境和迁移链码（blockcode)，[密码学和信息安全](cryptology/README.md)不仅仅是区块链工程师必须要学习的技术，更是IT从业者未来不可或缺的技术。我们都渴望系统能更加的安全不是吗📵。
 
 ⚠️ `Docker` 、`K8s`、`sealos`、`云原生` 已全部迁移至 ➡️ [CubDoc🧷](https://docker.cubxxw.com/)
 
@@ -297,7 +297,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 
 + [x] 🖱️ [Git—必备神器🔥](https://github.com/cubxxw/awesome-cs-course/blob/master/Git/README.md)
 
-+ [x] [🖱️ Docker/k8s/云原生🔥](docker/README.md) 
++ [x] [🖱️ Docker/k8s/云原生🔥](awesome-docker-kubernetes/README.md) 
 
 + [x] [🖱️ 密码学和信息安全🔥](cryptology/README.md)
 
@@ -311,11 +311,11 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 
 > 🔥 我深以为然：区块链或许不能让这个世界分布化，但是它可以让世界不再有中介。不在会因为你所玩游戏崩溃你就失去了这个游戏~
 
-从事区块链，需要哪些基础知识，看下[区块链开发需要什么](C_Universal_Brockchain\chain.md) ，你需要一份[区块链工程师路线](./blockchain/route.md)，或许你可以在一些区块链项目中找到灵感[🔗区块链公益项目（NFT+私链/联盟链/私链）](blockchain/区块链公益项目/README.md)。区块链的[共识算法](blockchain/README.md)是怎么实现的呢?
+从事区块链，需要哪些基础知识，看下[区块链开发需要什么](C_Universal_Brockchain/chain.md) ，你需要一份[区块链工程师路线](./blockchain/route.md)，或许你可以在一些区块链项目中找到灵感[🔗区块链公益项目（NFT+私链/联盟链/私链）](blockchain/区块链公益项目/README.md)。区块链的[共识算法](blockchain/README.md)是怎么实现的呢?
 
 + [x] [🔗区块链工程师路线](./blockchain/route.md)
 
-+ [x] [🔗区块链开发需要什么❓](C_Universal_Brockchain\chain.md)
++ [x] [🔗区块链开发需要什么❓](C_Universal_Brockchain/chain.md)
 
 + [x] [🔗区块链公益项目（NFT+私链/联盟链/私链）](blockchain/区块链公益项目/README.md)
 + [x] [🔗共识算法——Go语言实现](./blockchain/README.md)
@@ -333,7 +333,7 @@ CS 系列选自[🎉awesome-cs-course](https://github.com/cubxxw/awesome-cs-cour
 > 以太坊和比特币一样，底层框架都是区块链协议，区块链本质上是一个应用了密码学技术的分布式数据库系统。建议看一下 **[以太坊白皮书](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)（需要有golang编程基础）**
 >
 > <div align="center">
-> <a href="eth/TOC.md">
+> <a href="eth/README.md">
 > 	<img src="https://sm.cubxxw.com//typora/image-20220630192622583.png?mail:3293172751@qq.com" alt="区块链的学习" style="zoom: 20%;" />
 > </a></div>
 

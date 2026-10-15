@@ -20,8 +20,8 @@
 >
 > -  [🖱️GO 基础部分🔥](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/TOC.md)
 > -  [🖱️GO web框架](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/go-web)
-> -  [🖱️Go语言100篇进阶🔥](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/Gomd_super/README.md)
-> -  [🖱️Go 高级篇](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/go-advancend/README.md)
+> -  [🖱️Go语言100篇进阶🔥](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/awesome-golang/Gomd_super/README.md)
+> -  [🖱️Go 高级篇](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/awesome-golang/go-advancend/README.md)
 >
 > ---
 
