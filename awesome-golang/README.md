@@ -142,7 +142,7 @@ graph LR
 
 - [x] [⭐30天学会Go --第6天 Go语言的的函数、闭包，错误处理](markdown/6.md)
 
-- [x] [⭐30天学会Go --第7天 Go语言的数组](markdown/8.md)
+- [x] [⭐30天学会Go --第7天 Go语言的数组](markdown/7.md)
 
 - [x] [⭐30天学会go --第8天  Go语言的的排序和查找](markdown/8.md)
 
@@ -152,7 +152,7 @@ graph LR
 
 ##  Go语言面对对象
 
-- [x] [⭐30天学会go --第10天 Go的面对对象 – 结构体](markdown/11.md)
+- [x] [⭐30天学会go --第10天 Go的面对对象 – 结构体](markdown/10.md)
 
 - [x] [⭐30天学会go --第11天 结构体、工厂模式、继承封装](markdown/11.md)
 
@@ -172,7 +172,7 @@ graph LR
 
 - [x] [⭐30天学会go --第17天 Go语言性能测试](markdown/17.md)
 
-- [x] [⭐30天学会go --第18天 goroutine(协程)和channel(管道)](18.md)
+- [x] [⭐30天学会go --第18天 goroutine(协程)和channel(管道)](markdown/18.md)
 
 - [x] [⭐30天学会go --第19天 Go语言channel(管道)](markdown/19.md) 
 
@@ -182,15 +182,15 @@ graph LR
 
 ## Go语言进阶
 
-- [x] [⭐30天学会go --第21天  Redis基础](markdown/Redis.md)  
+- [x] [⭐30天学会go --第21天  Redis基础](markdown/21.md)  
 
-- [x] [⭐30天学会go --第22天  Redis进阶](markdown/Redis进阶.md)
+- [x] [⭐30天学会go --第22天  Redis进阶](markdown/22.md)
 
-- [x] [⭐30天学会go --第23天 Go语言操作 Redis](markdown/Go语言操作redis.md) 
+- [x] [⭐30天学会go --第23天 Go语言操作 Redis](markdown/23.md) 
 
-- [x] [⭐30天学会go --第24天 Go数据结构–稀疏数组](markdown/Go数据结构.md) 
+- [x] [⭐30天学会go --第24天 Go数据结构–稀疏数组](markdown/24.md) 
 
-- [x] [⭐30天学会go --第25天 Go数据结构–队列](markdown/Go语言数据结构队列.md)
+- [x] [⭐30天学会go --第25天 Go数据结构–队列](markdown/25.md)
 - [x] [⭐30天学会go --第26天 Go数据结构链表](markdown/26.md)
 
 - [x] [⭐30天学会go --第27天 Go数据结构双向链表和循环链表](markdown/27.md)
@@ -311,7 +311,7 @@ graph LR
 
 🐾👓44. [RabbitMQ安装](./Gomd_super/markdown/44.md)
 
-🐾👓30. [Simple模式](./Gomd_super/markdown/30.md)
+🐾👓45. [Simple模式](./Gomd_super/markdown/45.md)
 
 🐾👓46. [Work模式](./Gomd_super/markdown/46.md)
 
