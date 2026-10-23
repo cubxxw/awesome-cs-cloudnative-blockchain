@@ -2,21 +2,45 @@ name: Export issues
 on:
   schedule:
     # run every 8 hours
-    - cron:  '0 0,8,16 * * *'
+    - cron: '0 0,8,16 * * *'
+  pull_request:
+    paths:
+      - '.github/workflows/export.yml'
+      - '.github/scripts/export_issues.py'
+      - '.github/scripts/test_export_issues.py'
+
+permissions:
+  contents: read
+  issues: read
+
 jobs:
-  deploy:
-    name: Export issues to S3
+  test:
+    name: Verify offline issue export
     runs-on: ubuntu-latest
     steps:
-    - name: Export issues
-      uses: niteoweb/export-issues-action@v2
-      with:
-        repo: ${{ github.repository }}
-        org: ${{ github.repository_owner }}
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        out: issues
-    - name: Archive production artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: issues
-        path: "issues/*.md"
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s .github/scripts -p 'test_*.py' -v
+
+  deploy:
+    name: Export issues to workflow artifact
+    if: github.event_name == 'schedule'
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Export issues and comments
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/scripts/export_issues.py
+      - name: Archive issue documents
+        uses: actions/upload-artifact@v4
+        with:
+          name: issues
+          path: 'issues/*.md'
