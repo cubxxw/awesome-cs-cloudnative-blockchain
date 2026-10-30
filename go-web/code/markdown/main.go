@@ -26,7 +26,7 @@ func main() {
 	str := "a"
 	var s byte = 123
 	fmt.Printf("v:%v,s:%s,t:%T\n", str, str, str)
-	fmt.Printf("v:%v,s:%s,t:%T", s, s, s)
+	fmt.Printf("v:%v,s:%c,t:%T", s, s, s)
 	http.HandleFunc("/hello", sayHello)
 	// 往浏览器写入hello这调用函数sayhello -- 如何访问或者启动这个服务
 	err := http.ListenAndServe(":9090", nil)
