@@ -1,18 +1,56 @@
-name: Docker Image CI
+name: Go Examples CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [master]
   pull_request:
-    branches: [ "master" ]
+    branches: [master]
+
+permissions:
+  contents: read
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
-
+    timeout-minutes: 10
+    env:
+      GOTOOLCHAIN: local
+      GOFLAGS: -mod=readonly -p=2
+      GOMAXPROCS: 2
+      CGO_ENABLED: 0
     steps:
-    - uses: actions/checkout@v3
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      - name: Check out the exact Go source
+        env:
+          SOURCE_REPOSITORY: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          SOURCE_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          [[ "$SOURCE_REPOSITORY" =~ ^[A-Za-z0-9][A-Za-z0-9_.-]*/[A-Za-z0-9][A-Za-z0-9_.-]*$ ]]
+          [[ "$SOURCE_SHA" =~ ^[0-9a-f]{40}$ ]]
+          git init .
+          git remote add origin "https://github.com/$SOURCE_REPOSITORY.git"
+          git -c protocol.version=2 fetch --depth=1 --no-tags --no-recurse-submodules --filter=blob:none origin "$SOURCE_SHA"
+          git config core.sparseCheckout true
+          mkdir -p .git/info
+          cat > .git/info/sparse-checkout <<'SPARSE'
+          /go-web/code/
+          !/go-web/code/tmp/
+          !/go-web/code/markdown/tmp/
+          !/go-web/code/markdown/gin/tmp/
+          SPARSE
+          git -c submodule.recurse=false checkout --detach "$SOURCE_SHA"
+          test "$(git rev-parse HEAD)" = "$SOURCE_SHA"
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7
+        with:
+          go-version: '1.25.x'
+          check-latest: true
+          cache-dependency-path: go-web/code/go.sum
+      - name: Verify the locked modules and Go examples
+        working-directory: go-web/code
+        run: |
+          go mod download
+          go mod verify
+          git diff --exit-code -- go.mod go.sum
+          go test ./...
+          go build -o "$RUNNER_TEMP/markdown-example" ./markdown
+          go build -o "$RUNNER_TEMP/gin-example" ./markdown/gin
+          git diff --exit-code -- go.mod go.sum
