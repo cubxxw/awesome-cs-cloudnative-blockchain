@@ -37,7 +37,7 @@
 ## 前期知识
 
 > + [x] [Go语言基础篇](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/TOC.md)
-> + [x] [Go语言100篇进阶](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/awesome-golang/Gomd_super/README.md)（可选）
+> + [x] [Go语言100篇进阶](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/Gomd_super/README.md)（可选）
 > + [x] [操作系统学习](https://github.com/3293172751/os)
 > + [x] [Linux的基础知识](https://github.com/3293172751/CS_COURSE/blob/master/linux/README.md)
 > + [x] [汇编语言的学习](https://github.com/cubxxw/awesome-cs-cloudnative-blockchain/blob/master/%E6%B1%87%E7%BC%96/README.md)
@@ -92,65 +92,65 @@
 
 + [x] [第20节 Golang云原生部署](markdown/20.md)
 
-+ [x] [](markdown/21.md)
++ [x] [第21节 go 语言切片原理](markdown/21.md)
 
-+ [x] [](markdown/22.md)
++ [x] [第22节 Go语言程序设计黑皮书学习和补充](markdown/22.md)
 
-+ [x] [](markdown/23.md)
++ [x] [第23节 在线词典（调用第三方API案例）](markdown/23.md)
 
-+ [x] [](markdown/24.md)
++ [x] [第24节 SOCKS5 代理（调用第三方API案例）](markdown/24.md)
 
-+ [x] [](markdown/25.md)
++ [x] [第25节 信息队列Kafka入门学习](markdown/25.md)
 
-+ [x] [](markdown/26.md)
++ [x] [第26节 Go语言进阶与依赖管理](markdown/26.md)
 
-+ [x] [](markdown/27.md)
++ [x] [第27节 go tool](markdown/27.md)
 
-+ [x] [](markdown/28.md)
++ [x] [第28节 高质量编程简介及编码规范](markdown/28.md)
 
-+ [x] [](markdown/29.md)
++ [x] [第29节 Go语言框架三件套（Web/RPC/GORM)](markdown/29.md)
 
-+ [x] [](markdown/30.md)
++ [x] [第30节 Mysql](markdown/30.md)
 
-+ [](markdown/31.md)
++ [第31节 程序中的错误处理](markdown/31.md)
 
-+ [](markdown/32.md)
++ [第32节 go语言1.20发布](markdown/32.md)
 
-+ [](markdown/33.md)
++ [第33节 Go语言性能优化及自动内存管理](markdown/33.md)
 
-+ [](markdown/34.md)
++ [第34节 Database/sql 及 GORM 相关解读](markdown/34.md)
 
-+ [](markdown/35.md)
++ [第35节 12 factors](markdown/35.md)
 
-+ [](markdown/36.md)
++ [第36节 Go语言细节](markdown/36.md)
 
-+ [](markdown/37.md)
++ [第37节 Go语言深刨底层原理](markdown/37.md)
 
-+ [](markdown/38.md)
++ [第38节 内存管理（节选）](markdown/38.md)
 
-+ [](markdown/39.md)
++ [第39节 内存管理](markdown/39.md)
 
-+ [](markdown/40.md)
++ [第40节 一站式Golang内存洗髓经(节选)](markdown/40.md)
 
-+ [](markdown/41.md)
++ [第41节 微服务篇 - 微服务概览与治理](markdown/41.md)
 
-+ [](markdown/42.md)
++ [第42节](markdown/42.md)
 
-+ [](markdown/43.md)
++ [第43节](markdown/43.md)
 
-+ [](markdown/44.md)
++ [第44节](markdown/44.md)
 
-+ [](markdown/45.md)
++ [第45节](markdown/45.md)
 
-+ [](markdown/46.md)
++ [第46节](markdown/46.md)
 
-+ [](markdown/47.md)
++ [第47节](markdown/47.md)
 
-+ [](markdown/48.md)
++ [第48节](markdown/48.md)
 
-+ [](markdown/49.md)
++ [第49节](markdown/49.md)
 
-+ [](markdown/50.md)
++ [第50节](markdown/50.md)
 
 
 
