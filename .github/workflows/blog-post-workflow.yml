@@ -9,6 +9,8 @@ jobs:
     if: github.event_name != 'push' || github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -18,24 +20,22 @@ jobs:
           git config --global user.email "openimsdk@qq.com"
 
       - name: Pull in dev.to posts
-        uses: gautamkrishnar/blog-post-workflow@v1
+        uses: gautamkrishnar/blog-post-workflow@f177491c77670f150ab4e9b9890254d8eba4164b # v1, existing resolved implementation
         with:
           comment_tag_name: "My-Blog" 
-          feed_list: "https://rss.starerror.com/https://cubxxw.com/zh/posts/index.xml"
-          token: ${{ secrets.REDBOT_GITHUB_TOKEN }}
-          BOT_GITHUB_TOKEN: ${{ secrets.REDBOT_GITHUB_TOKEN }}
+          feed_list: "https://cubxxw.com/zh/index.xml"
+          gh_token: ${{ github.token }}
           max_post_count: 100
           commit_message: "🔥docs(main): update with lastest RadioGeek feed"
           committer_username: "openimbot"
           disable_html_encoding: true
       - name: Pull in dev.to zh
-        uses: gautamkrishnar/blog-post-workflow@v1
+        uses: gautamkrishnar/blog-post-workflow@f177491c77670f150ab4e9b9890254d8eba4164b # v1, existing resolved implementation
         with:
           comment_tag_name: "ZHIHU"
           #feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
           feed_list: "https://rss.lilydjwg.me/zhihuzhuanlan/c_1496496113348206594"
-          token: ${{ secrets.REDBOT_GITHUB_TOKEN }}
-          BOT_GITHUB_TOKEN: ${{ secrets.REDBOT_GITHUB_TOKEN }}
+          gh_token: ${{ github.token }}
           max_post_count: 100
           commit_message: "🔥docs(main): update with lastest red zhihu feed"
           committer_username: "openimbot"
