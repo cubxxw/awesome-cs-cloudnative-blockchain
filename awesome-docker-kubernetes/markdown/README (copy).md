@@ -58,20 +58,18 @@
 
 ###  💱安装docker
 
-:::: code-group
-::: code-group-item ubuntu
+::: code-tabs
+@tab ubuntu
 
 ```bash
 sudo apt install docker
 ```
-:::
-::: code-group-item centos
+@tab centos
 
 ```shell
 yum install docker
 ```
 :::
-::::
 
 
 
@@ -87,7 +85,7 @@ yum install docker
 
 ## 🗒️Docker基础篇目录
 
-🐋 1. [Docker概述](1.md)
+🐋 1. [Docker概述](docs/markdown/1.md)
 
 🐋 2. [docker系统架构](2.md)
 
