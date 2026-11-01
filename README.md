@@ -96,10 +96,10 @@
 
 
 <!-- My-Blog:START -->
+- [2026年10月思考笔记：在快反馈里练习慢下来](https://cubxxw.com/zh/growth/posts/2026-10-thought-notes/)
 - [Tana 产品拆解：一条任务怎样从笔记走到会议中的工作](https://cubxxw.com/zh/ai-agent/posts/tana-from-notes-to-meeting-work/)
 - [Doneas 产品拆解：一周计划怎样变成每天的承诺](https://cubxxw.com/zh/ai-agent/posts/doneas-weekly-commitments/)
 - [Ambi 产品拆解：记住一件事之后，怎样把它做完](https://cubxxw.com/zh/ai-agent/posts/ambi-memory-to-work/)
-- [2026年10月思考笔记：日常与其他、AI 与 Agent 系统、工程与开源](https://cubxxw.com/zh/growth/posts/2026-10-thought-notes/)
 - [Nango 接入实战：让用户在聊天中添加自己的 MCP](https://cubxxw.com/zh/ai-agent/posts/nango-user-defined-mcp-integration/)
 - [Personal Agent 技术研究：OpenClaw 怎样把一次运行接到长期事务上](https://cubxxw.com/zh/ai-agent/posts/personal-agent-harness-openclaw/)
 - [Personal Agent 产品研究：Instinct 怎样让人愿意再次委托](https://cubxxw.com/zh/ai-agent/posts/personal-agent-product-delegation/)
