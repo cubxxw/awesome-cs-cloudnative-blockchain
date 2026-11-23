@@ -96,6 +96,7 @@
 
 
 <!-- My-Blog:START -->
+- [Agent 评测怎么做：从一次『没人要求』的退款说起](https://cubxxw.com/zh/ai-agent/posts/agent-eval-from-failures/)
 - [模型越来越聪明，然后呢？](https://cubxxw.com/zh/ai-agent/posts/ai-models-what-comes-next/)
 - [2026年10月思考笔记：在快反馈里练习慢下来](https://cubxxw.com/zh/growth/posts/2026-10-thought-notes/)
 - [Tana 产品拆解：一条任务怎样从笔记走到会议中的工作](https://cubxxw.com/zh/ai-agent/posts/tana-from-notes-to-meeting-work/)
@@ -195,7 +196,6 @@
 - [点火与沉底（下）：焦虑型依恋——为什么爱里我们总在确认](https://cubxxw.com/zh/growth/posts/2026-06-28-ignite-and-settle-3-anxious/)
 - [点火与沉底（中）：回避型依恋——为什么靠近时我们想逃](https://cubxxw.com/zh/growth/posts/2026-06-28-ignite-and-settle-2-avoidant/)
 - [点火与沉底（上）：陪伴的质量与时间，和我们为什么总在快要靠近时转身](https://cubxxw.com/zh/growth/posts/2026-06-28-ignite-and-settle-1-quality-and-time/)
-- [超级个体的栈：2026 年 AI 原生 Solo Builder 的产品方向与运营全图](https://cubxxw.com/zh/growth/posts/super-individual-ai-product-and-solo-builder-stack/)
 <!-- My-Blog:END -->
 
 </details>
